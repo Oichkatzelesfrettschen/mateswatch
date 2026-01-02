@@ -1,0 +1,9 @@
+[/]
+visible-name='B16 Neon Cyan — Dark·HighC·Vivid·Cool — Horizon Terminal Dark'
+use-theme-colors=false
+foreground-color='#CBCBCECED0D0'
+background-color='#1C1C1E1E2626'
+bold-color-same-as-fg=true
+bold-color='#CBCBCECED0D0'
+cursor-color='#cbced0'
+palette='#1C1C1E1E2626:#E9E956567878:#2929D3D39898:#FAFAC2C29A9A:#2626BBBBD9D9:#EEEE6464ACAC:#5959E1E1E3E3:#CBCBCECED0D0:#6F6F6F6F7070:#E9E956567878:#2929D3D39898:#FAFAC2C29A9A:#2626BBBBD9D9:#EEEE6464ACAC:#5959E1E1E3E3:#E3E3E6E6EEEE'

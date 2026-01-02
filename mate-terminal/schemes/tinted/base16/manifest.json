@@ -1,0 +1,2699 @@
+{
+  "source_repo": "https://github.com/tinted-theming/tinted-shell",
+  "type_code": "B16",
+  "family": "base16",
+  "count": 299,
+  "entries": [
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-0x96f.sh",
+      "original_name": "0x96f",
+      "profile_id": "b16-base16-0x96f",
+      "visible_name": "B16 Neon Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 0x96f",
+      "fingerprint": "08b27d8ad4ba242df7ee3c74edb2498a16640950",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-3024.sh",
+      "original_name": "3024",
+      "profile_id": "b16-base16-3024",
+      "visible_name": "B16 Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 3024",
+      "fingerprint": "e291c49af36e5f0b8c6878566fe43a2a35a2fa03",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-apathy.sh",
+      "original_name": "Apathy",
+      "profile_id": "b16-base16-apathy",
+      "visible_name": "B16 Nocturne Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Apathy",
+      "fingerprint": "fcc4505c4434fa7d0b43699d00eadefab2cf972d",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-apprentice.sh",
+      "original_name": "Apprentice",
+      "profile_id": "b16-base16-apprentice",
+      "visible_name": "B16 Nocturne Cyan \u2014 Dark\u00b7LowC\u00b7Muted\u00b7Cool \u2014 Apprentice",
+      "fingerprint": "2ecd92a9ada0570c40bf755ca59811a911546983",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-ascendancy.sh",
+      "original_name": "Ascendancy",
+      "profile_id": "b16-base16-ascendancy",
+      "visible_name": "B16 Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Ascendancy",
+      "fingerprint": "f4461215f99490c17edd7f9d90afcb009461e2e2",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-ashes.sh",
+      "original_name": "Ashes",
+      "profile_id": "b16-base16-ashes",
+      "visible_name": "B16 Nocturne Orchid \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Neutral \u2014 Ashes",
+      "fingerprint": "bf57e602f793f1fd5fafffbc97fa5de17303fa05",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-atelier-cave-light.sh",
+      "original_name": "Atelier Cave Light",
+      "profile_id": "b16-base16-atelier-cave-light",
+      "visible_name": "B16 Dawn Cyan \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Atelier Cave Light",
+      "fingerprint": "844a797bec5cc137073033005730f510856069d5",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-atelier-cave.sh",
+      "original_name": "Atelier Cave",
+      "profile_id": "b16-base16-atelier-cave",
+      "visible_name": "B16 Nocturne Cyan \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Atelier Cave",
+      "fingerprint": "274e3b54056d1b6f48a98fd6eda73062b24749d1",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-atelier-dune-light.sh",
+      "original_name": "Atelier Dune Light",
+      "profile_id": "b16-base16-atelier-dune-light",
+      "visible_name": "B16 Dawn Amber \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Atelier Dune Light",
+      "fingerprint": "67bf0895eea5e591240364d85e12b369ccbb1f30",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-atelier-dune.sh",
+      "original_name": "Atelier Dune",
+      "profile_id": "b16-base16-atelier-dune",
+      "visible_name": "B16 Nocturne Amber \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Atelier Dune",
+      "fingerprint": "7e3ece6934ba5d30a7a1fdfd3ea4d79380dccc85",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-atelier-estuary-light.sh",
+      "original_name": "Atelier Estuary Light",
+      "profile_id": "b16-base16-atelier-estuary-light",
+      "visible_name": "B16 Dawn Amber \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Atelier Estuary Light",
+      "fingerprint": "a84a8b59d32789b5ff9eea20aec0596bbb4416ad",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-atelier-estuary.sh",
+      "original_name": "Atelier Estuary",
+      "profile_id": "b16-base16-atelier-estuary",
+      "visible_name": "B16 Nocturne Amber \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Atelier Estuary",
+      "fingerprint": "7688109f205873f8f631ddf7335a34ab7859c4b9",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-atelier-forest-light.sh",
+      "original_name": "Atelier Forest Light",
+      "profile_id": "b16-base16-atelier-forest-light",
+      "visible_name": "B16 Dawn Amber \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Atelier Forest Light",
+      "fingerprint": "d3cebf84579deeea63895acfcb215e0ee0642f50",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-atelier-forest.sh",
+      "original_name": "Atelier Forest",
+      "profile_id": "b16-base16-atelier-forest",
+      "visible_name": "B16 Nocturne Amber \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Atelier Forest",
+      "fingerprint": "e0df8dd6975e8d35c8c0de149e9c0989b94720ae",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-atelier-heath-light.sh",
+      "original_name": "Atelier Heath Light",
+      "profile_id": "b16-base16-atelier-heath-light",
+      "visible_name": "B16 Dawn Cyan \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Atelier Heath Light",
+      "fingerprint": "0fd5ef57d8b6291d5c881bebe40207cf3783a4dc",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-atelier-heath.sh",
+      "original_name": "Atelier Heath",
+      "profile_id": "b16-base16-atelier-heath",
+      "visible_name": "B16 Nocturne Cyan \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Atelier Heath",
+      "fingerprint": "f4b804c0bd2e3520a68cd2b80961b04a58ecd6a2",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-atelier-lakeside-light.sh",
+      "original_name": "Atelier Lakeside Light",
+      "profile_id": "b16-base16-atelier-lakeside-light",
+      "visible_name": "B16 Dawn Lime \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Atelier Lakeside Light",
+      "fingerprint": "2fbabed0383c8ef831475ffaeb98ae6c26477842",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-atelier-lakeside.sh",
+      "original_name": "Atelier Lakeside",
+      "profile_id": "b16-base16-atelier-lakeside",
+      "visible_name": "B16 Nocturne Lime \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Atelier Lakeside",
+      "fingerprint": "2664b15e17b910da002ea4568c07cac32f82800e",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-atelier-plateau-light.sh",
+      "original_name": "Atelier Plateau Light",
+      "profile_id": "b16-base16-atelier-plateau-light",
+      "visible_name": "B16 Dawn Crimson \u2014 Light\u00b7MedC\u00b7Pastel\u00b7Warm \u2014 Atelier Plateau Light",
+      "fingerprint": "78cfd72fdfd769e41b3ba9e8f1b8e555e24598cc",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-atelier-plateau.sh",
+      "original_name": "Atelier Plateau",
+      "profile_id": "b16-base16-atelier-plateau",
+      "visible_name": "B16 Nocturne Crimson \u2014 Dark\u00b7MedC\u00b7Muted\u00b7Warm \u2014 Atelier Plateau",
+      "fingerprint": "3bd8f0eae8ea47de1f52cb328a07b323a3a30279",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-atelier-savanna-light.sh",
+      "original_name": "Atelier Savanna Light",
+      "profile_id": "b16-base16-atelier-savanna-light",
+      "visible_name": "B16 Dawn Cyan \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Atelier Savanna Light",
+      "fingerprint": "7280ac7c3c0ad793b5b7f6960e83b22a4cb1376f",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-atelier-savanna.sh",
+      "original_name": "Atelier Savanna",
+      "profile_id": "b16-base16-atelier-savanna",
+      "visible_name": "B16 Nocturne Cyan \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Atelier Savanna",
+      "fingerprint": "771870be4f3b6fcbae83307cb67d2c38ac6b32fd",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-atelier-seaside-light.sh",
+      "original_name": "Atelier Seaside Light",
+      "profile_id": "b16-base16-atelier-seaside-light",
+      "visible_name": "B16 Daylight Crimson \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Atelier Seaside Light",
+      "fingerprint": "3b5b26c8ea612ce1640a9420b747abcf12ebf38d",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-atelier-seaside.sh",
+      "original_name": "Atelier Seaside",
+      "profile_id": "b16-base16-atelier-seaside",
+      "visible_name": "B16 Neon Crimson \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Atelier Seaside",
+      "fingerprint": "f1a7a1fd1253b0d9f1a4de6a3b26b01ad180eb94",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-atelier-sulphurpool-light.sh",
+      "original_name": "Atelier Sulphurpool Light",
+      "profile_id": "b16-base16-atelier-sulphurpool-light",
+      "visible_name": "B16 Dawn Cyan \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Atelier Sulphurpool Light",
+      "fingerprint": "ce6f45438c76801a3b00bc26a4392140d6d2d43e",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-atelier-sulphurpool.sh",
+      "original_name": "Atelier Sulphurpool",
+      "profile_id": "b16-base16-atelier-sulphurpool",
+      "visible_name": "B16 Nocturne Cyan \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Atelier Sulphurpool",
+      "fingerprint": "dbcdcb94227aa283f31dc99e0696181abfaefa52",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-atlas.sh",
+      "original_name": "Atlas",
+      "profile_id": "b16-base16-atlas",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Atlas",
+      "fingerprint": "1cfb580041feecaf84fad0df8c0d05633c9d9880",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-ayu-dark.sh",
+      "original_name": "Ayu Dark",
+      "profile_id": "b16-base16-ayu-dark",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Ayu Dark",
+      "fingerprint": "39301dadffb9918d55b477b856e3e28014a6c8f1",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-ayu-light.sh",
+      "original_name": "Ayu Light",
+      "profile_id": "b16-base16-ayu-light",
+      "visible_name": "B16 Daylight Azure \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Ayu Light",
+      "fingerprint": "d0b0323c9c6f953cd0f68164b7b0926302b9e3c0",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-ayu-mirage.sh",
+      "original_name": "Ayu Mirage",
+      "profile_id": "b16-base16-ayu-mirage",
+      "visible_name": "B16 Neon Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Ayu Mirage",
+      "fingerprint": "110fd241daefcb00f2248e84d4400ce850a5838e",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-aztec.sh",
+      "original_name": "Aztec",
+      "profile_id": "b16-base16-aztec",
+      "visible_name": "B16 Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Aztec",
+      "fingerprint": "2c320b1fa771787252a1e82ba259bb6e4aa313a1",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-bespin.sh",
+      "original_name": "Bespin",
+      "profile_id": "b16-base16-bespin",
+      "visible_name": "B16 Nocturne Jade \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Neutral \u2014 Bespin",
+      "fingerprint": "b50d8874ed028299702742dec44d31fd0528fdfc",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-black-metal-bathory.sh",
+      "original_name": "Black Metal (Bathory)",
+      "profile_id": "b16-base16-black-metal-bathory",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Black Metal (Bathory)",
+      "fingerprint": "9f6434c1d9d04348c3b0b8504ceb355727d3b95f",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-black-metal-burzum.sh",
+      "original_name": "Black Metal (Burzum)",
+      "profile_id": "b16-base16-black-metal-burzum",
+      "visible_name": "B16 Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Black Metal (Burzum)",
+      "fingerprint": "0fccbc9caa743c8dd76f0772cd969da23fd301e9",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-black-metal-dark-funeral.sh",
+      "original_name": "Black Metal (Dark Funeral)",
+      "profile_id": "b16-base16-black-metal-dark-funeral",
+      "visible_name": "B16 Nocturne Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Black Metal (Dark Funeral)",
+      "fingerprint": "7c74c208b30f983fc4a6c76857056fa3121dfab5",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-black-metal-gorgoroth.sh",
+      "original_name": "Black Metal (Gorgoroth)",
+      "profile_id": "b16-base16-black-metal-gorgoroth",
+      "visible_name": "B16 Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Black Metal (Gorgoroth)",
+      "fingerprint": "1a778b31e6aee70fb0fe72e4083afb0861e10127",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-black-metal-immortal.sh",
+      "original_name": "Black Metal (Immortal)",
+      "profile_id": "b16-base16-black-metal-immortal",
+      "visible_name": "B16 Nocturne Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Black Metal (Immortal)",
+      "fingerprint": "0577b2dbe2b5334e6888a1a0ff79ab2841731919",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-black-metal-khold.sh",
+      "original_name": "Black Metal (Khold)",
+      "profile_id": "b16-base16-black-metal-khold",
+      "visible_name": "B16 Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Black Metal (Khold)",
+      "fingerprint": "67c9075f3354d1636544586e7ed275c5dcaa829b",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-black-metal-marduk.sh",
+      "original_name": "Black Metal (Marduk)",
+      "profile_id": "b16-base16-black-metal-marduk",
+      "visible_name": "B16 Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Black Metal (Marduk)",
+      "fingerprint": "170a06054f373f7f63a46468add2dce5ca6921d3",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-black-metal-mayhem.sh",
+      "original_name": "Black Metal (Mayhem)",
+      "profile_id": "b16-base16-black-metal-mayhem",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Black Metal (Mayhem)",
+      "fingerprint": "32eaa4ecaafd140105062fce5c8922fa93cfb55e",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-black-metal-nile.sh",
+      "original_name": "Black Metal (Nile)",
+      "profile_id": "b16-base16-black-metal-nile",
+      "visible_name": "B16 Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Black Metal (Nile)",
+      "fingerprint": "a6c8d3860ce0ba4502c90654888df8d16cda304f",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-black-metal-venom.sh",
+      "original_name": "Black Metal (Venom)",
+      "profile_id": "b16-base16-black-metal-venom",
+      "visible_name": "B16 Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Black Metal (Venom)",
+      "fingerprint": "cafb5cb915a18f1137bab6e3dbe793ddcd3d4144",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-black-metal.sh",
+      "original_name": "Black Metal",
+      "profile_id": "b16-base16-black-metal",
+      "visible_name": "B16 Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Black Metal",
+      "fingerprint": "0143116e89993c9c7d76b4ec8af00496e9b9dc5d",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-blueforest.sh",
+      "original_name": "Blue Forest",
+      "profile_id": "b16-base16-blueforest",
+      "visible_name": "B16 Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Blue Forest",
+      "fingerprint": "2875239419b913250814adfb1b4d138fa4b142a4",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-blueish.sh",
+      "original_name": "Blueish",
+      "profile_id": "b16-base16-blueish",
+      "visible_name": "B16 Neon Jade \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Neutral \u2014 Blueish",
+      "fingerprint": "97e75a49c54faca0633494ea44550eb9ac974c43",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-brewer.sh",
+      "original_name": "Brewer",
+      "profile_id": "b16-base16-brewer",
+      "visible_name": "B16 Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Brewer",
+      "fingerprint": "a790e8d2105daa17d7b9c7358bd10cb0b72c6a06",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-bright.sh",
+      "original_name": "Bright",
+      "profile_id": "b16-base16-bright",
+      "visible_name": "B16 Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Bright",
+      "fingerprint": "472d8cda1ce5c56c91f6d380339c19225c446bc0",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-brogrammer.sh",
+      "original_name": "Brogrammer",
+      "profile_id": "b16-base16-brogrammer",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7LowC\u00b7Vivid\u00b7Warm \u2014 Brogrammer",
+      "fingerprint": "ff8ba2274167c6fb6e89dd70ed98eb3fdea276f3",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-brushtrees-dark.sh",
+      "original_name": "Brush Trees Dark",
+      "profile_id": "b16-base16-brushtrees-dark",
+      "visible_name": "B16 Nocturne Indigo \u2014 Dark\u00b7LowC\u00b7Muted\u00b7Cool \u2014 Brush Trees Dark",
+      "fingerprint": "a877929ff6e0d2fd711e1a2e9b5027131a80e0cd",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-brushtrees.sh",
+      "original_name": "Brush Trees",
+      "profile_id": "b16-base16-brushtrees",
+      "visible_name": "B16 Dawn Indigo \u2014 Light\u00b7LowC\u00b7Muted\u00b7Cool \u2014 Brush Trees",
+      "fingerprint": "3d5d6b5592682533e3adc90d54a3491edab39ce7",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-caroline.sh",
+      "original_name": "caroline",
+      "profile_id": "b16-base16-caroline",
+      "visible_name": "B16 Nocturne Crimson \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 caroline",
+      "fingerprint": "806a766e6b2d153cbe11fef54dd343029beabbb0",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-catppuccin-frappe.sh",
+      "original_name": "Catppuccin Frappe",
+      "profile_id": "b16-base16-catppuccin-frappe",
+      "visible_name": "B16 Neon Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Catppuccin Frappe",
+      "fingerprint": "ecaaa80a2e3426ccef7a9d88b2a738cb9d02ebf5",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-catppuccin-latte.sh",
+      "original_name": "Catppuccin Latte",
+      "profile_id": "b16-base16-catppuccin-latte",
+      "visible_name": "B16 Daylight Crimson \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Catppuccin Latte",
+      "fingerprint": "80a7dffc0c1be6774a22241cd88d0fd868d73091",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-catppuccin-macchiato.sh",
+      "original_name": "Catppuccin Macchiato",
+      "profile_id": "b16-base16-catppuccin-macchiato",
+      "visible_name": "B16 Neon Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Catppuccin Macchiato",
+      "fingerprint": "856ee7c107c15319a365e4a8155a17729b37eb88",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-catppuccin-mocha.sh",
+      "original_name": "Catppuccin Mocha",
+      "profile_id": "b16-base16-catppuccin-mocha",
+      "visible_name": "B16 Neon Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Catppuccin Mocha",
+      "fingerprint": "012e76428207a246610301d39facca112320cc7a",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-chalk.sh",
+      "original_name": "Chalk",
+      "profile_id": "b16-base16-chalk",
+      "visible_name": "B16 Neon Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Chalk",
+      "fingerprint": "9a85e5a372f0d23c3f268eb738252dc88519f114",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-charcoal-dark.sh",
+      "original_name": "Charcoal Dark",
+      "profile_id": "b16-base16-charcoal-dark",
+      "visible_name": "B16 Nocturne Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Charcoal Dark",
+      "fingerprint": "df6ed8e745ae6ae34fc7501806b5b3a972de6743",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-charcoal-light.sh",
+      "original_name": "Charcoal Light",
+      "profile_id": "b16-base16-charcoal-light",
+      "visible_name": "B16 Dawn Amber \u2014 Light\u00b7HighC\u00b7Pastel\u00b7Warm \u2014 Charcoal Light",
+      "fingerprint": "f7e26f4dc8580f2f5725ac2bd3966eb4a3820cef",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-chicago-day.sh",
+      "original_name": "Chicago Day",
+      "profile_id": "b16-base16-chicago-day",
+      "visible_name": "B16 Daylight Azure \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Chicago Day",
+      "fingerprint": "564bb34d4984a9c41fbf96eb046185e7a155efbf",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-chicago-night.sh",
+      "original_name": "Chicago Night",
+      "profile_id": "b16-base16-chicago-night",
+      "visible_name": "B16 Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Chicago Night",
+      "fingerprint": "d1b8f92f1d7acc9aa1372045594f3b8e64488f4c",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-chinoiserie-midnight.sh",
+      "original_name": "Chinoiserie Midnight",
+      "profile_id": "b16-base16-chinoiserie-midnight",
+      "visible_name": "B16 Nocturne Lime \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Chinoiserie Midnight",
+      "fingerprint": "2771a733ab1248a98c821988edd087084dd0c57a",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-chinoiserie-morandi.sh",
+      "original_name": "Chinoiserie Morandi",
+      "profile_id": "b16-base16-chinoiserie-morandi",
+      "visible_name": "B16 Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Chinoiserie Morandi",
+      "fingerprint": "1d53d10e41791b6aa9a26cbf79e207e167fad00e",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-chinoiserie-night.sh",
+      "original_name": "Chinoiserie Night",
+      "profile_id": "b16-base16-chinoiserie-night",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Chinoiserie Night",
+      "fingerprint": "b7acf6eb8f9c33a737c634abc4e6391bf585ac1b",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-chinoiserie.sh",
+      "original_name": "Chinoiserie",
+      "profile_id": "b16-base16-chinoiserie",
+      "visible_name": "B16 Daylight Amber \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Chinoiserie",
+      "fingerprint": "5128045cb6c10a0777553c682597c8585ac12b80",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-circus.sh",
+      "original_name": "Circus",
+      "profile_id": "b16-base16-circus",
+      "visible_name": "B16 Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Circus",
+      "fingerprint": "486f09a19025f6f596216a45a6e180e625674142",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-classic-dark.sh",
+      "original_name": "Classic Dark",
+      "profile_id": "b16-base16-classic-dark",
+      "visible_name": "B16 Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Classic Dark",
+      "fingerprint": "e39cbaea53d112a94f54171ff83cede6fa6fcf61",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-classic-light.sh",
+      "original_name": "Classic Light",
+      "profile_id": "b16-base16-classic-light",
+      "visible_name": "B16 Dawn Crimson \u2014 Light\u00b7HighC\u00b7Pastel\u00b7Warm \u2014 Classic Light",
+      "fingerprint": "894578ade9d3c176c59739f541619c54bcd6fe3c",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-codeschool.sh",
+      "original_name": "Codeschool",
+      "profile_id": "b16-base16-codeschool",
+      "visible_name": "B16 Nocturne Amber \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Codeschool",
+      "fingerprint": "66b854eae1912e0f55d5cfd87bb0008e339a8830",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-colors.sh",
+      "original_name": "Colors",
+      "profile_id": "b16-base16-colors",
+      "visible_name": "B16 Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Colors",
+      "fingerprint": "e6ee749ed3e27ee7a2ff77b44b91dacec6ff0f6a",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-cupcake.sh",
+      "original_name": "Cupcake",
+      "profile_id": "b16-base16-cupcake",
+      "visible_name": "B16 Daylight Amber \u2014 Light\u00b7LowC\u00b7Pastel\u00b7Warm \u2014 Cupcake",
+      "fingerprint": "8ac49dedb87be9b9ebdcf7aa2e061ea3ee7c533e",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-cupertino.sh",
+      "original_name": "Cupertino",
+      "profile_id": "b16-base16-cupertino",
+      "visible_name": "B16 Daylight Indigo \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Cupertino",
+      "fingerprint": "474c186c70b9cfa11245b0b48bbd1c06a488ca52",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-da-one-black.sh",
+      "original_name": "Da One Black",
+      "profile_id": "b16-base16-da-one-black",
+      "visible_name": "B16 Neon Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Da One Black",
+      "fingerprint": "0894d196fd9d5caaac7f2bf595f85597e2b6a8ca",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-da-one-gray.sh",
+      "original_name": "Da One Gray",
+      "profile_id": "b16-base16-da-one-gray",
+      "visible_name": "B16 Neon Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Da One Gray",
+      "fingerprint": "68692084ba22d3f67215edeccc72318e0cffdda5",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-da-one-ocean.sh",
+      "original_name": "Da One Ocean",
+      "profile_id": "b16-base16-da-one-ocean",
+      "visible_name": "B16 Neon Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Da One Ocean",
+      "fingerprint": "51066492264c46fbe98a24b25052d2c49d9b2bff",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-da-one-paper.sh",
+      "original_name": "Da One Paper",
+      "profile_id": "b16-base16-da-one-paper",
+      "visible_name": "B16 Daylight Azure \u2014 Light\u00b7HighC\u00b7Pastel\u00b7Cool \u2014 Da One Paper",
+      "fingerprint": "3b5b671ce832967d3f80b032c92199db1eacff5f",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-da-one-sea.sh",
+      "original_name": "Da One Sea",
+      "profile_id": "b16-base16-da-one-sea",
+      "visible_name": "B16 Neon Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Da One Sea",
+      "fingerprint": "a036fa4872b68a236a1514617beae98b7b89a4eb",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-da-one-white.sh",
+      "original_name": "Da One White",
+      "profile_id": "b16-base16-da-one-white",
+      "visible_name": "B16 Daylight Azure \u2014 Light\u00b7HighC\u00b7Pastel\u00b7Cool \u2014 Da One White",
+      "fingerprint": "83a712a1b23cd0fed9e5072a27e37a0c5dca56ae",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-danqing-light.sh",
+      "original_name": "DanQing Light",
+      "profile_id": "b16-base16-danqing-light",
+      "visible_name": "B16 Daylight Cyan \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 DanQing Light",
+      "fingerprint": "5657459117bc87d575e5416cc868dfbee0ba4bfa",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-danqing.sh",
+      "original_name": "DanQing",
+      "profile_id": "b16-base16-danqing",
+      "visible_name": "B16 Neon Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 DanQing",
+      "fingerprint": "a0f374acb410e6fda96239a3dc2ffde19d874199",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-darcula.sh",
+      "original_name": "Darcula",
+      "profile_id": "b16-base16-darcula",
+      "visible_name": "B16 Nocturne Lime \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Darcula",
+      "fingerprint": "00bafee36aee1e1a53ff1b0aca2e31af88c97653",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-darkmoss.sh",
+      "original_name": "darkmoss",
+      "profile_id": "b16-base16-darkmoss",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 darkmoss",
+      "fingerprint": "848b4f0da16bf61a7492e325cff046b40a1ea9e7",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-darktooth.sh",
+      "original_name": "Darktooth",
+      "profile_id": "b16-base16-darktooth",
+      "visible_name": "B16 Nocturne Cyan \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Darktooth",
+      "fingerprint": "48fe5fb48385c4d68434e5a18f93e1214febdff8",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-darkviolet.sh",
+      "original_name": "Dark Violet",
+      "profile_id": "b16-base16-darkviolet",
+      "visible_name": "B16 Neon Orchid \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Neutral \u2014 Dark Violet",
+      "fingerprint": "08fff515f4c10db515267a98d9f7eb86d769cb8a",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-decaf.sh",
+      "original_name": "Decaf",
+      "profile_id": "b16-base16-decaf",
+      "visible_name": "B16 Neon Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Decaf",
+      "fingerprint": "f4606b0e939c2fb8db6628d38d94971d50619adf",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-deep-oceanic-next.sh",
+      "original_name": "Deep Oceanic Next",
+      "profile_id": "b16-base16-deep-oceanic-next",
+      "visible_name": "B16 Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Deep Oceanic Next",
+      "fingerprint": "5d790993f8dcc35349e17473cf468ac670e194d3",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-default-dark.sh",
+      "original_name": "Default Dark",
+      "profile_id": "b16-base16-default-dark",
+      "visible_name": "B16 Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Default Dark",
+      "fingerprint": "bdc6a13ae63908773cd5b11d99289b3a86d72b5b",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-default-light.sh",
+      "original_name": "Default Light",
+      "profile_id": "b16-base16-default-light",
+      "visible_name": "B16 Dawn Crimson \u2014 Light\u00b7HighC\u00b7Pastel\u00b7Warm \u2014 Default Light",
+      "fingerprint": "dea3b3bc56a080bc656c04efc95507f3af7cd3f4",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-digital-rain.sh",
+      "original_name": "Digital Rain",
+      "profile_id": "b16-base16-digital-rain",
+      "visible_name": "B16 Nocturne Jade \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Neutral \u2014 Digital Rain",
+      "fingerprint": "9987d580e79a33705c79db4af45bdde2a582e874",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-dirtysea.sh",
+      "original_name": "dirtysea",
+      "profile_id": "b16-base16-dirtysea",
+      "visible_name": "B16 Dawn Jade \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Neutral \u2014 dirtysea",
+      "fingerprint": "868e3b04e61dfd5aacec452d8f33a305ff27b79f",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-dracula.sh",
+      "original_name": "Dracula",
+      "profile_id": "b16-base16-dracula",
+      "visible_name": "B16 Neon Jade \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Neutral \u2014 Dracula",
+      "fingerprint": "41b3b5a9fa488854adafda4728147784e625f216",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-edge-dark.sh",
+      "original_name": "Edge Dark",
+      "profile_id": "b16-base16-edge-dark",
+      "visible_name": "B16 Neon Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Edge Dark",
+      "fingerprint": "494e9b47e608a205aff50a9df503214708c192a3",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-edge-light.sh",
+      "original_name": "Edge Light",
+      "profile_id": "b16-base16-edge-light",
+      "visible_name": "B16 Daylight Amber \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Edge Light",
+      "fingerprint": "b1bc48979d660e17a90496a75380867813876346",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-eighties.sh",
+      "original_name": "Eighties",
+      "profile_id": "b16-base16-eighties",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Eighties",
+      "fingerprint": "b063769a17bf4335bbef66593a77afd3e3a3f832",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-embers-light.sh",
+      "original_name": "Embers Light",
+      "profile_id": "b16-base16-embers-light",
+      "visible_name": "B16 Dawn Rose \u2014 Light\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Embers Light",
+      "fingerprint": "e0adae841a8e0a070bd9eac5cbbd73191b08879a",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-embers.sh",
+      "original_name": "Embers",
+      "profile_id": "b16-base16-embers",
+      "visible_name": "B16 Nocturne Orchid \u2014 Dark\u00b7MedC\u00b7Muted\u00b7Neutral \u2014 Embers",
+      "fingerprint": "cbf23e326afc40f5762a23d0e1cb265c1b62fdb7",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-emil.sh",
+      "original_name": "emil",
+      "profile_id": "b16-base16-emil",
+      "visible_name": "B16 Dawn Azure \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 emil",
+      "fingerprint": "257a53ec4135f462a9f67399ce442ff3eeec8019",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-equilibrium-dark.sh",
+      "original_name": "Equilibrium Dark",
+      "profile_id": "b16-base16-equilibrium-dark",
+      "visible_name": "B16 Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Equilibrium Dark",
+      "fingerprint": "90424f1411478a2d171684b3d701bbb3455dc183",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-equilibrium-gray-dark.sh",
+      "original_name": "Equilibrium Gray Dark",
+      "profile_id": "b16-base16-equilibrium-gray-dark",
+      "visible_name": "B16 Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Equilibrium Gray Dark",
+      "fingerprint": "3766646507a2f0e4e28ae1250234c91e084412a5",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-equilibrium-gray-light.sh",
+      "original_name": "Equilibrium Gray Light",
+      "profile_id": "b16-base16-equilibrium-gray-light",
+      "visible_name": "B16 Dawn Azure \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Equilibrium Gray Light",
+      "fingerprint": "b2830498d1a5a722be806c1a6c7ff5b93d102c43",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-equilibrium-light.sh",
+      "original_name": "Equilibrium Light",
+      "profile_id": "b16-base16-equilibrium-light",
+      "visible_name": "B16 Dawn Azure \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Equilibrium Light",
+      "fingerprint": "491d528d00b4262a42b6ee0dac2c7ec8f8b3431c",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-eris.sh",
+      "original_name": "eris",
+      "profile_id": "b16-base16-eris",
+      "visible_name": "B16 Nocturne Azure \u2014 Dark\u00b7LowC\u00b7Vivid\u00b7Cool \u2014 eris",
+      "fingerprint": "c0d093c9596c5841ee031bdfea7b40816495fa2b",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-espresso.sh",
+      "original_name": "Espresso",
+      "profile_id": "b16-base16-espresso",
+      "visible_name": "B16 Neon Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Espresso",
+      "fingerprint": "71dfa63f109a8cd35d5f27b50ccdede388a31cd2",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-eva-dim.sh",
+      "original_name": "Eva Dim",
+      "profile_id": "b16-base16-eva-dim",
+      "visible_name": "B16 Neon Cyan \u2014 Dark\u00b7LowC\u00b7Vivid\u00b7Cool \u2014 Eva Dim",
+      "fingerprint": "9c8562ffc9c9242455f6924ba80b1aee5972fd7a",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-eva.sh",
+      "original_name": "Eva",
+      "profile_id": "b16-base16-eva",
+      "visible_name": "B16 Neon Cyan \u2014 Dark\u00b7LowC\u00b7Vivid\u00b7Cool \u2014 Eva",
+      "fingerprint": "8a5f0baad72c67bc1935374e35a7b9e81f734c9f",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-evenok-dark.sh",
+      "original_name": "Evenok Dark",
+      "profile_id": "b16-base16-evenok-dark",
+      "visible_name": "B16 Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Evenok Dark",
+      "fingerprint": "79600a2988887abeaf1fec24feebee47e23efb6f",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-everforest-dark-hard.sh",
+      "original_name": "Everforest Dark Hard",
+      "profile_id": "b16-base16-everforest-dark-hard",
+      "visible_name": "B16 Neon Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Everforest Dark Hard",
+      "fingerprint": "8e58708e78a4886d57f4492d70c85b2a71921aa3",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-everforest-dark-medium.sh",
+      "original_name": "Everforest Dark Medium",
+      "profile_id": "b16-base16-everforest-dark-medium",
+      "visible_name": "B16 Neon Crimson \u2014 Dark\u00b7LowC\u00b7Muted\u00b7Warm \u2014 Everforest Dark Medium",
+      "fingerprint": "d3fbbd5837d7e312c029ba136f91a584175eaeaf",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-everforest-dark-soft.sh",
+      "original_name": "Everforest Dark Soft",
+      "profile_id": "b16-base16-everforest-dark-soft",
+      "visible_name": "B16 Neon Crimson \u2014 Dark\u00b7MedC\u00b7Muted\u00b7Warm \u2014 Everforest Dark Soft",
+      "fingerprint": "2ae07e42bc6473dd7d1875afa7f2c2c78ab2b3f5",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-everforest.sh",
+      "original_name": "Everforest",
+      "profile_id": "b16-base16-everforest",
+      "visible_name": "B16 Neon Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Everforest",
+      "fingerprint": "b49dcc2c627c49b894dab153a8c4a119c85179dc",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-flat.sh",
+      "original_name": "Flat",
+      "profile_id": "b16-base16-flat",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Flat",
+      "fingerprint": "b25bba0b39a338630e94a4b12ec797c7d6d034f1",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-flexoki-dark.sh",
+      "original_name": "Flexoki Dark",
+      "profile_id": "b16-base16-flexoki-dark",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Flexoki Dark",
+      "fingerprint": "ffdf662fbf1733481ac574a6e793950be13d272d",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-flexoki-light.sh",
+      "original_name": "Flexoki Light",
+      "profile_id": "b16-base16-flexoki-light",
+      "visible_name": "B16 Dawn Amber \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Flexoki Light",
+      "fingerprint": "af495f334813847906b5cb38886dd302f0454c39",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-framer.sh",
+      "original_name": "Framer",
+      "profile_id": "b16-base16-framer",
+      "visible_name": "B16 Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Framer",
+      "fingerprint": "080c77447684b78451bef8da8aea79e2437ba638",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-fruit-soda.sh",
+      "original_name": "Fruit Soda",
+      "profile_id": "b16-base16-fruit-soda",
+      "visible_name": "B16 Daylight Amber \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Fruit Soda",
+      "fingerprint": "3424396ce44b05ddc4963cb76c1e2a4d30727866",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-gigavolt.sh",
+      "original_name": "Gigavolt",
+      "profile_id": "b16-base16-gigavolt",
+      "visible_name": "B16 Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Gigavolt",
+      "fingerprint": "070e4fa5b2e4158d86d4a177f82be0240cd63e9e",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-github-dark.sh",
+      "original_name": "Github Dark",
+      "profile_id": "b16-base16-github-dark",
+      "visible_name": "B16 Nocturne Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Github Dark",
+      "fingerprint": "010da3d4c94c19a538a345c36cf8aa5e04c2574b",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-github.sh",
+      "original_name": "Github",
+      "profile_id": "b16-base16-github",
+      "visible_name": "B16 Dawn Amber \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Github",
+      "fingerprint": "169f5d8261af0bf68bcd2d45a15296b356e6aea6",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-google-dark.sh",
+      "original_name": "Google Dark",
+      "profile_id": "b16-base16-google-dark",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Google Dark",
+      "fingerprint": "2acd3950febc9177b13fbac4015afa883975ed55",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-google-light.sh",
+      "original_name": "Google Light",
+      "profile_id": "b16-base16-google-light",
+      "visible_name": "B16 Daylight Amber \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Google Light",
+      "fingerprint": "c813d0794b04162a6cb269ec8bc472f1bbaee9ed",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-gotham.sh",
+      "original_name": "Gotham",
+      "profile_id": "b16-base16-gotham",
+      "visible_name": "B16 Nocturne Crimson \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Gotham",
+      "fingerprint": "c446f3a359efd22a0670a10c8da79a7b19e5d0d1",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-grayscale-dark.sh",
+      "original_name": "Grayscale Dark",
+      "profile_id": "b16-base16-grayscale-dark",
+      "visible_name": "B16 Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Grayscale Dark",
+      "fingerprint": "c731ad0f2e433e31a727c0484f2ad2a34afaa771",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-grayscale-light.sh",
+      "original_name": "Grayscale Light",
+      "profile_id": "b16-base16-grayscale-light",
+      "visible_name": "B16 Dawn Crimson \u2014 Light\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Grayscale Light",
+      "fingerprint": "d71adcf9820b99317087c9cfa4c650872d4c31a8",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-greenscreen.sh",
+      "original_name": "Green Screen",
+      "profile_id": "b16-base16-greenscreen",
+      "visible_name": "B16 Nocturne Jade \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Neutral \u2014 Green Screen",
+      "fingerprint": "c37026a9c44c7bcc387b7c9fd7c38fdd67d7059f",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-gruber.sh",
+      "original_name": "Gruber",
+      "profile_id": "b16-base16-gruber",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Gruber",
+      "fingerprint": "04de729097d1e2e7325e6d678e876c90fee72a8d",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-gruvbox-dark-hard.sh",
+      "original_name": "Gruvbox dark, hard",
+      "profile_id": "b16-base16-gruvbox-dark-hard",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Gruvbox dark, hard",
+      "fingerprint": "e941d9288451e464b4b9b5f8b04fd71eaec0ced6",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-gruvbox-dark-medium.sh",
+      "original_name": "Gruvbox dark, medium",
+      "profile_id": "b16-base16-gruvbox-dark-medium",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Gruvbox dark, medium",
+      "fingerprint": "68d0d92db9e8c77bf48a5ceefa48f79308f98545",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-gruvbox-dark-pale.sh",
+      "original_name": "Gruvbox dark, pale",
+      "profile_id": "b16-base16-gruvbox-dark-pale",
+      "visible_name": "B16 Nocturne Lime \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Gruvbox dark, pale",
+      "fingerprint": "637c9f82af7fa45b673cb46e56e843d5e09f8ca1",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-gruvbox-dark-soft.sh",
+      "original_name": "Gruvbox dark, soft",
+      "profile_id": "b16-base16-gruvbox-dark-soft",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Gruvbox dark, soft",
+      "fingerprint": "f1a242a43f3116689d883be89f33222688ab5692",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-gruvbox-dark.sh",
+      "original_name": "Gruvbox dark",
+      "profile_id": "b16-base16-gruvbox-dark",
+      "visible_name": "B16 Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Gruvbox dark",
+      "fingerprint": "a240dd6c102bfdd300f0f21e6ac5261e6e2f1496",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-gruvbox-light-hard.sh",
+      "original_name": "Gruvbox light, hard",
+      "profile_id": "b16-base16-gruvbox-light-hard",
+      "visible_name": "B16 Dawn Crimson \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Gruvbox light, hard",
+      "fingerprint": "c6c8bd2e760181054c3dfcd031ed4d2f99870135",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-gruvbox-light-medium.sh",
+      "original_name": "Gruvbox light, medium",
+      "profile_id": "b16-base16-gruvbox-light-medium",
+      "visible_name": "B16 Dawn Crimson \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Gruvbox light, medium",
+      "fingerprint": "6d53a0e51ec00a6730d00d43a1b02fccbf88770c",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-gruvbox-light-soft.sh",
+      "original_name": "Gruvbox light, soft",
+      "profile_id": "b16-base16-gruvbox-light-soft",
+      "visible_name": "B16 Dawn Crimson \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Gruvbox light, soft",
+      "fingerprint": "b04d1d19789f6a6e9e0e0afa4016015ccc72513b",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-gruvbox-light.sh",
+      "original_name": "Gruvbox Light",
+      "profile_id": "b16-base16-gruvbox-light",
+      "visible_name": "B16 Daylight Crimson \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Gruvbox Light",
+      "fingerprint": "9add83788f6bc9457d06fa9d1ce502c4c19a2a1b",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-gruvbox-material-dark-hard.sh",
+      "original_name": "Gruvbox Material Dark, Hard",
+      "profile_id": "b16-base16-gruvbox-material-dark-hard",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Gruvbox Material Dark, Hard",
+      "fingerprint": "88b9feb4c4d822066e84735fefc574ee5bd4ffda",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-gruvbox-material-dark-medium.sh",
+      "original_name": "Gruvbox Material Dark, Medium",
+      "profile_id": "b16-base16-gruvbox-material-dark-medium",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Gruvbox Material Dark, Medium",
+      "fingerprint": "50431330598d05ff0ec58dfb2cfb6db9809a3096",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-gruvbox-material-dark-soft.sh",
+      "original_name": "Gruvbox Material Dark, Soft",
+      "profile_id": "b16-base16-gruvbox-material-dark-soft",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Gruvbox Material Dark, Soft",
+      "fingerprint": "8e1b642a25390523622a5c88574ec78ab4752966",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-gruvbox-material-light-hard.sh",
+      "original_name": "Gruvbox Material Light, Hard",
+      "profile_id": "b16-base16-gruvbox-material-light-hard",
+      "visible_name": "B16 Dawn Amber \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Gruvbox Material Light, Hard",
+      "fingerprint": "b4c62cf64202dd746fc01a90529dd59ff8ee50b9",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-gruvbox-material-light-medium.sh",
+      "original_name": "Gruvbox Material Light, Medium",
+      "profile_id": "b16-base16-gruvbox-material-light-medium",
+      "visible_name": "B16 Dawn Amber \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Gruvbox Material Light, Medium",
+      "fingerprint": "dd1510f4ac1987c55903521c4110f608cd4d1c4b",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-gruvbox-material-light-soft.sh",
+      "original_name": "Gruvbox Material Light, Soft",
+      "profile_id": "b16-base16-gruvbox-material-light-soft",
+      "visible_name": "B16 Dawn Amber \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Gruvbox Material Light, Soft",
+      "fingerprint": "fb60e533a8fe29e2e4e1f3fac8cf947ee2e9ed20",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-hardcore.sh",
+      "original_name": "Hardcore",
+      "profile_id": "b16-base16-hardcore",
+      "visible_name": "B16 Neon Rose \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Hardcore",
+      "fingerprint": "28699f35809fca47675bf41db165b3d38921cb1f",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-hardhacker.sh",
+      "original_name": "Hardhacker",
+      "profile_id": "b16-base16-hardhacker",
+      "visible_name": "B16 Neon Rose \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Hardhacker",
+      "fingerprint": "6ea0b801443432bc8e55b8e3716d235fd54227df",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-harmonic16-dark.sh",
+      "original_name": "Harmonic16 Dark",
+      "profile_id": "b16-base16-harmonic16-dark",
+      "visible_name": "B16 Nocturne Orchid \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Neutral \u2014 Harmonic16 Dark",
+      "fingerprint": "0e887ec80fc1ab239a41fb8f979a84bb64a2ab3e",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-harmonic16-light.sh",
+      "original_name": "Harmonic16 Light",
+      "profile_id": "b16-base16-harmonic16-light",
+      "visible_name": "B16 Dawn Orchid \u2014 Light\u00b7MedC\u00b7Pastel\u00b7Neutral \u2014 Harmonic16 Light",
+      "fingerprint": "5018c022585bc86470b3ec5f38d0bf301c685528",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-heetch-light.sh",
+      "original_name": "Heetch Light",
+      "profile_id": "b16-base16-heetch-light",
+      "visible_name": "B16 Daylight Rose \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Heetch Light",
+      "fingerprint": "a60776a5e7a65f13360c7c14c643ba2fbd2eb82c",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-heetch.sh",
+      "original_name": "Heetch Dark",
+      "profile_id": "b16-base16-heetch",
+      "visible_name": "B16 Neon Rose \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Heetch Dark",
+      "fingerprint": "a74bb35a9a4ba7f6c5b268dc57d0e206ea2e51c0",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-helios.sh",
+      "original_name": "Helios",
+      "profile_id": "b16-base16-helios",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Helios",
+      "fingerprint": "e72782223af468222c38e7c756fab4105e66a7d4",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-hopscotch.sh",
+      "original_name": "Hopscotch",
+      "profile_id": "b16-base16-hopscotch",
+      "visible_name": "B16 Nocturne Azure \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Hopscotch",
+      "fingerprint": "f69a7b2f040ffcb90103e814dc4d8e995562bd2e",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-horizon-dark.sh",
+      "original_name": "Horizon Dark",
+      "profile_id": "b16-base16-horizon-dark",
+      "visible_name": "B16 Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Horizon Dark",
+      "fingerprint": "a2e3a5fba092765842701bfa99840184c88ced26",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-horizon-light.sh",
+      "original_name": "Horizon Light",
+      "profile_id": "b16-base16-horizon-light",
+      "visible_name": "B16 Daylight Crimson \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Horizon Light",
+      "fingerprint": "3807d566b620e45e5ef420e22e893a9c04db91e4",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-horizon-terminal-dark.sh",
+      "original_name": "Horizon Terminal Dark",
+      "profile_id": "b16-base16-horizon-terminal-dark",
+      "visible_name": "B16 Neon Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Horizon Terminal Dark",
+      "fingerprint": "32f27db645538aeb9bb2c9cd2782a0b98c8a5390",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-horizon-terminal-light.sh",
+      "original_name": "Horizon Terminal Light",
+      "profile_id": "b16-base16-horizon-terminal-light",
+      "visible_name": "B16 Daylight Cyan \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Horizon Terminal Light",
+      "fingerprint": "a8650770cecb82e99377c0c40c1893d72a24e607",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-humanoid-dark.sh",
+      "original_name": "Humanoid dark",
+      "profile_id": "b16-base16-humanoid-dark",
+      "visible_name": "B16 Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Humanoid dark",
+      "fingerprint": "e2f72caf76659c5e6d77509b59c6fde54c4084dd",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-humanoid-light.sh",
+      "original_name": "Humanoid light",
+      "profile_id": "b16-base16-humanoid-light",
+      "visible_name": "B16 Dawn Azure \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Humanoid light",
+      "fingerprint": "0b9793acfc63d36ac6a14a0faf0ea9aaf53d9c9b",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-ia-dark.sh",
+      "original_name": "iA Dark",
+      "profile_id": "b16-base16-ia-dark",
+      "visible_name": "B16 Nocturne Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 iA Dark",
+      "fingerprint": "ae12530e3584b2fbf4c4d65872d2b8ce3f84d307",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-ia-light.sh",
+      "original_name": "iA Light",
+      "profile_id": "b16-base16-ia-light",
+      "visible_name": "B16 Dawn Amber \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 iA Light",
+      "fingerprint": "b4248e51929ee3c25249b4488e3c98748b82bdbd",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-icy.sh",
+      "original_name": "Icy Dark",
+      "profile_id": "b16-base16-icy",
+      "visible_name": "B16 Neon Cyan \u2014 Dark\u00b7LowC\u00b7Vivid\u00b7Cool \u2014 Icy Dark",
+      "fingerprint": "78bd3e9dcdffcb5723aefddd410bff9064b92186",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-irblack.sh",
+      "original_name": "IR Black",
+      "profile_id": "b16-base16-irblack",
+      "visible_name": "B16 Neon Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 IR Black",
+      "fingerprint": "1d531197cdbcc916cb1f6287afd79695e968c883",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-isotope.sh",
+      "original_name": "Isotope",
+      "profile_id": "b16-base16-isotope",
+      "visible_name": "B16 Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Isotope",
+      "fingerprint": "fa5ecf524138b7ad71884b7fcc9d806ad820103e",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-jabuti.sh",
+      "original_name": "Jabuti",
+      "profile_id": "b16-base16-jabuti",
+      "visible_name": "B16 Neon Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Jabuti",
+      "fingerprint": "756810b9b64a7a129bad5b8c0a9bd0661c6e4396",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-kanagawa-dragon.sh",
+      "original_name": "Kanagawa Dragon",
+      "profile_id": "b16-base16-kanagawa-dragon",
+      "visible_name": "B16 Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Kanagawa Dragon",
+      "fingerprint": "212b4d9c53eacc41fefa377146b3d12b43cc1d43",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-kanagawa.sh",
+      "original_name": "Kanagawa",
+      "profile_id": "b16-base16-kanagawa",
+      "visible_name": "B16 Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Kanagawa",
+      "fingerprint": "26e63c6ae9ce55719f8c881723712cbe4a36a0ba",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-katy.sh",
+      "original_name": "Katy",
+      "profile_id": "b16-base16-katy",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7MedC\u00b7Muted\u00b7Warm \u2014 Katy",
+      "fingerprint": "2f1d7c668a15e1f606049d29017b188da591b90e",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-kimber.sh",
+      "original_name": "Kimber",
+      "profile_id": "b16-base16-kimber",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Kimber",
+      "fingerprint": "9afcd17d8a84f880ffb27d0ab480439044b9966e",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-lime.sh",
+      "original_name": "lime",
+      "profile_id": "b16-base16-lime",
+      "visible_name": "B16 Neon Crimson \u2014 Dark\u00b7LowC\u00b7Vivid\u00b7Warm \u2014 lime",
+      "fingerprint": "875eee621df3686637b979f84d2cf57dbe9fe71e",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-linux-vt.sh",
+      "original_name": "Linux VT",
+      "profile_id": "b16-base16-linux-vt",
+      "visible_name": "B16 Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Linux VT",
+      "fingerprint": "e03ab04259050bc3b2bcc69009d4db666de23652",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-macintosh.sh",
+      "original_name": "Macintosh",
+      "profile_id": "b16-base16-macintosh",
+      "visible_name": "B16 Neon Indigo \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Macintosh",
+      "fingerprint": "667fe1820fdd556a5e0486e0ddd744a8248c9a21",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-marrakesh.sh",
+      "original_name": "Marrakesh",
+      "profile_id": "b16-base16-marrakesh",
+      "visible_name": "B16 Nocturne Cyan \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Neutral \u2014 Marrakesh",
+      "fingerprint": "8a4b6ae64d73f6569c00c8f45ee707fb1b8d0bd4",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-materia.sh",
+      "original_name": "Materia",
+      "profile_id": "b16-base16-materia",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Materia",
+      "fingerprint": "773d34057802e1a10eb70fc8b5c73cf67e15250a",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-material-darker.sh",
+      "original_name": "Material Darker",
+      "profile_id": "b16-base16-material-darker",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Material Darker",
+      "fingerprint": "71dc3fc9a87333662ac5e2db3e82dfccacea1390",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-material-lighter.sh",
+      "original_name": "Material Lighter",
+      "profile_id": "b16-base16-material-lighter",
+      "visible_name": "B16 Daylight Amber \u2014 Light\u00b7LowC\u00b7Vivid\u00b7Warm \u2014 Material Lighter",
+      "fingerprint": "7e652cc91e714dbf1be4abe743ca79c4efebc972",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-material-palenight.sh",
+      "original_name": "Material Palenight",
+      "profile_id": "b16-base16-material-palenight",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7MedC\u00b7Muted\u00b7Warm \u2014 Material Palenight",
+      "fingerprint": "36445b1870403576412bece19ecac7b5474f8c39",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-material-vivid.sh",
+      "original_name": "Material Vivid",
+      "profile_id": "b16-base16-material-vivid",
+      "visible_name": "B16 Neon Cyan \u2014 Dark\u00b7LowC\u00b7Vivid\u00b7Cool \u2014 Material Vivid",
+      "fingerprint": "778ee1832ee2a5bdf1047a200e96cc87082d37ef",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-material.sh",
+      "original_name": "Material",
+      "profile_id": "b16-base16-material",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Material",
+      "fingerprint": "a9c85c9fdb692d07a63471dc7af934685c6e5afc",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-measured-dark.sh",
+      "original_name": "Measured Dark",
+      "profile_id": "b16-base16-measured-dark",
+      "visible_name": "B16 Nocturne Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Measured Dark",
+      "fingerprint": "9b10e09dfbb60f1283ec382298587b2ed9be589d",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-measured-light.sh",
+      "original_name": "Measured Light",
+      "profile_id": "b16-base16-measured-light",
+      "visible_name": "B16 Dawn Amber \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Measured Light",
+      "fingerprint": "eb857fe02efb17451a1bfc9b312e88d614a1fd50",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-mellow-purple.sh",
+      "original_name": "Mellow Purple",
+      "profile_id": "b16-base16-mellow-purple",
+      "visible_name": "B16 Nocturne Orchid \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Neutral \u2014 Mellow Purple",
+      "fingerprint": "0cbe18ee47ec76662dc578b78714af86ddc10916",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-mexico-light.sh",
+      "original_name": "Mexico Light",
+      "profile_id": "b16-base16-mexico-light",
+      "visible_name": "B16 Daylight Amber \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Mexico Light",
+      "fingerprint": "9e0bce8d2097c9cb092640272fc96d1e7676fc44",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-mocha.sh",
+      "original_name": "Mocha",
+      "profile_id": "b16-base16-mocha",
+      "visible_name": "B16 Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Mocha",
+      "fingerprint": "5bba72de62fe1c12a7de37d075c6c28e8bb5b80a",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-monokai.sh",
+      "original_name": "Monokai",
+      "profile_id": "b16-base16-monokai",
+      "visible_name": "B16 Neon Rose \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Monokai",
+      "fingerprint": "554456e63bc72a29ac2ac3ca67d8f0f5fcf6fc02",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-moonlight.sh",
+      "original_name": "Moonlight",
+      "profile_id": "b16-base16-moonlight",
+      "visible_name": "B16 Neon Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Moonlight",
+      "fingerprint": "101f362ce7478903c08309c85cf2079f24261913",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-mountain.sh",
+      "original_name": "Mountain",
+      "profile_id": "b16-base16-mountain",
+      "visible_name": "B16 Nocturne Indigo \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Mountain",
+      "fingerprint": "6a6a79055e5f9446d194ca4cbe2bacf3622e605c",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-nebula.sh",
+      "original_name": "Nebula",
+      "profile_id": "b16-base16-nebula",
+      "visible_name": "B16 Nocturne Cyan \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Nebula",
+      "fingerprint": "2edd3c2e235551c4479ce50e8a702e637484d2c6",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-nord-light.sh",
+      "original_name": "Nord Light",
+      "profile_id": "b16-base16-nord-light",
+      "visible_name": "B16 Dawn Amber \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Nord Light",
+      "fingerprint": "77bc0b66c6133a8ed25edc06c5eb2c84cbff6307",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-nord.sh",
+      "original_name": "Nord",
+      "profile_id": "b16-base16-nord",
+      "visible_name": "B16 Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Nord",
+      "fingerprint": "9e3360a9370e84ad8b9f68adece6533de09f0023",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-nova.sh",
+      "original_name": "Nova",
+      "profile_id": "b16-base16-nova",
+      "visible_name": "B16 Neon Azure \u2014 Dark\u00b7MedC\u00b7Muted\u00b7Cool \u2014 Nova",
+      "fingerprint": "eb88add3848c397295b01b9eff130b7df9bd4cdc",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-ocean.sh",
+      "original_name": "Ocean",
+      "profile_id": "b16-base16-ocean",
+      "visible_name": "B16 Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Ocean",
+      "fingerprint": "a71433bae346365ced3fa43a5e6115f15293e899",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-oceanicnext.sh",
+      "original_name": "OceanicNext",
+      "profile_id": "b16-base16-oceanicnext",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 OceanicNext",
+      "fingerprint": "317e8f4f9d344c09687e573cc26aed83916f499f",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-one-light.sh",
+      "original_name": "One Light",
+      "profile_id": "b16-base16-one-light",
+      "visible_name": "B16 Dawn Amber \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 One Light",
+      "fingerprint": "ee31139e088565f6a583912a3b325dc803565f46",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-onedark-dark.sh",
+      "original_name": "OneDark Dark",
+      "profile_id": "b16-base16-onedark-dark",
+      "visible_name": "B16 Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 OneDark Dark",
+      "fingerprint": "5cbd1fe440ccbd1e174b6fdd2a6b8d639fad44d7",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-onedark.sh",
+      "original_name": "OneDark",
+      "profile_id": "b16-base16-onedark",
+      "visible_name": "B16 Neon Azure \u2014 Dark\u00b7MedC\u00b7Muted\u00b7Cool \u2014 OneDark",
+      "fingerprint": "70582d09e3ca5b5fb6d4f664881de935470d617a",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-outrun-dark.sh",
+      "original_name": "Outrun Dark",
+      "profile_id": "b16-base16-outrun-dark",
+      "visible_name": "B16 Neon Rose \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Outrun Dark",
+      "fingerprint": "c485feb13b9afd4b03f49129fa4a888db29fe022",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-oxocarbon-dark.sh",
+      "original_name": "Oxocarbon Dark",
+      "profile_id": "b16-base16-oxocarbon-dark",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Oxocarbon Dark",
+      "fingerprint": "8a31cb724d036e4d8ee1c38a66b89a10ce739b99",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-oxocarbon-light.sh",
+      "original_name": "Oxocarbon Light",
+      "profile_id": "b16-base16-oxocarbon-light",
+      "visible_name": "B16 Daylight Amber \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Oxocarbon Light",
+      "fingerprint": "bde1987c2ab95dde58d2d3f99c67a299064bef75",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-pandora.sh",
+      "original_name": "pandora",
+      "profile_id": "b16-base16-pandora",
+      "visible_name": "B16 Nocturne Cyan \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 pandora",
+      "fingerprint": "8658e39fa9b98c94fb7cd245524366757daf97e9",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-papercolor-dark.sh",
+      "original_name": "PaperColor Dark",
+      "profile_id": "b16-base16-papercolor-dark",
+      "visible_name": "B16 Nocturne Cyan \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 PaperColor Dark",
+      "fingerprint": "bf48b24eb76c2d2fc154ea40f104357ce33bb251",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-papercolor-light.sh",
+      "original_name": "PaperColor Light",
+      "profile_id": "b16-base16-papercolor-light",
+      "visible_name": "B16 Dawn Azure \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 PaperColor Light",
+      "fingerprint": "dec3310db57adf96577c12d4d52102d2200aa665",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-paraiso.sh",
+      "original_name": "Paraiso",
+      "profile_id": "b16-base16-paraiso",
+      "visible_name": "B16 Neon Cyan \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Paraiso",
+      "fingerprint": "f3d73d48d3e125d4bce060147111c98d5c5150d8",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-pasque.sh",
+      "original_name": "Pasque",
+      "profile_id": "b16-base16-pasque",
+      "visible_name": "B16 Nocturne Rose \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Pasque",
+      "fingerprint": "6e3ced547a6cab235af894854e4f527c0d7dced7",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-penumbra-dark-contrast-plus-plus.sh",
+      "original_name": "Penumbra Dark Contrast Plus Plus",
+      "profile_id": "b16-base16-penumbra-dark-contrast-plus-plus",
+      "visible_name": "B16 Neon Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Penumbra Dark Contrast Plus Plus",
+      "fingerprint": "c12129a4aa96b4be1314c22608ed9befbe791c32",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-penumbra-dark-contrast-plus.sh",
+      "original_name": "Penumbra Dark Contrast Plus",
+      "profile_id": "b16-base16-penumbra-dark-contrast-plus",
+      "visible_name": "B16 Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Penumbra Dark Contrast Plus",
+      "fingerprint": "bc4d3474b5c5cd961ba85ee37f33d14351dcc565",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-penumbra-dark.sh",
+      "original_name": "Penumbra Dark",
+      "profile_id": "b16-base16-penumbra-dark",
+      "visible_name": "B16 Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Penumbra Dark",
+      "fingerprint": "134e57187698e2bd789775039b31130de6e4e97e",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-penumbra-light-contrast-plus-plus.sh",
+      "original_name": "Penumbra Light Contrast Plus Plus",
+      "profile_id": "b16-base16-penumbra-light-contrast-plus-plus",
+      "visible_name": "B16 Daylight Cyan \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Penumbra Light Contrast Plus Plus",
+      "fingerprint": "bee0f42f26b8730947b7c461188121bce5a53990",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-penumbra-light-contrast-plus.sh",
+      "original_name": "Penumbra Light Contrast Plus",
+      "profile_id": "b16-base16-penumbra-light-contrast-plus",
+      "visible_name": "B16 Dawn Cyan \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Penumbra Light Contrast Plus",
+      "fingerprint": "9c6e31b6522593a51e8e1e1977d5acb31b382155",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-penumbra-light.sh",
+      "original_name": "Penumbra Light",
+      "profile_id": "b16-base16-penumbra-light",
+      "visible_name": "B16 Dawn Cyan \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Penumbra Light",
+      "fingerprint": "25fae1cb63b0d80a86c8a39dbb706fa45e51db87",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-phd.sh",
+      "original_name": "PhD",
+      "profile_id": "b16-base16-phd",
+      "visible_name": "B16 Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 PhD",
+      "fingerprint": "75af6e8dd0abf907ee0d9858892a55fde6fb8557",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-pico.sh",
+      "original_name": "Pico",
+      "profile_id": "b16-base16-pico",
+      "visible_name": "B16 Neon Crimson \u2014 Dark\u00b7LowC\u00b7Vivid\u00b7Warm \u2014 Pico",
+      "fingerprint": "95bb1f0c3b119eecf230d0b8b73eda31da85d381",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-pinky.sh",
+      "original_name": "pinky",
+      "profile_id": "b16-base16-pinky",
+      "visible_name": "B16 Neon Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 pinky",
+      "fingerprint": "9833f831d3a1bf3cbe143cb93549b3a625b03711",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-pop.sh",
+      "original_name": "Pop",
+      "profile_id": "b16-base16-pop",
+      "visible_name": "B16 Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Pop",
+      "fingerprint": "a863674a22043b83e0aba54ebb9d71c27fedf765",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-porple.sh",
+      "original_name": "Porple",
+      "profile_id": "b16-base16-porple",
+      "visible_name": "B16 Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Porple",
+      "fingerprint": "a72727b9853ee574b90ed3c0ef6dfa3f81659f6e",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-precious-dark-eleven.sh",
+      "original_name": "Precious Dark Eleven",
+      "profile_id": "b16-base16-precious-dark-eleven",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Precious Dark Eleven",
+      "fingerprint": "fae2d12f0d6f752819675a30722837f0a2bf0db7",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-precious-dark-fifteen.sh",
+      "original_name": "Precious Dark Fifteen",
+      "profile_id": "b16-base16-precious-dark-fifteen",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Precious Dark Fifteen",
+      "fingerprint": "a526403aa6667414c1d18d366bc050743b2cf1b2",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-precious-light-warm.sh",
+      "original_name": "Precious Light Warm",
+      "profile_id": "b16-base16-precious-light-warm",
+      "visible_name": "B16 Dawn Lime \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Neutral \u2014 Precious Light Warm",
+      "fingerprint": "efc935dbac9866b4bc1b7508bec0725f6ab0af71",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-precious-light-white.sh",
+      "original_name": "Precious Light White",
+      "profile_id": "b16-base16-precious-light-white",
+      "visible_name": "B16 Dawn Amber \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Precious Light White",
+      "fingerprint": "59140c1c89f3442003aa5bf57af20f8e81a492ee",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-primer-dark-dimmed.sh",
+      "original_name": "Primer Dark Dimmed",
+      "profile_id": "b16-base16-primer-dark-dimmed",
+      "visible_name": "B16 Nocturne Amber \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Primer Dark Dimmed",
+      "fingerprint": "f0c1049c5574d2d9f5fe4a6e58fad0fb068fef75",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-primer-dark.sh",
+      "original_name": "Primer Dark",
+      "profile_id": "b16-base16-primer-dark",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Primer Dark",
+      "fingerprint": "4f1f65fde7086a58f3029d3a47a8a5ecb8c093f4",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-primer-light.sh",
+      "original_name": "Primer Light",
+      "profile_id": "b16-base16-primer-light",
+      "visible_name": "B16 Daylight Azure \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Primer Light",
+      "fingerprint": "0ebb90cddaa4eda3a5b9ef4e114f78509cc6455b",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-purpledream.sh",
+      "original_name": "Purpledream",
+      "profile_id": "b16-base16-purpledream",
+      "visible_name": "B16 Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Purpledream",
+      "fingerprint": "a95b515093812ce46f4c76dd403269ed1737b5fd",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-qualia.sh",
+      "original_name": "Qualia",
+      "profile_id": "b16-base16-qualia",
+      "visible_name": "B16 Neon Cyan \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Qualia",
+      "fingerprint": "11befd2a13d7c6232051a8c52a0ba2d6db83a7cb",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-railscasts.sh",
+      "original_name": "Railscasts",
+      "profile_id": "b16-base16-railscasts",
+      "visible_name": "B16 Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Railscasts",
+      "fingerprint": "142c475ab0d6002a41637db8cbe4c7089c73cf26",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-rebecca.sh",
+      "original_name": "Rebecca",
+      "profile_id": "b16-base16-rebecca",
+      "visible_name": "B16 Neon Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Rebecca",
+      "fingerprint": "d6161d55847e8dff3eb9326002cf040b2eff7a74",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-rose-pine-dawn.sh",
+      "original_name": "Ros\u00e9 Pine Dawn",
+      "profile_id": "b16-base16-rose-pine-dawn",
+      "visible_name": "B16 Daylight Amber \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Ros\u00e9 Pine Dawn",
+      "fingerprint": "fc10c71b88ef2bc067dea0a8a66fa7a500490ed9",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-rose-pine-moon.sh",
+      "original_name": "Ros\u00e9 Pine Moon",
+      "profile_id": "b16-base16-rose-pine-moon",
+      "visible_name": "B16 Nocturne Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Ros\u00e9 Pine Moon",
+      "fingerprint": "bcb3070fc1ce2a17e4167dd96d9411bb797660ad",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-rose-pine.sh",
+      "original_name": "Ros\u00e9 Pine",
+      "profile_id": "b16-base16-rose-pine",
+      "visible_name": "B16 Nocturne Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Ros\u00e9 Pine",
+      "fingerprint": "2bd9f1e30f31253f07ed351b181c624e318cf700",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-saga.sh",
+      "original_name": "SAGA",
+      "profile_id": "b16-base16-saga",
+      "visible_name": "B16 Neon Orchid \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Neutral \u2014 SAGA",
+      "fingerprint": "35e565781141c3aec6b6785b19cde2f9e8ff24e4",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-sagelight.sh",
+      "original_name": "Sagelight",
+      "profile_id": "b16-base16-sagelight",
+      "visible_name": "B16 Daylight Amber \u2014 Light\u00b7HighC\u00b7Pastel\u00b7Warm \u2014 Sagelight",
+      "fingerprint": "9c054797ad06412220b994399c051a27824f9708",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-sakura.sh",
+      "original_name": "Sakura",
+      "profile_id": "b16-base16-sakura",
+      "visible_name": "B16 Dawn Azure \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Sakura",
+      "fingerprint": "e39cbb60e491d674b9fa8633406159c9beae8d77",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-sandcastle.sh",
+      "original_name": "Sandcastle",
+      "profile_id": "b16-base16-sandcastle",
+      "visible_name": "B16 Nocturne Amber \u2014 Dark\u00b7MedC\u00b7Muted\u00b7Warm \u2014 Sandcastle",
+      "fingerprint": "1f378d5533688abd59f87146a6dd57d3fcb1143f",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-selenized-black.sh",
+      "original_name": "selenized-black",
+      "profile_id": "b16-base16-selenized-black",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 selenized-black",
+      "fingerprint": "054cceeb70199dcc500e2b483a1a80136ed07270",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-selenized-dark.sh",
+      "original_name": "selenized-dark",
+      "profile_id": "b16-base16-selenized-dark",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 selenized-dark",
+      "fingerprint": "c3173b5cf22398d82e97c4f15d7bb1ae997c9a6f",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-selenized-light.sh",
+      "original_name": "selenized-light",
+      "profile_id": "b16-base16-selenized-light",
+      "visible_name": "B16 Daylight Azure \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 selenized-light",
+      "fingerprint": "8fed52ed995c6dc8e6e1fa5cf3bf5e1b440cb37e",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-selenized-white.sh",
+      "original_name": "selenized-white",
+      "profile_id": "b16-base16-selenized-white",
+      "visible_name": "B16 Daylight Azure \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 selenized-white",
+      "fingerprint": "0ae3d51b45edacce8abc90d81852d8ed33325f10",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-seti.sh",
+      "original_name": "Seti UI",
+      "profile_id": "b16-base16-seti",
+      "visible_name": "B16 Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Seti UI",
+      "fingerprint": "c2afbcafc2123a60f8b33abd51202b255fcace35",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-shades-of-purple.sh",
+      "original_name": "Shades of Purple",
+      "profile_id": "b16-base16-shades-of-purple",
+      "visible_name": "B16 Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Shades of Purple",
+      "fingerprint": "e8fa5c70d27bad1c26f4d1b15b5b2a0adfb33ec4",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-shadesmear-dark.sh",
+      "original_name": "ShadeSmear Dark",
+      "profile_id": "b16-base16-shadesmear-dark",
+      "visible_name": "B16 Nocturne Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 ShadeSmear Dark",
+      "fingerprint": "9689453fcc2bfce89607fda679002aafedf28772",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-shadesmear-light.sh",
+      "original_name": "ShadeSmear Light",
+      "profile_id": "b16-base16-shadesmear-light",
+      "visible_name": "B16 Dawn Amber \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 ShadeSmear Light",
+      "fingerprint": "9ec0773d49df5b975ca8ee4b44f9c6291b4fd578",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-shapeshifter.sh",
+      "original_name": "Shapeshifter",
+      "profile_id": "b16-base16-shapeshifter",
+      "visible_name": "B16 Daylight Jade \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Neutral \u2014 Shapeshifter",
+      "fingerprint": "948e8b108fff0f0220da3878b4803fa29241be99",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-silk-dark.sh",
+      "original_name": "Silk Dark",
+      "profile_id": "b16-base16-silk-dark",
+      "visible_name": "B16 Neon Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Silk Dark",
+      "fingerprint": "34f0009a58d53f8c8ca0d0472599ebab017af7d6",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-silk-light.sh",
+      "original_name": "Silk Light",
+      "profile_id": "b16-base16-silk-light",
+      "visible_name": "B16 Daylight Amber \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Silk Light",
+      "fingerprint": "fffdc2ae775510ab59eedf653d797916d9f7868d",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-snazzy.sh",
+      "original_name": "Snazzy",
+      "profile_id": "b16-base16-snazzy",
+      "visible_name": "B16 Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Snazzy",
+      "fingerprint": "773c3f75efa3b2016972c383f94361df80fb7fef",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-soft-server.sh",
+      "original_name": "Soft Server",
+      "profile_id": "b16-base16-soft-server",
+      "visible_name": "B16 Neon Rose \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Soft Server",
+      "fingerprint": "6ea0b801443432bc8e55b8e3716d235fd54227df",
+      "duplicate_of": "b16-base16-hardhacker"
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-solarflare-light.sh",
+      "original_name": "Solar Flare Light",
+      "profile_id": "b16-base16-solarflare-light",
+      "visible_name": "B16 Daylight Amber \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Solar Flare Light",
+      "fingerprint": "d04a8ccd4bce7a8c74a6b6b4fe48a40493ca92a9",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-solarflare.sh",
+      "original_name": "Solar Flare",
+      "profile_id": "b16-base16-solarflare",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Solar Flare",
+      "fingerprint": "1a8a75b688ab9c274cdb637542d262dc87d6113d",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-solarized-dark.sh",
+      "original_name": "Solarized Dark",
+      "profile_id": "b16-base16-solarized-dark",
+      "visible_name": "B16 Nocturne Lime \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Solarized Dark",
+      "fingerprint": "8332388022bb1e3bb687b624bec682d36be91384",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-solarized-light.sh",
+      "original_name": "Solarized Light",
+      "profile_id": "b16-base16-solarized-light",
+      "visible_name": "B16 Dawn Lime \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Solarized Light",
+      "fingerprint": "bd9fd4d1468e8458aa3860c21968a49c1dff89b1",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-spaceduck.sh",
+      "original_name": "Spaceduck",
+      "profile_id": "b16-base16-spaceduck",
+      "visible_name": "B16 Neon Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Spaceduck",
+      "fingerprint": "17d7bbdfae13ed6a1abab5cfb8dd3d3296593ece",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-spacemacs.sh",
+      "original_name": "Spacemacs",
+      "profile_id": "b16-base16-spacemacs",
+      "visible_name": "B16 Neon Crimson \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Spacemacs",
+      "fingerprint": "685c99809c149251a050dbebc0af28be39b4168e",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-sparky.sh",
+      "original_name": "Sparky",
+      "profile_id": "b16-base16-sparky",
+      "visible_name": "B16 Neon Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Sparky",
+      "fingerprint": "a204e7f462fc86afa375654bd959bcd7ec633194",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-standardized-dark.sh",
+      "original_name": "standardized-dark",
+      "profile_id": "b16-base16-standardized-dark",
+      "visible_name": "B16 Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 standardized-dark",
+      "fingerprint": "0d8484d025de425d54b9380738cf206536cd162e",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-standardized-light.sh",
+      "original_name": "standardized-light",
+      "profile_id": "b16-base16-standardized-light",
+      "visible_name": "B16 Dawn Cyan \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 standardized-light",
+      "fingerprint": "61cd396acd325460c9cd98d27a9a6626181923bd",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-stella.sh",
+      "original_name": "Stella",
+      "profile_id": "b16-base16-stella",
+      "visible_name": "B16 Neon Orchid \u2014 Dark\u00b7MedC\u00b7Muted\u00b7Neutral \u2014 Stella",
+      "fingerprint": "bf8b6a79aaa2706882d1ca68bbae1e8676258b0f",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-still-alive.sh",
+      "original_name": "Still Alive",
+      "profile_id": "b16-base16-still-alive",
+      "visible_name": "B16 Daylight Crimson \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Still Alive",
+      "fingerprint": "6487225e1934750cb6dedd84d14a4f040ee04f4b",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-summercamp.sh",
+      "original_name": "summercamp",
+      "profile_id": "b16-base16-summercamp",
+      "visible_name": "B16 Neon Lime \u2014 Dark\u00b7LowC\u00b7Vivid\u00b7Warm \u2014 summercamp",
+      "fingerprint": "bc3a3c1a383dfee35e50184fca7d03aec3ba11c9",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-summerfruit-dark.sh",
+      "original_name": "Summerfruit Dark",
+      "profile_id": "b16-base16-summerfruit-dark",
+      "visible_name": "B16 Neon Rose \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Summerfruit Dark",
+      "fingerprint": "a544272c25f7e8fbc3075b35120a91aa3101fd1b",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-summerfruit-light.sh",
+      "original_name": "Summerfruit Light",
+      "profile_id": "b16-base16-summerfruit-light",
+      "visible_name": "B16 Daylight Rose \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Summerfruit Light",
+      "fingerprint": "edf351914d2306529e30c8c1b676d53b4e89303c",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-synth-midnight-dark.sh",
+      "original_name": "Synth Midnight Terminal Dark",
+      "profile_id": "b16-base16-synth-midnight-dark",
+      "visible_name": "B16 Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Synth Midnight Terminal Dark",
+      "fingerprint": "9c988284729c7064970ff0d3d1d58dd4c18ec7a6",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-synth-midnight-light.sh",
+      "original_name": "Synth Midnight Terminal Light",
+      "profile_id": "b16-base16-synth-midnight-light",
+      "visible_name": "B16 Daylight Azure \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Synth Midnight Terminal Light",
+      "fingerprint": "b4d711514cf751b4fbc91e38cf681829d5850dd5",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-tango.sh",
+      "original_name": "Tango",
+      "profile_id": "b16-base16-tango",
+      "visible_name": "B16 Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Tango",
+      "fingerprint": "b32b267d80517789e5bb2b808b86a1bbf407de34",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-tarot.sh",
+      "original_name": "tarot",
+      "profile_id": "b16-base16-tarot",
+      "visible_name": "B16 Nocturne Crimson \u2014 Dark\u00b7LowC\u00b7Vivid\u00b7Warm \u2014 tarot",
+      "fingerprint": "63dde7efa499e5f0056581663f3606f2b3a2d91f",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-tender.sh",
+      "original_name": "tender",
+      "profile_id": "b16-base16-tender",
+      "visible_name": "B16 Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 tender",
+      "fingerprint": "3c55899474a3ef5f79f347a15cf23df6488c9af3",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-terracotta-dark.sh",
+      "original_name": "Terracotta Dark",
+      "profile_id": "b16-base16-terracotta-dark",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Terracotta Dark",
+      "fingerprint": "63298bcd28e3333c987478fa3fd94319d81c7759",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-terracotta.sh",
+      "original_name": "Terracotta",
+      "profile_id": "b16-base16-terracotta",
+      "visible_name": "B16 Daylight Amber \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Terracotta",
+      "fingerprint": "99bdf2b9821db9ac0ba2ad261898b43ea8d2e5b8",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-tokyo-city-dark.sh",
+      "original_name": "Tokyo City Dark",
+      "profile_id": "b16-base16-tokyo-city-dark",
+      "visible_name": "B16 Neon Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Tokyo City Dark",
+      "fingerprint": "486b9f4d129815821ae8fceff637a3ea8e3817f3",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-tokyo-city-light.sh",
+      "original_name": "Tokyo City Light",
+      "profile_id": "b16-base16-tokyo-city-light",
+      "visible_name": "B16 Dawn Azure \u2014 Light\u00b7HighC\u00b7Pastel\u00b7Cool \u2014 Tokyo City Light",
+      "fingerprint": "8b2cc8a4370596173c03f4cc0122199f194d781f",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-tokyo-city-terminal-dark.sh",
+      "original_name": "Tokyo City Terminal Dark",
+      "profile_id": "b16-base16-tokyo-city-terminal-dark",
+      "visible_name": "B16 Nocturne Rose \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Tokyo City Terminal Dark",
+      "fingerprint": "63846a8231d2a9e0eb4d94267c87896aaded4536",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-tokyo-city-terminal-light.sh",
+      "original_name": "Tokyo City Terminal Light",
+      "profile_id": "b16-base16-tokyo-city-terminal-light",
+      "visible_name": "B16 Dawn Azure \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Tokyo City Terminal Light",
+      "fingerprint": "d1a68f8e4f133f8bfb662dff003fb82a03ce3238",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-tokyo-night-dark.sh",
+      "original_name": "Tokyo Night Dark",
+      "profile_id": "b16-base16-tokyo-night-dark",
+      "visible_name": "B16 Neon Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Tokyo Night Dark",
+      "fingerprint": "de1771cc0a4ddc63ed71bee04415dccc1a709269",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-tokyo-night-light.sh",
+      "original_name": "Tokyo Night Light",
+      "profile_id": "b16-base16-tokyo-night-light",
+      "visible_name": "B16 Dawn Cyan \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Tokyo Night Light",
+      "fingerprint": "a914edf88a38cd1ac83233704e22e97d8d3e406a",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-tokyo-night-moon.sh",
+      "original_name": "Tokyo Night Moon",
+      "profile_id": "b16-base16-tokyo-night-moon",
+      "visible_name": "B16 Neon Crimson \u2014 Dark\u00b7MedC\u00b7Muted\u00b7Warm \u2014 Tokyo Night Moon",
+      "fingerprint": "c6c180ab8f51a67e6aca291a4130d465fed56c69",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-tokyo-night-storm.sh",
+      "original_name": "Tokyo Night Storm",
+      "profile_id": "b16-base16-tokyo-night-storm",
+      "visible_name": "B16 Neon Cyan \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Tokyo Night Storm",
+      "fingerprint": "049d7feb9458931e764f5a74e7996cc5b17c0fc3",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-tokyo-night-terminal-dark.sh",
+      "original_name": "Tokyo Night Terminal Dark",
+      "profile_id": "b16-base16-tokyo-night-terminal-dark",
+      "visible_name": "B16 Nocturne Cyan \u2014 Dark\u00b7LowC\u00b7Muted\u00b7Cool \u2014 Tokyo Night Terminal Dark",
+      "fingerprint": "64cb0d5a102051b77dd0b6734b69b1eb52b95187",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-tokyo-night-terminal-light.sh",
+      "original_name": "Tokyo Night Terminal Light",
+      "profile_id": "b16-base16-tokyo-night-terminal-light",
+      "visible_name": "B16 Dawn Azure \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Tokyo Night Terminal Light",
+      "fingerprint": "469ec52693d9fad7d38a51fec9a8b2f0d6c2db49",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-tokyo-night-terminal-storm.sh",
+      "original_name": "Tokyo Night Terminal Storm",
+      "profile_id": "b16-base16-tokyo-night-terminal-storm",
+      "visible_name": "B16 Nocturne Cyan \u2014 Dark\u00b7LowC\u00b7Muted\u00b7Cool \u2014 Tokyo Night Terminal Storm",
+      "fingerprint": "0bb4da955a46b4cf56589916e44400554b262403",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-tokyodark-terminal.sh",
+      "original_name": "Tokyodark Terminal",
+      "profile_id": "b16-base16-tokyodark-terminal",
+      "visible_name": "B16 Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Tokyodark Terminal",
+      "fingerprint": "c6e8392f125263b07ca1b62251a0564af17ad348",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-tokyodark.sh",
+      "original_name": "Tokyodark",
+      "profile_id": "b16-base16-tokyodark",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Tokyodark",
+      "fingerprint": "11022081a8d4e3c21e3f5dfd9dd845ff3723ca3f",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-tomorrow-night-eighties.sh",
+      "original_name": "Tomorrow Night Eighties",
+      "profile_id": "b16-base16-tomorrow-night-eighties",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Tomorrow Night Eighties",
+      "fingerprint": "2a8ff361aa147fc1d0f87e5df15eb4c5f24ff09a",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-tomorrow-night.sh",
+      "original_name": "Tomorrow Night",
+      "profile_id": "b16-base16-tomorrow-night",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Tomorrow Night",
+      "fingerprint": "518ed1c3d5fdc49a8e223f563377d5f75bd68e7b",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-tomorrow.sh",
+      "original_name": "Tomorrow",
+      "profile_id": "b16-base16-tomorrow",
+      "visible_name": "B16 Dawn Lime \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Neutral \u2014 Tomorrow",
+      "fingerprint": "bfc2907e5efb617cc78e5bd5a48e2df8b21258ad",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-tube.sh",
+      "original_name": "London Tube",
+      "profile_id": "b16-base16-tube",
+      "visible_name": "B16 Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 London Tube",
+      "fingerprint": "77fe42075355aad09b4a3409361e8b3ab8649f46",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-twilight.sh",
+      "original_name": "Twilight",
+      "profile_id": "b16-base16-twilight",
+      "visible_name": "B16 Neon Crimson \u2014 Dark\u00b7MedC\u00b7Muted\u00b7Warm \u2014 Twilight",
+      "fingerprint": "3ac95565477cf5d2d441528bfef320208f36c97c",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-unikitty-dark.sh",
+      "original_name": "Unikitty Dark",
+      "profile_id": "b16-base16-unikitty-dark",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Unikitty Dark",
+      "fingerprint": "08cb7d4e3ac646c211f80de09119b305133385eb",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-unikitty-light.sh",
+      "original_name": "Unikitty Light",
+      "profile_id": "b16-base16-unikitty-light",
+      "visible_name": "B16 Daylight Amber \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Unikitty Light",
+      "fingerprint": "e2dd56ab1047c46bdf374958be96201772169f13",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-unikitty-reversible.sh",
+      "original_name": "Unikitty Reversible",
+      "profile_id": "b16-base16-unikitty-reversible",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Unikitty Reversible",
+      "fingerprint": "1a9449c3b5a1ebe057c9040c9d235db4fa2759f0",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-uwunicorn.sh",
+      "original_name": "UwUnicorn",
+      "profile_id": "b16-base16-uwunicorn",
+      "visible_name": "B16 Nocturne Rose \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 UwUnicorn",
+      "fingerprint": "c5b0e3972f2283104ae53b2767f79691c540c85f",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-valua.sh",
+      "original_name": "Valua",
+      "profile_id": "b16-base16-valua",
+      "visible_name": "B16 Neon Lime \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Valua",
+      "fingerprint": "aa71858854c3676ca88de74a190c522c3b5a176e",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-vesper.sh",
+      "original_name": "Vesper",
+      "profile_id": "b16-base16-vesper",
+      "visible_name": "B16 Neon Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Vesper",
+      "fingerprint": "704514913ccb8ec6c1b81e4a2bcbeb239e908163",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-vice.sh",
+      "original_name": "vice",
+      "profile_id": "b16-base16-vice",
+      "visible_name": "B16 Neon Cyan \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 vice",
+      "fingerprint": "4c2a95cbda24840c31d75e9b7d90c6e46451a735",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-vulcan.sh",
+      "original_name": "vulcan",
+      "profile_id": "b16-base16-vulcan",
+      "visible_name": "B16 Nocturne Crimson \u2014 Dark\u00b7LowC\u00b7Muted\u00b7Warm \u2014 vulcan",
+      "fingerprint": "9881840d6944421366f8d4457f23466760272471",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-windows-10-light.sh",
+      "original_name": "Windows 10 Light",
+      "profile_id": "b16-base16-windows-10-light",
+      "visible_name": "B16 Daylight Azure \u2014 Light\u00b7LowC\u00b7Vivid\u00b7Cool \u2014 Windows 10 Light",
+      "fingerprint": "df703913b154064344f8a001fa1866184be8892e",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-windows-10.sh",
+      "original_name": "Windows 10",
+      "profile_id": "b16-base16-windows-10",
+      "visible_name": "B16 Nocturne Rose \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Windows 10",
+      "fingerprint": "831b286bb509eb417ef13788052e682eb9281d89",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-windows-95-light.sh",
+      "original_name": "Windows 95 Light",
+      "profile_id": "b16-base16-windows-95-light",
+      "visible_name": "B16 Dawn Indigo \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Windows 95 Light",
+      "fingerprint": "552f410043fad4d87ca7251a8ccac47074d66b30",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-windows-95.sh",
+      "original_name": "Windows 95",
+      "profile_id": "b16-base16-windows-95",
+      "visible_name": "B16 Neon Indigo \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Windows 95",
+      "fingerprint": "94199e6fc73df995cd8b5477a7c95d7bb96be4f1",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-windows-highcontrast-light.sh",
+      "original_name": "Windows High Contrast Light",
+      "profile_id": "b16-base16-windows-highcontrast-light",
+      "visible_name": "B16 Dawn Indigo \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Windows High Contrast Light",
+      "fingerprint": "f0505c062d44dc2f9121dc139a1a0df1c292eb28",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-windows-highcontrast.sh",
+      "original_name": "Windows High Contrast",
+      "profile_id": "b16-base16-windows-highcontrast",
+      "visible_name": "B16 Neon Indigo \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Windows High Contrast",
+      "fingerprint": "c3b82b1a2edd976c5d9d80257f478315d868bbd9",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-windows-nt-light.sh",
+      "original_name": "Windows NT Light",
+      "profile_id": "b16-base16-windows-nt-light",
+      "visible_name": "B16 Dawn Indigo \u2014 Light\u00b7LowC\u00b7Vivid\u00b7Cool \u2014 Windows NT Light",
+      "fingerprint": "921b192d5446c28d6da4baf7bda173ee2460b556",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-windows-nt.sh",
+      "original_name": "Windows NT",
+      "profile_id": "b16-base16-windows-nt",
+      "visible_name": "B16 Neon Indigo \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Windows NT",
+      "fingerprint": "e797857ecd2d61b211b141e613d4dcb7c7149061",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-woodland.sh",
+      "original_name": "Woodland",
+      "profile_id": "b16-base16-woodland",
+      "visible_name": "B16 Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Woodland",
+      "fingerprint": "3551ca70ed12165248b6d80dcf4d23a0d714055d",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-xcode-dusk.sh",
+      "original_name": "XCode Dusk",
+      "profile_id": "b16-base16-xcode-dusk",
+      "visible_name": "B16 Nocturne Cyan \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 XCode Dusk",
+      "fingerprint": "0a57d19fe7cee8970d0a625d9dd1deeb7774c362",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-zenbones.sh",
+      "original_name": "Zenbones",
+      "profile_id": "b16-base16-zenbones",
+      "visible_name": "B16 Neon Azure \u2014 Dark\u00b7MedC\u00b7Muted\u00b7Cool \u2014 Zenbones",
+      "fingerprint": "68f8eed39bd956580845cc643a34524b5e7c4187",
+      "duplicate_of": null
+    },
+    {
+      "source": "tinted-theming/tinted-shell",
+      "source_path": "/tmp/mateswatch-sources/tinted-shell/scripts/base16-zenburn.sh",
+      "original_name": "Zenburn",
+      "profile_id": "b16-base16-zenburn",
+      "visible_name": "B16 Neon Rose \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Zenburn",
+      "fingerprint": "84aae64b4714271a0f69657d6c3420ee0f295c6a",
+      "duplicate_of": null
+    }
+  ]
+}

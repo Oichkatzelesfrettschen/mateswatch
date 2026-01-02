@@ -1,0 +1,9 @@
+[/]
+visible-name='WZT Neon Azure — Dark·HighC·Vivid·Cool — Colors (base16)'
+use-theme-colors=false
+foreground-color='#BBBBBBBBBBBB'
+background-color='#111111111111'
+bold-color-same-as-fg=true
+bold-color='#BBBBBBBBBBBB'
+cursor-color='#bbbbbb'
+palette='#111111111111:#FFFF41413636:#2E2ECCCC4040:#FFFFDCDC0000:#00007474D9D9:#B1B10D0DC9C9:#7F7FDBDBFFFF:#BBBBBBBBBBBB:#777777777777:#FFFF41413636:#2E2ECCCC4040:#FFFFDCDC0000:#00007474D9D9:#B1B10D0DC9C9:#7F7FDBDBFFFF:#FFFFFFFFFFFF'

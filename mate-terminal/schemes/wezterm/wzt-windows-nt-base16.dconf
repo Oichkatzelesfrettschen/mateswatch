@@ -1,0 +1,9 @@
+[/]
+visible-name='WZT Neon Indigo — Dark·HighC·Vivid·Cool — Windows NT (base16)'
+use-theme-colors=false
+foreground-color='#C0C0C0C0C0C0'
+background-color='#000000000000'
+bold-color-same-as-fg=true
+bold-color='#C0C0C0C0C0C0'
+cursor-color='#c0c0c0'
+palette='#000000000000:#FFFF00000000:#0000FFFF0000:#FFFFFFFF0000:#00000000FFFF:#FFFF0000FFFF:#0000FFFFFFFF:#C0C0C0C0C0C0:#808080808080:#FFFF00000000:#0000FFFF0000:#FFFFFFFF0000:#00000000FFFF:#FFFF0000FFFF:#0000FFFFFFFF:#FFFFFFFFFFFF'

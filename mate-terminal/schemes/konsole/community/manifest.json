@@ -1,0 +1,51 @@
+{
+  "type_code": "KON",
+  "count": 5,
+  "entries": [
+    {
+      "source": "konsole .colorscheme",
+      "source_path": "/tmp/mateswatch-sources/konsole-community/konsole-colorschemes/Dark-One-One.colorscheme",
+      "original_name": "Dark-One-One",
+      "profile_id": "kon-dark-one-one",
+      "visible_name": "KON Neon Cyan \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Dark-One-One",
+      "fingerprint": "c0389b4217b75d8f5153a69ea300348a36577c85",
+      "duplicate_of": null
+    },
+    {
+      "source": "konsole .colorscheme",
+      "source_path": "/tmp/mateswatch-sources/konsole-community/konsole-colorschemes/Halay.colorscheme",
+      "original_name": "Halay",
+      "profile_id": "kon-halay",
+      "visible_name": "KON Nocturne Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Halay",
+      "fingerprint": "e18d88cc9be0da3562ae3567816322e8ff24dffc",
+      "duplicate_of": null
+    },
+    {
+      "source": "konsole .colorscheme",
+      "source_path": "/tmp/mateswatch-sources/konsole-community/konsole-colorschemes/Lina.colorscheme",
+      "original_name": "Lina",
+      "profile_id": "kon-lina",
+      "visible_name": "KON Neon Rose \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Lina",
+      "fingerprint": "dd7b4fa89c4ebfc8b03f4ad2850be1f0d51e5ffc",
+      "duplicate_of": null
+    },
+    {
+      "source": "konsole .colorscheme",
+      "source_path": "/tmp/mateswatch-sources/konsole-community/konsole-colorschemes/Memphis-Dark.colorscheme",
+      "original_name": "Memphis-Dark",
+      "profile_id": "kon-memphis-dark",
+      "visible_name": "KON Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Memphis-Dark",
+      "fingerprint": "a8699ed49d3387db6c81d27d759ce609e4bbce6d",
+      "duplicate_of": null
+    },
+    {
+      "source": "konsole .colorscheme",
+      "source_path": "/tmp/mateswatch-sources/konsole-community/konsole-colorschemes/None-One.colorscheme",
+      "original_name": "None-One",
+      "profile_id": "kon-none-one",
+      "visible_name": "KON Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 None-One",
+      "fingerprint": "400977168e741e583901c7cfea6eaf529d674941",
+      "duplicate_of": null
+    }
+  ]
+}

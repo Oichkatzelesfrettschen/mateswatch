@@ -1,0 +1,9 @@
+[/]
+visible-name='WZT Daylight Amber — Light·HighC·Pastel·Warm — Sagelight (base16)'
+use-theme-colors=false
+foreground-color='#383838383838'
+background-color='#F8F8F8F8F8F8'
+bold-color-same-as-fg=true
+bold-color='#383838383838'
+cursor-color='#383838'
+palette='#F8F8F8F8F8F8:#FAFA84848080:#A0A0D2D2C8C8:#FFFFDCDC6161:#A0A0A7A7D2D2:#C8C8A0A0D2D2:#A2A2D6D6F5F5:#383838383838:#B8B8B8B8B8B8:#FAFA84848080:#A0A0D2D2C8C8:#FFFFDCDC6161:#A0A0A7A7D2D2:#C8C8A0A0D2D2:#A2A2D6D6F5F5:#181818181818'

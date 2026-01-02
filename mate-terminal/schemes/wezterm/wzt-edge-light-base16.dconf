@@ -1,0 +1,9 @@
+[/]
+visible-name='WZT Daylight Amber — Light·MedC·Vivid·Warm — Edge Light (base16)'
+use-theme-colors=false
+foreground-color='#5E5E64646F6F'
+background-color='#FAFAFAFAFAFA'
+bold-color-same-as-fg=true
+bold-color='#5E5E64646F6F'
+cursor-color='#5e646f'
+palette='#FAFAFAFAFAFA:#DBDB70707070:#7C7C9F9F4B4B:#D6D698982222:#65658787BFBF:#B8B87070CECE:#50509C9C9393:#5E5E64646F6F:#5E5E64646F6F:#DBDB70707070:#7C7C9F9F4B4B:#D6D698982222:#65658787BFBF:#B8B87070CECE:#50509C9C9393:#5E5E64646F6F'

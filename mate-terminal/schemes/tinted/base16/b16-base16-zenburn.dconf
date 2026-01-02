@@ -1,0 +1,9 @@
+[/]
+visible-name='B16 Neon Rose — Dark·HighC·Muted·Warm — Zenburn'
+use-theme-colors=false
+foreground-color='#DCDCDCDCCCCC'
+background-color='#383838383838'
+bold-color-same-as-fg=true
+bold-color='#DCDCDCDCCCCC'
+cursor-color='#dcdccc'
+palette='#383838383838:#DCDCA3A3A3A3:#5F5F7F7F5F5F:#E0E0CFCF9F9F:#7C7CB8B8BBBB:#DCDC8C8CC3C3:#9393E0E0E3E3:#DCDCDCDCCCCC:#6F6F6F6F6F6F:#DCDCA3A3A3A3:#5F5F7F7F5F5F:#E0E0CFCF9F9F:#7C7CB8B8BBBB:#DCDC8C8CC3C3:#9393E0E0E3E3:#FFFFFFFFFFFF'

@@ -1,0 +1,9 @@
+[/]
+visible-name='B16 Nocturne Cyan — Dark·HighC·Vivid·Cool — Tokyodark Terminal'
+use-theme-colors=false
+foreground-color='#A0A0A8A8CDCD'
+background-color='#111112121D1D'
+bold-color-same-as-fg=true
+bold-color='#A0A0A8A8CDCD'
+cursor-color='#a0a8cd'
+palette='#111112121D1D:#EEEE6D6D8585:#9595C5C56161:#D7D7A6A65F5F:#71719999EEEE:#A4A48585DDDD:#3838A8A89D9D:#A0A0A8A8CDCD:#28282C2C3434:#EEEE6D6D8585:#9595C5C56161:#D7D7A6A65F5F:#71719999EEEE:#A4A48585DDDD:#3838A8A89D9D:#A0A0A8A8CDCD'

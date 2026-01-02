@@ -1,0 +1,9 @@
+[/]
+visible-name='B24 Neon Crimson — Dark·HighC·Muted·Warm — Broadcast'
+use-theme-colors=false
+foreground-color='#CBCBCBCBCBCB'
+background-color='#2B2B2B2B2B2B'
+bold-color-same-as-fg=true
+bold-color='#CBCBCBCBCBCB'
+cursor-color='#cbcbcb'
+palette='#2B2B2B2B2B2B:#DADA49493939:#51519F9F5050:#9F9FCECEF0F0:#6D6D9C9CBEBE:#D0D0D0D0FFFF:#6E6E9C9CBEBE:#CBCBCBCBCBCB:#656565656565:#FFFF7B7B6B6B:#8383D1D18282:#FFFFFFFF7C7C:#9F9FCECEF0F0:#FFFFFFFFFFFF:#A0A0CECEF0F0:#FFFFFFFFFFFF'

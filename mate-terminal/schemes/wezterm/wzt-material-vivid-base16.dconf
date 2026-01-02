@@ -1,0 +1,9 @@
+[/]
+visible-name='WZT Neon Cyan — Dark·LowC·Vivid·Cool — Material Vivid (base16)'
+use-theme-colors=false
+foreground-color='#808086868B8B'
+background-color='#202021212424'
+bold-color-same-as-fg=true
+bold-color='#808086868B8B'
+cursor-color='#80868b'
+palette='#202021212424:#F4F443433636:#0000E6E67676:#FFFFEBEB3B3B:#21219696F3F3:#67673A3AB7B7:#0000BCBCD4D4:#808086868B8B:#444446464D4D:#F4F443433636:#0000E6E67676:#FFFFEBEB3B3B:#21219696F3F3:#67673A3AB7B7:#0000BCBCD4D4:#FFFFFFFFFFFF'

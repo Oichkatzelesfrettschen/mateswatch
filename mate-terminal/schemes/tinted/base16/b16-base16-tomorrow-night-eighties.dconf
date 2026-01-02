@@ -1,0 +1,9 @@
+[/]
+visible-name='B16 Neon Amber — Dark·HighC·Muted·Warm — Tomorrow Night Eighties'
+use-theme-colors=false
+foreground-color='#CCCCCCCCCCCC'
+background-color='#2D2D2D2D2D2D'
+bold-color-same-as-fg=true
+bold-color='#CCCCCCCCCCCC'
+cursor-color='#cccccc'
+palette='#2D2D2D2D2D2D:#F2F277777A7A:#9999CCCC9999:#FFFFCCCC6666:#66669999CCCC:#CCCC9999CCCC:#6666CCCCCCCC:#CCCCCCCCCCCC:#999999999999:#F2F277777A7A:#9999CCCC9999:#FFFFCCCC6666:#66669999CCCC:#CCCC9999CCCC:#6666CCCCCCCC:#FFFFFFFFFFFF'

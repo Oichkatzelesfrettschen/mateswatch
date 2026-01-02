@@ -1,108 +1,47 @@
-# Atom (Tilix + MATE Terminal themes)
+# mateswatch
 
-This repository vendors the **Atom** color scheme for:
+Terminal color schemes for **MATE Terminal** (dconf profiles) with a “cleanroom” conversion toolchain and an opinionated, scroll-friendly naming system.
 
-- Tilix terminal (formerly Terminix)
-- MATE Terminal (via dconf profile)
+Current corpus (vendored in this repo):
 
-It also includes “cleanroom” tooling to convert other theme sources into MATE Terminal profiles.
+- **2260** MATE Terminal profiles under `mate-terminal/schemes/` (see `docs/mateswatch-stats.md`)
+- Sources include: Gogh, WezTerm built-ins, tinted-shell Base16/Base24, kitty-themes, alacritty-themes, plus a small Konsole set
 
-Local sources found on this machine:
+## Naming (dropdown-friendly)
 
-- Tilix: `/usr/share/tilix/schemes/atom.json`
-- MATE Terminal: imported into dconf at `/org/mate/terminal/profiles/Atom/`
+Every profile’s `visible-name` is formatted like:
 
-## Colors
+`TYPE VibeName — Tag·Tag·Tag·Tag — Original`
 
-- Background: `#161719`
-- Foreground: `#c5c8c6`
-- ANSI palette (0–15):
-  - 0: `#000000`
-  - 1: `#fd5ff1`
-  - 2: `#87c38a`
-  - 3: `#ffd7b1`
-  - 4: `#85befd`
-  - 5: `#b9b6fc`
-  - 6: `#85befd`
-  - 7: `#e0e0e0`
-  - 8: `#000000`
-  - 9: `#fd5ff1`
-  - 10: `#94fa36`
-  - 11: `#f5ffa8`
-  - 12: `#96cbfe`
-  - 13: `#b9b6fc`
-  - 14: `#85befd`
-  - 15: `#e0e0e0`
+Example:
 
-## Install
+`GOG Neon Lime — Dark·HighC·Vivid·Neutral — Atom`
 
-### Tilix
+This keeps profiles clustered by **type** while still conveying “color-vibe” at a glance.
 
-User-only install (recommended):
+## Install / import (MATE Terminal)
+
+List available profile IDs:
 
 ```sh
-mkdir -p ~/.config/tilix/schemes
-cp tilix/schemes/atom.json ~/.config/tilix/schemes/
+./scripts/mateswatch-import.py list
 ```
 
-Then restart Tilix and select the scheme in:
-`Preferences → Profiles → Colors → Color scheme → Atom`.
-
-### MATE Terminal
-
-Import the profile into dconf:
+Import one profile into your user dconf, add it to profile-list, and set default:
 
 ```sh
-./scripts/mate-terminal-import-profile.sh Atom mate-terminal/schemes/profile_Atom.dconf
-gsettings set org.mate.terminal.global profile-list "['default','Dracula','Atom']"
+./scripts/mateswatch-import.py import gogh-atom --add-to-profile-list --set-default
 ```
 
-Then select the profile in:
-`Edit → Profiles… → Atom`, or launch directly with:
+## Docs
 
-```sh
-mate-terminal --profile=Atom
-```
-
-Note: `mate-terminal --profile=...` matches the profile’s `visible-name`, and profiles must be present in
-`org.mate.terminal.global profile-list`.
-
-More details:
-
-- `docs/mate-terminal-color-schemes.md`
-- `docs/mate-terminal-ricing.md`
-- `docs/tilix-to-mate-terminal.md`
-- `docs/theme-sources.md`
-
-## Gogh (MIT-licensed theme corpus)
-
-This repo vendors converted MATE Terminal profiles generated from Gogh:
-
-- `docs/gogh-to-mate-terminal.md`
-- `mate-terminal/schemes/gogh/`
-
-## Bulk convert Tilix → MATE Terminal (generated, gitignored)
-
-Generate MATE Terminal `.dconf` snippets from your installed Tilix schemes:
-
-```sh
-./scripts/sync-tilix-to-mate-terminal.py --output-dir generated/mate-terminal/tilix
-```
-
-Optionally import them into your dconf (adds profiles; does not touch `profile-list` unless asked):
-
-```sh
-./scripts/sync-tilix-to-mate-terminal.py --import --smoke-count 10
-```
-
-Cleanup bulk profiles later:
-
-```sh
-./scripts/reset-tilix-mate-terminal-profiles.sh
-```
+- MATE Terminal profile keys + best practices: `docs/mate-terminal-color-schemes.md`
+- Ricing knobs beyond colors: `docs/mate-terminal-ricing.md`
+- Source attribution: `docs/theme-sources.md`
+- Gogh corpus: `docs/gogh-to-mate-terminal.md`
+- Stats/index: `docs/mateswatch-stats.md`, `docs/mateswatch-index.json`
 
 ## Packaging
 
-- Debian/LMDE `.deb` builder: `packaging/deb/build-deb.sh` (writes to `dist/`)
 - Arch/CachyOS example: `packaging/arch/PKGBUILD`
-- Notes: `docs/packaging.md`
+- Debian/LMDE build script: `packaging/deb/build-deb.sh`

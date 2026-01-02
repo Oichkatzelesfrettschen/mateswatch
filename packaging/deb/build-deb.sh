@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-pkgname="mate-terminal-theme-atom"
+pkgname="mateswatch"
 version="$(cat VERSION)"
 debrel="1"
 debver="${version}-${debrel}"
@@ -17,7 +17,7 @@ root="${workdir}/root"
 controldir="${workdir}/control"
 
 mkdir -p "${root}/usr/share/tilix/schemes"
-mkdir -p "${root}/usr/share/mate-terminal/profiles"
+mkdir -p "${root}/usr/share/mateswatch/mate-terminal"
 mkdir -p "${root}/usr/bin"
 mkdir -p "${root}/usr/share/doc/${pkgname}"
 mkdir -p "${controldir}"
@@ -25,10 +25,10 @@ mkdir -p "${outdir}"
 
 install -m 0644 "${repo_root}/tilix/schemes/atom.json" \
   "${root}/usr/share/tilix/schemes/atom.json"
-install -m 0644 "${repo_root}/mate-terminal/schemes/profile_Atom.dconf" \
-  "${root}/usr/share/mate-terminal/profiles/Atom.dconf"
-install -m 0755 "${repo_root}/packaging/deb/mate-terminal-theme-atom-import" \
-  "${root}/usr/bin/mate-terminal-theme-atom-import"
+cp -a "${repo_root}/mate-terminal/schemes" \
+  "${root}/usr/share/mateswatch/mate-terminal/"
+install -m 0755 "${repo_root}/scripts/mateswatch-import.py" \
+  "${root}/usr/bin/mateswatch"
 
 install -m 0644 "${repo_root}/README.md" \
   "${root}/usr/share/doc/${pkgname}/README.md"
@@ -42,31 +42,44 @@ install -m 0644 "${repo_root}/docs/gogh-to-mate-terminal.md" \
   "${root}/usr/share/doc/${pkgname}/gogh-to-mate-terminal.md"
 install -m 0644 "${repo_root}/docs/theme-sources.md" \
   "${root}/usr/share/doc/${pkgname}/theme-sources.md"
+install -m 0644 "${repo_root}/docs/mateswatch-stats.md" \
+  "${root}/usr/share/doc/${pkgname}/mateswatch-stats.md"
+
+mkdir -p "${root}/usr/share/doc/${pkgname}/sources"
+cp -a "${repo_root}/sources/"* "${root}/usr/share/doc/${pkgname}/sources/"
 install -m 0644 "${repo_root}/docs/packaging.md" \
   "${root}/usr/share/doc/${pkgname}/packaging.md"
 
 cat > "${root}/usr/share/doc/${pkgname}/README.Debian" <<'EOF'
-This package ships the Atom theme as a profile file and a helper command.
+This package ships mateswatch: a large set of MATE Terminal profile snippets and a helper command.
 
-To import/enable it for your user:
+To list and import themes for your user:
 
-  mate-terminal-theme-atom-import --set-default
+  mateswatch list
+  mateswatch import gogh-atom --add-to-profile-list --set-default
 
 EOF
 
 cat > "${root}/usr/share/doc/${pkgname}/copyright" <<'EOF'
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: Atom (Tilix/MATE Terminal color scheme)
-Source: https://github.com/storm119/Tilix-Themes
+Upstream-Name: mateswatch (terminal theme pack)
+Source: https://github.com/Oichkatzelesfrettschen/mateswatch
 
-Files: usr/share/tilix/schemes/atom.json usr/share/mate-terminal/profiles/Atom.dconf
+Files: usr/share/tilix/schemes/atom.json
 Copyright: Unknown
 License: UNKNOWN
  Comment:
   The upstream repository referenced above does not ship a license file at the
   time this repo vendored the Atom theme, so the license is not known here.
 
-Files: usr/bin/mate-terminal-theme-atom-import
+Files: usr/share/mateswatch/mate-terminal/schemes/** usr/share/doc/mateswatch/sources/**
+Copyright: Various
+License: MIT
+ Comment:
+  This package includes converted scheme snippets derived from MIT-licensed
+  upstream theme collections. See /usr/share/doc/mateswatch/sources/.
+
+Files: usr/bin/mateswatch
 Copyright: 2026 eirikr
 License: 0BSD
  Permission to use, copy, modify, and/or distribute this software for any
@@ -92,11 +105,11 @@ Priority: optional
 Architecture: ${arch}
 Installed-Size: ${installed_kb}
 Maintainer: eirikr <eirikr@localhost>
-Depends: mate-terminal, dconf-cli, libglib2.0-bin
+Depends: mate-terminal, dconf-cli, libglib2.0-bin, python3
 Recommends: tilix
-Description: Atom color scheme for MATE Terminal (and Tilix)
- Ships the Atom palette as a MATE Terminal profile file and a helper command
- to import/enable it for the current user.
+Description: mateswatch terminal theme pack for MATE Terminal
+ Ships a large set of MATE Terminal profile snippets plus a helper command
+ to import/enable individual profiles for the current user.
 EOF
 
 # md5sums is optional, but helps some tooling.

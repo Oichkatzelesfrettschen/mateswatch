@@ -32,6 +32,12 @@ Note: MATE Terminal only recognizes profiles that are present in
 `org.mate.terminal.global profile-list`. The integration test script temporarily
 adds a profile id to that list before launching MATE Terminal.
 
+For a single-profile workflow (recommended), use:
+
+```sh
+./scripts/mateswatch-import.py import gogh-atom --add-to-profile-list --set-default
+```
+
 ## Live test (requires desktop session)
 
 ```sh
@@ -43,4 +49,3 @@ adds a profile id to that list before launching MATE Terminal.
 ```sh
 ./scripts/reset-tilix-mate-terminal-profiles.sh
 ```
-

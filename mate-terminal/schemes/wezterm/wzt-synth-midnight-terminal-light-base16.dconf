@@ -1,0 +1,9 @@
+[/]
+visible-name='WZT Daylight Azure — Light·HighC·Vivid·Cool — Synth Midnight Terminal Light (base16)'
+use-theme-colors=false
+foreground-color='#282829292A2A'
+background-color='#DDDDDFDFE0E0'
+bold-color-same-as-fg=true
+bold-color='#282829292A2A'
+cursor-color='#28292a'
+palette='#DDDDDFDFE0E0:#B5B53B3B5050:#0606EAEA6161:#C9C9D3D36464:#0303AEAEFFFF:#EAEA5C5CE2E2:#4242FFFFF9F9:#282829292A2A:#A3A3A5A5A6A6:#B5B53B3B5050:#0606EAEA6161:#C9C9D3D36464:#0303AEAEFFFF:#EAEA5C5CE2E2:#4242FFFFF9F9:#050506060808'

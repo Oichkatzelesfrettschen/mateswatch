@@ -1,0 +1,9 @@
+[/]
+visible-name='WZT Nocturne Cyan — Dark·MedC·Muted·Neutral — Invisibone (terminal.sexy)'
+use-theme-colors=false
+foreground-color='#A0A0A0A0A0A0'
+background-color='#232323232323'
+bold-color-same-as-fg=true
+bold-color='#A0A0A0A0A0A0'
+cursor-color='#a0a0a0'
+palette='#303030303030:#D3D37070A3A3:#6D6D9E9E3F3F:#B5B588885858:#60609595C5C5:#ACAC7B7BDEDE:#3B3BA2A27575:#CFCFCFCFCFCF:#686868686868:#FFFFA7A7DADA:#A3A3D5D57272:#EFEFBDBD8B8B:#9898CBCBFEFE:#E5E5B0B0FFFF:#7575DADAA9A9:#FFFFFFFFFFFF'

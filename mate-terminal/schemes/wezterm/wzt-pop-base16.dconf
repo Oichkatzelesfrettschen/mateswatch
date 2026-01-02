@@ -1,0 +1,9 @@
+[/]
+visible-name='WZT Nocturne Cyan — Dark·HighC·Vivid·Cool — Pop (base16)'
+use-theme-colors=false
+foreground-color='#D0D0D0D0D0D0'
+background-color='#000000000000'
+bold-color-same-as-fg=true
+bold-color='#D0D0D0D0D0D0'
+cursor-color='#d0d0d0'
+palette='#000000000000:#EBEB00008A8A:#3737B3B34949:#F8F8CACA1212:#0E0E5A5A9494:#B3B31E1E8D8D:#0000AAAABBBB:#D0D0D0D0D0D0:#505050505050:#EBEB00008A8A:#3737B3B34949:#F8F8CACA1212:#0E0E5A5A9494:#B3B31E1E8D8D:#0000AAAABBBB:#FFFFFFFFFFFF'

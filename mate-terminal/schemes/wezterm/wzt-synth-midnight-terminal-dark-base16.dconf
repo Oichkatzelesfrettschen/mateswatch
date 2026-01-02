@@ -1,0 +1,9 @@
+[/]
+visible-name='WZT Neon Azure — Dark·HighC·Vivid·Cool — Synth Midnight Terminal Dark (base16)'
+use-theme-colors=false
+foreground-color='#C1C1C3C3C4C4'
+background-color='#050506060808'
+bold-color-same-as-fg=true
+bold-color='#C1C1C3C3C4C4'
+cursor-color='#c1c3c4'
+palette='#050506060808:#B5B53B3B5050:#0606EAEA6161:#C9C9D3D36464:#0303AEAEFFFF:#EAEA5C5CE2E2:#4242FFFFF9F9:#C1C1C3C3C4C4:#474748484949:#B5B53B3B5050:#0606EAEA6161:#C9C9D3D36464:#0303AEAEFFFF:#EAEA5C5CE2E2:#4242FFFFF9F9:#DDDDDFDFE0E0'

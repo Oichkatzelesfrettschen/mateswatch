@@ -1,6 +1,6 @@
 # Packaging notes (Arch/CachyOS + Debian/LMDE)
 
-This repo is a data-only theme (Tilix JSON + MATE Terminal dconf profile) plus small helper scripts.
+This repo is a theme pack + tooling: it vendors multiple upstream theme corpuses as **MATE Terminal dconf profile snippets** plus a helper command to import selected profiles.
 
 ## Arch / CachyOS / AUR (PKGBUILD)
 
@@ -75,14 +75,15 @@ This repo includes a small, reproducible `.deb` builder at:
 
 It creates an `all`-architecture `.deb` in `dist/` containing:
 
-- Tilix scheme: `/usr/share/tilix/schemes/atom.json`
-- MATE Terminal profile: `/usr/share/mate-terminal/profiles/Atom.dconf`
-- Helper command: `/usr/bin/mate-terminal-theme-atom-import`
-- Documentation: `/usr/share/doc/mate-terminal-theme-atom/`
+- Tilix scheme (legacy): `/usr/share/tilix/schemes/atom.json`
+- MATE Terminal profile snippets: `/usr/share/mateswatch/mate-terminal/schemes/`
+- Helper command: `/usr/bin/mateswatch`
+- Documentation: `/usr/share/doc/mateswatch/`
 
 Install on Debian/LMDE:
 
 ```sh
-sudo dpkg -i dist/mate-terminal-theme-atom_*.deb
-mate-terminal-theme-atom-import --set-default
+sudo dpkg -i dist/mateswatch_*.deb
+mateswatch list
+mateswatch import gogh-atom --add-to-profile-list --set-default
 ```

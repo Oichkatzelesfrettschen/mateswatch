@@ -26,6 +26,35 @@ Gogh is a large theme collection with a clear MIT license:
 - Vendored license + attribution: `sources/gogh/`
 - Converted MATE Terminal profiles: `mate-terminal/schemes/gogh/`
 
+## Kitty / Alacritty / Base16 / WezTerm
+
+This repo also vendors converted MATE Terminal profiles generated from these upstream theme corpuses:
+
+- kitty-themes (MIT): `https://github.com/dexpota/kitty-themes`
+  - Attribution: `sources/kitty-themes/`
+  - Converted profiles: `mate-terminal/schemes/kitty/`
+- alacritty-themes (MIT): `https://github.com/rajasegar/alacritty-themes`
+  - Attribution: `sources/alacritty-themes/`
+  - Converted profiles: `mate-terminal/schemes/alacritty/`
+- tinted-shell (MIT-style): `https://github.com/tinted-theming/tinted-shell`
+  - Attribution: `sources/tinted-shell/`
+  - Converted profiles: `mate-terminal/schemes/tinted/base16/` and `mate-terminal/schemes/tinted/base24/`
+- WezTerm built-ins (MIT): `https://github.com/wez/wezterm`
+  - Attribution: `sources/wezterm/`
+  - Converted profiles: `mate-terminal/schemes/wezterm/`
+
+## Konsole
+
+Konsole `.colorscheme` files are converted into MATE Terminal profiles via:
+
+- `scripts/import-konsole-colorschemes.py`
+
+Vendored Konsole sources with clear MIT licensing include:
+
+- Dracula Konsole: `sources/dracula/konsole/` → `mate-terminal/schemes/konsole/brands/`
+- Catppuccin Konsole: `sources/catppuccin/konsole/` → `mate-terminal/schemes/konsole/brands/`
+- Community Konsole bundles: `sources/konsole-community/` → `mate-terminal/schemes/konsole/community*/`
+
 ## Converting locally-installed schemes
 
 Convert Tilix JSON schemes into minimal MATE Terminal `.dconf` snippets (generated output is gitignored):

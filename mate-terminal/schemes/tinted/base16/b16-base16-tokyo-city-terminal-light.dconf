@@ -1,0 +1,9 @@
+[/]
+visible-name='B16 Dawn Azure — Light·HighC·Vivid·Cool — Tokyo City Terminal Light'
+use-theme-colors=false
+foreground-color='#282832323A3A'
+background-color='#FBFBFBFBFDFD'
+bold-color-same-as-fg=true
+bold-color='#282832323A3A'
+cursor-color='#28323a'
+palette='#FBFBFBFBFDFD:#8C8C43435151:#333363635C5C:#8F8F5E5E1515:#343454548A8A:#5A5A4A4A7878:#0F0F4B4B6E6E:#282832323A3A:#B7B7C5C5D3D3:#8C8C43435151:#333363635C5C:#8F8F5E5E1515:#343454548A8A:#5A5A4A4A7878:#0F0F4B4B6E6E:#17171D1D2323'

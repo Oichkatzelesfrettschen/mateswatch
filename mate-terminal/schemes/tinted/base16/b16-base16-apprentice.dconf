@@ -1,0 +1,9 @@
+[/]
+visible-name='B16 Nocturne Cyan — Dark·LowC·Muted·Cool — Apprentice'
+use-theme-colors=false
+foreground-color='#5F5F5F5F8787'
+background-color='#262626262626'
+bold-color-same-as-fg=true
+bold-color='#5F5F5F5F8787'
+cursor-color='#5f5f87'
+palette='#262626262626:#444444444444:#FFFFFFFFAFAF:#8787AFAF8787:#87878787AFAF:#5F5FAFAFAFAF:#8787AFAFD7D7:#5F5F5F5F8787:#878787875F5F:#444444444444:#FFFFFFFFAFAF:#8787AFAF8787:#87878787AFAF:#5F5FAFAFAFAF:#8787AFAFD7D7:#6C6C6C6C6C6C'

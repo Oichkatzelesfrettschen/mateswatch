@@ -1,0 +1,9 @@
+[/]
+visible-name='WZT Neon Cyan — Dark·HighC·Muted·Cool — Ibm3270 (Gogh)'
+use-theme-colors=false
+foreground-color='#FDFDFDFDFDFD'
+background-color='#000000000000'
+bold-color-same-as-fg=true
+bold-color='#FDFDFDFDFDFD'
+cursor-color='#fdfdfd'
+palette='#222222222222:#F0F018181818:#2424D8D83030:#F0F0D8D82424:#78789090F0F0:#F0F07878D8D8:#5454E4E4E4E4:#A5A5A5A5A5A5:#888888888888:#EFEF83838383:#7E7ED6D68484:#EFEFE2E28B8B:#B3B3BFBFEFEF:#EFEFB3B3E3E3:#9C9CE2E2E2E2:#FFFFFFFFFFFF'

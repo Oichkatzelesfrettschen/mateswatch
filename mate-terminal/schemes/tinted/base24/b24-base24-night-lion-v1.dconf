@@ -1,0 +1,9 @@
+[/]
+visible-name='B24 Neon Cyan — Dark·HighC·Vivid·Cool — Night Lion V1'
+use-theme-colors=false
+foreground-color='#A1A1A1A1A1A1'
+background-color='#000000000000'
+bold-color-same-as-fg=true
+bold-color='#A1A1A1A1A1A1'
+cursor-color='#a1a1a1'
+palette='#000000000000:#BBBB00000000:#5E5EDEDE8F8F:#55555555FFFF:#26266A6AD7D7:#BBBB0000BBBB:#0000D9D9DFDF:#A1A1A1A1A1A1:#6E6E6E6E6E6E:#FFFF55555555:#5555FFFF5555:#FFFFFFFF5555:#55555555FFFF:#FFFF5555FFFF:#5555FFFFFFFF:#FFFFFFFFFFFF'

@@ -1,0 +1,9 @@
+[/]
+visible-name='B16 Daylight Cyan — Light·HighC·Vivid·Cool — Horizon Terminal Light'
+use-theme-colors=false
+foreground-color='#40403C3C3D3D'
+background-color='#FDFDF0F0EDED'
+bold-color-same-as-fg=true
+bold-color='#40403C3C3D3D'
+cursor-color='#403c3d'
+palette='#FDFDF0F0EDED:#E9E956567878:#2929D3D39898:#FAFADADAD1D1:#2626BBBBD9D9:#EEEE6464ACAC:#5959E1E1E3E3:#40403C3C3D3D:#BDBDB3B3B1B1:#E9E956567878:#2929D3D39898:#FAFADADAD1D1:#2626BBBBD9D9:#EEEE6464ACAC:#5959E1E1E3E3:#20201C1C1D1D'

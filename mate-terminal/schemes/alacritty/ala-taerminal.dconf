@@ -1,0 +1,9 @@
+[/]
+visible-name='ALA Neon Crimson — Dark·HighC·Muted·Warm — Taerminal'
+use-theme-colors=false
+foreground-color='#F0F0F0F0F0F0'
+background-color='#262628282A2A'
+bold-color-same-as-fg=true
+bold-color='#F0F0F0F0F0F0'
+cursor-color='#f0f0f0'
+palette='#262628282A2A:#FFFF88887878:#B4B4FBFB7373:#FFFFFCFCB7B7:#8B8BBCBCE5E5:#FFFFB2B2FEFE:#A2A2E1E1F8F8:#F1F1F1F1F1F1:#6F6F6F6F6F6F:#FEFE97978B8B:#D6D6FCFCBABA:#FFFFFEFED5D5:#C2C2E3E3FFFF:#FFFFC6C6FFFF:#C0C0E9E9F8F8:#FFFFFFFFFFFF'

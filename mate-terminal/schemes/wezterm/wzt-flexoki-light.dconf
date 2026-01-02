@@ -1,0 +1,9 @@
+[/]
+visible-name='WZT Daylight Amber — Light·HighC·Vivid·Warm — flexoki-light'
+use-theme-colors=false
+foreground-color='#10100F0F0F0F'
+background-color='#FFFFFCFCF0F0'
+bold-color-same-as-fg=true
+bold-color='#10100F0F0F0F'
+cursor-color='#100f0f'
+palette='#10100F0F0F0F:#AFAF30302929:#666680800B0B:#ADAD83830101:#20205E5EA6A6:#A0A02F2F6F6F:#242483837B7B:#F2F2F0F0E5E5:#575756565353:#D1D14D4D4141:#87879A9A3939:#D0D0A2A21515:#43438585BEBE:#CECE5D5D9797:#3A3AA9A99F9F:#FFFFFCFCF0F0'

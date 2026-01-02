@@ -1,0 +1,9 @@
+[/]
+visible-name='WZT Neon Amber — Dark·HighC·Muted·Warm — Material Darker (base16)'
+use-theme-colors=false
+foreground-color='#EEEEFFFFFFFF'
+background-color='#212121212121'
+bold-color-same-as-fg=true
+bold-color='#EEEEFFFFFFFF'
+cursor-color='#eeffff'
+palette='#212121212121:#F0F071717878:#C3C3E8E88D8D:#FFFFCBCB6B6B:#8282AAAAFFFF:#C7C79292EAEA:#8989DDDDFFFF:#EEEEFFFFFFFF:#4A4A4A4A4A4A:#F0F071717878:#C3C3E8E88D8D:#FFFFCBCB6B6B:#8282AAAAFFFF:#C7C79292EAEA:#8989DDDDFFFF:#FFFFFFFFFFFF'

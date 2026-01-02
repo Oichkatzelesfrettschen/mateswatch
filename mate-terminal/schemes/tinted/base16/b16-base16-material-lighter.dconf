@@ -1,0 +1,9 @@
+[/]
+visible-name='B16 Daylight Amber — Light·LowC·Vivid·Warm — Material Lighter'
+use-theme-colors=false
+foreground-color='#8080CBCBC4C4'
+background-color='#FAFAFAFAFAFA'
+bold-color-same-as-fg=true
+bold-color='#8080CBCBC4C4'
+cursor-color='#80cbc4'
+palette='#FAFAFAFAFAFA:#FFFF53537070:#9191B8B85959:#FFFFB6B62C2C:#61618282B8B8:#7C7C4D4DFFFF:#3939ADADB5B5:#8080CBCBC4C4:#CCCCD7D7DADA:#FFFF53537070:#9191B8B85959:#FFFFB6B62C2C:#61618282B8B8:#7C7C4D4DFFFF:#3939ADADB5B5:#000000000000'

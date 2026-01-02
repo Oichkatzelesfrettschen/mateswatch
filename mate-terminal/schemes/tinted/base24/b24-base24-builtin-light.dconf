@@ -1,0 +1,9 @@
+[/]
+visible-name='B24 Dawn Indigo — Light·LowC·Vivid·Cool — Builtin Light'
+use-theme-colors=false
+foreground-color='#A1A1A1A1A1A1'
+background-color='#FFFFFFFFFFFF'
+bold-color-same-as-fg=true
+bold-color='#A1A1A1A1A1A1'
+cursor-color='#a1a1a1'
+palette='#FFFFFFFFFFFF:#BBBB00000000:#0000BBBB0000:#55555555FFFF:#00000000BBBB:#BBBB0000BBBB:#0000BBBBBBBB:#A1A1A1A1A1A1:#6E6E6E6E6E6E:#FFFF55555555:#5555FFFF5555:#FFFFFFFF5555:#55555555FFFF:#FFFF5555FFFF:#5555FFFFFFFF:#FFFFFFFFFFFF'

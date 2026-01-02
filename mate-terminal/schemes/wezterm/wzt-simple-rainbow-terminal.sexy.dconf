@@ -1,0 +1,9 @@
+[/]
+visible-name='WZT Neon Amber — Dark·MedC·Muted·Warm — Simple Rainbow (terminal.sexy)'
+use-theme-colors=false
+foreground-color='#DCDCDCDCCCCC'
+background-color='#575757575757'
+bold-color-same-as-fg=true
+bold-color='#DCDCDCDCCCCC'
+cursor-color='#dcdccc'
+palette='#666666666666:#FFFF82827878:#BDBDE0E07777:#EAEADCDC8484:#7777BEBEE0E0:#DDDD9191F3F3:#FFFFC1C17878:#DDDDDDDDDDDD:#888888888888:#FFFF82827878:#BDBDE0E07777:#EAEADCDC8484:#7777BEBEE0E0:#DDDD9191F3F3:#FFFFC1C17878:#CCCCCCCCCCCC'

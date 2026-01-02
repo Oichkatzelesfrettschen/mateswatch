@@ -1,0 +1,9 @@
+[/]
+visible-name='WZT Nocturne Crimson — Dark·HighC·Muted·Warm — Grayscale (dark) (terminal.sexy)'
+use-theme-colors=false
+foreground-color='#B9B9B9B9B9B9'
+background-color='#101010101010'
+bold-color-same-as-fg=true
+bold-color='#B9B9B9B9B9B9'
+cursor-color='#b9b9b9'
+palette='#101010101010:#7C7C7C7C7C7C:#8E8E8E8E8E8E:#A0A0A0A0A0A0:#686868686868:#747474747474:#868686868686:#B9B9B9B9B9B9:#525252525252:#7C7C7C7C7C7C:#8E8E8E8E8E8E:#A0A0A0A0A0A0:#686868686868:#747474747474:#868686868686:#F7F7F7F7F7F7'

@@ -1,0 +1,9 @@
+[/]
+visible-name='ALA Neon Azure — Dark·HighC·Vivid·Cool — Isotope (dark)'
+use-theme-colors=false
+foreground-color='#D0D0D0D0D0D0'
+background-color='#000000000000'
+bold-color-same-as-fg=true
+bold-color='#D0D0D0D0D0D0'
+cursor-color='#d0d0d0'
+palette='#000000000000:#FFFF00000000:#3333FFFF0000:#FFFF00009999:#00006666FFFF:#CCCC0000FFFF:#0000FFFFFFFF:#D0D0D0D0D0D0:#808080808080:#FFFF00000000:#3333FFFF0000:#FFFF00009999:#00006666FFFF:#CCCC0000FFFF:#0000FFFFFFFF:#FFFFFFFFFFFF'

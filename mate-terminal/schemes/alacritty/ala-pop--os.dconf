@@ -1,0 +1,9 @@
+[/]
+visible-name='ALA Nocturne Cyan — Dark·HighC·Vivid·Cool — Pop!-OS'
+use-theme-colors=false
+foreground-color='#F2F2F2F2F2F2'
+background-color='#333333333333'
+bold-color-same-as-fg=true
+bold-color='#F2F2F2F2F2F2'
+cursor-color='#f2f2f2'
+palette='#333333333333:#CCCC00000000:#4E4E9A9A0606:#C4C4A0A00000:#34346565A4A4:#757550507B7B:#060698989A9A:#D3D3D7D7CFCF:#888880807C7C:#F1F15D5D2222:#7373C4C48F8F:#FFFFCECE5151:#4848B9B9C7C7:#ADAD7F7FA8A8:#3434E2E2E2E2:#EEEEEEEEECEC'

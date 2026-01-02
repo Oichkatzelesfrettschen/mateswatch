@@ -1,0 +1,9 @@
+[/]
+visible-name='WZT Neon Indigo — Dark·HighC·Vivid·Cool — Ibm 3270 (High Contrast) (Gogh)'
+use-theme-colors=false
+foreground-color='#FDFDFDFDFDFD'
+background-color='#000000000000'
+bold-color-same-as-fg=true
+bold-color='#FDFDFDFDFDFD'
+cursor-color='#fdfdfd'
+palette='#000000000000:#FFFF00000000:#0000FFFF0000:#FFFFFFFF0000:#0000BFBFFFFF:#FFFFC0C0CBCB:#4040E0E0D0D0:#BEBEBEBEBEBE:#414141414141:#FFFFA5A50000:#9898FBFB9898:#FFFFFFFF0000:#00000000CDCD:#A0A02020F0F0:#AEAEEEEEEEEE:#FFFFFFFFFFFF'

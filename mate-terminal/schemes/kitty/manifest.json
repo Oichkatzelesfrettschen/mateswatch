@@ -1,0 +1,1528 @@
+{
+  "source_repo": "https://github.com/dexpota/kitty-themes",
+  "type_code": "KTY",
+  "count": 169,
+  "entries": [
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/3024_Day.conf",
+      "original_name": "3024 Day",
+      "profile_id": "kty-3024_day",
+      "visible_name": "KTY Daylight Azure \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 3024 Day",
+      "fingerprint": "c663dba49e88775e42ba9f6377d98384f48db784",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/3024_Night.conf",
+      "original_name": "3024 Night",
+      "profile_id": "kty-3024_night",
+      "visible_name": "KTY Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 3024 Night",
+      "fingerprint": "38b059a17c870718ce0621971147915650c54594",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/AdventureTime.conf",
+      "original_name": "AdventureTime",
+      "profile_id": "kty-adventuretime",
+      "visible_name": "KTY Nocturne Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 AdventureTime",
+      "fingerprint": "c23f58f95f6f5d48770ed662d06efcb937c6bac6",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Afterglow.conf",
+      "original_name": "Afterglow",
+      "profile_id": "kty-afterglow",
+      "visible_name": "KTY Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Afterglow",
+      "fingerprint": "db9669d0da43abd672f48236bd81261438a04a1f",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/AlienBlood.conf",
+      "original_name": "AlienBlood",
+      "profile_id": "kty-alienblood",
+      "visible_name": "KTY Neon Cyan \u2014 Dark\u00b7LowC\u00b7Vivid\u00b7Cool \u2014 AlienBlood",
+      "fingerprint": "dbcd74afcce49368fbf2ea50dc626689e4a7a5e6",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Alucard.conf",
+      "original_name": "Alucard",
+      "profile_id": "kty-alucard",
+      "visible_name": "KTY Neon Indigo \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Alucard",
+      "fingerprint": "2e23eee0659c2162dbd1f75104f50697b8e5ed31",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Apprentice.conf",
+      "original_name": "Apprentice",
+      "profile_id": "kty-apprentice",
+      "visible_name": "KTY Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Apprentice",
+      "fingerprint": "3d700c07f5ee45097de85b5ab61666226ac8dde6",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Argonaut.conf",
+      "original_name": "Argonaut",
+      "profile_id": "kty-argonaut",
+      "visible_name": "KTY Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Argonaut",
+      "fingerprint": "ffbc9d88bddf2003f2f392afc34c2e1a1d4e2d96",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Arthur.conf",
+      "original_name": "Arthur",
+      "profile_id": "kty-arthur",
+      "visible_name": "KTY Nocturne Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Arthur",
+      "fingerprint": "4e109be650a4e8cd0052c44892691d67d7aaa79f",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/AtelierSulphurpool.conf",
+      "original_name": "AtelierSulphurpool",
+      "profile_id": "kty-ateliersulphurpool",
+      "visible_name": "KTY Nocturne Cyan \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 AtelierSulphurpool",
+      "fingerprint": "dea1fa2320e8b4b71ce987df3302c539dd9d9308",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Atom.conf",
+      "original_name": "Atom",
+      "profile_id": "kty-atom",
+      "visible_name": "KTY Neon Lime \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Neutral \u2014 Atom",
+      "fingerprint": "9e4a62103584b8d1fa47e4bce2f567f54356133f",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/AtomOneLight.conf",
+      "original_name": "AtomOneLight",
+      "profile_id": "kty-atomonelight",
+      "visible_name": "KTY Dawn Orchid \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 AtomOneLight",
+      "fingerprint": "5f9bae725340c364b839b8f634e740a3ba6f9531",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Batman.conf",
+      "original_name": "Batman",
+      "profile_id": "kty-batman",
+      "visible_name": "KTY Neon Amber \u2014 Dark\u00b7LowC\u00b7Muted\u00b7Warm \u2014 Batman",
+      "fingerprint": "e74158984dd49868a7c69390ed3566b3cf22dac5",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Belafonte_Day.conf",
+      "original_name": "Belafonte Day",
+      "profile_id": "kty-belafonte_day",
+      "visible_name": "KTY Dawn Crimson \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Belafonte Day",
+      "fingerprint": "112e8b94048570c2b1a1506495d2f6734b54b483",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Belafonte_Night.conf",
+      "original_name": "Belafonte Night",
+      "profile_id": "kty-belafonte_night",
+      "visible_name": "KTY Nocturne Crimson \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Belafonte Night",
+      "fingerprint": "d636ca2408c490b981817f0c97b905bc60b1fc54",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/BirdsOfParadise.conf",
+      "original_name": "BirdsOfParadise",
+      "profile_id": "kty-birdsofparadise",
+      "visible_name": "KTY Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 BirdsOfParadise",
+      "fingerprint": "5e7e9d924a805ea8183bcf9857f12a2c0d4736b7",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Blazer.conf",
+      "original_name": "Blazer",
+      "profile_id": "kty-blazer",
+      "visible_name": "KTY Nocturne Indigo \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Blazer",
+      "fingerprint": "89a41dc924a91b948995063a0f982389835d1acb",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Borland.conf",
+      "original_name": "Borland",
+      "profile_id": "kty-borland",
+      "visible_name": "KTY Neon Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Borland",
+      "fingerprint": "7b4097d5edb87de6ea902daabb4524f97ca2a924",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Bright_Lights.conf",
+      "original_name": "Bright Lights",
+      "profile_id": "kty-bright_lights",
+      "visible_name": "KTY Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Bright Lights",
+      "fingerprint": "a4955abe23551b34e5ad38332e6eefde25561c70",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Broadcast.conf",
+      "original_name": "Broadcast",
+      "profile_id": "kty-broadcast",
+      "visible_name": "KTY Neon Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Broadcast",
+      "fingerprint": "fdcb76456dc4128c52cedf60cfebbb75a1695eaa",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Brogrammer.conf",
+      "original_name": "Brogrammer",
+      "profile_id": "kty-brogrammer",
+      "visible_name": "KTY Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Brogrammer",
+      "fingerprint": "75c1ca0f49e2b5fbde248c956c05a7ea20dded30",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/C64.conf",
+      "original_name": "C64",
+      "profile_id": "kty-c64",
+      "visible_name": "KTY Nocturne Indigo \u2014 Dark\u00b7LowC\u00b7Vivid\u00b7Cool \u2014 C64",
+      "fingerprint": "7afd630ecb16e72bc8dbb9a389f8d97426a0f842",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/CLRS.conf",
+      "original_name": "CLRS",
+      "profile_id": "kty-clrs",
+      "visible_name": "KTY Daylight Rose \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 CLRS",
+      "fingerprint": "7376118f43b6103720dcaddac2a709de9f7a166a",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Chalk.conf",
+      "original_name": "Chalk",
+      "profile_id": "kty-chalk",
+      "visible_name": "KTY Nocturne Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Chalk",
+      "fingerprint": "609ea103fef5a4dbbe2a9ffb39f70b19788d54cd",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Chalkboard.conf",
+      "original_name": "Chalkboard",
+      "profile_id": "kty-chalkboard",
+      "visible_name": "KTY Nocturne Indigo \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Chalkboard",
+      "fingerprint": "465c34048d977aae03b28d49a3ddc20315bbb37e",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Ciapre.conf",
+      "original_name": "Ciapre",
+      "profile_id": "kty-ciapre",
+      "visible_name": "KTY Neon Crimson \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Ciapre",
+      "fingerprint": "14191eb5069ef7eba3d5f8b2736f785c649ca351",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Cobalt2.conf",
+      "original_name": "Cobalt2",
+      "profile_id": "kty-cobalt2",
+      "visible_name": "KTY Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Cobalt2",
+      "fingerprint": "2a3bc478cf811cc58efbeb6e4bd61ab6e081c064",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Cobalt_Neon.conf",
+      "original_name": "Cobalt Neon",
+      "profile_id": "kty-cobalt_neon",
+      "visible_name": "KTY Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Cobalt Neon",
+      "fingerprint": "d18555164c23851db0f2ca740a1a36d344b4aa27",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/CrayonPonyFish.conf",
+      "original_name": "CrayonPonyFish",
+      "profile_id": "kty-crayonponyfish",
+      "visible_name": "KTY Nocturne Crimson \u2014 Dark\u00b7LowC\u00b7Vivid\u00b7Warm \u2014 CrayonPonyFish",
+      "fingerprint": "3775fb3a1f171e4575f01cc494a76f0f512080c3",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Dark_Pastel.conf",
+      "original_name": "Dark Pastel",
+      "profile_id": "kty-dark_pastel",
+      "visible_name": "KTY Neon Indigo \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Dark Pastel",
+      "fingerprint": "eb0b71af41b34ee48094cfd0e4f666540dcd918e",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Darkside.conf",
+      "original_name": "Darkside",
+      "profile_id": "kty-darkside",
+      "visible_name": "KTY Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Darkside",
+      "fingerprint": "7297ad35a232d1764b3c8933b81ef4f161e7c141",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Desert.conf",
+      "original_name": "Desert",
+      "profile_id": "kty-desert",
+      "visible_name": "KTY Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Desert",
+      "fingerprint": "1dd6bebba0b3772bbd4f3b80cfb80b086dded9be",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/DimmedMonokai.conf",
+      "original_name": "DimmedMonokai",
+      "profile_id": "kty-dimmedmonokai",
+      "visible_name": "KTY Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 DimmedMonokai",
+      "fingerprint": "3fceccdc7dabad6bbb6b55d055b0341e22a4a156",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/DotGov.conf",
+      "original_name": "DotGov",
+      "profile_id": "kty-dotgov",
+      "visible_name": "KTY Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 DotGov",
+      "fingerprint": "fad27bf760867f91570e3483fd1e02225bca2100",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Dracula.conf",
+      "original_name": "Dracula",
+      "profile_id": "kty-dracula",
+      "visible_name": "KTY Neon Jade \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Neutral \u2014 Dracula",
+      "fingerprint": "6660e9a8aece1ae3151f81c6546b6998c3f86396",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Dumbledore.conf",
+      "original_name": "Dumbledore",
+      "profile_id": "kty-dumbledore",
+      "visible_name": "KTY Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Dumbledore",
+      "fingerprint": "d5d7361ce17e8f5b3f0479b50f211f96bf4e1e86",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Duotone_Dark.conf",
+      "original_name": "Duotone Dark",
+      "profile_id": "kty-duotone_dark",
+      "visible_name": "KTY Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Duotone Dark",
+      "fingerprint": "f57ab40c8514c240da6ffa2c73854b075c415bde",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/ENCOM.conf",
+      "original_name": "ENCOM",
+      "profile_id": "kty-encom",
+      "visible_name": "KTY Neon Indigo \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 ENCOM",
+      "fingerprint": "8cb4ce48578f30cfa6a60b297c2ea023ff779120",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Earthsong.conf",
+      "original_name": "Earthsong",
+      "profile_id": "kty-earthsong",
+      "visible_name": "KTY Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Earthsong",
+      "fingerprint": "cc54161e93e42820fe22b1e8251e6c63703e39c5",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Elemental.conf",
+      "original_name": "Elemental",
+      "profile_id": "kty-elemental",
+      "visible_name": "KTY Neon Amber \u2014 Dark\u00b7LowC\u00b7Vivid\u00b7Warm \u2014 Elemental",
+      "fingerprint": "869f1524ab995a0cc18cb3bf5c12eaa23bde5a72",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Espresso.conf",
+      "original_name": "Espresso",
+      "profile_id": "kty-espresso",
+      "visible_name": "KTY Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Espresso",
+      "fingerprint": "80baa0f95575b8e5badfb1e972afc60b8f6e6482",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Espresso_Libre.conf",
+      "original_name": "Espresso Libre",
+      "profile_id": "kty-espresso_libre",
+      "visible_name": "KTY Neon Azure \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Espresso Libre",
+      "fingerprint": "a9c75098fb2dca4d03613c9945c3adf63eaab7b4",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Fideloper.conf",
+      "original_name": "Fideloper",
+      "profile_id": "kty-fideloper",
+      "visible_name": "KTY Nocturne Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Fideloper",
+      "fingerprint": "957193d51e5abbc94c4f9f34707cc3a66c8000db",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/FishTank.conf",
+      "original_name": "FishTank",
+      "profile_id": "kty-fishtank",
+      "visible_name": "KTY Neon Rose \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 FishTank",
+      "fingerprint": "8ec83a5e40280802e239783868d222d2a6142ecc",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Flat.conf",
+      "original_name": "Flat",
+      "profile_id": "kty-flat",
+      "visible_name": "KTY Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Flat",
+      "fingerprint": "3e2533b33439de58a2d3bd0b19e88dc43d69ecac",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Flatland.conf",
+      "original_name": "Flatland",
+      "profile_id": "kty-flatland",
+      "visible_name": "KTY Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Flatland",
+      "fingerprint": "da8a43f507852cb7493159ce224a865880869cdb",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Floraverse.conf",
+      "original_name": "Floraverse",
+      "profile_id": "kty-floraverse",
+      "visible_name": "KTY Neon Rose \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Floraverse",
+      "fingerprint": "5d4456db6b5848883540841130ca3ac0adb57354",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/FrontEndDelight.conf",
+      "original_name": "FrontEndDelight",
+      "profile_id": "kty-frontenddelight",
+      "visible_name": "KTY Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 FrontEndDelight",
+      "fingerprint": "2d1f80ee1103a7c7bc2dbe9c5daf3f76ee5d114a",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/FunForrest.conf",
+      "original_name": "FunForrest",
+      "profile_id": "kty-funforrest",
+      "visible_name": "KTY Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 FunForrest",
+      "fingerprint": "aa643c4183fa241c9801a55ff1df116b8ebb2ee3",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Galaxy.conf",
+      "original_name": "Galaxy",
+      "profile_id": "kty-galaxy",
+      "visible_name": "KTY Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Galaxy",
+      "fingerprint": "e43f15a96a3f72ab450ac6f8daca6cb0fa3494c8",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Github.conf",
+      "original_name": "Github",
+      "profile_id": "kty-github",
+      "visible_name": "KTY Dawn Azure \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Github",
+      "fingerprint": "dd7afecba7ef22be852398ab7f0c2157259bc488",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Glacier.conf",
+      "original_name": "Glacier",
+      "profile_id": "kty-glacier",
+      "visible_name": "KTY Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Glacier",
+      "fingerprint": "7ea40ce8d1cd6ea870e42323a0a67dc83578e8ae",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/GoaBase.conf",
+      "original_name": "GoaBase",
+      "profile_id": "kty-goabase",
+      "visible_name": "KTY Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 GoaBase",
+      "fingerprint": "40f3f7b29553a27ba5389a4a3ab110bbe9d4cd7c",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Grape.conf",
+      "original_name": "Grape",
+      "profile_id": "kty-grape",
+      "visible_name": "KTY Neon Cyan \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Grape",
+      "fingerprint": "e8f779fc60f642f1b31458a21d2642193ceb8ef4",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Grass.conf",
+      "original_name": "Grass",
+      "profile_id": "kty-grass",
+      "visible_name": "KTY Nocturne Indigo \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Grass",
+      "fingerprint": "339781d7eadf4edff45649236a3b46d328b5e672",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Hardcore.conf",
+      "original_name": "Hardcore",
+      "profile_id": "kty-hardcore",
+      "visible_name": "KTY Neon Rose \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Hardcore",
+      "fingerprint": "12c3d14f8c89457a77136e5532df3e8b05fff362",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Harper.conf",
+      "original_name": "Harper",
+      "profile_id": "kty-harper",
+      "visible_name": "KTY Neon Lime \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Harper",
+      "fingerprint": "db7f8123d54078f33e873af3d5cc2d5340628b96",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Highway.conf",
+      "original_name": "Highway",
+      "profile_id": "kty-highway",
+      "visible_name": "KTY Nocturne Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Highway",
+      "fingerprint": "c31526ddf2b0ba9a187c005acb36859badcfb3fb",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Hipster_Green.conf",
+      "original_name": "Hipster Green",
+      "profile_id": "kty-hipster_green",
+      "visible_name": "KTY Neon Indigo \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Hipster Green",
+      "fingerprint": "821108b2b44c859a61a5440d571ad626931e88b3",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Homebrew.conf",
+      "original_name": "Homebrew",
+      "profile_id": "kty-homebrew",
+      "visible_name": "KTY Neon Indigo \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Homebrew",
+      "fingerprint": "fc43c54ca0a1a055821f836c310cfaf90240eea3",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Hurtado.conf",
+      "original_name": "Hurtado",
+      "profile_id": "kty-hurtado",
+      "visible_name": "KTY Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Hurtado",
+      "fingerprint": "f9047a49238584636910743e8219c2042d73364a",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Hybrid.conf",
+      "original_name": "Hybrid",
+      "profile_id": "kty-hybrid",
+      "visible_name": "KTY Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Hybrid",
+      "fingerprint": "c089a9bb843ff09a1af97a3c954f9aefc2199fa3",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/IC_Green_PPL.conf",
+      "original_name": "IC Green PPL",
+      "profile_id": "kty-ic_green_ppl",
+      "visible_name": "KTY Nocturne Jade \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Neutral \u2014 IC Green PPL",
+      "fingerprint": "681d68b42556583a2fec47efdaa17dba86e1635a",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/IC_Orange_PPL.conf",
+      "original_name": "IC Orange PPL",
+      "profile_id": "kty-ic_orange_ppl",
+      "visible_name": "KTY Nocturne Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 IC Orange PPL",
+      "fingerprint": "3d72df4765ef3b66432e168730f8381bf6091260",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/IR_Black.conf",
+      "original_name": "IR Black",
+      "profile_id": "kty-ir_black",
+      "visible_name": "KTY Neon Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 IR Black",
+      "fingerprint": "80d38c5130a21c7220ae9b86136c22d6ff49a77c",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Jackie_Brown.conf",
+      "original_name": "Jackie Brown",
+      "profile_id": "kty-jackie_brown",
+      "visible_name": "KTY Neon Indigo \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Jackie Brown",
+      "fingerprint": "ea98602dceca9be1706ddf2df1f68fe4030752ad",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Japanesque.conf",
+      "original_name": "Japanesque",
+      "profile_id": "kty-japanesque",
+      "visible_name": "KTY Nocturne Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Japanesque",
+      "fingerprint": "b2971f57398280b42ead79314f6275c37fccad7a",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Jellybeans.conf",
+      "original_name": "Jellybeans",
+      "profile_id": "kty-jellybeans",
+      "visible_name": "KTY Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Jellybeans",
+      "fingerprint": "648b13f4af4ce65e69b699152049dc565961eda2",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/JetBrains_Darcula.conf",
+      "original_name": "JetBrains Darcula",
+      "profile_id": "kty-jetbrains_darcula",
+      "visible_name": "KTY Neon Lime \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 JetBrains Darcula",
+      "fingerprint": "0339fc484238be0ced07aedbebfa6bc2dca05074",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Kibble.conf",
+      "original_name": "Kibble",
+      "profile_id": "kty-kibble",
+      "visible_name": "KTY Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Kibble",
+      "fingerprint": "7bdcd3c62fc9af64e2e2a3168f1b3961539701d8",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Later_This_Evening.conf",
+      "original_name": "Later This Evening",
+      "profile_id": "kty-later_this_evening",
+      "visible_name": "KTY Neon Crimson \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Later This Evening",
+      "fingerprint": "3a88733c340cc26d62f41eeb1da1aa77b87aed47",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Lavandula.conf",
+      "original_name": "Lavandula",
+      "profile_id": "kty-lavandula",
+      "visible_name": "KTY Neon Crimson \u2014 Dark\u00b7LowC\u00b7Muted\u00b7Warm \u2014 Lavandula",
+      "fingerprint": "5b57c22169ec17aff492070c63a095dd0e8f9640",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/LiquidCarbon.conf",
+      "original_name": "LiquidCarbon",
+      "profile_id": "kty-liquidcarbon",
+      "visible_name": "KTY Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 LiquidCarbon",
+      "fingerprint": "b4a7228f76a801bd86721878894d121a7b1920e2",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/LiquidCarbonTransparent.conf",
+      "original_name": "LiquidCarbonTransparent",
+      "profile_id": "kty-liquidcarbontransparent",
+      "visible_name": "KTY Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 LiquidCarbonTransparent",
+      "fingerprint": "2b664b2169c4c38cbbd4e1005a6dbee13f9604d1",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/LiquidCarbonTransparentInverse.conf",
+      "original_name": "LiquidCarbonTransparentInverse",
+      "profile_id": "kty-liquidcarbontransparentinverse",
+      "visible_name": "KTY Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 LiquidCarbonTransparentInverse",
+      "fingerprint": "f85675b970992b69e8e0e5c7ebf6aeb939f7dbc0",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Man_Page.conf",
+      "original_name": "Man Page",
+      "profile_id": "kty-man_page",
+      "visible_name": "KTY Daylight Indigo \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Man Page",
+      "fingerprint": "5c4f9321602b10cd0768f7c397e8b39e17668378",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Material.conf",
+      "original_name": "Material",
+      "profile_id": "kty-material",
+      "visible_name": "KTY Dawn Azure \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Material",
+      "fingerprint": "b6b6a69241681b653c9d6b7eca446a052a35d8ee",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/MaterialDark.conf",
+      "original_name": "MaterialDark",
+      "profile_id": "kty-materialdark",
+      "visible_name": "KTY Nocturne Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 MaterialDark",
+      "fingerprint": "cdb3d36a9c61a08e326a448b72a714602153e798",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Mathias.conf",
+      "original_name": "Mathias",
+      "profile_id": "kty-mathias",
+      "visible_name": "KTY Neon Indigo \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Mathias",
+      "fingerprint": "fc6ee3768a77121bc85194b3cd92520d1cb92f53",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Medallion.conf",
+      "original_name": "Medallion",
+      "profile_id": "kty-medallion",
+      "visible_name": "KTY Nocturne Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Medallion",
+      "fingerprint": "05d155d3ca9898f6198ca553eda7327ce7c68a9a",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Misterioso.conf",
+      "original_name": "Misterioso",
+      "profile_id": "kty-misterioso",
+      "visible_name": "KTY Neon Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Misterioso",
+      "fingerprint": "b6cd752a1a61ba5f6d9de4b1fbb851096e395a8c",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Molokai.conf",
+      "original_name": "Molokai",
+      "profile_id": "kty-molokai",
+      "visible_name": "KTY Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Molokai",
+      "fingerprint": "87e614cc7b563e4501c833080d8d4dcf64f153e1",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/MonaLisa.conf",
+      "original_name": "MonaLisa",
+      "profile_id": "kty-monalisa",
+      "visible_name": "KTY Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 MonaLisa",
+      "fingerprint": "69612053fd2dcc6730cd926e522d912c319046f7",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Monokai.conf",
+      "original_name": "Monokai",
+      "profile_id": "kty-monokai",
+      "visible_name": "KTY Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Monokai",
+      "fingerprint": "c82108ffd8eb744bf32dbb5e3f6768893effe1c4",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Monokai_Classic.conf",
+      "original_name": "Monokai Classic",
+      "profile_id": "kty-monokai_classic",
+      "visible_name": "KTY Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Monokai Classic",
+      "fingerprint": "645f7d717a6166f578c947df495703da2b0ce6a5",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Monokai_Pro.conf",
+      "original_name": "Monokai Pro",
+      "profile_id": "kty-monokai_pro",
+      "visible_name": "KTY Neon Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Monokai Pro",
+      "fingerprint": "75a86b63cf112126d6ac9a740dc12a2cd529d230",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Monokai_Pro_(Filter_Machine).conf",
+      "original_name": "Monokai Pro (Filter Machine)",
+      "profile_id": "kty-monokai_pro_-filter_machine",
+      "visible_name": "KTY Neon Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Monokai Pro (Filter Machine)",
+      "fingerprint": "c108564c5271b5d9b68b7075f6fb203acde9f9a0",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Monokai_Pro_(Filter_Octagon).conf",
+      "original_name": "Monokai Pro (Filter Octagon)",
+      "profile_id": "kty-monokai_pro_-filter_octagon",
+      "visible_name": "KTY Neon Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Monokai Pro (Filter Octagon)",
+      "fingerprint": "ed7c77ebc7f0aad8c52b7966da1463b7dce64225",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Monokai_Pro_(Filter_Ristretto).conf",
+      "original_name": "Monokai Pro (Filter Ristretto)",
+      "profile_id": "kty-monokai_pro_-filter_ristretto",
+      "visible_name": "KTY Neon Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Monokai Pro (Filter Ristretto)",
+      "fingerprint": "528f619faca85d5aaa748185d344559065736036",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Monokai_Pro_(Filter_Spectrum).conf",
+      "original_name": "Monokai Pro (Filter Spectrum)",
+      "profile_id": "kty-monokai_pro_-filter_spectrum",
+      "visible_name": "KTY Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Monokai Pro (Filter Spectrum)",
+      "fingerprint": "7b89ca3bda70bd98c9fc059e5e55d64a19b82aae",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Monokai_Soda.conf",
+      "original_name": "Monokai Soda",
+      "profile_id": "kty-monokai_soda",
+      "visible_name": "KTY Neon Rose \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Monokai Soda",
+      "fingerprint": "de70b0fad93f33103d3f7cf4a79eea486cbc6326",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/N0tch2k.conf",
+      "original_name": "N0tch2k",
+      "profile_id": "kty-n0tch2k",
+      "visible_name": "KTY Nocturne Lime \u2014 Dark\u00b7MedC\u00b7Muted\u00b7Neutral \u2014 N0tch2k",
+      "fingerprint": "b0f2966778cb85da94d1d93f9cc6b37659d66a9e",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Neopolitan.conf",
+      "original_name": "Neopolitan",
+      "profile_id": "kty-neopolitan",
+      "visible_name": "KTY Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Neopolitan",
+      "fingerprint": "4dc3fb0b516bf467bb99e4e269a05f00d917d132",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Neutron.conf",
+      "original_name": "Neutron",
+      "profile_id": "kty-neutron",
+      "visible_name": "KTY Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Neutron",
+      "fingerprint": "c523b781111482fa560493fd0f2e48708ef61d0e",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/NightLion_v1.conf",
+      "original_name": "NightLion v1",
+      "profile_id": "kty-nightlion_v1",
+      "visible_name": "KTY Neon Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 NightLion v1",
+      "fingerprint": "ea4ccb653193a8f54391d2fd2b6950989c1e5f7a",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/NightLion_v2.conf",
+      "original_name": "NightLion v2",
+      "profile_id": "kty-nightlion_v2",
+      "visible_name": "KTY Neon Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 NightLion v2",
+      "fingerprint": "db51bf00fd619e915eefb87cf70c72327106ea28",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Nova.conf",
+      "original_name": "Nova",
+      "profile_id": "kty-nova",
+      "visible_name": "KTY Neon Cyan \u2014 Dark\u00b7LowC\u00b7Vivid\u00b7Cool \u2014 Nova",
+      "fingerprint": "b3f1dd597ff7b988a3c4c565d89448cc02357ed1",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Novel.conf",
+      "original_name": "Novel",
+      "profile_id": "kty-novel",
+      "visible_name": "KTY Daylight Indigo \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Novel",
+      "fingerprint": "ffb2260a34a65ae609690b15cd34f3098ca48170",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Obsidian.conf",
+      "original_name": "Obsidian",
+      "profile_id": "kty-obsidian",
+      "visible_name": "KTY Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Obsidian",
+      "fingerprint": "fe263eef331053444f9ce01a012e68f225b506f6",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Ocean.conf",
+      "original_name": "Ocean",
+      "profile_id": "kty-ocean",
+      "visible_name": "KTY Neon Indigo \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Ocean",
+      "fingerprint": "039f6aa2018a72fd34acd8cda90acb220b91991e",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/OceanicMaterial.conf",
+      "original_name": "OceanicMaterial",
+      "profile_id": "kty-oceanicmaterial",
+      "visible_name": "KTY Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 OceanicMaterial",
+      "fingerprint": "47b13e415dd5565d024e29501f4c8d3880b5a18c",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Ollie.conf",
+      "original_name": "Ollie",
+      "profile_id": "kty-ollie",
+      "visible_name": "KTY Neon Amber \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Ollie",
+      "fingerprint": "8cab101eabd5fb439824a8d238dc30f52b3a56c6",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/OneDark.conf",
+      "original_name": "OneDark",
+      "profile_id": "kty-onedark",
+      "visible_name": "KTY Nocturne Crimson \u2014 Dark\u00b7MedC\u00b7Muted\u00b7Warm \u2014 OneDark",
+      "fingerprint": "fa950db244dd0644cba34c3b382a70f0914972af",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Parasio_Dark.conf",
+      "original_name": "Parasio Dark",
+      "profile_id": "kty-parasio_dark",
+      "visible_name": "KTY Neon Cyan \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Parasio Dark",
+      "fingerprint": "02459d10ffa7c78edff2e3d478e5de69dca31dfe",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/PaulMillr.conf",
+      "original_name": "PaulMillr",
+      "profile_id": "kty-paulmillr",
+      "visible_name": "KTY Neon Rose \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 PaulMillr",
+      "fingerprint": "a46d9beba794c454a86b3b726d8054f0d5661daf",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/PencilDark.conf",
+      "original_name": "PencilDark",
+      "profile_id": "kty-pencildark",
+      "visible_name": "KTY Nocturne Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 PencilDark",
+      "fingerprint": "106552eb9393223c2b4b104069f9a4c62c98f7f0",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/PencilLight.conf",
+      "original_name": "PencilLight",
+      "profile_id": "kty-pencillight",
+      "visible_name": "KTY Dawn Azure \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 PencilLight",
+      "fingerprint": "c1b3860ff93533cf88746bfe39b7292100c6eb6a",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Piatto_Light.conf",
+      "original_name": "Piatto Light",
+      "profile_id": "kty-piatto_light",
+      "visible_name": "KTY Daylight Crimson \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Piatto Light",
+      "fingerprint": "22638b97287afa330676bc5754da0aa62eccd546",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Pnevma.conf",
+      "original_name": "Pnevma",
+      "profile_id": "kty-pnevma",
+      "visible_name": "KTY Neon Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Pnevma",
+      "fingerprint": "529e2e7f54cb2fb37ed3086cf0116f5b5be3972a",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Pro.conf",
+      "original_name": "Pro",
+      "profile_id": "kty-pro",
+      "visible_name": "KTY Neon Indigo \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Pro",
+      "fingerprint": "153480c97a4ef87cc379a94f47b872a3065a475c",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Red_Alert.conf",
+      "original_name": "Red Alert",
+      "profile_id": "kty-red_alert",
+      "visible_name": "KTY Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Red Alert",
+      "fingerprint": "82b5cdd64c315597e1110ccd04cea3291a53aa04",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Red_Sands.conf",
+      "original_name": "Red Sands",
+      "profile_id": "kty-red_sands",
+      "visible_name": "KTY Nocturne Azure \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Red Sands",
+      "fingerprint": "1eb66169d2679602d693313513f431944cdeefb2",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Relaxed_Afterglow.conf",
+      "original_name": "Relaxed Afterglow",
+      "profile_id": "kty-relaxed_afterglow",
+      "visible_name": "KTY Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Relaxed Afterglow",
+      "fingerprint": "b8bb74cb4e6beec9daab8a14689a6dd49d8ebd1f",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Renault_Style.conf",
+      "original_name": "Renault Style",
+      "profile_id": "kty-renault_style",
+      "visible_name": "KTY Neon Indigo \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Renault Style",
+      "fingerprint": "d23c24309d07ec5c1215d7f29b4a87e53233c2f9",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Renault_Style_Light.conf",
+      "original_name": "Renault Style Light",
+      "profile_id": "kty-renault_style_light",
+      "visible_name": "KTY Neon Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Renault Style Light",
+      "fingerprint": "1a3c89eaa7634e255e8575c579c0e05a7f913910",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Rippedcasts.conf",
+      "original_name": "Rippedcasts",
+      "profile_id": "kty-rippedcasts",
+      "visible_name": "KTY Neon Orchid \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Rippedcasts",
+      "fingerprint": "a68f891c718935269a8fc6932e74be484ab0673e",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Royal.conf",
+      "original_name": "Royal",
+      "profile_id": "kty-royal",
+      "visible_name": "KTY Neon Jade \u2014 Dark\u00b7LowC\u00b7Vivid\u00b7Neutral \u2014 Royal",
+      "fingerprint": "46addb97384f89f158802b2b146fdf6f6685660d",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/SeaShells.conf",
+      "original_name": "SeaShells",
+      "profile_id": "kty-seashells",
+      "visible_name": "KTY Neon Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 SeaShells",
+      "fingerprint": "666ea1eac1091f220b650b602f1f1a1f7c91aeac",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Seafoam_Pastel.conf",
+      "original_name": "Seafoam Pastel",
+      "profile_id": "kty-seafoam_pastel",
+      "visible_name": "KTY Neon Cyan \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Seafoam Pastel",
+      "fingerprint": "83a9066ced3aec99559272cab9634bbd12a74d9d",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Seti.conf",
+      "original_name": "Seti",
+      "profile_id": "kty-seti",
+      "visible_name": "KTY Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Seti",
+      "fingerprint": "ccd7cfdd714bec22cb77446b7bbd46c22bfc71d9",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Shaman.conf",
+      "original_name": "Shaman",
+      "profile_id": "kty-shaman",
+      "visible_name": "KTY Neon Azure \u2014 Dark\u00b7LowC\u00b7Vivid\u00b7Cool \u2014 Shaman",
+      "fingerprint": "df8394a2a979d9927b4d10d4ca7469089875b85f",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Slate.conf",
+      "original_name": "Slate",
+      "profile_id": "kty-slate",
+      "visible_name": "KTY Nocturne Cyan \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Slate",
+      "fingerprint": "71b18b61c6e99efb113a52e8ec13c1489493ea4c",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Smyck.conf",
+      "original_name": "Smyck",
+      "profile_id": "kty-smyck",
+      "visible_name": "KTY Neon Lime \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Neutral \u2014 Smyck",
+      "fingerprint": "c727c8af2d0ff617d97d3b2b9eb237dc4f99403e",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/SoftServer.conf",
+      "original_name": "SoftServer",
+      "profile_id": "kty-softserver",
+      "visible_name": "KTY Neon Lime \u2014 Dark\u00b7MedC\u00b7Muted\u00b7Neutral \u2014 SoftServer",
+      "fingerprint": "fc8c9611109baff307e59e2a527897c04448d218",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Solarized_Darcula.conf",
+      "original_name": "Solarized Darcula",
+      "profile_id": "kty-solarized_darcula",
+      "visible_name": "KTY Nocturne Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Solarized Darcula",
+      "fingerprint": "7c9bbf82b83501485605d6c0ec58ec9f7b1e228f",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Solarized_Dark.conf",
+      "original_name": "Solarized Dark",
+      "profile_id": "kty-solarized_dark",
+      "visible_name": "KTY Nocturne Crimson \u2014 Dark\u00b7LowC\u00b7Vivid\u00b7Warm \u2014 Solarized Dark",
+      "fingerprint": "22daf0510fb6e1f15a3b87f2b99fbd1b86816e55",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Solarized_Dark_-_Patched.conf",
+      "original_name": "Solarized Dark - Patched",
+      "profile_id": "kty-solarized_dark_-_patched",
+      "visible_name": "KTY Nocturne Crimson \u2014 Dark\u00b7LowC\u00b7Vivid\u00b7Warm \u2014 Solarized Dark - Patched",
+      "fingerprint": "ac2c83dde5a0df9d505f3405bb1785415206a892",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Solarized_Dark_Higher_Contrast.conf",
+      "original_name": "Solarized Dark Higher Contrast",
+      "profile_id": "kty-solarized_dark_higher_contrast",
+      "visible_name": "KTY Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Solarized Dark Higher Contrast",
+      "fingerprint": "313d839e9577a2aee6fda115a53e65202ccca402",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Solarized_Light.conf",
+      "original_name": "Solarized Light",
+      "profile_id": "kty-solarized_light",
+      "visible_name": "KTY Daylight Azure \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Solarized Light",
+      "fingerprint": "29f3cbc5afb30c911354886b6e23e9b13d2cbfb7",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Source_Code_X.conf",
+      "original_name": "Source Code X",
+      "profile_id": "kty-source_code_x",
+      "visible_name": "KTY Neon Amber \u2014 Dark\u00b7LowC\u00b7Vivid\u00b7Warm \u2014 Source Code X",
+      "fingerprint": "a85a87bfbef5e1000ef07e58a4eae2e6c060a701",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/SpaceGray.conf",
+      "original_name": "SpaceGray",
+      "profile_id": "kty-spacegray",
+      "visible_name": "KTY Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 SpaceGray",
+      "fingerprint": "13b20bcea0fe2d2363f4d2daba89ac3c256a885d",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/SpaceGray_Eighties.conf",
+      "original_name": "SpaceGray Eighties",
+      "profile_id": "kty-spacegray_eighties",
+      "visible_name": "KTY Neon Orchid \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 SpaceGray Eighties",
+      "fingerprint": "c5fd2103a2a78c6122c257b07ad9ebdfe0217261",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/SpaceGray_Eighties_Dull.conf",
+      "original_name": "SpaceGray Eighties Dull",
+      "profile_id": "kty-spacegray_eighties_dull",
+      "visible_name": "KTY Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 SpaceGray Eighties Dull",
+      "fingerprint": "d8438c47752d2825b247a41262ec22f83dd6eb7b",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Spacedust.conf",
+      "original_name": "Spacedust",
+      "profile_id": "kty-spacedust",
+      "visible_name": "KTY Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Spacedust",
+      "fingerprint": "85b9fcb7124e75394bfdebfc9391aa236a355750",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Spiderman.conf",
+      "original_name": "Spiderman",
+      "profile_id": "kty-spiderman",
+      "visible_name": "KTY Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Spiderman",
+      "fingerprint": "b7188f1c391fb0a20b608c02758e58fc06a72829",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Spring.conf",
+      "original_name": "Spring",
+      "profile_id": "kty-spring",
+      "visible_name": "KTY Daylight Crimson \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Spring",
+      "fingerprint": "e7ff4a833e8dfc5ca938d2af016316c08d7a1969",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Square.conf",
+      "original_name": "Square",
+      "profile_id": "kty-square",
+      "visible_name": "KTY Neon Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Square",
+      "fingerprint": "346f6b8a64e005c74f12f5277039ce8e9ab3ca37",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Sundried.conf",
+      "original_name": "Sundried",
+      "profile_id": "kty-sundried",
+      "visible_name": "KTY Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Sundried",
+      "fingerprint": "a7af4bb302d0a2f2a9b91acd3396271df187feb1",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Symfonic.conf",
+      "original_name": "Symfonic",
+      "profile_id": "kty-symfonic",
+      "visible_name": "KTY Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Symfonic",
+      "fingerprint": "f817438411a3e33fb1a4b4d3f518a0f91df68563",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Tango_Dark.conf",
+      "original_name": "Tango Dark",
+      "profile_id": "kty-tango_dark",
+      "visible_name": "KTY Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Tango Dark",
+      "fingerprint": "abb72dd88e32c447cf42793661efee4aa2b149fa",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Tango_Light.conf",
+      "original_name": "Tango Light",
+      "profile_id": "kty-tango_light",
+      "visible_name": "KTY Dawn Cyan \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Tango Light",
+      "fingerprint": "2d5841063da3b5bd8e30359edcd4f1ba869fff4b",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Teerb.conf",
+      "original_name": "Teerb",
+      "profile_id": "kty-teerb",
+      "visible_name": "KTY Neon Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Teerb",
+      "fingerprint": "a4d3b36179d0a8448d8654b60846f519292005b1",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Thayer_Bright.conf",
+      "original_name": "Thayer Bright",
+      "profile_id": "kty-thayer_bright",
+      "visible_name": "KTY Neon Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Thayer Bright",
+      "fingerprint": "b94dbe5093285bd9a89bffb1f69a56b070d557ac",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/The_Hulk.conf",
+      "original_name": "The Hulk",
+      "profile_id": "kty-the_hulk",
+      "visible_name": "KTY Neon Jade \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Neutral \u2014 The Hulk",
+      "fingerprint": "1cf3a67680a54efd3d10e5c2f69ef4042d816717",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Tomorrow.conf",
+      "original_name": "Tomorrow",
+      "profile_id": "kty-tomorrow",
+      "visible_name": "KTY Dawn Lime \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Neutral \u2014 Tomorrow",
+      "fingerprint": "04e2369a3e9a532848840129ef53c03c47e4b5f6",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Tomorrow_Night.conf",
+      "original_name": "Tomorrow Night",
+      "profile_id": "kty-tomorrow_night",
+      "visible_name": "KTY Neon Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Tomorrow Night",
+      "fingerprint": "dcfb9ddc7e888846c57907a925aa6f69f894e2c3",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Tomorrow_Night_Blue.conf",
+      "original_name": "Tomorrow Night Blue",
+      "profile_id": "kty-tomorrow_night_blue",
+      "visible_name": "KTY Neon Cyan \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Tomorrow Night Blue",
+      "fingerprint": "c391804dbba51952455b715d3b5469210780e3b0",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Tomorrow_Night_Bright.conf",
+      "original_name": "Tomorrow Night Bright",
+      "profile_id": "kty-tomorrow_night_bright",
+      "visible_name": "KTY Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Tomorrow Night Bright",
+      "fingerprint": "d94328c44d64ab167f66edac5be6a762a00579e1",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Tomorrow_Night_Eighties.conf",
+      "original_name": "Tomorrow Night Eighties",
+      "profile_id": "kty-tomorrow_night_eighties",
+      "visible_name": "KTY Neon Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Tomorrow Night Eighties",
+      "fingerprint": "92ddf89abd4615b8b33d6c14a6651e5854da1e1a",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/ToyChest.conf",
+      "original_name": "ToyChest",
+      "profile_id": "kty-toychest",
+      "visible_name": "KTY Neon Cyan \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Neutral \u2014 ToyChest",
+      "fingerprint": "529b9a520a835e94b2f7b62ce273c65634cb1d56",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Treehouse.conf",
+      "original_name": "Treehouse",
+      "profile_id": "kty-treehouse",
+      "visible_name": "KTY Neon Amber \u2014 Dark\u00b7LowC\u00b7Vivid\u00b7Warm \u2014 Treehouse",
+      "fingerprint": "8ff427895043f49f07c6807f6330e19ec21396b2",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Twilight.conf",
+      "original_name": "Twilight",
+      "profile_id": "kty-twilight",
+      "visible_name": "KTY Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Twilight",
+      "fingerprint": "2ef052d300f985506ba1cbcb8c955b23aef281f0",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Ubuntu.conf",
+      "original_name": "Ubuntu",
+      "profile_id": "kty-ubuntu",
+      "visible_name": "KTY Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Ubuntu",
+      "fingerprint": "37459a671dc23c20920dfd67794d7336ee21541a",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Urple.conf",
+      "original_name": "Urple",
+      "profile_id": "kty-urple",
+      "visible_name": "KTY Neon Jade \u2014 Dark\u00b7LowC\u00b7Vivid\u00b7Neutral \u2014 Urple",
+      "fingerprint": "2499d38e0323fc6d192f31c4fdc619cbc5f00dbb",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Vaughn.conf",
+      "original_name": "Vaughn",
+      "profile_id": "kty-vaughn",
+      "visible_name": "KTY Neon Indigo \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Vaughn",
+      "fingerprint": "572a74dcc2e9134208417ff25d9a43a99fd39055",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/VibrantInk.conf",
+      "original_name": "VibrantInk",
+      "profile_id": "kty-vibrantink",
+      "visible_name": "KTY Neon Indigo \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 VibrantInk",
+      "fingerprint": "b2534e7300d5e34a648e5fe4710538e41dcc9422",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/WarmNeon.conf",
+      "original_name": "WarmNeon",
+      "profile_id": "kty-warmneon",
+      "visible_name": "KTY Neon Cyan \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 WarmNeon",
+      "fingerprint": "4fe340a013cbd2592e13a334ee13288f0c461762",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Wez.conf",
+      "original_name": "Wez",
+      "profile_id": "kty-wez",
+      "visible_name": "KTY Neon Indigo \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Wez",
+      "fingerprint": "3e1875d230657b57cc8e72ff6d7ab2ad096f3248",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/WildCherry.conf",
+      "original_name": "WildCherry",
+      "profile_id": "kty-wildcherry",
+      "visible_name": "KTY Nocturne Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 WildCherry",
+      "fingerprint": "029d5999a7daaf2a3c4f05c8bbea3ecd3249aee2",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Wombat.conf",
+      "original_name": "Wombat",
+      "profile_id": "kty-wombat",
+      "visible_name": "KTY Neon Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Wombat",
+      "fingerprint": "d07c57802a2185927d492a0c5c7e20b9afb165e7",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Wryan.conf",
+      "original_name": "Wryan",
+      "profile_id": "kty-wryan",
+      "visible_name": "KTY Nocturne Azure \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Wryan",
+      "fingerprint": "8d11ad82f380690d9a8add3e46972f0d525e5cdd",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/Zenburn.conf",
+      "original_name": "Zenburn",
+      "profile_id": "kty-zenburn",
+      "visible_name": "KTY Neon Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Zenburn",
+      "fingerprint": "e84f28a226ce6743b50eacaf8abc57e7e18f4617",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/ayu.conf",
+      "original_name": "ayu",
+      "profile_id": "kty-ayu",
+      "visible_name": "KTY Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 ayu",
+      "fingerprint": "8474810754f7dd4dfa35092f723bd4319e24203f",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/ayu_light.conf",
+      "original_name": "ayu light",
+      "profile_id": "kty-ayu_light",
+      "visible_name": "KTY Daylight Lime \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Neutral \u2014 ayu light",
+      "fingerprint": "f9a0d89be14f762dfa08f0a66f1ce7af51d59a39",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/ayu_mirage.conf",
+      "original_name": "ayu mirage",
+      "profile_id": "kty-ayu_mirage",
+      "visible_name": "KTY Neon Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 ayu mirage",
+      "fingerprint": "fabd49b1d26fd425c1f39d9a15fc9482213cc563",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/gruvbox_dark.conf",
+      "original_name": "gruvbox dark",
+      "profile_id": "kty-gruvbox_dark",
+      "visible_name": "KTY Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 gruvbox dark",
+      "fingerprint": "fbd56c85a0007d007b0539d04c56a876a1c0f742",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/gruvbox_light.conf",
+      "original_name": "gruvbox light",
+      "profile_id": "kty-gruvbox_light",
+      "visible_name": "KTY Dawn Crimson \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 gruvbox light",
+      "fingerprint": "53bfbe73f71d9d1e39db8deccd251e84f8210d09",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/idleToes.conf",
+      "original_name": "idleToes",
+      "profile_id": "kty-idletoes",
+      "visible_name": "KTY Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 idleToes",
+      "fingerprint": "2bdcd865a13480ddd3b931d89e421f7f4d5293a6",
+      "duplicate_of": null
+    },
+    {
+      "source": "dexpota/kitty-themes",
+      "source_path": "/tmp/mateswatch-sources/kitty-themes/themes/snazzy.conf",
+      "original_name": "snazzy",
+      "profile_id": "kty-snazzy",
+      "visible_name": "KTY Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 snazzy",
+      "fingerprint": "76b1acf11575936b03c2f6855257343c14caf157",
+      "duplicate_of": null
+    }
+  ]
+}

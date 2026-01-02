@@ -1,0 +1,9 @@
+[/]
+visible-name='WZT Nocturne Cyan — Dark·MedC·Vivid·Neutral — Marrakesh (base16)'
+use-theme-colors=false
+foreground-color='#94948E8E4848'
+background-color='#202016160202'
+bold-color-same-as-fg=true
+bold-color='#94948E8E4848'
+cursor-color='#948e48'
+palette='#202016160202:#C3C353535959:#181897974E4E:#A8A883833939:#47477C7CA1A1:#88886868B3B3:#7575A7A73838:#94948E8E4848:#6C6C68682323:#C3C353535959:#181897974E4E:#A8A883833939:#47477C7CA1A1:#88886868B3B3:#7575A7A73838:#FAFAF0F0A5A5'

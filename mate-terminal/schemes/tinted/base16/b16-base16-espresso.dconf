@@ -1,0 +1,9 @@
+[/]
+visible-name='B16 Neon Crimson — Dark·HighC·Muted·Warm — Espresso'
+use-theme-colors=false
+foreground-color='#CCCCCCCCCCCC'
+background-color='#2D2D2D2D2D2D'
+bold-color-same-as-fg=true
+bold-color='#CCCCCCCCCCCC'
+cursor-color='#cccccc'
+palette='#2D2D2D2D2D2D:#D2D252525252:#A5A5C2C26161:#FFFFC6C66D6D:#6C6C9999BBBB:#D1D19797D9D9:#BEBED6D6FFFF:#CCCCCCCCCCCC:#777777777777:#D2D252525252:#A5A5C2C26161:#FFFFC6C66D6D:#6C6C9999BBBB:#D1D19797D9D9:#BEBED6D6FFFF:#FFFFFFFFFFFF'

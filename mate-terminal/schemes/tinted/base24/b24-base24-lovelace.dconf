@@ -1,0 +1,9 @@
+[/]
+visible-name='B24 Neon Cyan — Dark·HighC·Vivid·Cool — Lovelace'
+use-theme-colors=false
+foreground-color='#CECECECED3D3'
+background-color='#1D1D1F1F2828'
+bold-color-same-as-fg=true
+bold-color='#CECECECED3D3'
+cursor-color='#ceced3'
+palette='#1D1D1F1F2828:#F3F37F7F9797:#5A5ADEDECDCD:#55556F6FFFFF:#88889797F4F4:#C5C57474DDDD:#7979E6E6F3F3:#CECECECED3D3:#707072728181:#FFFF49497171:#1818E3E3C8C8:#FFFF80803737:#55556F6FFFFF:#B0B04343D1D1:#3F3FDCDCEEEE:#BEBEBEBEC1C1'

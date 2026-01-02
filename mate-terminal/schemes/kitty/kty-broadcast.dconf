@@ -1,0 +1,9 @@
+[/]
+visible-name='KTY Neon Crimson — Dark·HighC·Muted·Warm — Broadcast'
+use-theme-colors=false
+foreground-color='#E5E5E1E1DBDB'
+background-color='#2B2B2B2B2B2B'
+bold-color-same-as-fg=true
+bold-color='#E5E5E1E1DBDB'
+cursor-color='#e5e1db'
+palette='#000000000000:#DADA48483939:#50509F9F5050:#FFFFD2D24949:#6D6D9C9CBDBD:#CFCFCFCFFFFF:#6D6D9C9CBDBD:#FFFFFFFFFFFF:#323232323232:#FFFF7B7B6A6A:#8383D0D08282:#FFFFFFFF7B7B:#9F9FCECEF0F0:#FFFFFFFFFFFF:#A0A0CECEF0F0:#FFFFFFFFFFFF'

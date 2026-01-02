@@ -1,0 +1,9 @@
+[/]
+visible-name='B24 Neon Crimson — Dark·MedC·Vivid·Warm — Cobalt Neon'
+use-theme-colors=false
+foreground-color='#CCCC7272A6A6'
+background-color='#141428283838'
+bold-color-same-as-fg=true
+bold-color='#CCCC7272A6A6'
+cursor-color='#cc72a6'
+palette='#141428283838:#FFFF23232020:#3A3AA5A5FFFF:#3C3C7D7DD2D2:#8F8FF5F58686:#78781A1AA0A0:#8F8FF5F58686:#CCCC7272A6A6:#EEEECACA9292:#D4D431312E2E:#8F8FF5F58686:#E9E9F0F06D6D:#3C3C7D7DD2D2:#82823030A7A7:#6C6CBCBC6767:#8F8FF5F58686'

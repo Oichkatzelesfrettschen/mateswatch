@@ -1,0 +1,9 @@
+[/]
+visible-name='WZT Dawn Crimson — Light·HighC·Muted·Warm — Grayscale (light) (terminal.sexy)'
+use-theme-colors=false
+foreground-color='#464646464646'
+background-color='#F7F7F7F7F7F7'
+bold-color-same-as-fg=true
+bold-color='#464646464646'
+cursor-color='#464646'
+palette='#101010101010:#7C7C7C7C7C7C:#8E8E8E8E8E8E:#A0A0A0A0A0A0:#686868686868:#747474747474:#868686868686:#B9B9B9B9B9B9:#525252525252:#7C7C7C7C7C7C:#8E8E8E8E8E8E:#A0A0A0A0A0A0:#686868686868:#747474747474:#868686868686:#F7F7F7F7F7F7'

@@ -1,0 +1,9 @@
+[/]
+visible-name='B24 Neon Amber — Dark·MedC·Vivid·Warm — Desert'
+use-theme-colors=false
+foreground-color='#CDCDBBBB9B9B'
+background-color='#333333333333'
+bold-color-same-as-fg=true
+bold-color='#CDCDBBBB9B9B'
+cursor-color='#cdbb9b'
+palette='#333333333333:#FFFF2B2B2B2B:#9898FBFB9898:#8787CECEFFFF:#CDCD85853F3F:#FFFFDEDEADAD:#FFFFA0A0A0A0:#CDCDBBBB9B9B:#7D7D77776C6C:#FFFF55555555:#5555FFFF5555:#FFFFFFFF5555:#8787CECEFFFF:#FFFF5555FFFF:#FFFFD7D70000:#FFFFFFFFFFFF'

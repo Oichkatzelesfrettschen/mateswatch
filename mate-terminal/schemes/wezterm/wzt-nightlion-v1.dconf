@@ -1,0 +1,9 @@
+[/]
+visible-name='WZT Neon Cyan — Dark·HighC·Vivid·Cool — NightLion v1'
+use-theme-colors=false
+foreground-color='#BBBBBBBBBBBB'
+background-color='#000000000000'
+bold-color-same-as-fg=true
+bold-color='#BBBBBBBBBBBB'
+cursor-color='#bbbbbb'
+palette='#4C4C4C4C4C4C:#BBBB00000000:#5F5FDEDE8F8F:#F3F3F1F16767:#27276B6BD8D8:#BBBB0000BBBB:#0000DADADFDF:#BBBBBBBBBBBB:#555555555555:#FFFF55555555:#5555FFFF5555:#FFFFFFFF5555:#55555555FFFF:#FFFF5555FFFF:#5555FFFFFFFF:#FFFFFFFFFFFF'

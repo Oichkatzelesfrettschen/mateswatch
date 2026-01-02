@@ -1,0 +1,51 @@
+{
+  "type_code": "KON",
+  "count": 5,
+  "entries": [
+    {
+      "source": "konsole .colorscheme",
+      "source_path": "/tmp/mateswatch-sources/brands/dracula-konsole/Dracula.colorscheme",
+      "original_name": "Dracula",
+      "profile_id": "kon-dracula",
+      "visible_name": "KON Neon Jade \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Neutral \u2014 Dracula",
+      "fingerprint": "78ad3403800c11b9aad23a98ff0c3010c8df5a1d",
+      "duplicate_of": null
+    },
+    {
+      "source": "konsole .colorscheme",
+      "source_path": "/tmp/mateswatch-sources/brands/catppuccin-konsole/themes/catppuccin-frappe.colorscheme",
+      "original_name": "Catppuccin Frapp\u00e9",
+      "profile_id": "kon-catppuccin-frapp",
+      "visible_name": "KON Neon Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Catppuccin Frapp\u00e9",
+      "fingerprint": "765f0949edd4247e7785fe234a902d151620dfba",
+      "duplicate_of": null
+    },
+    {
+      "source": "konsole .colorscheme",
+      "source_path": "/tmp/mateswatch-sources/brands/catppuccin-konsole/themes/catppuccin-latte.colorscheme",
+      "original_name": "Catppuccin Latte",
+      "profile_id": "kon-catppuccin-latte",
+      "visible_name": "KON Daylight Azure \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Catppuccin Latte",
+      "fingerprint": "1e889884efdd51738cce75b9c8bc83acce5605ec",
+      "duplicate_of": null
+    },
+    {
+      "source": "konsole .colorscheme",
+      "source_path": "/tmp/mateswatch-sources/brands/catppuccin-konsole/themes/catppuccin-macchiato.colorscheme",
+      "original_name": "Catppuccin Macchiato",
+      "profile_id": "kon-catppuccin-macchiato",
+      "visible_name": "KON Neon Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Catppuccin Macchiato",
+      "fingerprint": "cfb00c11deed7e50e07af17f6e0bdf0b6adeee4e",
+      "duplicate_of": null
+    },
+    {
+      "source": "konsole .colorscheme",
+      "source_path": "/tmp/mateswatch-sources/brands/catppuccin-konsole/themes/catppuccin-mocha.colorscheme",
+      "original_name": "Catppuccin Mocha",
+      "profile_id": "kon-catppuccin-mocha",
+      "visible_name": "KON Neon Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Catppuccin Mocha",
+      "fingerprint": "b8a2a3a8233e8733eaf4c1724c21ecf386842702",
+      "duplicate_of": null
+    }
+  ]
+}

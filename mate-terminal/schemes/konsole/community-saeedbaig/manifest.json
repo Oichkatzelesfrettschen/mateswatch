@@ -1,0 +1,33 @@
+{
+  "type_code": "KON",
+  "count": 3,
+  "entries": [
+    {
+      "source": "konsole .colorscheme",
+      "source_path": "/tmp/mateswatch-sources/konsole-community/sandy-konsole/Sandy.colorscheme",
+      "original_name": "Sandy",
+      "profile_id": "kon-sandy",
+      "visible_name": "KON Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Sandy",
+      "fingerprint": "fc85c0825d32081b295641b70ac9cef8c57c5312",
+      "duplicate_of": null
+    },
+    {
+      "source": "konsole .colorscheme",
+      "source_path": "/tmp/mateswatch-sources/konsole-community/mystic-konsole/Mystic.colorscheme",
+      "original_name": "Mystic",
+      "profile_id": "kon-mystic",
+      "visible_name": "KON Neon Indigo \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Mystic",
+      "fingerprint": "a590bedf78488f17d8547a3c92a0732a80f97773",
+      "duplicate_of": null
+    },
+    {
+      "source": "konsole .colorscheme",
+      "source_path": "/tmp/mateswatch-sources/konsole-community/stone-red-konsole/Stone-Red.colorscheme",
+      "original_name": "Stone Red",
+      "profile_id": "kon-stone-red",
+      "visible_name": "KON Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Stone Red",
+      "fingerprint": "1f988b94ec3ac219dbe8b689cbaa0d2a8c388901",
+      "duplicate_of": null
+    }
+  ]
+}

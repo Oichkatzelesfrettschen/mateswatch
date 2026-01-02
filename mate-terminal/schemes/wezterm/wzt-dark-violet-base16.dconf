@@ -1,0 +1,9 @@
+[/]
+visible-name='WZT Neon Orchid — Dark·HighC·Vivid·Neutral — Dark Violet (base16)'
+use-theme-colors=false
+foreground-color='#B0B08A8AE6E6'
+background-color='#000000000000'
+bold-color-same-as-fg=true
+bold-color='#B0B08A8AE6E6'
+cursor-color='#b08ae6'
+palette='#000000000000:#A8A82E2EE6E6:#45459595E6E6:#F2F29D9DF2F2:#41413636D9D9:#7E7E5C5CE6E6:#4040DFDFFFFF:#B0B08A8AE6E6:#595933338080:#A8A82E2EE6E6:#45459595E6E6:#F2F29D9DF2F2:#41413636D9D9:#7E7E5C5CE6E6:#4040DFDFFFFF:#A3A36666FFFF'

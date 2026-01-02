@@ -1,0 +1,9 @@
+[/]
+visible-name='WZT Neon Azure — Dark·HighC·Vivid·Cool — Purpledream (base16)'
+use-theme-colors=false
+foreground-color='#DDDDD0D0DDDD'
+background-color='#101005051010'
+bold-color-same-as-fg=true
+bold-color='#DDDDD0D0DDDD'
+cursor-color='#ddd0dd'
+palette='#101005051010:#FFFF1D1D0D0D:#1414CCCC6464:#F0F00000A0A0:#0000A0A0F0F0:#B0B00000D0D0:#00007575B0B0:#DDDDD0D0DDDD:#606050506060:#FFFF1D1D0D0D:#1414CCCC6464:#F0F00000A0A0:#0000A0A0F0F0:#B0B00000D0D0:#00007575B0B0:#FFFFF0F0FFFF'

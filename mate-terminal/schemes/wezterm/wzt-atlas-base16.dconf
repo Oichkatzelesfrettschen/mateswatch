@@ -1,0 +1,9 @@
+[/]
+visible-name='WZT Neon Amber — Dark·MedC·Vivid·Warm — Atlas (base16)'
+use-theme-colors=false
+foreground-color='#A1A1A1A19A9A'
+background-color='#000026263535'
+bold-color-same-as-fg=true
+bold-color='#A1A1A1A19A9A'
+cursor-color='#a1a19a'
+palette='#000026263535:#FFFF5A5A6767:#7F7FC0C06E6E:#FFFFCCCC1B1B:#141474747E7E:#9A9A7070A4A4:#5D5DD7D7B9B9:#A1A1A1A19A9A:#6C6C8B8B9191:#FFFF5A5A6767:#7F7FC0C06E6E:#FFFFCCCC1B1B:#141474747E7E:#9A9A7070A4A4:#5D5DD7D7B9B9:#FAFAFAFAF8F8'

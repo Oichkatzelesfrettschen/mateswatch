@@ -1,0 +1,9 @@
+[/]
+visible-name='WZT Neon Crimson — Dark·HighC·Vivid·Warm — Seti UI (base16)'
+use-theme-colors=false
+foreground-color='#D6D6D6D6D6D6'
+background-color='#151517171818'
+bold-color-same-as-fg=true
+bold-color='#D6D6D6D6D6D6'
+cursor-color='#d6d6d6'
+palette='#151517171818:#CDCD3F3F4545:#9F9FCACA5656:#E6E6CDCD6969:#5555B5B5DBDB:#A0A07474C4C4:#5555DBDBBEBE:#D6D6D6D6D6D6:#414153535B5B:#CDCD3F3F4545:#9F9FCACA5656:#E6E6CDCD6969:#5555B5B5DBDB:#A0A07474C4C4:#5555DBDBBEBE:#FFFFFFFFFFFF'

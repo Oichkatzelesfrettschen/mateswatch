@@ -1,0 +1,9 @@
+[/]
+visible-name='WZT Neon Cyan — Dark·HighC·Vivid·Cool — Chalk (base16)'
+use-theme-colors=false
+foreground-color='#D0D0D0D0D0D0'
+background-color='#151515151515'
+bold-color-same-as-fg=true
+bold-color='#D0D0D0D0D0D0'
+cursor-color='#d0d0d0'
+palette='#151515151515:#FBFB9F9FB1B1:#ACACC2C26767:#DDDDB2B26F6F:#6F6FC2C2EFEF:#E1E1A3A3EEEE:#1212CFCFC0C0:#D0D0D0D0D0D0:#505050505050:#FBFB9F9FB1B1:#ACACC2C26767:#DDDDB2B26F6F:#6F6FC2C2EFEF:#E1E1A3A3EEEE:#1212CFCFC0C0:#F5F5F5F5F5F5'

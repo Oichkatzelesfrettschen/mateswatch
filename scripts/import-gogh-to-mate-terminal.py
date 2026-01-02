@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 import argparse
 import json
-import os
-import re
 import subprocess
 import sys
 from dataclasses import dataclass
@@ -10,9 +8,7 @@ from pathlib import Path
 
 import yaml
 
-
-SAFE_ID = re.compile(r"[^a-z0-9._+-]+")
-HEX_RGB8 = re.compile(r"^#[0-9a-fA-F]{6}$")
+from theme_common import color_to_rgb16, color_to_rgb8, dconf_quote, fingerprint, format_visible_name, slugify
 
 
 @dataclass(frozen=True)
@@ -37,27 +33,6 @@ def run(cmd: list[str], *, cwd: Path | None = None) -> subprocess.CompletedProce
     )
 
 
-def dconf_quote(value: str) -> str:
-    return "'" + value.replace("\\", "\\\\").replace("'", "\\'") + "'"
-
-
-def color_to_rgb16(color: str) -> str:
-    if not HEX_RGB8.match(color):
-        raise ValueError(f"expected #RRGGBB, got {color!r}")
-    r = color[1:3]
-    g = color[3:5]
-    b = color[5:7]
-    return f"#{r}{r}{g}{g}{b}{b}".upper()
-
-
-def normalize_profile_id(prefix: str, stem: str) -> str:
-    s = stem.lower()
-    s = SAFE_ID.sub("-", s).strip("-")
-    if not s:
-        s = "unnamed"
-    return f"{prefix}{s}"
-
-
 def load_theme(path: Path) -> GoghTheme:
     data = yaml.safe_load(path.read_text(encoding="utf-8"))
     if not isinstance(data, dict):
@@ -70,16 +45,16 @@ def load_theme(path: Path) -> GoghTheme:
     foreground = str(data.get("foreground") or "").strip()
     cursor = str(data.get("cursor") or foreground or "").strip()
 
-    if not (HEX_RGB8.match(background) and HEX_RGB8.match(foreground) and HEX_RGB8.match(cursor)):
-        raise ValueError(f"{path}: invalid background/foreground/cursor color")
+    # Validate formats by normalizing to rgb8.
+    background = color_to_rgb8(background)
+    foreground = color_to_rgb8(foreground)
+    cursor = color_to_rgb8(cursor)
 
     palette = []
     for i in range(1, 17):
         key = f"color_{i:02d}"
         value = str(data.get(key) or "").strip()
-        if not HEX_RGB8.match(value):
-            raise ValueError(f"{path}: invalid {key}={value!r}")
-        palette.append(value)
+        palette.append(color_to_rgb8(value))
 
     return GoghTheme(
         name=name,
@@ -93,6 +68,7 @@ def load_theme(path: Path) -> GoghTheme:
 
 
 def generate_mate_profile_dconf(profile_id: str, visible_name: str, theme: GoghTheme) -> str:
+    # Keep Gogh's explicit cursor color (some schemes use non-fg cursors).
     lines = [
         "[/]",
         f"visible-name={dconf_quote(visible_name)}",
@@ -101,7 +77,7 @@ def generate_mate_profile_dconf(profile_id: str, visible_name: str, theme: GoghT
         f"background-color={dconf_quote(color_to_rgb16(theme.background))}",
         "bold-color-same-as-fg=true",
         f"bold-color={dconf_quote(color_to_rgb16(theme.foreground))}",
-        f"cursor-color={dconf_quote(theme.cursor.lower())}",
+        f"cursor-color={dconf_quote(color_to_rgb8(theme.cursor))}",
         f"palette={dconf_quote(':'.join(color_to_rgb16(c) for c in theme.palette))}",
         "",
     ]
@@ -144,15 +120,16 @@ def main() -> int:
     for theme_file in theme_files:
         theme = load_theme(theme_file)
         stem = theme_file.stem
-        profile_id = normalize_profile_id(args.prefix, stem)
+        profile_id = f"{args.prefix}{slugify(stem)}"
         label = theme.name
         if theme.variant:
             label = f"{label} ({theme.variant})"
-        visible_name = f"Gogh: {label}"
+        visible_name = format_visible_name("GOG", label, theme.background, theme.foreground, theme.palette)
 
         out_path = output_dir / f"{profile_id}.dconf"
         out_path.write_text(generate_mate_profile_dconf(profile_id, visible_name, theme), encoding="utf-8")
 
+        fp = fingerprint(theme.background, theme.foreground, theme.palette)
         manifest["themes"].append(
             {
                 "file": theme_file.name,
@@ -160,6 +137,8 @@ def main() -> int:
                 "variant": theme.variant,
                 "author": theme.author,
                 "profile_id": profile_id,
+                "visible_name": visible_name,
+                "fingerprint": fp,
                 "output": str(out_path),
             }
         )
@@ -175,4 +154,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

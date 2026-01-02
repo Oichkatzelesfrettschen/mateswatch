@@ -1,0 +1,9 @@
+[/]
+visible-name='B16 Daylight Cyan — Light·MedC·Vivid·Cool — DanQing Light'
+use-theme-colors=false
+foreground-color='#5A5A60605D5D'
+background-color='#FCFCFEFEFDFD'
+bold-color-same-as-fg=true
+bold-color='#5A5A60605D5D'
+cursor-color='#5a605d'
+palette='#FCFCFEFEFDFD:#F9F990906F6F:#8A8AB3B36161:#F0F0C2C23939:#B0B0A4A4E3E3:#CCCCA4A4E3E3:#3030DFDFF3F3:#5A5A60605D5D:#CACAD8D8D2D2:#F9F990906F6F:#8A8AB3B36161:#F0F0C2C23939:#B0B0A4A4E3E3:#CCCCA4A4E3E3:#3030DFDFF3F3:#2D2D30302F2F'

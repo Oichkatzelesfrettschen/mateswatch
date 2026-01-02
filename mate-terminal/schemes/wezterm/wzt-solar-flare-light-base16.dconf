@@ -1,0 +1,9 @@
+[/]
+visible-name='WZT Daylight Amber — Light·MedC·Vivid·Warm — Solar Flare Light (base16)'
+use-theme-colors=false
+foreground-color='#585868687575'
+background-color='#F5F5F7F7FAFA'
+bold-color-same-as-fg=true
+bold-color='#585868687575'
+cursor-color='#586875'
+palette='#F5F5F7F7FAFA:#EFEF52525353:#7C7CC8C84444:#E4E4B5B51C1C:#3333B5B5E1E1:#A3A36363D5D5:#5252CBCBB0B0:#585868687575:#858593939E9E:#EFEF52525353:#7C7CC8C84444:#E4E4B5B51C1C:#3333B5B5E1E1:#A3A36363D5D5:#5252CBCBB0B0:#181826262F2F'

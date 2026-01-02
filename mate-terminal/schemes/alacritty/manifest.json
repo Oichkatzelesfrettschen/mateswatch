@@ -1,0 +1,2086 @@
+{
+  "source_repo": "https://github.com/rajasegar/alacritty-themes",
+  "type_code": "ALA",
+  "count": 231,
+  "entries": [
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/3024.dark.toml",
+      "original_name": "3024 (dark)",
+      "profile_id": "ala-3024.dark",
+      "visible_name": "ALA Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 3024 (dark)",
+      "fingerprint": "e291c49af36e5f0b8c6878566fe43a2a35a2fa03",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/3024.light.toml",
+      "original_name": "3024 (light)",
+      "profile_id": "ala-3024.light",
+      "visible_name": "ALA Daylight Azure \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 3024 (light)",
+      "fingerprint": "966c890be69762f206523c7ed953291d57d484f7",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Afterglow.toml",
+      "original_name": "Afterglow",
+      "profile_id": "ala-afterglow",
+      "visible_name": "ALA Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Afterglow",
+      "fingerprint": "d907268046d2860cb22d57ec19e6cbfbaef6696e",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Alabaster.dark.toml",
+      "original_name": "Alabaster (dark)",
+      "profile_id": "ala-alabaster.dark",
+      "visible_name": "ALA Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Alabaster (dark)",
+      "fingerprint": "b44716a6bad0bae63bc2a485c31f8cd40dfc6741",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Alabaster.toml",
+      "original_name": "Alabaster",
+      "profile_id": "ala-alabaster",
+      "visible_name": "ALA Daylight Azure \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Alabaster",
+      "fingerprint": "fee0b8ea0dc776cdbb484abd7c952d5b5933deb9",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Argonaut.toml",
+      "original_name": "Argonaut",
+      "profile_id": "ala-argonaut",
+      "visible_name": "ALA Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Argonaut",
+      "fingerprint": "65ff7b15f51a55fe3461d259681ecc97ea139056",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Ashes.dark.toml",
+      "original_name": "Ashes (dark)",
+      "profile_id": "ala-ashes.dark",
+      "visible_name": "ALA Nocturne Orchid \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Neutral \u2014 Ashes (dark)",
+      "fingerprint": "bf57e602f793f1fd5fafffbc97fa5de17303fa05",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Ashes.light.toml",
+      "original_name": "Ashes (light)",
+      "profile_id": "ala-ashes.light",
+      "visible_name": "ALA Dawn Orchid \u2014 Light\u00b7MedC\u00b7Muted\u00b7Neutral \u2014 Ashes (light)",
+      "fingerprint": "6055a2ac58df0a183368b5acf9ee67b3cbb19f6b",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Astromouse.toml",
+      "original_name": "astromouse",
+      "profile_id": "ala-astromouse",
+      "visible_name": "ALA Nocturne Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 astromouse",
+      "fingerprint": "63c96460b14d122ed4cab7feeba7707e8e24ac50",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Atelierdune.dark.toml",
+      "original_name": "Atelierdune (dark)",
+      "profile_id": "ala-atelierdune.dark",
+      "visible_name": "ALA Neon Amber \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Atelierdune (dark)",
+      "fingerprint": "e04e0701824e6cce1609ddb233a3d691fcbda10d",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Atelierdune.light.toml",
+      "original_name": "Atelierdune (light)",
+      "profile_id": "ala-atelierdune.light",
+      "visible_name": "ALA Daylight Amber \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Atelierdune (light)",
+      "fingerprint": "fa0a022f30bb130015568a3e4e89e93b6c1fa24a",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Atelierforest.dark.toml",
+      "original_name": "Atelierforest (dark)",
+      "profile_id": "ala-atelierforest.dark",
+      "visible_name": "ALA Nocturne Cyan \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Atelierforest (dark)",
+      "fingerprint": "cd9e8797762288d999d357775cfe8b9cb16f84ea",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Atelierforest.light.toml",
+      "original_name": "Atelierforest (light)",
+      "profile_id": "ala-atelierforest.light",
+      "visible_name": "ALA Dawn Cyan \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Atelierforest (light)",
+      "fingerprint": "8ec257eb1b4946ccb7936d8b45db667bb8699edf",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Atelierheath.dark.toml",
+      "original_name": "Atelierheath (dark)",
+      "profile_id": "ala-atelierheath.dark",
+      "visible_name": "ALA Nocturne Cyan \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Atelierheath (dark)",
+      "fingerprint": "44a186b90195e5fe48b1de6a45f909b8f020bfdc",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Atelierheath.light.toml",
+      "original_name": "Atelierheath (light)",
+      "profile_id": "ala-atelierheath.light",
+      "visible_name": "ALA Dawn Cyan \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Atelierheath (light)",
+      "fingerprint": "cd349f4f7a364da95411fcb30eb6e95958db07ef",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Atelierlakeside.dark.toml",
+      "original_name": "Atelierlakeside (dark)",
+      "profile_id": "ala-atelierlakeside.dark",
+      "visible_name": "ALA Nocturne Lime \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Atelierlakeside (dark)",
+      "fingerprint": "38485f86859fc332c8deb55fe285a438d4ebcad4",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Atelierlakeside.light.toml",
+      "original_name": "Atelierlakeside (light)",
+      "profile_id": "ala-atelierlakeside.light",
+      "visible_name": "ALA Dawn Lime \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Atelierlakeside (light)",
+      "fingerprint": "7f776d6bae0bd7498f4a2613100063d8db72e0da",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Atelierseaside.dark.toml",
+      "original_name": "Atelierseaside (dark)",
+      "profile_id": "ala-atelierseaside.dark",
+      "visible_name": "ALA Neon Crimson \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Atelierseaside (dark)",
+      "fingerprint": "5292e88c3d3a09675165d01f9b3bd2f740e05912",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Atelierseaside.light.toml",
+      "original_name": "Atelierseaside (light)",
+      "profile_id": "ala-atelierseaside.light",
+      "visible_name": "ALA Daylight Crimson \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Atelierseaside (light)",
+      "fingerprint": "8cf38973660b440ad1aaaf0485d6c9ff8505b1a9",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Ayu-Dark.toml",
+      "original_name": "Ayu-Dark",
+      "profile_id": "ala-ayu-dark",
+      "visible_name": "ALA Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Ayu-Dark",
+      "fingerprint": "030a65c3f96a2880352a158be9e76a0c163024d1",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Ayu-Mirage.toml",
+      "original_name": "Ayu-Mirage",
+      "profile_id": "ala-ayu-mirage",
+      "visible_name": "ALA Neon Cyan \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Ayu-Mirage",
+      "fingerprint": "b5701662bc44d6d568ef58a31bb7aa58f40414ee",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Base16-Default-Dark.toml",
+      "original_name": "Base16-Default-Dark",
+      "profile_id": "ala-base16-default-dark",
+      "visible_name": "ALA Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Base16-Default-Dark",
+      "fingerprint": "bdc6a13ae63908773cd5b11d99289b3a86d72b5b",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Baskerville - Count Von Count.toml",
+      "original_name": "Count Von Count",
+      "profile_id": "ala-baskerville---count-von-count",
+      "visible_name": "ALA Nocturne Crimson \u2014 Dark\u00b7MedC\u00b7Muted\u00b7Warm \u2014 Count Von Count",
+      "fingerprint": "cc41a75e3105d0e6b81bc457b7d43fcffe327ecb",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Baskerville - Eldorado dark.toml",
+      "original_name": "Eldorado dark",
+      "profile_id": "ala-baskerville---eldorado-dark",
+      "visible_name": "ALA Nocturne Cyan \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Eldorado dark",
+      "fingerprint": "0aa97c17080598acfdd1917f3147ad1ef6e9b9b7",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Baskerville - FarSide.toml",
+      "original_name": "FarSide",
+      "profile_id": "ala-baskerville---farside",
+      "visible_name": "ALA Nocturne Azure \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 FarSide",
+      "fingerprint": "98e55b67d41c399b6b059b3a09de54f21cd989ba",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Baskerville - ivory dark.toml",
+      "original_name": "Ivory Dark",
+      "profile_id": "ala-baskerville---ivory-dark",
+      "visible_name": "ALA Nocturne Cyan \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Ivory Dark",
+      "fingerprint": "9b397ea7d9c1b81532740c1f717b04df891f84de",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Baskerville - lost woods.toml",
+      "original_name": "Lost Woods",
+      "profile_id": "ala-baskerville---lost-woods",
+      "visible_name": "ALA Neon Cyan \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Lost Woods",
+      "fingerprint": "12f0cf7bb57f81848cc112ea136ccf6aa84aa4f4",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Baskerville-ivorylight.toml",
+      "original_name": "Ivory Light",
+      "profile_id": "ala-baskerville-ivorylight",
+      "visible_name": "ALA Dawn Azure \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Ivory Light",
+      "fingerprint": "44ea17bee6c924df10e9c29240b386ab0a863965",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Belge.toml",
+      "original_name": "Belge",
+      "profile_id": "ala-belge",
+      "visible_name": "ALA Nocturne Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Belge",
+      "fingerprint": "7711ded2ed7beae912a970f66dad260820a00d6b",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Bespin.dark.toml",
+      "original_name": "Bespin (dark)",
+      "profile_id": "ala-bespin.dark",
+      "visible_name": "ALA Nocturne Jade \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Neutral \u2014 Bespin (dark)",
+      "fingerprint": "b50d8874ed028299702742dec44d31fd0528fdfc",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Bespin.light.toml",
+      "original_name": "Bespin (light)",
+      "profile_id": "ala-bespin.light",
+      "visible_name": "ALA Dawn Jade \u2014 Light\u00b7LowC\u00b7Vivid\u00b7Neutral \u2014 Bespin (light)",
+      "fingerprint": "400409154ab9ee6bbfb635a59c7cff2b03035202",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Bitmute.toml",
+      "original_name": "Bitmute",
+      "profile_id": "ala-bitmute",
+      "visible_name": "ALA Nocturne Lime \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Bitmute",
+      "fingerprint": "905d4cf1a7e1ebea5df37573111f7b39aca3f84e",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Bleh-1.toml",
+      "original_name": "Bleh-1",
+      "profile_id": "ala-bleh-1",
+      "visible_name": "ALA Nocturne Rose \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Bleh-1",
+      "fingerprint": "112e40a0eea216c3d76b522f764267a32aaa4a61",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Blood-Moon.toml",
+      "original_name": "Blood-Moon",
+      "profile_id": "ala-blood-moon",
+      "visible_name": "ALA Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Blood-Moon",
+      "fingerprint": "3dd012da18619e6db4af1fb6912d5529fcfb2b8c",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Breeze.toml",
+      "original_name": "Breeze",
+      "profile_id": "ala-breeze",
+      "visible_name": "ALA Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Breeze",
+      "fingerprint": "348f51b95ce65a0a8a15a22c7e36a6e2f8700be7",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Brewer.dark.toml",
+      "original_name": "Brewer (dark)",
+      "profile_id": "ala-brewer.dark",
+      "visible_name": "ALA Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Brewer (dark)",
+      "fingerprint": "a790e8d2105daa17d7b9c7358bd10cb0b72c6a06",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Brewer.light.toml",
+      "original_name": "Brewer (light)",
+      "profile_id": "ala-brewer.light",
+      "visible_name": "ALA Daylight Crimson \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Brewer (light)",
+      "fingerprint": "d0fb05f898502d523f4535a5905ff7927b6e9276",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Campbell.toml",
+      "original_name": "Campbell",
+      "profile_id": "ala-campbell",
+      "visible_name": "ALA Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Campbell",
+      "fingerprint": "d94bc8053590053178aabb4713cad2f4e6db747e",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Catppuccin-Frappe.toml",
+      "original_name": "Catppuccin-Frappe",
+      "profile_id": "ala-catppuccin-frappe",
+      "visible_name": "ALA Neon Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Catppuccin-Frappe",
+      "fingerprint": "439b9eea0f5cbe520ef4d80fcb870767408da2a3",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Catppuccin-Latte.toml",
+      "original_name": "Catppuccin-Latte",
+      "profile_id": "ala-catppuccin-latte",
+      "visible_name": "ALA Daylight Crimson \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Catppuccin-Latte",
+      "fingerprint": "1337a28b4000b938c7d32ab6d4b43f3a384b9ca3",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Catppuccin-Macchiato.toml",
+      "original_name": "Catppuccin-Macchiato",
+      "profile_id": "ala-catppuccin-macchiato",
+      "visible_name": "ALA Neon Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Catppuccin-Macchiato",
+      "fingerprint": "2fa99d4c495e85dab811d26adf5560f0594b10ce",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Catppuccin-Mocha.toml",
+      "original_name": "Catppuccin-Mocha",
+      "profile_id": "ala-catppuccin-mocha",
+      "visible_name": "ALA Neon Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Catppuccin-Mocha",
+      "fingerprint": "76f4b8b48339a84e57f7a9c706dc8e6cce7f46eb",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Chalk.dark.toml",
+      "original_name": "Chalk (dark)",
+      "profile_id": "ala-chalk.dark",
+      "visible_name": "ALA Neon Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Chalk (dark)",
+      "fingerprint": "9a85e5a372f0d23c3f268eb738252dc88519f114",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Chalk.light.toml",
+      "original_name": "Chalk (light)",
+      "profile_id": "ala-chalk.light",
+      "visible_name": "ALA Daylight Cyan \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Chalk (light)",
+      "fingerprint": "37647925b9f9529db708cb4a79e29db14d851377",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Challenger-Deep.toml",
+      "original_name": "Challenger-Deep",
+      "profile_id": "ala-challenger-deep",
+      "visible_name": "ALA Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Challenger-Deep",
+      "fingerprint": "8846127806bd27df91e25764c42cf5482de32775",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Cloud.toml",
+      "original_name": "Cloud",
+      "profile_id": "ala-cloud",
+      "visible_name": "ALA Nocturne Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Cloud",
+      "fingerprint": "4305624589b405c6971ea6c9acf8f37d1ef0d762",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Cobalt-2.toml",
+      "original_name": "Cobalt-2",
+      "profile_id": "ala-cobalt-2",
+      "visible_name": "ALA Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Cobalt-2",
+      "fingerprint": "c68e48f77411df598bfb9811c9133af59ab70e8d",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Codeschool.dark.toml",
+      "original_name": "Codeschool (dark)",
+      "profile_id": "ala-codeschool.dark",
+      "visible_name": "ALA Nocturne Amber \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Codeschool (dark)",
+      "fingerprint": "66b854eae1912e0f55d5cfd87bb0008e339a8830",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Codeschool.light.toml",
+      "original_name": "Codeschool (light)",
+      "profile_id": "ala-codeschool.light",
+      "visible_name": "ALA Dawn Amber \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Codeschool (light)",
+      "fingerprint": "83d38a1e03ac95cf9c14dcf3133ed177a52bdba7",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Colorfulcolors.toml",
+      "original_name": "Colorful Colors",
+      "profile_id": "ala-colorfulcolors",
+      "visible_name": "ALA Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Colorful Colors",
+      "fingerprint": "1fd1789137a2e2382b2a73da9bfedda40c74a508",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/DOOMICIDE darkocean.toml",
+      "original_name": "Dark Ocean",
+      "profile_id": "ala-doomicide-darkocean",
+      "visible_name": "ALA Neon Lime \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Neutral \u2014 Dark Ocean",
+      "fingerprint": "16f3e7d26c54975c67b8091a368b954cfde54403",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Darkside.toml",
+      "original_name": "Darkside",
+      "profile_id": "ala-darkside",
+      "visible_name": "ALA Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Darkside",
+      "fingerprint": "674c85cef0473c8ad0f7036d817af7c1d4fd55ae",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Darktooth.toml",
+      "original_name": "Darktooth",
+      "profile_id": "ala-darktooth",
+      "visible_name": "ALA Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Darktooth",
+      "fingerprint": "77fb7819fd142288b1f83d57f66dda2539d2c2cb",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Dawn.toml",
+      "original_name": "Dawn",
+      "profile_id": "ala-dawn",
+      "visible_name": "ALA Nocturne Amber \u2014 Dark\u00b7MedC\u00b7Muted\u00b7Warm \u2014 Dawn",
+      "fingerprint": "99c6b5d45871e85dcfea13ba4637a1c09c6aa2bf",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Deafened.toml",
+      "original_name": "Deafened",
+      "profile_id": "ala-deafened",
+      "visible_name": "ALA Nocturne Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Deafened",
+      "fingerprint": "eee3535d19eb36e7515426f4e3e3f930c75058dc",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Default.dark.toml",
+      "original_name": "Default (dark)",
+      "profile_id": "ala-default.dark",
+      "visible_name": "ALA Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Default (dark)",
+      "fingerprint": "e39cbaea53d112a94f54171ff83cede6fa6fcf61",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Default.light.toml",
+      "original_name": "Default (light)",
+      "profile_id": "ala-default.light",
+      "visible_name": "ALA Dawn Crimson \u2014 Light\u00b7HighC\u00b7Pastel\u00b7Warm \u2014 Default (light)",
+      "fingerprint": "ea86a4c6dd28a72d8a3d1835e2a2f1cb446948d9",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Derp.toml",
+      "original_name": "Derp",
+      "profile_id": "ala-derp",
+      "visible_name": "ALA Neon Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Derp",
+      "fingerprint": "4fbfbf4c897af4d2f36b91fa4bc84165b6d5f2bb",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Digerati.toml",
+      "original_name": "Digerati",
+      "profile_id": "ala-digerati",
+      "visible_name": "ALA Neon Lime \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Neutral \u2014 Digerati",
+      "fingerprint": "145bbf8e4535b329fd6d94b0ea472a1fb12baddf",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Dkeg - canvasedpastel.toml",
+      "original_name": "Canvased Pastel",
+      "profile_id": "ala-dkeg---canvasedpastel",
+      "visible_name": "ALA Nocturne Amber \u2014 Dark\u00b7LowC\u00b7Muted\u00b7Warm \u2014 Canvased Pastel",
+      "fingerprint": "09f1703cc1f6da776f86b4f6d472a35dc18d4dc8",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Dkeg - catchmeifyoucan.toml",
+      "original_name": "Catch Me If You Can",
+      "profile_id": "ala-dkeg---catchmeifyoucan",
+      "visible_name": "ALA Nocturne Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Catch Me If You Can",
+      "fingerprint": "3ae680fd1ddc4331f8e54233d0fbefa7d31a8c68",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Dkeg - citystreets.toml",
+      "original_name": "City Streets",
+      "profile_id": "ala-dkeg---citystreets",
+      "visible_name": "ALA Nocturne Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 City Streets",
+      "fingerprint": "478b37ec869aeb1adb7b96dc93d1db4da6cd274b",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Dkeg - colorstar.toml",
+      "original_name": "Color Star",
+      "profile_id": "ala-dkeg---colorstar",
+      "visible_name": "ALA Nocturne Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Color Star",
+      "fingerprint": "f358d5ea3b44589e0efe32b6f73e369fe20912af",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Dkeg - panels.toml",
+      "original_name": "Panels",
+      "profile_id": "ala-dkeg---panels",
+      "visible_name": "ALA Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Panels",
+      "fingerprint": "af5074a39707a0412552ec9b147ea41c09217c07",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Dkeg - redphoenix.toml",
+      "original_name": "Red Phoenix",
+      "profile_id": "ala-dkeg---redphoenix",
+      "visible_name": "ALA Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Red Phoenix",
+      "fingerprint": "4363f86999e065757546c58e751cf654be3f6a9d",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Dkeg - teva.toml",
+      "original_name": "Teva",
+      "profile_id": "ala-dkeg---teva",
+      "visible_name": "ALA Nocturne Amber \u2014 Dark\u00b7LowC\u00b7Muted\u00b7Warm \u2014 Teva",
+      "fingerprint": "c040706098adfcdd34fe33b983920beac694a9b3",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Dkeg - unsiftedwheat.toml",
+      "original_name": "Unsifted Wheat",
+      "profile_id": "ala-dkeg---unsiftedwheat",
+      "visible_name": "ALA Nocturne Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Unsifted Wheat",
+      "fingerprint": "81bbb64fd595e83a1bc5d56276dfe88373b40b27",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Dkeg - vwbug.toml",
+      "original_name": "VWbug",
+      "profile_id": "ala-dkeg---vwbug",
+      "visible_name": "ALA Nocturne Crimson \u2014 Dark\u00b7LowC\u00b7Muted\u00b7Warm \u2014 VWbug",
+      "fingerprint": "3bf1f23bded8739b4bead7786581c5e1379e8553",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Dotshare.toml",
+      "original_name": "Dotshare",
+      "profile_id": "ala-dotshare",
+      "visible_name": "ALA Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Dotshare",
+      "fingerprint": "f57292ae66ddc1388765134044202b3d4d1f8499",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Dracula.toml",
+      "original_name": "Dracula",
+      "profile_id": "ala-dracula",
+      "visible_name": "ALA Neon Jade \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Neutral \u2014 Dracula",
+      "fingerprint": "3d0aa014d4b34377e0fbbabe7eb2a66a831ff8f4",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Dwmrob.toml",
+      "original_name": "DWM rob",
+      "profile_id": "ala-dwmrob",
+      "visible_name": "ALA Neon Rose \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 DWM rob",
+      "fingerprint": "d1caa6eb1a804ddfc1756946d3b8e1fd8046a51b",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Eighties.dark.toml",
+      "original_name": "Eighties (dark)",
+      "profile_id": "ala-eighties.dark",
+      "visible_name": "ALA Neon Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Eighties (dark)",
+      "fingerprint": "b063769a17bf4335bbef66593a77afd3e3a3f832",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Eighties.light.toml",
+      "original_name": "Eighties (light)",
+      "profile_id": "ala-eighties.light",
+      "visible_name": "ALA Daylight Amber \u2014 Light\u00b7MedC\u00b7Pastel\u00b7Warm \u2014 Eighties (light)",
+      "fingerprint": "d842a1d12dbb63086daaa46cc28243624725e096",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Embers.dark.toml",
+      "original_name": "Embers (dark)",
+      "profile_id": "ala-embers.dark",
+      "visible_name": "ALA Nocturne Orchid \u2014 Dark\u00b7MedC\u00b7Muted\u00b7Neutral \u2014 Embers (dark)",
+      "fingerprint": "cbf23e326afc40f5762a23d0e1cb265c1b62fdb7",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Embers.light.toml",
+      "original_name": "Embers (light)",
+      "profile_id": "ala-embers.light",
+      "visible_name": "ALA Dawn Orchid \u2014 Light\u00b7HighC\u00b7Muted\u00b7Neutral \u2014 Embers (light)",
+      "fingerprint": "7323c62e49293a0dd86ea2b84afd398520e97ef9",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Epiphany.toml",
+      "original_name": "Epiphany",
+      "profile_id": "ala-epiphany",
+      "visible_name": "ALA Neon Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Epiphany",
+      "fingerprint": "acd7090caff396aab4056c1c06a01dd1f1f7cac7",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Eqie6.toml",
+      "original_name": "Eqie6",
+      "profile_id": "ala-eqie6",
+      "visible_name": "ALA Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Eqie6",
+      "fingerprint": "04616da46cf6356f29a39ca167e54f69e0f84c1c",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Erebus.toml",
+      "original_name": "Erebus",
+      "profile_id": "ala-erebus",
+      "visible_name": "ALA Neon Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Erebus",
+      "fingerprint": "19d42c69ee72829895f0acec2a2af4ba6861c283",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Euphrasia.toml",
+      "original_name": "Euphrasia",
+      "profile_id": "ala-euphrasia",
+      "visible_name": "ALA Dawn Lime \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Neutral \u2014 Euphrasia",
+      "fingerprint": "1d75143cbec30d3c6e7492e5a48d4dbe48dd13ab",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Fedora.toml",
+      "original_name": "Fedora",
+      "profile_id": "ala-fedora",
+      "visible_name": "ALA Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Fedora",
+      "fingerprint": "668a96fd9d2278a57da8f42610db6aabd72ae7a1",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Fishbone.toml",
+      "original_name": "Fishbone",
+      "profile_id": "ala-fishbone",
+      "visible_name": "ALA Nocturne Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Fishbone",
+      "fingerprint": "bdb4f871c2a0754d4bf426d44a1a029715aaa0d4",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Garuda.dr460nized.toml",
+      "original_name": "Garuda (dr460nized)",
+      "profile_id": "ala-garuda.dr460nized",
+      "visible_name": "ALA Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Garuda (dr460nized)",
+      "fingerprint": "d1aa3b4b1daa97e3ef1ada0e2c7f4d5b08964583",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Gjm.toml",
+      "original_name": "GJM",
+      "profile_id": "ala-gjm",
+      "visible_name": "ALA Neon Rose \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 GJM",
+      "fingerprint": "f42486c69621a0d099a01e13f120ce9ca7685b0e",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Gnometerm.toml",
+      "original_name": "Gnometerm",
+      "profile_id": "ala-gnometerm",
+      "visible_name": "ALA Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Gnometerm",
+      "fingerprint": "a5f4fd340d67c6a4f6ce6e5ca819ccd17186c759",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Google.dark.toml",
+      "original_name": "Google (dark)",
+      "profile_id": "ala-google.dark",
+      "visible_name": "ALA Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Google (dark)",
+      "fingerprint": "2acd3950febc9177b13fbac4015afa883975ed55",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Google.light.toml",
+      "original_name": "Google (light)",
+      "profile_id": "ala-google.light",
+      "visible_name": "ALA Daylight Amber \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Google (light)",
+      "fingerprint": "744d92c3eef296b3d1cabefd171812f45985c60e",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Gotham.toml",
+      "original_name": "Gotham",
+      "profile_id": "ala-gotham",
+      "visible_name": "ALA Nocturne Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Gotham",
+      "fingerprint": "eaa054a6df6dc07f3f92dd2f9fb051dedc4121fa",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Grandshell.toml",
+      "original_name": "Grandshell",
+      "profile_id": "ala-grandshell",
+      "visible_name": "ALA Neon Cyan \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Grandshell",
+      "fingerprint": "6795d6e0a5d96098f00c47c31d45a17ccb2068c8",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Grayscale.dark.toml",
+      "original_name": "Grayscale (dark)",
+      "profile_id": "ala-grayscale.dark",
+      "visible_name": "ALA Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Grayscale (dark)",
+      "fingerprint": "c731ad0f2e433e31a727c0484f2ad2a34afaa771",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Grayscale.light.toml",
+      "original_name": "Grayscale (light)",
+      "profile_id": "ala-grayscale.light",
+      "visible_name": "ALA Dawn Crimson \u2014 Light\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Grayscale (light)",
+      "fingerprint": "310bb120fcfb4d3a466181bc12758ad01f235b31",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Greenscreen.dark.toml",
+      "original_name": "Greenscreen (dark)",
+      "profile_id": "ala-greenscreen.dark",
+      "visible_name": "ALA Nocturne Jade \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Neutral \u2014 Greenscreen (dark)",
+      "fingerprint": "c37026a9c44c7bcc387b7c9fd7c38fdd67d7059f",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Greenscreen.light.toml",
+      "original_name": "Greenscreen (light)",
+      "profile_id": "ala-greenscreen.light",
+      "visible_name": "ALA Dawn Jade \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Neutral \u2014 Greenscreen (light)",
+      "fingerprint": "720515c016463e42bb4f30aaa14ffa692461745c",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Gruvbox-Dark.toml",
+      "original_name": "Gruvbox-Dark",
+      "profile_id": "ala-gruvbox-dark",
+      "visible_name": "ALA Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Gruvbox-Dark",
+      "fingerprint": "8c5e7517f0b51588621ace2e31e3bd40a09002c4",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Gruvbox-Light.toml",
+      "original_name": "Gruvbox-Light",
+      "profile_id": "ala-gruvbox-light",
+      "visible_name": "ALA Dawn Crimson \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Gruvbox-Light",
+      "fingerprint": "54aa398f9688efeb2e7ada87e866a3c84138b99c",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Gslob nature-suede.toml",
+      "original_name": "Nature Suede",
+      "profile_id": "ala-gslob-nature-suede",
+      "visible_name": "ALA Nocturne Amber \u2014 Dark\u00b7LowC\u00b7Vivid\u00b7Warm \u2014 Nature Suede",
+      "fingerprint": "1ffb8a516e54f38dd479249172fd087ba747fdc1",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Gutterslob - aikofog.toml",
+      "original_name": "aikofog",
+      "profile_id": "ala-gutterslob---aikofog",
+      "visible_name": "ALA Dawn Amber \u2014 Light\u00b7LowC\u00b7Vivid\u00b7Warm \u2014 aikofog",
+      "fingerprint": "9000ce94b67bccd427d04bbcac582545594c7258",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Gutterslob - lumifoo.toml",
+      "original_name": "Lumifoo",
+      "profile_id": "ala-gutterslob---lumifoo",
+      "visible_name": "ALA Nocturne Azure \u2014 Dark\u00b7MedC\u00b7Muted\u00b7Cool \u2014 Lumifoo",
+      "fingerprint": "a139e69afabf54365c5815801949239a2e781fa5",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Gutterslob lightwhite.toml",
+      "original_name": "Light White",
+      "profile_id": "ala-gutterslob-lightwhite",
+      "visible_name": "ALA Nocturne Lime \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Neutral \u2014 Light White",
+      "fingerprint": "1de3e8cb89189afe70225bdea339701f428cde51",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Hund.toml",
+      "original_name": "hund",
+      "profile_id": "ala-hund",
+      "visible_name": "ALA Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 hund",
+      "fingerprint": "2ecb73357889786491e08945d122f12ca71071a2",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Hybrid.toml",
+      "original_name": "Hybrid",
+      "profile_id": "ala-hybrid",
+      "visible_name": "ALA Neon Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Hybrid",
+      "fingerprint": "43b6f579b36a3192c621f33cab6858c9af0248d5",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Hyper.toml",
+      "original_name": "Hyper",
+      "profile_id": "ala-hyper",
+      "visible_name": "ALA Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Hyper",
+      "fingerprint": "9694fddb513f3425188997130dc78229fb97d5b4",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/IR-Black.toml",
+      "original_name": "IR-Black",
+      "profile_id": "ala-ir-black",
+      "visible_name": "ALA Neon Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 IR-Black",
+      "fingerprint": "8224c046ae8acd8df1125d56e3cb23c5b8a4cc2e",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Iceberg-Dark.toml",
+      "original_name": "Iceberg-Dark",
+      "profile_id": "ala-iceberg-dark",
+      "visible_name": "ALA Neon Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Iceberg-Dark",
+      "fingerprint": "cd6a7f22daa91170ced87af5847451f889f43d7d",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Iceberg-Light.toml",
+      "original_name": "Iceberg-Light",
+      "profile_id": "ala-iceberg-light",
+      "visible_name": "ALA Dawn Azure \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Iceberg-Light",
+      "fingerprint": "07f40728956e894c46bcf369a993b714cd5d5b71",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Iiamblack.toml",
+      "original_name": "Iiamblack",
+      "profile_id": "ala-iiamblack",
+      "visible_name": "ALA Neon Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Iiamblack",
+      "fingerprint": "2ce4c93aa00ba38e655fe9f081920143e3144339",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Insignificato.toml",
+      "original_name": "Insignificato",
+      "profile_id": "ala-insignificato",
+      "visible_name": "ALA Nocturne Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Insignificato",
+      "fingerprint": "06413790f0ea0e31a2c4936bb4e20acf767f1e1e",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Invisibone.toml",
+      "original_name": "Invisibone",
+      "profile_id": "ala-invisibone",
+      "visible_name": "ALA Nocturne Cyan \u2014 Dark\u00b7MedC\u00b7Muted\u00b7Neutral \u2014 Invisibone",
+      "fingerprint": "b97512c903315ac8b918c4b19c5d6e8255b43391",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Isotope.dark.toml",
+      "original_name": "Isotope (dark)",
+      "profile_id": "ala-isotope.dark",
+      "visible_name": "ALA Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Isotope (dark)",
+      "fingerprint": "fa5ecf524138b7ad71884b7fcc9d806ad820103e",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Isotope.light.toml",
+      "original_name": "Isotope (light)",
+      "profile_id": "ala-isotope.light",
+      "visible_name": "ALA Daylight Azure \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Isotope (light)",
+      "fingerprint": "7622f4568de8ad9c493b50f7d10399aeef312d00",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Jasonwryan.toml",
+      "original_name": "Jason Wryan",
+      "profile_id": "ala-jasonwryan",
+      "visible_name": "ALA Nocturne Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Jason Wryan",
+      "fingerprint": "744d885fae9ad5a2b5d9a9a46769ecf5da3b7513",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Jellybeans.toml",
+      "original_name": "Jellybeans",
+      "profile_id": "ala-jellybeans",
+      "visible_name": "ALA Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Jellybeans",
+      "fingerprint": "92d982405ed27d479288dbe7a7134278816386bb",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Jmbi.toml",
+      "original_name": "jmbi",
+      "profile_id": "ala-jmbi",
+      "visible_name": "ALA Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 jmbi",
+      "fingerprint": "3820dfbc4b61754b3425a42345fa9e4dea00a38e",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Jwr-dark.toml",
+      "original_name": "JWR dark",
+      "profile_id": "ala-jwr-dark",
+      "visible_name": "ALA Nocturne Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 JWR dark",
+      "fingerprint": "95b275952b4b9cfbbe00c48f557e6daa4fd43cd1",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Kanagawa.toml",
+      "original_name": "Kanagawa",
+      "profile_id": "ala-kanagawa",
+      "visible_name": "ALA Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Kanagawa",
+      "fingerprint": "f050944a9667ba4adcf4be8c4da7706061eb68c8",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Kasugano.toml",
+      "original_name": "Kasugano",
+      "profile_id": "ala-kasugano",
+      "visible_name": "ALA Nocturne Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Kasugano",
+      "fingerprint": "a98b980ba009e8a38543889eb98c4a741f0d03d1",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Kitty.toml",
+      "original_name": "Kitty",
+      "profile_id": "ala-kitty",
+      "visible_name": "ALA Neon Jade \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Neutral \u2014 Kitty",
+      "fingerprint": "3c33eac6ebbab41d31283fca2baab80694b22cec",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Londontube.dark.toml",
+      "original_name": "Londontube (dark)",
+      "profile_id": "ala-londontube.dark",
+      "visible_name": "ALA Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Londontube (dark)",
+      "fingerprint": "77fe42075355aad09b4a3409361e8b3ab8649f46",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Londontube.light.toml",
+      "original_name": "Londontube (light)",
+      "profile_id": "ala-londontube.light",
+      "visible_name": "ALA Daylight Azure \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Londontube (light)",
+      "fingerprint": "bb2008362ef42a04803474c55bb0640d0f4ce50c",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Marrakesh.dark.toml",
+      "original_name": "Marrakesh (dark)",
+      "profile_id": "ala-marrakesh.dark",
+      "visible_name": "ALA Nocturne Cyan \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Neutral \u2014 Marrakesh (dark)",
+      "fingerprint": "8a4b6ae64d73f6569c00c8f45ee707fb1b8d0bd4",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Marrakesh.light.toml",
+      "original_name": "Marrakesh (light)",
+      "profile_id": "ala-marrakesh.light",
+      "visible_name": "ALA Dawn Cyan \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Neutral \u2014 Marrakesh (light)",
+      "fingerprint": "cfd39af681348e956a02cce36589ec383d6c7b93",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Material-Theme.toml",
+      "original_name": "Material-Theme",
+      "profile_id": "ala-material-theme",
+      "visible_name": "ALA Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Material-Theme",
+      "fingerprint": "418c47ffbee6506bdeb7ada70671afab49474217",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Material.toml",
+      "original_name": "Material",
+      "profile_id": "ala-material",
+      "visible_name": "ALA Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Material",
+      "fingerprint": "ea9008dc4199422bd6a4bfcefbab0e699dfc50ff",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Mikado.toml",
+      "original_name": "Mikado",
+      "profile_id": "ala-mikado",
+      "visible_name": "ALA Nocturne Lime \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Mikado",
+      "fingerprint": "8284ee52af416b729f3b17413afc3c0a500d9e8c",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Mikazuki.toml",
+      "original_name": "Mikazuki",
+      "profile_id": "ala-mikazuki",
+      "visible_name": "ALA Neon Orchid \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Neutral \u2014 Mikazuki",
+      "fingerprint": "307ebf198c2d1ffeb40720b924648827c20c79d7",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Mocha.dark.toml",
+      "original_name": "Mocha (dark)",
+      "profile_id": "ala-mocha.dark",
+      "visible_name": "ALA Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Mocha (dark)",
+      "fingerprint": "5bba72de62fe1c12a7de37d075c6c28e8bb5b80a",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Mocha.light.toml",
+      "original_name": "Mocha (light)",
+      "profile_id": "ala-mocha.light",
+      "visible_name": "ALA Dawn Crimson \u2014 Light\u00b7MedC\u00b7Pastel\u00b7Warm \u2014 Mocha (light)",
+      "fingerprint": "c73b6bab6268e932988b641d7d0f50c6ffabc29c",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Molokai.toml",
+      "original_name": "Molokai",
+      "profile_id": "ala-molokai",
+      "visible_name": "ALA Neon Rose \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Molokai",
+      "fingerprint": "8c62a98e98548b7c5f164f78d60efabd130f53f1",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Monokai-Pro.toml",
+      "original_name": "Monokai-Pro",
+      "profile_id": "ala-monokai-pro",
+      "visible_name": "ALA Neon Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Monokai-Pro",
+      "fingerprint": "a4a99a15060d2d334fbc8f020fbbf5e569e8416e",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Monokai-Soda.toml",
+      "original_name": "Monokai-Soda",
+      "profile_id": "ala-monokai-soda",
+      "visible_name": "ALA Neon Rose \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Monokai-Soda",
+      "fingerprint": "1596794e01290828d0c23902ba06b3be426200fd",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Monokai.dark.toml",
+      "original_name": "Monokai (dark)",
+      "profile_id": "ala-monokai.dark",
+      "visible_name": "ALA Neon Rose \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Monokai (dark)",
+      "fingerprint": "554456e63bc72a29ac2ac3ca67d8f0f5fcf6fc02",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Monokai.light.toml",
+      "original_name": "Monokai (light)",
+      "profile_id": "ala-monokai.light",
+      "visible_name": "ALA Daylight Rose \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Monokai (light)",
+      "fingerprint": "9713062e66ab111ec50f9794f689e0b0188afafe",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Monotheme.toml",
+      "original_name": "Mono Theme",
+      "profile_id": "ala-monotheme",
+      "visible_name": "ALA Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Mono Theme",
+      "fingerprint": "c78c232daa912a8cf518aa86c31cb9d77877190c",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Moonlight-II-VSCode.toml",
+      "original_name": "Moonlight-II-VSCode",
+      "profile_id": "ala-moonlight-ii-vscode",
+      "visible_name": "ALA Neon Azure \u2014 Dark\u00b7LowC\u00b7Vivid\u00b7Cool \u2014 Moonlight-II-VSCode",
+      "fingerprint": "c6d8e4b499eb0cdaa2af50f0a041f7837779264d",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Mostly-bright.toml",
+      "original_name": "Mostly Bright",
+      "profile_id": "ala-mostly-bright",
+      "visible_name": "ALA Daylight Amber \u2014 Light\u00b7LowC\u00b7Vivid\u00b7Warm \u2014 Mostly Bright",
+      "fingerprint": "27573aaaffc0ccc6738ba530076344366301a634",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Muse.toml",
+      "original_name": "Muse",
+      "profile_id": "ala-muse",
+      "visible_name": "ALA Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Muse",
+      "fingerprint": "cd287c6958e1d848c228ef02959d398771978602",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Muzieca lowcontrast.toml",
+      "original_name": "Low Contrast",
+      "profile_id": "ala-muzieca-lowcontrast",
+      "visible_name": "ALA Neon Azure \u2014 Dark\u00b7LowC\u00b7Muted\u00b7Cool \u2014 Low Contrast",
+      "fingerprint": "45673adbe2cb6cd15f221da99d6b5ad7f082e8ff",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Muzieca mono.toml",
+      "original_name": "Mono",
+      "profile_id": "ala-muzieca-mono",
+      "visible_name": "ALA Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Mono",
+      "fingerprint": "49ae36ef1356329437369f846801a33a93bfc293",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Muzieca pastel white.toml",
+      "original_name": "Pastel White",
+      "profile_id": "ala-muzieca-pastel-white",
+      "visible_name": "ALA Neon Cyan \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Pastel White",
+      "fingerprint": "38340c3721c668f4bff59af60355c11ef21b964a",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Nancy.toml",
+      "original_name": "Nancy",
+      "profile_id": "ala-nancy",
+      "visible_name": "ALA Nocturne Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Nancy",
+      "fingerprint": "c7ef750667d56d484d0b3f2aab4794f4d9957eb9",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Navy-and-ivory.toml",
+      "original_name": "Navy and Ivory",
+      "profile_id": "ala-navy-and-ivory",
+      "visible_name": "ALA Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Navy and Ivory",
+      "fingerprint": "e2a3fbe94b4ca2df6cf391654a1209cb159d5fd0",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Neon.toml",
+      "original_name": "Neon",
+      "profile_id": "ala-neon",
+      "visible_name": "ALA Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Neon",
+      "fingerprint": "8fd9e9565dc4c2699a6c4421ed6e1c9f6bfda432",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/New-Moon.toml",
+      "original_name": "New-Moon",
+      "profile_id": "ala-new-moon",
+      "visible_name": "ALA Neon Azure \u2014 Dark\u00b7MedC\u00b7Muted\u00b7Cool \u2014 New-Moon",
+      "fingerprint": "8b9510178789da4d4de74d20c2f91e3f2276744a",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Nightfly.toml",
+      "original_name": "Nightfly",
+      "profile_id": "ala-nightfly",
+      "visible_name": "ALA Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Nightfly",
+      "fingerprint": "fed379e97755540ed1df8fc59e892f5d25914afc",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Nord.toml",
+      "original_name": "Nord",
+      "profile_id": "ala-nord",
+      "visible_name": "ALA Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Nord",
+      "fingerprint": "da3fdbbbea9d6a5b5a08ae1198a379f48ab7017f",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Nova.toml",
+      "original_name": "Nova",
+      "profile_id": "ala-nova",
+      "visible_name": "ALA Neon Azure \u2014 Dark\u00b7MedC\u00b7Muted\u00b7Cool \u2014 Nova",
+      "fingerprint": "8d29559fcbfb938e378d7ce8e02f4ca45cfecfd4",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Nucolors.toml",
+      "original_name": "Nucolors",
+      "profile_id": "ala-nucolors",
+      "visible_name": "ALA Neon Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Nucolors",
+      "fingerprint": "56bee15da68d686b5b032ee9a3b0edcdd0467c94",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Nudge.toml",
+      "original_name": "Nudge",
+      "profile_id": "ala-nudge",
+      "visible_name": "ALA Nocturne Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Nudge",
+      "fingerprint": "a532417206d618f649b01958a8c7035683155c6e",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/NumixDarkest.toml",
+      "original_name": "Numix Darkest",
+      "profile_id": "ala-numixdarkest",
+      "visible_name": "ALA Nocturne Azure \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Numix Darkest",
+      "fingerprint": "5b8164061b693e321e3dbb6a4c2600b732263a86",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/OK100 - Matrix.toml",
+      "original_name": "Matrix",
+      "profile_id": "ala-ok100---matrix",
+      "visible_name": "ALA Nocturne Jade \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Neutral \u2014 Matrix",
+      "fingerprint": "815c48ab64c7ce95de9232eb0e54df566995ade2",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Ocean.dark.toml",
+      "original_name": "Ocean (dark)",
+      "profile_id": "ala-ocean.dark",
+      "visible_name": "ALA Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Ocean (dark)",
+      "fingerprint": "a71433bae346365ced3fa43a5e6115f15293e899",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Ocean.light.toml",
+      "original_name": "Ocean (light)",
+      "profile_id": "ala-ocean.light",
+      "visible_name": "ALA Dawn Crimson \u2014 Light\u00b7MedC\u00b7Pastel\u00b7Warm \u2014 Ocean (light)",
+      "fingerprint": "f3254a316e16396ad9acaf9dc2bcf746c1f38794",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Oceanic-Next.toml",
+      "original_name": "Oceanic-Next",
+      "profile_id": "ala-oceanic-next",
+      "visible_name": "ALA Neon Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Oceanic-Next",
+      "fingerprint": "58cd78ff8f7686331507242eaf6b4a3771b00378",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/One-Dark.toml",
+      "original_name": "One-Dark",
+      "profile_id": "ala-one-dark",
+      "visible_name": "ALA Neon Azure \u2014 Dark\u00b7MedC\u00b7Muted\u00b7Cool \u2014 One-Dark",
+      "fingerprint": "6b5e9b9a253198b4d913990263962b9c7ec97e80",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/One-Light.toml",
+      "original_name": "One-Light",
+      "profile_id": "ala-one-light",
+      "visible_name": "ALA Daylight Azure \u2014 Light\u00b7HighC\u00b7Pastel\u00b7Cool \u2014 One-Light",
+      "fingerprint": "ed879abd91af04b1045cd922ff000cbf95f42d9c",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Orangish.toml",
+      "original_name": "Orangish",
+      "profile_id": "ala-orangish",
+      "visible_name": "ALA Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Orangish",
+      "fingerprint": "38c373ee6cdcabc984e62222b3cac657db68c404",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Oxide.toml",
+      "original_name": "Oxide",
+      "profile_id": "ala-oxide",
+      "visible_name": "ALA Neon Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Oxide",
+      "fingerprint": "8b3505c4d764b61df140dae97f6e010b2cf249e2",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Palenight.toml",
+      "original_name": "Palenight",
+      "profile_id": "ala-palenight",
+      "visible_name": "ALA Neon Azure \u2014 Dark\u00b7MedC\u00b7Muted\u00b7Cool \u2014 Palenight",
+      "fingerprint": "7bb5d732eac559667e863219684d23b6bdf599ca",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Panda.toml",
+      "original_name": "Panda",
+      "profile_id": "ala-panda",
+      "visible_name": "ALA Neon Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Panda",
+      "fingerprint": "2e61bb9a8fcf192f1171282f40e1524b5f021871",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Paraiso.dark.toml",
+      "original_name": "Paraiso (dark)",
+      "profile_id": "ala-paraiso.dark",
+      "visible_name": "ALA Neon Cyan \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Paraiso (dark)",
+      "fingerprint": "f3d73d48d3e125d4bce060147111c98d5c5150d8",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Paraiso.light.toml",
+      "original_name": "Paraiso (light)",
+      "profile_id": "ala-paraiso.light",
+      "visible_name": "ALA Daylight Cyan \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Paraiso (light)",
+      "fingerprint": "0e6c77d8190da32f54c41cb88e88580dcf28ce9d",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Parker_brothers.toml",
+      "original_name": "Parker Brothers",
+      "profile_id": "ala-parker_brothers",
+      "visible_name": "ALA Nocturne Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Parker Brothers",
+      "fingerprint": "6e91897d11af21f10ba634d7892fad9c448c177e",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Pencil-Dark.toml",
+      "original_name": "Pencil-Dark",
+      "profile_id": "ala-pencil-dark",
+      "visible_name": "ALA Nocturne Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Pencil-Dark",
+      "fingerprint": "8138a12ea6a81bc436fd8144543a8c8f28af5815",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Pencil-Light.toml",
+      "original_name": "Pencil-Light",
+      "profile_id": "ala-pencil-light",
+      "visible_name": "ALA Dawn Azure \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Pencil-Light",
+      "fingerprint": "44cca04366b6007e9fcd591cc0056d3ad922a850",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Phrak1.toml",
+      "original_name": "Phrak1",
+      "profile_id": "ala-phrak1",
+      "visible_name": "ALA Nocturne Indigo \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Phrak1",
+      "fingerprint": "20f73ef72ff98047b8852a5ffd49df47a0d518c0",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Pop!-OS.toml",
+      "original_name": "Pop!-OS",
+      "profile_id": "ala-pop--os",
+      "visible_name": "ALA Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Pop!-OS",
+      "fingerprint": "eaa20902d5205a25774b8aadf85d660f1bbab03e",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Pretty-and-pastel.toml",
+      "original_name": "Pretty and Pastel",
+      "profile_id": "ala-pretty-and-pastel",
+      "visible_name": "ALA Neon Jade \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Neutral \u2014 Pretty and Pastel",
+      "fingerprint": "27f6c09764b3a4cac5800f4fed153e0d84e4e1b6",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Pulp.toml",
+      "original_name": "Pulp",
+      "profile_id": "ala-pulp",
+      "visible_name": "ALA Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Pulp",
+      "fingerprint": "293eb893c31468bc4c7de5214189a6660bec2ca9",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Railscasts.dark.toml",
+      "original_name": "Railscasts (dark)",
+      "profile_id": "ala-railscasts.dark",
+      "visible_name": "ALA Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Railscasts (dark)",
+      "fingerprint": "142c475ab0d6002a41637db8cbe4c7089c73cf26",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Railscasts.light.toml",
+      "original_name": "Railscasts (light)",
+      "profile_id": "ala-railscasts.light",
+      "visible_name": "ALA Daylight Crimson \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Railscasts (light)",
+      "fingerprint": "c034c0387136ae01442d88b95e8400c5e46dfb98",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Rasi.toml",
+      "original_name": "Rasi",
+      "profile_id": "ala-rasi",
+      "visible_name": "ALA Nocturne Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Rasi",
+      "fingerprint": "5338c03d02db6f1a18373029281df3acba108eee",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Rezza.toml",
+      "original_name": "Rezza",
+      "profile_id": "ala-rezza",
+      "visible_name": "ALA Nocturne Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Rezza",
+      "fingerprint": "6e25c351a900393df248f58b9f3c622a676c415d",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Rooster - SOS.toml",
+      "original_name": "SOS",
+      "profile_id": "ala-rooster---sos",
+      "visible_name": "ALA Neon Amber \u2014 Dark\u00b7LowC\u00b7Vivid\u00b7Warm \u2014 SOS",
+      "fingerprint": "78e6db8cd8e96a5a6985464174043c56f12e1573",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Rydgel.toml",
+      "original_name": "Rydgel",
+      "profile_id": "ala-rydgel",
+      "visible_name": "ALA Neon Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Rydgel",
+      "fingerprint": "2dbf158722c1700690c1533b410e65b5c1ff98eb",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/S3r0-modified.toml",
+      "original_name": "s3r0 modified",
+      "profile_id": "ala-s3r0-modified",
+      "visible_name": "ALA Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 s3r0 modified",
+      "fingerprint": "1f107f3fb8f3281edd51bafa45029dda0f1c156d",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Seabird.toml",
+      "original_name": "Seabird",
+      "profile_id": "ala-seabird",
+      "visible_name": "ALA Daylight Azure \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 Seabird",
+      "fingerprint": "520e02c3ff50de1a4d439b7a85ed135672d68bd7",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Seoul256.toml",
+      "original_name": "Seoul256",
+      "profile_id": "ala-seoul256",
+      "visible_name": "ALA Neon Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Seoul256",
+      "fingerprint": "8475e22d8a676730a034c05f7ec468b74dfa9fb6",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Sexcolors.toml",
+      "original_name": "Sex Colors",
+      "profile_id": "ala-sexcolors",
+      "visible_name": "ALA Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Sex Colors",
+      "fingerprint": "51d53c59092a517076090b34dc8b544e964931cb",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/ShadesOfPurple.toml",
+      "original_name": "ShadesOfPurple",
+      "profile_id": "ala-shadesofpurple",
+      "visible_name": "ALA Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 ShadesOfPurple",
+      "fingerprint": "04bcf4bd601cd222fb23c79a82836cccee845573",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Shapeshifter.dark.toml",
+      "original_name": "Shapeshifter (dark)",
+      "profile_id": "ala-shapeshifter.dark",
+      "visible_name": "ALA Neon Jade \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Neutral \u2014 Shapeshifter (dark)",
+      "fingerprint": "55c4415e6fcbcb21aa2caa9b1763f32286c06062",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Shapeshifter.light.toml",
+      "original_name": "Shapeshifter (light)",
+      "profile_id": "ala-shapeshifter.light",
+      "visible_name": "ALA Daylight Jade \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Neutral \u2014 Shapeshifter (light)",
+      "fingerprint": "8ea58933e29a21d8ed708d597feb3263659c71b0",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Shic.toml",
+      "original_name": "Shic",
+      "profile_id": "ala-shic",
+      "visible_name": "ALA Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Neutral \u2014 Shic",
+      "fingerprint": "e145f5a921150470621d8875d6b2883e47b9d174",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Simple_rainbow.toml",
+      "original_name": "Simple Rainbow",
+      "profile_id": "ala-simple_rainbow",
+      "visible_name": "ALA Neon Amber \u2014 Dark\u00b7MedC\u00b7Muted\u00b7Warm \u2014 Simple Rainbow",
+      "fingerprint": "e9edb58be259a6ba17bfa6a9b591becb7b86ce51",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Snazzy.toml",
+      "original_name": "Snazzy",
+      "profile_id": "ala-snazzy",
+      "visible_name": "ALA Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Snazzy",
+      "fingerprint": "ea5355a63bba7023a799080feea6d27cf863d706",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Solarized-Dark.toml",
+      "original_name": "Solarized-Dark",
+      "profile_id": "ala-solarized-dark",
+      "visible_name": "ALA Nocturne Crimson \u2014 Dark\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 Solarized-Dark",
+      "fingerprint": "50edb0eadb8c5d6ab920417bc650ada3a651c2cd",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Solarized-Light.toml",
+      "original_name": "Solarized-Light",
+      "profile_id": "ala-solarized-light",
+      "visible_name": "ALA Dawn Crimson \u2014 Light\u00b7LowC\u00b7Vivid\u00b7Warm \u2014 Solarized-Light",
+      "fingerprint": "6034d59ea62fd82ccd367d0d97f5a62ba997a225",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Sourcerer.toml",
+      "original_name": "Sourcerer",
+      "profile_id": "ala-sourcerer",
+      "visible_name": "ALA Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Sourcerer",
+      "fingerprint": "31b25a014856e9985a6ea9b12cc8dec890f7d34c",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Splurge.toml",
+      "original_name": "Splurge",
+      "profile_id": "ala-splurge",
+      "visible_name": "ALA Neon Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Splurge",
+      "fingerprint": "5515b2142f7817218684c5117c148f5b6ed40b41",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Substrata.toml",
+      "original_name": "Substrata",
+      "profile_id": "ala-substrata",
+      "visible_name": "ALA Neon Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Substrata",
+      "fingerprint": "d638d32bf4421157879944981eaabf0c5271f420",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Swayr.toml",
+      "original_name": "Swayr",
+      "profile_id": "ala-swayr",
+      "visible_name": "ALA Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Swayr",
+      "fingerprint": "4f64ff3f8ea2c80c92596e318e5029e6cf483cc9",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Sweetlove.toml",
+      "original_name": "Sweet Love",
+      "profile_id": "ala-sweetlove",
+      "visible_name": "ALA Nocturne Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Sweet Love",
+      "fingerprint": "1d29c25f63d7f066898d91a8f607fd87894b23df",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Taerminal.toml",
+      "original_name": "Taerminal",
+      "profile_id": "ala-taerminal",
+      "visible_name": "ALA Neon Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Taerminal",
+      "fingerprint": "561e4a5fb4a6236328abeb4b1d1c33ecc19f8283",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Tango.toml",
+      "original_name": "Tango",
+      "profile_id": "ala-tango",
+      "visible_name": "ALA Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Tango",
+      "fingerprint": "ac87d07023945b8cc0076c6ad96dee81d6b27474",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Tangoesque.toml",
+      "original_name": "Tangoesque",
+      "profile_id": "ala-tangoesque",
+      "visible_name": "ALA Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Tangoesque",
+      "fingerprint": "3d7e3585f14b91113c9d7de729a18375dfd2ed0a",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Tangoish.toml",
+      "original_name": "Tangoish",
+      "profile_id": "ala-tangoish",
+      "visible_name": "ALA Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Tangoish",
+      "fingerprint": "a3decb819f2df2341275f14ccb6519a4db0299bb",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Tartan.toml",
+      "original_name": "Tartan",
+      "profile_id": "ala-tartan",
+      "visible_name": "ALA Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Tartan",
+      "fingerprint": "94001263fdbcfe54851cc7bfa262715a82330920",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Tender.toml",
+      "original_name": "Tender",
+      "profile_id": "ala-tender",
+      "visible_name": "ALA Neon Crimson \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Tender",
+      "fingerprint": "3c55899474a3ef5f79f347a15cf23df6488c9af3",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Terminal-app-Basic.toml",
+      "original_name": "Terminal-app-Basic",
+      "profile_id": "ala-terminal-app-basic",
+      "visible_name": "ALA Daylight Indigo \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Terminal-app-Basic",
+      "fingerprint": "faad98e765229561453c19da55446f670aaafdd8",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Terminal-app.toml",
+      "original_name": "Terminal-app",
+      "profile_id": "ala-terminal-app",
+      "visible_name": "ALA Neon Indigo \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Terminal-app",
+      "fingerprint": "056b2e6d1e574dd422bb8ec15f0d432c1489334d",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Theme2.toml",
+      "original_name": "theme2",
+      "profile_id": "ala-theme2",
+      "visible_name": "ALA Nocturne Rose \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 theme2",
+      "fingerprint": "28a0a14c84ea403279302a905ce191e621859791",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Thwump.toml",
+      "original_name": "thwump",
+      "profile_id": "ala-thwump",
+      "visible_name": "ALA Neon Indigo \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 thwump",
+      "fingerprint": "2851c12c278773aee82e734e1749392d8961ca3c",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Tlh.toml",
+      "original_name": "tlh",
+      "profile_id": "ala-tlh",
+      "visible_name": "ALA Neon Rose \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 tlh",
+      "fingerprint": "db01f71025623addad965b409c70e950b4d40c7f",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Tokyonight_Day.toml",
+      "original_name": "TokyoNight Day",
+      "profile_id": "ala-tokyonight_day",
+      "visible_name": "ALA Dawn Azure \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Cool \u2014 TokyoNight Day",
+      "fingerprint": "2c94dc0fd812e1a64457bb34f19478901c130fde",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Tokyonight_Night.toml",
+      "original_name": "TokyoNight Night",
+      "profile_id": "ala-tokyonight_night",
+      "visible_name": "ALA Neon Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 TokyoNight Night",
+      "fingerprint": "f756572c3259c851810d6d03fe9ab83d951fd3fc",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Tokyonight_Storm.toml",
+      "original_name": "TokyoNight Storm",
+      "profile_id": "ala-tokyonight_storm",
+      "visible_name": "ALA Neon Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 TokyoNight Storm",
+      "fingerprint": "3a7c42d51df5cbe5601bdcfce970e27d2fa39679",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Tomorrow-Night-Bright.toml",
+      "original_name": "Tomorrow-Night-Bright",
+      "profile_id": "ala-tomorrow-night-bright",
+      "visible_name": "ALA Nocturne Lime \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Neutral \u2014 Tomorrow-Night-Bright",
+      "fingerprint": "8fa6d23aa9fb961c577d9debc750ccc449ea07d6",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Tomorrow-Night.toml",
+      "original_name": "Tomorrow-Night",
+      "profile_id": "ala-tomorrow-night",
+      "visible_name": "ALA Nocturne Lime \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Neutral \u2014 Tomorrow-Night",
+      "fingerprint": "d364eda96b29c7427440238666600c69a22370fb",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Tomorrow.dark.toml",
+      "original_name": "Tomorrow (dark)",
+      "profile_id": "ala-tomorrow.dark",
+      "visible_name": "ALA Neon Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Tomorrow (dark)",
+      "fingerprint": "518ed1c3d5fdc49a8e223f563377d5f75bd68e7b",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Tomorrow.light.toml",
+      "original_name": "Tomorrow (light)",
+      "profile_id": "ala-tomorrow.light",
+      "visible_name": "ALA Daylight Amber \u2014 Light\u00b7HighC\u00b7Pastel\u00b7Warm \u2014 Tomorrow (light)",
+      "fingerprint": "47e645b84b99b087c7a1a054531e04cd06b6586a",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Trim-yer-beard.toml",
+      "original_name": "Trim Yer Beard",
+      "profile_id": "ala-trim-yer-beard",
+      "visible_name": "ALA Nocturne Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Trim Yer Beard",
+      "fingerprint": "6f0255883faed6b124513b27b14ad08f32109ff1",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Twilight.dark.toml",
+      "original_name": "Twilight (dark)",
+      "profile_id": "ala-twilight.dark",
+      "visible_name": "ALA Neon Crimson \u2014 Dark\u00b7MedC\u00b7Muted\u00b7Warm \u2014 Twilight (dark)",
+      "fingerprint": "3ac95565477cf5d2d441528bfef320208f36c97c",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Twilight.light.toml",
+      "original_name": "Twilight (light)",
+      "profile_id": "ala-twilight.light",
+      "visible_name": "ALA Daylight Crimson \u2014 Light\u00b7HighC\u00b7Pastel\u00b7Warm \u2014 Twilight (light)",
+      "fingerprint": "eafd3cefb36cae1a9f351adbfb0ec9751ef57863",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Ubuntu.toml",
+      "original_name": "Ubuntu",
+      "profile_id": "ala-ubuntu",
+      "visible_name": "ALA Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Ubuntu",
+      "fingerprint": "37459a671dc23c20920dfd67794d7336ee21541a",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/User 77 - Mashup colors.toml",
+      "original_name": "Mashup Colors",
+      "profile_id": "ala-user-77---mashup-colors",
+      "visible_name": "ALA Nocturne Lime \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Mashup Colors",
+      "fingerprint": "1d2f2df7de69f9cdd261e57aa957e963949ce10e",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Vacuous2.toml",
+      "original_name": "Vacuous 2",
+      "profile_id": "ala-vacuous2",
+      "visible_name": "ALA Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Vacuous 2",
+      "fingerprint": "db896d8c4e0834fcb34d9f511c4ce79d656c7def",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Visiblue.toml",
+      "original_name": "VisiBlue",
+      "profile_id": "ala-visiblue",
+      "visible_name": "ALA Neon Azure \u2014 Dark\u00b7LowC\u00b7Vivid\u00b7Cool \u2014 VisiBlue",
+      "fingerprint": "1442026c5bce94063beda1ae2d3c4484cebecad0",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Visibone-alt-2.toml",
+      "original_name": "Visibone Alt. 2",
+      "profile_id": "ala-visibone-alt-2",
+      "visible_name": "ALA Neon Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Visibone Alt. 2",
+      "fingerprint": "4ad1774980fc04171c3b845383fcb39a326497cb",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Visibone.toml",
+      "original_name": "VisiBone",
+      "profile_id": "ala-visibone",
+      "visible_name": "ALA Neon Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 VisiBone",
+      "fingerprint": "b9ba1691003163b1f831f607cf528aa84142fb2d",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Wombat.toml",
+      "original_name": "Wombat",
+      "profile_id": "ala-wombat",
+      "visible_name": "ALA Neon Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Wombat",
+      "fingerprint": "ce971469ecf2ca20c52c7041431fb0894764e7e2",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/X-dotshare.toml",
+      "original_name": "X::DotShare",
+      "profile_id": "ala-x-dotshare",
+      "visible_name": "ALA Neon Amber \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 X::DotShare",
+      "fingerprint": "cc0679c9fa725db91b4f06eac998aef3f357ae70",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/X-erosion.toml",
+      "original_name": "X::Erosion",
+      "profile_id": "ala-x-erosion",
+      "visible_name": "ALA Nocturne Amber \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 X::Erosion",
+      "fingerprint": "7d89ea8680bb735fc6b9a5263db93c6fbf620877",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/XTerm.toml",
+      "original_name": "XTerm",
+      "profile_id": "ala-xterm",
+      "visible_name": "ALA Neon Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 XTerm",
+      "fingerprint": "c2e4424cc9586e865a6a6baff3a95f3b2e9afabe",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Yousai.toml",
+      "original_name": "Yousai",
+      "profile_id": "ala-yousai",
+      "visible_name": "ALA Dawn Crimson \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Yousai",
+      "fingerprint": "1e6d63cf38d0aad5bf882a3610f0371ad58d9718",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/Zenburn.toml",
+      "original_name": "zenburn",
+      "profile_id": "ala-zenburn",
+      "visible_name": "ALA Neon Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 zenburn",
+      "fingerprint": "06314c4ad0e0339a819c1bea1b427a13474faa02",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/github_dark.toml",
+      "original_name": "github dark",
+      "profile_id": "ala-github_dark",
+      "visible_name": "ALA Neon Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Neutral \u2014 github dark",
+      "fingerprint": "b0affe44be9847b5ce0d40a6df2e32eb07374261",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/github_dark_default.toml",
+      "original_name": "github dark default",
+      "profile_id": "ala-github_dark_default",
+      "visible_name": "ALA Neon Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 github dark default",
+      "fingerprint": "19c3bd54a5b9d323eabe9665aecb555f6c04f23e",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/github_dimmed.toml",
+      "original_name": "github dimmed",
+      "profile_id": "ala-github_dimmed",
+      "visible_name": "ALA Neon Amber \u2014 Dark\u00b7LowC\u00b7Vivid\u00b7Warm \u2014 github dimmed",
+      "fingerprint": "f9f3ec2cbf246b45824bfa22e6a3238c4454c0e2",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/github_light.toml",
+      "original_name": "github light",
+      "profile_id": "ala-github_light",
+      "visible_name": "ALA Dawn Lime \u2014 Light\u00b7MedC\u00b7Vivid\u00b7Warm \u2014 github light",
+      "fingerprint": "74dd5e4f03fa48e21291cec8dbfdf19d81648dcc",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/github_light_default.toml",
+      "original_name": "github light default",
+      "profile_id": "ala-github_light_default",
+      "visible_name": "ALA Daylight Azure \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 github light default",
+      "fingerprint": "30d0844359ac14a09d3ce62beffed1d301f03a78",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/iTerm-Default.toml",
+      "original_name": "iTerm-Default",
+      "profile_id": "ala-iterm-default",
+      "visible_name": "ALA Neon Azure \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 iTerm-Default",
+      "fingerprint": "27abf22bab38669a21a0d170f60c402f17112e3a",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/paper-theme.toml",
+      "original_name": "paper-theme",
+      "profile_id": "ala-paper-theme",
+      "visible_name": "ALA Dawn Amber \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 paper-theme",
+      "fingerprint": "fdd950dfd02d1cd24bbf673cdfd9fa083156efc1",
+      "duplicate_of": null
+    },
+    {
+      "source": "rajasegar/alacritty-themes",
+      "source_path": "/tmp/mateswatch-sources/alacritty-themes/themes/vscode.dark.toml",
+      "original_name": "vscode (dark)",
+      "profile_id": "ala-vscode.dark",
+      "visible_name": "ALA Neon Cyan \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 vscode (dark)",
+      "fingerprint": "134cf473912e0dd44f456c0429d6050d9f7355db",
+      "duplicate_of": null
+    }
+  ]
+}

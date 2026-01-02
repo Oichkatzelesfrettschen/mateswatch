@@ -1,0 +1,9 @@
+[/]
+visible-name='WZT Neon Crimson — Dark·HighC·Vivid·Warm — Brewer (base16)'
+use-theme-colors=false
+foreground-color='#B7B7B8B8B9B9'
+background-color='#0C0C0D0D0E0E'
+bold-color-same-as-fg=true
+bold-color='#B7B7B8B8B9B9'
+cursor-color='#b7b8b9'
+palette='#0C0C0D0D0E0E:#E3E31A1A1C1C:#3131A3A35454:#DCDCA0A06060:#31318282BDBD:#75756B6BB1B1:#8080B1B1D3D3:#B7B7B8B8B9B9:#737374747575:#E3E31A1A1C1C:#3131A3A35454:#DCDCA0A06060:#31318282BDBD:#75756B6BB1B1:#8080B1B1D3D3:#FCFCFDFDFEFE'

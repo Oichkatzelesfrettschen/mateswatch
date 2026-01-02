@@ -1,0 +1,9 @@
+[/]
+visible-name='WZT Daylight Amber — Light·MedC·Vivid·Warm — Unikitty Light (base16)'
+use-theme-colors=false
+foreground-color='#6C6C69696E6E'
+background-color='#FFFFFFFFFFFF'
+bold-color-same-as-fg=true
+bold-color='#6C6C69696E6E'
+cursor-color='#6c696e'
+palette='#FFFFFFFFFFFF:#D8D813137F7F:#1717ADAD9898:#DCDC8A8A0E0E:#77775D5DFFFF:#AAAA1717E6E6:#14149B9BDADA:#6C6C69696E6E:#A7A7A5A5A8A8:#D8D813137F7F:#1717ADAD9898:#DCDC8A8A0E0E:#77775D5DFFFF:#AAAA1717E6E6:#14149B9BDADA:#32322D2D3434'

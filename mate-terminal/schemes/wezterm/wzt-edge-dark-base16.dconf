@@ -1,0 +1,9 @@
+[/]
+visible-name='WZT Neon Crimson — Dark·HighC·Muted·Warm — Edge Dark (base16)'
+use-theme-colors=false
+foreground-color='#B7B7BEBEC9C9'
+background-color='#262627272929'
+bold-color-same-as-fg=true
+bold-color='#B7B7BEBEC9C9'
+cursor-color='#b7bec9'
+palette='#262627272929:#E7E771717171:#A1A1BFBF7878:#DBDBB7B77474:#7373B3B3E7E7:#D3D39090E7E7:#5E5EBABAA5A5:#B7B7BEBEC9C9:#3E3E42424949:#E7E771717171:#A1A1BFBF7878:#DBDBB7B77474:#7373B3B3E7E7:#D3D39090E7E7:#5E5EBABAA5A5:#3E3E42424949'
