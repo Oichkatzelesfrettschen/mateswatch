@@ -29,6 +29,27 @@ Validates every scheme file’s key set + 16-color palette formatting:
 ./scripts/test-schemes.sh
 ```
 
+## Render fidelity (pixel-verified)
+
+This is the closest we can get to “does it look right” automatically:
+
+- Runs `mate-terminal` under `xvfb-run`
+- Renders a fixed ANSI 16-color background block grid
+- Screenshots the terminal window with ImageMagick `import` (uses `xdotool` when available)
+- Samples pixels and verifies they match the scheme’s palette entries
+
+Fast sample:
+
+```sh
+./scripts/test-mateswatch-render.py --count 20
+```
+
+Full corpus (slow):
+
+```sh
+./scripts/test-mateswatch-render.py --all --keep
+```
+
 ## Live “does it launch” test (desktop required)
 
 This imports schemes into **temporary** test profiles and launches `mate-terminal` quickly to ensure no errors.
@@ -44,4 +65,3 @@ Full corpus (slow, thousands of windows):
 ```sh
 ./scripts/test-mateswatch-live.py --all
 ```
-
