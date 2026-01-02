@@ -1,7 +1,7 @@
 # Maintainer: eirikr
 
 pkgname=mateswatch
-pkgver=0.2.0
+pkgver=0.2.1
 pkgrel=1
 pkgdesc="MATE Terminal theme pack (mateswatch)"
 arch=('any')
@@ -13,18 +13,11 @@ depends=(
   'glib2'
   'python'
 )
-optdepends=(
-  'tilix: use the included Tilix Atom scheme (legacy)'
-)
 source=()
 sha256sums=()
 
 package() {
   cd "${srcdir}"
-
-  # Legacy: keep Atom Tilix scheme where Tilix expects it.
-  install -Dm644 "${startdir}/tilix/schemes/atom.json" \
-    "${pkgdir}/usr/share/tilix/schemes/atom.json"
 
   # mateswatch ships its profile snippets under /usr/share/mateswatch
   install -d "${pkgdir}/usr/share/mateswatch/mate-terminal"

@@ -1,7 +1,7 @@
 # mateswatch stats
 
-- Profiles indexed: **2260**
-- Duplicate fingerprints: **580**
+- Profiles indexed: **2275**
+- Duplicate fingerprints: **581**
 
 ## By type
 
@@ -12,19 +12,21 @@
 - B24: 184
 - KTY: 169
 - KON: 13
+- CTP: 12
+- DRC: 3
 - UNK: 1
 
 ## Vibe tags (global)
 
-- Dark: 1839
-- Vivid: 1705
-- HighC: 1662
-- Warm: 1042
-- Cool: 1033
-- Muted: 523
+- Dark: 1851
+- Vivid: 1709
+- HighC: 1677
+- Warm: 1046
+- Cool: 1041
+- Muted: 534
 - MedC: 444
-- Light: 421
-- Neutral: 185
+- Light: 424
+- Neutral: 188
 - LowC: 154
 - Pastel: 32
 

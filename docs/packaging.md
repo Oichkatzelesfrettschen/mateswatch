@@ -60,12 +60,20 @@ To import and enable the theme in a running desktop session you typically need:
 - `mate-terminal`
 - `dconf-cli` (for `dconf`)
 - `libglib2.0-bin` (for `gsettings`)
+- `python3`
+
+On Debian/LMDE, that’s typically:
+
+```sh
+sudo apt update
+sudo apt install mate-terminal dconf-cli libglib2.0-bin python3
+```
 
 ### Debian archive note (licensing)
 
 The Atom scheme source this repo vendored was found on this machine via `tilix-themes-git` from `https://github.com/storm119/Tilix-Themes`, which does not ship an explicit license file. That makes it unsuitable for Debian main as-is.
 
-For a Debian/Mint-friendly theme corpus with a clear license, see the MIT-licensed Gogh conversions in this repo (`docs/gogh-to-mate-terminal.md`).
+This repo keeps that Tilix JSON as a local reference only; the `.deb` builder ships only the MATE Terminal profiles derived from clearly-licensed upstream sources (see `docs/theme-sources.md`).
 
 ### `.deb` artifact for releases
 
@@ -75,7 +83,6 @@ This repo includes a small, reproducible `.deb` builder at:
 
 It creates an `all`-architecture `.deb` in `dist/` containing:
 
-- Tilix scheme (legacy): `/usr/share/tilix/schemes/atom.json`
 - MATE Terminal profile snippets: `/usr/share/mateswatch/mate-terminal/schemes/`
 - Helper command: `/usr/bin/mateswatch`
 - Documentation: `/usr/share/doc/mateswatch/`

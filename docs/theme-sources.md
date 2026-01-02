@@ -55,6 +55,19 @@ Vendored Konsole sources with clear MIT licensing include:
 - Catppuccin Konsole: `sources/catppuccin/konsole/` → `mate-terminal/schemes/konsole/brands/`
 - Community Konsole bundles: `sources/konsole-community/` → `mate-terminal/schemes/konsole/community*/`
 
+## Official Dracula / Catppuccin (“brands”)
+
+Some themes have “official” upstream implementations per terminal. This repo vendors a minimal, licensed subset of those sources and converts them into MATE Terminal profiles:
+
+- Dracula (MIT): `sources/dracula/{gnome-terminal,kitty,wezterm}/` → `mate-terminal/schemes/brands/dracula/` (type `DRC`)
+- Catppuccin (MIT): `sources/catppuccin/{gnome-terminal,kitty,wezterm,palette}/` → `mate-terminal/schemes/brands/catppuccin/` (type `CTP`)
+
+Generator:
+
+```sh
+./scripts/import-official-brands.py
+```
+
 ## Converting locally-installed schemes
 
 Convert Tilix JSON schemes into minimal MATE Terminal `.dconf` snippets (generated output is gitignored):

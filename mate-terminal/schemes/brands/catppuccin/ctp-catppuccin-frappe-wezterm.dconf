@@ -1,0 +1,9 @@
+[/]
+visible-name='CTP Neon Crimson — Dark·HighC·Muted·Warm — Catppuccin Frappe (WezTerm)'
+use-theme-colors=false
+foreground-color='#C6C6D0D0F5F5'
+background-color='#303034344646'
+bold-color-same-as-fg=true
+bold-color='#C6C6D0D0F5F5'
+cursor-color='#c6d0f5'
+palette='#515157576D6D:#E7E782828484:#A6A6D1D18989:#E5E5C8C89090:#8C8CAAAAEEEE:#F4F4B8B8E4E4:#8181C8C8BEBE:#B5B5BFBFE2E2:#626268688080:#E7E782828484:#A6A6D1D18989:#E5E5C8C89090:#8C8CAAAAEEEE:#F4F4B8B8E4E4:#8181C8C8BEBE:#A5A5ADADCECE'

@@ -97,6 +97,18 @@ This repo uses:
 
 so profiles cluster by `TYPE` (source/family), while still conveying contrast/saturation/temperature at a glance.
 
+### TYPE codes (this repo)
+
+- `GOG`: Gogh theme corpus
+- `WZT`: WezTerm built-in schemes corpus
+- `B16`: tinted-shell Base16 corpus
+- `B24`: tinted-shell Base24 corpus
+- `KTY`: kitty-themes corpus
+- `ALA`: alacritty-themes corpus
+- `KON`: Konsole colorscheme imports
+- `DRC`: Dracula “official” sources (brand repos)
+- `CTP`: Catppuccin “official” sources (brand repos)
+
 ## Source pointers
 
 Upstream `mate-terminal` repository:

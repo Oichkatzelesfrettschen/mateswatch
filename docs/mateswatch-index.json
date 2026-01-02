@@ -1,7 +1,9 @@
 {
-  "count": 2260,
+  "count": 2275,
   "types": {
     "ALA": 231,
+    "CTP": 12,
+    "DRC": 3,
     "GOG": 362,
     "KTY": 169,
     "KON": 13,
@@ -11,19 +13,46 @@
     "WZT": 1001
   },
   "tag_counts": {
-    "Dark": 1839,
-    "HighC": 1662,
-    "Vivid": 1705,
-    "Cool": 1033,
-    "Light": 421,
-    "Muted": 523,
-    "Warm": 1042,
-    "Neutral": 185,
+    "Dark": 1851,
+    "HighC": 1677,
+    "Vivid": 1709,
+    "Cool": 1041,
+    "Light": 424,
+    "Muted": 534,
+    "Warm": 1046,
+    "Neutral": 188,
     "MedC": 444,
     "LowC": 154,
     "Pastel": 32
   },
   "duplicate_fingerprints": {
+    "439b9eea0f5cbe520ef4d80fcb870767408da2a3": [
+      "ala-catppuccin-frappe",
+      "ctp-catppuccin-frappe-kitty",
+      "ctp-catppuccin-frappe-wezterm",
+      "gogh-catppuccin-frapp",
+      "wzt-catppuccin-frapp-gogh",
+      "wzt-catppuccin-frappe-unnamed",
+      "wzt-catppuccin-frappe"
+    ],
+    "2fa99d4c495e85dab811d26adf5560f0594b10ce": [
+      "ala-catppuccin-macchiato",
+      "ctp-catppuccin-macchiato-kitty",
+      "ctp-catppuccin-macchiato-wezterm",
+      "gogh-catppuccin-macchiato",
+      "wzt-catppuccin-macchiato-gogh",
+      "wzt-catppuccin-macchiato-unnamed",
+      "wzt-catppuccin-macchiato"
+    ],
+    "76f4b8b48339a84e57f7a9c706dc8e6cce7f46eb": [
+      "ala-catppuccin-mocha",
+      "ctp-catppuccin-mocha-kitty",
+      "ctp-catppuccin-mocha-wezterm",
+      "gogh-catppuccin-mocha",
+      "wzt-catppuccin-mocha-gogh",
+      "wzt-catppuccin-mocha-unnamed",
+      "wzt-catppuccin-mocha"
+    ],
     "f3d73d48d3e125d4bce060147111c98d5c5150d8": [
       "ala-paraiso.dark",
       "gogh-paraiso-dark",
@@ -41,26 +70,12 @@
       "wzt-terminal-basic-gogh",
       "wzt-terminal-basic"
     ],
-    "439b9eea0f5cbe520ef4d80fcb870767408da2a3": [
-      "ala-catppuccin-frappe",
-      "gogh-catppuccin-frapp",
-      "wzt-catppuccin-frapp-gogh",
-      "wzt-catppuccin-frappe-unnamed",
-      "wzt-catppuccin-frappe"
-    ],
-    "2fa99d4c495e85dab811d26adf5560f0594b10ce": [
-      "ala-catppuccin-macchiato",
-      "gogh-catppuccin-macchiato",
-      "wzt-catppuccin-macchiato-gogh",
-      "wzt-catppuccin-macchiato-unnamed",
-      "wzt-catppuccin-macchiato"
-    ],
-    "76f4b8b48339a84e57f7a9c706dc8e6cce7f46eb": [
-      "ala-catppuccin-mocha",
-      "gogh-catppuccin-mocha",
-      "wzt-catppuccin-mocha-gogh",
-      "wzt-catppuccin-mocha-unnamed",
-      "wzt-catppuccin-mocha"
+    "1337a28b4000b938c7d32ab6d4b43f3a384b9ca3": [
+      "ala-catppuccin-latte",
+      "ctp-catppuccin-latte-kitty",
+      "gogh-catppuccin-latte",
+      "wzt-catppuccin-latte-gogh",
+      "wzt-catppuccin-latte-unnamed"
     ],
     "e291c49af36e5f0b8c6878566fe43a2a35a2fa03": [
       "ala-3024.dark",
@@ -86,12 +101,6 @@
       "wzt-brewer-base16",
       "wzt-brewer-dark-terminal.sexy"
     ],
-    "1337a28b4000b938c7d32ab6d4b43f3a384b9ca3": [
-      "ala-catppuccin-latte",
-      "gogh-catppuccin-latte",
-      "wzt-catppuccin-latte-gogh",
-      "wzt-catppuccin-latte-unnamed"
-    ],
     "9a85e5a372f0d23c3f268eb738252dc88519f114": [
       "ala-chalk.dark",
       "b16-base16-chalk",
@@ -115,6 +124,12 @@
       "b16-base16-classic-dark",
       "wzt-classic-dark-base16",
       "wzt-default-dark-terminal.sexy"
+    ],
+    "3d0aa014d4b34377e0fbbabe7eb2a66a831ff8f4": [
+      "ala-dracula",
+      "drc-dracula-kitty",
+      "drc-dracula-wezterm",
+      "wzt-dracula-official"
     ],
     "b063769a17bf4335bbef66593a77afd3e3a3f832": [
       "ala-eighties.dark",
@@ -1025,10 +1040,6 @@
       "ala-dotshare",
       "wzt-dotshare-terminal.sexy"
     ],
-    "3d0aa014d4b34377e0fbbabe7eb2a66a831ff8f4": [
-      "ala-dracula",
-      "wzt-dracula-official"
-    ],
     "d1caa6eb1a804ddfc1756946d3b8e1fd8046a51b": [
       "ala-dwmrob",
       "wzt-dwm-rob-terminal.sexy"
@@ -1380,6 +1391,10 @@
     "06314c4ad0e0339a819c1bea1b427a13474faa02": [
       "ala-zenburn",
       "wzt-zenburn-terminal.sexy"
+    ],
+    "9686113c1db9c281d6c116410e0896f546f8aa59": [
+      "ctp-catppuccin-latte-wezterm",
+      "wzt-catppuccin-latte"
     ],
     "cf93c2e84c0ddf75f61d0711b1854a4723e9f9bc": [
       "gogh-aci",
@@ -5788,6 +5803,216 @@
       ],
       "fingerprint": "06314c4ad0e0339a819c1bea1b427a13474faa02",
       "path": "mate-terminal/schemes/alacritty/ala-zenburn.dconf"
+    },
+    {
+      "profile_id": "ctp-catppuccin-frappe-gnome-terminal",
+      "type": "CTP",
+      "visible_name": "CTP Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Catppuccin Frappe (GNOME Terminal)",
+      "vibe_name": "Nocturne Cyan",
+      "vibe_tags": [
+        "Dark",
+        "HighC",
+        "Muted",
+        "Cool"
+      ],
+      "fingerprint": "5a498d541b08c9a36d2b27a3917aef2199b19fd8",
+      "path": "mate-terminal/schemes/brands/catppuccin/ctp-catppuccin-frappe-gnome-terminal.dconf"
+    },
+    {
+      "profile_id": "ctp-catppuccin-frappe-kitty",
+      "type": "CTP",
+      "visible_name": "CTP Neon Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Catppuccin Frappe (kitty)",
+      "vibe_name": "Neon Crimson",
+      "vibe_tags": [
+        "Dark",
+        "HighC",
+        "Muted",
+        "Warm"
+      ],
+      "fingerprint": "439b9eea0f5cbe520ef4d80fcb870767408da2a3",
+      "path": "mate-terminal/schemes/brands/catppuccin/ctp-catppuccin-frappe-kitty.dconf"
+    },
+    {
+      "profile_id": "ctp-catppuccin-frappe-wezterm",
+      "type": "CTP",
+      "visible_name": "CTP Neon Crimson \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Warm \u2014 Catppuccin Frappe (WezTerm)",
+      "vibe_name": "Neon Crimson",
+      "vibe_tags": [
+        "Dark",
+        "HighC",
+        "Muted",
+        "Warm"
+      ],
+      "fingerprint": "439b9eea0f5cbe520ef4d80fcb870767408da2a3",
+      "path": "mate-terminal/schemes/brands/catppuccin/ctp-catppuccin-frappe-wezterm.dconf"
+    },
+    {
+      "profile_id": "ctp-catppuccin-latte-gnome-terminal",
+      "type": "CTP",
+      "visible_name": "CTP Daylight Azure \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Cool \u2014 Catppuccin Latte (GNOME Terminal)",
+      "vibe_name": "Daylight Azure",
+      "vibe_tags": [
+        "Light",
+        "HighC",
+        "Vivid",
+        "Cool"
+      ],
+      "fingerprint": "e965c382b7d2690a95be5c8de07f28841837662e",
+      "path": "mate-terminal/schemes/brands/catppuccin/ctp-catppuccin-latte-gnome-terminal.dconf"
+    },
+    {
+      "profile_id": "ctp-catppuccin-latte-kitty",
+      "type": "CTP",
+      "visible_name": "CTP Daylight Crimson \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Catppuccin Latte (kitty)",
+      "vibe_name": "Daylight Crimson",
+      "vibe_tags": [
+        "Light",
+        "HighC",
+        "Vivid",
+        "Warm"
+      ],
+      "fingerprint": "1337a28b4000b938c7d32ab6d4b43f3a384b9ca3",
+      "path": "mate-terminal/schemes/brands/catppuccin/ctp-catppuccin-latte-kitty.dconf"
+    },
+    {
+      "profile_id": "ctp-catppuccin-latte-wezterm",
+      "type": "CTP",
+      "visible_name": "CTP Daylight Crimson \u2014 Light\u00b7HighC\u00b7Vivid\u00b7Warm \u2014 Catppuccin Latte (WezTerm)",
+      "vibe_name": "Daylight Crimson",
+      "vibe_tags": [
+        "Light",
+        "HighC",
+        "Vivid",
+        "Warm"
+      ],
+      "fingerprint": "9686113c1db9c281d6c116410e0896f546f8aa59",
+      "path": "mate-terminal/schemes/brands/catppuccin/ctp-catppuccin-latte-wezterm.dconf"
+    },
+    {
+      "profile_id": "ctp-catppuccin-macchiato-gnome-terminal",
+      "type": "CTP",
+      "visible_name": "CTP Nocturne Cyan \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Catppuccin Macchiato (GNOME Terminal)",
+      "vibe_name": "Nocturne Cyan",
+      "vibe_tags": [
+        "Dark",
+        "HighC",
+        "Muted",
+        "Cool"
+      ],
+      "fingerprint": "4e505f652342b5dbd3b16ddde0d6de178a033bbe",
+      "path": "mate-terminal/schemes/brands/catppuccin/ctp-catppuccin-macchiato-gnome-terminal.dconf"
+    },
+    {
+      "profile_id": "ctp-catppuccin-macchiato-kitty",
+      "type": "CTP",
+      "visible_name": "CTP Neon Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Catppuccin Macchiato (kitty)",
+      "vibe_name": "Neon Azure",
+      "vibe_tags": [
+        "Dark",
+        "HighC",
+        "Muted",
+        "Cool"
+      ],
+      "fingerprint": "2fa99d4c495e85dab811d26adf5560f0594b10ce",
+      "path": "mate-terminal/schemes/brands/catppuccin/ctp-catppuccin-macchiato-kitty.dconf"
+    },
+    {
+      "profile_id": "ctp-catppuccin-macchiato-wezterm",
+      "type": "CTP",
+      "visible_name": "CTP Neon Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Catppuccin Macchiato (WezTerm)",
+      "vibe_name": "Neon Azure",
+      "vibe_tags": [
+        "Dark",
+        "HighC",
+        "Muted",
+        "Cool"
+      ],
+      "fingerprint": "2fa99d4c495e85dab811d26adf5560f0594b10ce",
+      "path": "mate-terminal/schemes/brands/catppuccin/ctp-catppuccin-macchiato-wezterm.dconf"
+    },
+    {
+      "profile_id": "ctp-catppuccin-mocha-gnome-terminal",
+      "type": "CTP",
+      "visible_name": "CTP Neon Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Catppuccin Mocha (GNOME Terminal)",
+      "vibe_name": "Neon Azure",
+      "vibe_tags": [
+        "Dark",
+        "HighC",
+        "Muted",
+        "Cool"
+      ],
+      "fingerprint": "a3a038a43cdc8e42542c9455338ef22b2f0d78a5",
+      "path": "mate-terminal/schemes/brands/catppuccin/ctp-catppuccin-mocha-gnome-terminal.dconf"
+    },
+    {
+      "profile_id": "ctp-catppuccin-mocha-kitty",
+      "type": "CTP",
+      "visible_name": "CTP Neon Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Catppuccin Mocha (kitty)",
+      "vibe_name": "Neon Azure",
+      "vibe_tags": [
+        "Dark",
+        "HighC",
+        "Muted",
+        "Cool"
+      ],
+      "fingerprint": "76f4b8b48339a84e57f7a9c706dc8e6cce7f46eb",
+      "path": "mate-terminal/schemes/brands/catppuccin/ctp-catppuccin-mocha-kitty.dconf"
+    },
+    {
+      "profile_id": "ctp-catppuccin-mocha-wezterm",
+      "type": "CTP",
+      "visible_name": "CTP Neon Azure \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Cool \u2014 Catppuccin Mocha (WezTerm)",
+      "vibe_name": "Neon Azure",
+      "vibe_tags": [
+        "Dark",
+        "HighC",
+        "Muted",
+        "Cool"
+      ],
+      "fingerprint": "76f4b8b48339a84e57f7a9c706dc8e6cce7f46eb",
+      "path": "mate-terminal/schemes/brands/catppuccin/ctp-catppuccin-mocha-wezterm.dconf"
+    },
+    {
+      "profile_id": "drc-dracula-gnome-terminal",
+      "type": "DRC",
+      "visible_name": "DRC Neon Jade \u2014 Dark\u00b7HighC\u00b7Vivid\u00b7Neutral \u2014 Dracula (GNOME Terminal)",
+      "vibe_name": "Neon Jade",
+      "vibe_tags": [
+        "Dark",
+        "HighC",
+        "Vivid",
+        "Neutral"
+      ],
+      "fingerprint": "37ff02bcdd4541229f37c200e4734c13e2cfd3ab",
+      "path": "mate-terminal/schemes/brands/dracula/drc-dracula-gnome-terminal.dconf"
+    },
+    {
+      "profile_id": "drc-dracula-kitty",
+      "type": "DRC",
+      "visible_name": "DRC Neon Jade \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Neutral \u2014 Dracula (kitty)",
+      "vibe_name": "Neon Jade",
+      "vibe_tags": [
+        "Dark",
+        "HighC",
+        "Muted",
+        "Neutral"
+      ],
+      "fingerprint": "3d0aa014d4b34377e0fbbabe7eb2a66a831ff8f4",
+      "path": "mate-terminal/schemes/brands/dracula/drc-dracula-kitty.dconf"
+    },
+    {
+      "profile_id": "drc-dracula-wezterm",
+      "type": "DRC",
+      "visible_name": "DRC Neon Jade \u2014 Dark\u00b7HighC\u00b7Muted\u00b7Neutral \u2014 Dracula (WezTerm)",
+      "vibe_name": "Neon Jade",
+      "vibe_tags": [
+        "Dark",
+        "HighC",
+        "Muted",
+        "Neutral"
+      ],
+      "fingerprint": "3d0aa014d4b34377e0fbbabe7eb2a66a831ff8f4",
+      "path": "mate-terminal/schemes/brands/dracula/drc-dracula-wezterm.dconf"
     },
     {
       "profile_id": "gogh-3024-day",

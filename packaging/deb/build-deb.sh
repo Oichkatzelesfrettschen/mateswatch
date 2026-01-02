@@ -16,15 +16,12 @@ trap 'rm -rf "${workdir}"' EXIT
 root="${workdir}/root"
 controldir="${workdir}/control"
 
-mkdir -p "${root}/usr/share/tilix/schemes"
 mkdir -p "${root}/usr/share/mateswatch/mate-terminal"
 mkdir -p "${root}/usr/bin"
 mkdir -p "${root}/usr/share/doc/${pkgname}"
 mkdir -p "${controldir}"
 mkdir -p "${outdir}"
 
-install -m 0644 "${repo_root}/tilix/schemes/atom.json" \
-  "${root}/usr/share/tilix/schemes/atom.json"
 cp -a "${repo_root}/mate-terminal/schemes" \
   "${root}/usr/share/mateswatch/mate-terminal/"
 install -m 0755 "${repo_root}/scripts/mateswatch-import.py" \
@@ -65,19 +62,19 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: mateswatch (terminal theme pack)
 Source: https://github.com/Oichkatzelesfrettschen/mateswatch
 
-Files: usr/share/tilix/schemes/atom.json
-Copyright: Unknown
-License: UNKNOWN
- Comment:
-  The upstream repository referenced above does not ship a license file at the
-  time this repo vendored the Atom theme, so the license is not known here.
-
-Files: usr/share/mateswatch/mate-terminal/schemes/** usr/share/doc/mateswatch/sources/**
+Files: usr/share/mateswatch/mate-terminal/schemes/**
 Copyright: Various
 License: MIT
  Comment:
   This package includes converted scheme snippets derived from MIT-licensed
   upstream theme collections. See /usr/share/doc/mateswatch/sources/.
+
+Files: usr/share/doc/mateswatch/sources/**
+Copyright: Various
+License: Various
+ Comment:
+  This directory contains vendored upstream license texts and attribution
+  notes per source corpus.
 
 Files: usr/bin/mateswatch
 Copyright: 2026 eirikr
@@ -93,6 +90,25 @@ License: 0BSD
  OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
  PERFORMANCE OF THIS SOFTWARE.
 
+License: MIT
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
 EOF
 
 installed_kb="$(du -ks "${root}" | awk '{print $1}')"
@@ -106,7 +122,6 @@ Architecture: ${arch}
 Installed-Size: ${installed_kb}
 Maintainer: eirikr <eirikr@localhost>
 Depends: mate-terminal, dconf-cli, libglib2.0-bin, python3
-Recommends: tilix
 Description: mateswatch terminal theme pack for MATE Terminal
  Ships a large set of MATE Terminal profile snippets plus a helper command
  to import/enable individual profiles for the current user.

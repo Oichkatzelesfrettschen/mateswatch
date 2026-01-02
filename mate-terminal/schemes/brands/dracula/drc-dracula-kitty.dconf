@@ -1,0 +1,9 @@
+[/]
+visible-name='DRC Neon Jade — Dark·HighC·Muted·Neutral — Dracula (kitty)'
+use-theme-colors=false
+foreground-color='#F8F8F8F8F2F2'
+background-color='#28282A2A3636'
+bold-color-same-as-fg=true
+bold-color='#F8F8F8F8F2F2'
+cursor-color='#f8f8f2'
+palette='#212122222C2C:#FFFF55555555:#5050FAFA7B7B:#F1F1FAFA8C8C:#BDBD9393F9F9:#FFFF7979C6C6:#8B8BE9E9FDFD:#F8F8F8F8F2F2:#62627272A4A4:#FFFF6E6E6E6E:#6969FFFF9494:#FFFFFFFFA5A5:#D6D6ACACFFFF:#FFFF9292DFDF:#A4A4FFFFFFFF:#FFFFFFFFFFFF'

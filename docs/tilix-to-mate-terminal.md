@@ -12,6 +12,12 @@ This repo provides a deterministic conversion that:
 - Generates MATE Terminal profile snippets (`*.dconf`)
 - Optionally imports them into your user’s dconf under a safe prefix (`tilix-` / `tilix-user-`)
 
+## Licensing note
+
+On many distros, `/usr/share/tilix/schemes/*.json` comes from third-party theme packs (not Tilix itself) and may have unclear licensing.
+
+That’s why this repo treats locally-installed Tilix schemes as input-only and keeps generated MATE profiles out of git. See `docs/theme-sources.md`.
+
 ## Generate (no imports)
 
 ```sh
@@ -46,4 +52,3 @@ Dry-run:
 ```sh
 ./scripts/reset-tilix-mate-terminal-profiles.sh --dry-run
 ```
-
