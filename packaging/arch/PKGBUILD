@@ -13,37 +13,41 @@ depends=(
   'glib2'
   'python'
 )
+# NOTE: This PKGBUILD is primarily a *local* packaging helper. The upstream
+# repository is private, so an AUR package cannot fetch sources without making
+# them public or mirroring them somewhere accessible.
 source=()
 sha256sums=()
 
 package() {
   cd "${srcdir}"
+  repo_root="$(realpath "${startdir}/../..")"
 
   # mateswatch ships its profile snippets under /usr/share/mateswatch
   install -d "${pkgdir}/usr/share/mateswatch/mate-terminal"
-  cp -a "${startdir}/mate-terminal/schemes" "${pkgdir}/usr/share/mateswatch/mate-terminal/"
+  cp -a "${repo_root}/mate-terminal/schemes" "${pkgdir}/usr/share/mateswatch/mate-terminal/"
 
-  install -Dm755 "${startdir}/scripts/mateswatch-import.py" \
+  install -Dm755 "${repo_root}/scripts/mateswatch-import.py" \
     "${pkgdir}/usr/bin/mateswatch"
 
-  install -Dm644 "${startdir}/README.md" \
+  install -Dm644 "${repo_root}/README.md" \
     "${pkgdir}/usr/share/doc/${pkgname}/README.md"
-  install -Dm644 "${startdir}/docs/mate-terminal-color-schemes.md" \
+  install -Dm644 "${repo_root}/docs/mate-terminal-color-schemes.md" \
     "${pkgdir}/usr/share/doc/${pkgname}/mate-terminal-color-schemes.md"
-  install -Dm644 "${startdir}/docs/mate-terminal-ricing.md" \
+  install -Dm644 "${repo_root}/docs/mate-terminal-ricing.md" \
     "${pkgdir}/usr/share/doc/${pkgname}/mate-terminal-ricing.md"
-  install -Dm644 "${startdir}/docs/tilix-to-mate-terminal.md" \
+  install -Dm644 "${repo_root}/docs/tilix-to-mate-terminal.md" \
     "${pkgdir}/usr/share/doc/${pkgname}/tilix-to-mate-terminal.md"
-  install -Dm644 "${startdir}/docs/gogh-to-mate-terminal.md" \
+  install -Dm644 "${repo_root}/docs/gogh-to-mate-terminal.md" \
     "${pkgdir}/usr/share/doc/${pkgname}/gogh-to-mate-terminal.md"
-  install -Dm644 "${startdir}/docs/theme-sources.md" \
+  install -Dm644 "${repo_root}/docs/theme-sources.md" \
     "${pkgdir}/usr/share/doc/${pkgname}/theme-sources.md"
-  install -Dm644 "${startdir}/docs/mateswatch-stats.md" \
+  install -Dm644 "${repo_root}/docs/mateswatch-stats.md" \
     "${pkgdir}/usr/share/doc/${pkgname}/mateswatch-stats.md"
-  install -Dm644 "${startdir}/docs/packaging.md" \
+  install -Dm644 "${repo_root}/docs/packaging.md" \
     "${pkgdir}/usr/share/doc/${pkgname}/packaging.md"
 
   # License snapshots for vendored sources.
   install -d "${pkgdir}/usr/share/doc/${pkgname}/sources"
-  cp -a "${startdir}/sources/"* "${pkgdir}/usr/share/doc/${pkgname}/sources/"
+  cp -a "${repo_root}/sources/"* "${pkgdir}/usr/share/doc/${pkgname}/sources/"
 }

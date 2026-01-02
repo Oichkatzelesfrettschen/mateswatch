@@ -13,6 +13,8 @@ On Arch-family distros (including CachyOS), the best-practice way to distribute 
 
 This repo includes an example PKGBUILD at `packaging/arch/PKGBUILD`.
 
+Note: the upstream GitHub repo for this project is currently private. For a real AUR package you must make sources publicly fetchable (or mirror them), otherwise `makepkg` on users’ machines will not be able to download anything.
+
 ### “.deb packages on the AUR” (when you must)
 
 The AUR does not host binary packages. If you want to distribute a `.deb` as an upstream release artifact (for Debian/Mint users), Arch users should still consume it via a **normal Arch package**.
