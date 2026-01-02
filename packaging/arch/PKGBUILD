@@ -1,0 +1,39 @@
+# Maintainer: eirikr
+
+pkgname=mate-terminal-theme-atom
+pkgver=0.1.0
+pkgrel=1
+pkgdesc="Atom color scheme for MATE Terminal (plus Tilix scheme file)"
+arch=('any')
+url='https://github.com/storm119/Tilix-Themes'
+license=('custom:UNKNOWN')
+depends=(
+  'mate-terminal'
+  'dconf'
+  'glib2'
+)
+optdepends=(
+  'tilix: use the included Tilix Atom scheme'
+)
+source=()
+sha256sums=()
+
+package() {
+  cd "${srcdir}"
+
+  install -Dm644 "${startdir}/tilix/schemes/atom.json" \
+    "${pkgdir}/usr/share/tilix/schemes/atom.json"
+
+  install -Dm644 "${startdir}/mate-terminal/schemes/profile_Atom.dconf" \
+    "${pkgdir}/usr/share/mate-terminal/profiles/Atom.dconf"
+
+  install -Dm755 "${startdir}/packaging/deb/mate-terminal-theme-atom-import" \
+    "${pkgdir}/usr/bin/mate-terminal-theme-atom-import"
+
+  install -Dm644 "${startdir}/README.md" \
+    "${pkgdir}/usr/share/doc/${pkgname}/README.md"
+  install -Dm644 "${startdir}/docs/mate-terminal-color-schemes.md" \
+    "${pkgdir}/usr/share/doc/${pkgname}/mate-terminal-color-schemes.md"
+  install -Dm644 "${startdir}/docs/packaging.md" \
+    "${pkgdir}/usr/share/doc/${pkgname}/packaging.md"
+}

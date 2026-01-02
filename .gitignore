@@ -1,0 +1,7 @@
+logs/
+*.db
+core.*
+
+# Allow committing release artifacts even if a global gitignore ignores dist/
+!dist/
+!dist/*.deb
