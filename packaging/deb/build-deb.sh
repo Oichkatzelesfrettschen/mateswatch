@@ -49,7 +49,7 @@ cp -a "${repo_root}/sources/"* "${root}/usr/share/doc/${pkgname}/sources/"
 install -m 0644 "${repo_root}/docs/packaging.md" \
   "${root}/usr/share/doc/${pkgname}/packaging.md"
 
-cat > "${root}/usr/share/doc/${pkgname}/README.Debian" <<'EOF'
+cat >"${root}/usr/share/doc/${pkgname}/README.Debian" <<'EOF'
 This package ships mateswatch: a large set of MATE Terminal profile snippets and a helper command.
 
 To list and import themes for your user:
@@ -59,7 +59,7 @@ To list and import themes for your user:
 
 EOF
 
-cat > "${root}/usr/share/doc/${pkgname}/copyright" <<'EOF'
+cat >"${root}/usr/share/doc/${pkgname}/copyright" <<'EOF'
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: mateswatch (terminal theme pack)
 Source: https://github.com/Oichkatzelesfrettschen/mateswatch
@@ -115,7 +115,7 @@ EOF
 
 installed_kb="$(du -ks "${root}" | awk '{print $1}')"
 
-cat > "${controldir}/control" <<EOF
+cat >"${controldir}/control" <<EOF
 Package: ${pkgname}
 Version: ${debver}
 Section: misc
@@ -130,7 +130,7 @@ Description: mateswatch terminal theme pack for MATE Terminal
 EOF
 
 # md5sums is optional, but helps some tooling.
-(cd "${root}" && find usr -type f -print0 | sort -z | xargs -0 md5sum) > "${controldir}/md5sums"
+(cd "${root}" && find usr -type f -print0 | sort -z | xargs -0 md5sum) >"${controldir}/md5sums"
 
 epoch="${SOURCE_DATE_EPOCH:-0}"
 
@@ -143,12 +143,12 @@ tar_args=(
 )
 
 (cd "${controldir}" && tar "${tar_args[@]}" -cf "${workdir}/control.tar" .)
-gzip -n -c "${workdir}/control.tar" > "${workdir}/control.tar.gz"
+gzip -n -c "${workdir}/control.tar" >"${workdir}/control.tar.gz"
 
 (cd "${root}" && tar "${tar_args[@]}" --exclude='./DEBIAN' -cf "${workdir}/data.tar" .)
-gzip -n -c "${workdir}/data.tar" > "${workdir}/data.tar.gz"
+gzip -n -c "${workdir}/data.tar" >"${workdir}/data.tar.gz"
 
-printf '2.0\n' > "${workdir}/debian-binary"
+printf '2.0\n' >"${workdir}/debian-binary"
 
 debfile="${outdir}/${pkgname}_${debver}_${arch}.deb"
 rm -f "${debfile}"

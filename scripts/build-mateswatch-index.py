@@ -59,10 +59,22 @@ def parse_palette(palette_value: str) -> list[str] | None:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Build a cross-corpus mateswatch index + vibe stats.")
-    parser.add_argument("--schemes-dir", default="mate-terminal/schemes", help="Root directory containing *.dconf")
-    parser.add_argument("--out-json", default="docs/mateswatch-index.json", help="Output JSON path")
-    parser.add_argument("--out-stats", default="docs/mateswatch-stats.md", help="Output stats markdown path")
+    parser = argparse.ArgumentParser(
+        description="Build a cross-corpus mateswatch index + vibe stats."
+    )
+    parser.add_argument(
+        "--schemes-dir",
+        default="mate-terminal/schemes",
+        help="Root directory containing *.dconf",
+    )
+    parser.add_argument(
+        "--out-json", default="docs/mateswatch-index.json", help="Output JSON path"
+    )
+    parser.add_argument(
+        "--out-stats",
+        default="docs/mateswatch-stats.md",
+        help="Output stats markdown path",
+    )
     args = parser.parse_args()
 
     root = Path(args.schemes_dir)
@@ -121,7 +133,10 @@ def main() -> int:
                 "count": len(entries),
                 "types": dict(type_counts),
                 "tag_counts": dict(tag_counts),
-                "duplicate_fingerprints": {k: v for k, v in sorted(duplicates.items(), key=lambda kv: -len(kv[1]))},
+                "duplicate_fingerprints": {
+                    k: v
+                    for k, v in sorted(duplicates.items(), key=lambda kv: -len(kv[1]))
+                },
                 "entries": entries,
             },
             indent=2,
@@ -158,4 +173,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

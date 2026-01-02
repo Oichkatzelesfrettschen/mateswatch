@@ -23,4 +23,3 @@ if [[ "${mode}" == "--colors-only" ]]; then
 fi
 
 printf '%s\n' "${dump}"
-

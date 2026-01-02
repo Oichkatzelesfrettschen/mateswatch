@@ -5,7 +5,12 @@ import argparse
 import json
 from pathlib import Path
 
-from theme_common import fingerprint, format_visible_name, generate_mate_profile_dconf, slugify
+from theme_common import (
+    fingerprint,
+    format_visible_name,
+    generate_mate_profile_dconf,
+    slugify,
+)
 
 try:
     import tomllib  # py3.11+
@@ -62,11 +67,19 @@ def parse_theme(path: Path) -> tuple[str, str, str, list[str]] | None:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Import rajasegar/alacritty-themes into MATE Terminal dconf snippets.")
-    parser.add_argument(
-        "--alacritty-dir", default="/tmp/mateswatch-sources/alacritty-themes", help="Path to alacritty-themes repo"
+    parser = argparse.ArgumentParser(
+        description="Import rajasegar/alacritty-themes into MATE Terminal dconf snippets."
     )
-    parser.add_argument("--output-dir", default="mate-terminal/schemes/alacritty", help="Output directory for *.dconf")
+    parser.add_argument(
+        "--alacritty-dir",
+        default="/tmp/mateswatch-sources/alacritty-themes",
+        help="Path to alacritty-themes repo",
+    )
+    parser.add_argument(
+        "--output-dir",
+        default="mate-terminal/schemes/alacritty",
+        help="Output directory for *.dconf",
+    )
     parser.add_argument("--prefix", default="ala-", help="Profile id prefix")
     args = parser.parse_args()
 
@@ -122,7 +135,9 @@ def main() -> int:
         "count": len(entries),
         "entries": entries,
     }
-    (out_dir / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+    (out_dir / "manifest.json").write_text(
+        json.dumps(manifest, indent=2) + "\n", encoding="utf-8"
+    )
 
     print(f"Wrote {len(entries)} alacritty themes into {out_dir}")
     return 0
@@ -130,4 +145,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

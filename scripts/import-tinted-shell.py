@@ -6,15 +6,24 @@ import json
 import re
 from pathlib import Path
 
-from theme_common import fingerprint, format_visible_name, generate_mate_profile_dconf, slugify
+from theme_common import (
+    fingerprint,
+    format_visible_name,
+    generate_mate_profile_dconf,
+    slugify,
+)
 
 
 SCHEME_NAME = re.compile(r"^#\s*Scheme name:\s*(.+?)\s*$")
 COLOR_ASSIGN = re.compile(
     r'^color(\d{2})="([0-9a-fA-F]{2}/[0-9a-fA-F]{2}/[0-9a-fA-F]{2}|\$color\d{2})"'
 )
-FG_ASSIGN = re.compile(r'^color_foreground="([0-9a-fA-F]{2}/[0-9a-fA-F]{2}/[0-9a-fA-F]{2})"')
-BG_ASSIGN = re.compile(r'^color_background="([0-9a-fA-F]{2}/[0-9a-fA-F]{2}/[0-9a-fA-F]{2})"')
+FG_ASSIGN = re.compile(
+    r'^color_foreground="([0-9a-fA-F]{2}/[0-9a-fA-F]{2}/[0-9a-fA-F]{2})"'
+)
+BG_ASSIGN = re.compile(
+    r'^color_background="([0-9a-fA-F]{2}/[0-9a-fA-F]{2}/[0-9a-fA-F]{2})"'
+)
 
 
 def rrggbb_from_slashes(value: str) -> str:
@@ -60,6 +69,7 @@ def parse_script(path: Path) -> tuple[str, str, str, list[str]] | None:
 
     if fg is None or bg is None:
         return None
+
     def resolve(idx: int, seen: set[int]) -> str | None:
         if idx in seen:
             return None
@@ -81,7 +91,9 @@ def parse_script(path: Path) -> tuple[str, str, str, list[str]] | None:
     return name, fg, bg, pal
 
 
-def import_family(*, family: str, type_code: str, prefix: str, scripts_dir: Path, out_dir: Path) -> int:
+def import_family(
+    *, family: str, type_code: str, prefix: str, scripts_dir: Path, out_dir: Path
+) -> int:
     out_dir.mkdir(parents=True, exist_ok=True)
     entries: list[dict[str, object]] = []
     seen_fp: dict[str, str] = {}
@@ -139,12 +151,30 @@ def import_family(*, family: str, type_code: str, prefix: str, scripts_dir: Path
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Import tinted-shell base16/base24 scripts into MATE Terminal dconf.")
-    parser.add_argument("--tinted-dir", default="/tmp/mateswatch-sources/tinted-shell", help="Path to tinted-shell repo")
-    parser.add_argument("--out-base16", default="mate-terminal/schemes/tinted/base16", help="Output directory for base16")
-    parser.add_argument("--out-base24", default="mate-terminal/schemes/tinted/base24", help="Output directory for base24")
-    parser.add_argument("--prefix-base16", default="b16-", help="Profile id prefix for base16")
-    parser.add_argument("--prefix-base24", default="b24-", help="Profile id prefix for base24")
+    parser = argparse.ArgumentParser(
+        description="Import tinted-shell base16/base24 scripts into MATE Terminal dconf."
+    )
+    parser.add_argument(
+        "--tinted-dir",
+        default="/tmp/mateswatch-sources/tinted-shell",
+        help="Path to tinted-shell repo",
+    )
+    parser.add_argument(
+        "--out-base16",
+        default="mate-terminal/schemes/tinted/base16",
+        help="Output directory for base16",
+    )
+    parser.add_argument(
+        "--out-base24",
+        default="mate-terminal/schemes/tinted/base24",
+        help="Output directory for base24",
+    )
+    parser.add_argument(
+        "--prefix-base16", default="b16-", help="Profile id prefix for base16"
+    )
+    parser.add_argument(
+        "--prefix-base24", default="b24-", help="Profile id prefix for base24"
+    )
     args = parser.parse_args()
 
     tinted_dir = Path(args.tinted_dir)

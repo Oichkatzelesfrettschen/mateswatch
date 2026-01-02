@@ -5,7 +5,12 @@ import argparse
 import json
 from pathlib import Path
 
-from theme_common import fingerprint, format_visible_name, generate_mate_profile_dconf, slugify
+from theme_common import (
+    fingerprint,
+    format_visible_name,
+    generate_mate_profile_dconf,
+    slugify,
+)
 
 
 def parse_conf(path: Path) -> dict[str, str]:
@@ -31,9 +36,19 @@ def display_name_from_stem(stem: str) -> str:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Import dexpota/kitty-themes into MATE Terminal dconf snippets.")
-    parser.add_argument("--kitty-dir", default="/tmp/mateswatch-sources/kitty-themes", help="Path to kitty-themes repo")
-    parser.add_argument("--output-dir", default="mate-terminal/schemes/kitty", help="Output directory for *.dconf")
+    parser = argparse.ArgumentParser(
+        description="Import dexpota/kitty-themes into MATE Terminal dconf snippets."
+    )
+    parser.add_argument(
+        "--kitty-dir",
+        default="/tmp/mateswatch-sources/kitty-themes",
+        help="Path to kitty-themes repo",
+    )
+    parser.add_argument(
+        "--output-dir",
+        default="mate-terminal/schemes/kitty",
+        help="Output directory for *.dconf",
+    )
     parser.add_argument("--prefix", default="kty-", help="Profile id prefix")
     args = parser.parse_args()
 
@@ -102,7 +117,9 @@ def main() -> int:
         "count": len(entries),
         "entries": entries,
     }
-    (out_dir / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+    (out_dir / "manifest.json").write_text(
+        json.dumps(manifest, indent=2) + "\n", encoding="utf-8"
+    )
 
     print(f"Wrote {len(entries)} kitty themes into {out_dir}")
     return 0
@@ -110,4 +127,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

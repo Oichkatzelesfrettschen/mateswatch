@@ -73,9 +73,19 @@ def rewrite_visible_name(old_visible: str) -> str | None:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Rewrite legacy mateswatch visible-name format for all schemes.")
-    parser.add_argument("--schemes-dir", default="mate-terminal/schemes", help="Root directory containing *.dconf")
-    parser.add_argument("--dry-run", action="store_true", help="Show what would change without writing files")
+    parser = argparse.ArgumentParser(
+        description="Rewrite legacy mateswatch visible-name format for all schemes."
+    )
+    parser.add_argument(
+        "--schemes-dir",
+        default="mate-terminal/schemes",
+        help="Root directory containing *.dconf",
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Show what would change without writing files",
+    )
     args = parser.parse_args()
 
     root = Path(args.schemes_dir)
@@ -116,4 +126,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

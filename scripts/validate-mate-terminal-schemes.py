@@ -31,7 +31,9 @@ def validate_file(path: Path) -> list[str]:
     if "visible-name" not in kv:
         errors.append("missing visible-name")
     if kv.get("use-theme-colors") != "false":
-        errors.append(f"use-theme-colors must be false (got {kv.get('use-theme-colors')!r})")
+        errors.append(
+            f"use-theme-colors must be false (got {kv.get('use-theme-colors')!r})"
+        )
 
     fg = kv.get("foreground-color")
     bg = kv.get("background-color")
@@ -48,7 +50,11 @@ def validate_file(path: Path) -> list[str]:
     if palette is None:
         errors.append("missing palette")
     else:
-        parts = palette.strip("'").split(":") if palette.startswith("'") and palette.endswith("'") else []
+        parts = (
+            palette.strip("'").split(":")
+            if palette.startswith("'") and palette.endswith("'")
+            else []
+        )
         if len(parts) != 16:
             errors.append(f"palette must contain 16 colors (got {len(parts)})")
         else:
@@ -61,8 +67,14 @@ def validate_file(path: Path) -> list[str]:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Validate generated MATE Terminal dconf scheme snippets.")
-    parser.add_argument("--dir", default="mate-terminal/schemes/gogh", help="Directory containing *.dconf files")
+    parser = argparse.ArgumentParser(
+        description="Validate generated MATE Terminal dconf scheme snippets."
+    )
+    parser.add_argument(
+        "--dir",
+        default="mate-terminal/schemes/gogh",
+        help="Directory containing *.dconf files",
+    )
     args = parser.parse_args()
 
     root = Path(args.dir)
@@ -90,4 +102,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

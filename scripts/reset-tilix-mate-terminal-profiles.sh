@@ -47,12 +47,12 @@ done < <(
   dconf list /org/mate/terminal/profiles/ \
     | sed 's#/$##' \
     | while IFS= read -r name; do
-        for p in "${prefixes[@]}"; do
-          if [[ "${name}" == ${p}* ]]; then
-            echo "${name}"
-            break
-          fi
-        done
-      done \
+      for p in "${prefixes[@]}"; do
+        if [[ "${name}" == ${p}* ]]; then
+          echo "${name}"
+          break
+        fi
+      done
+    done \
     | sort
 )

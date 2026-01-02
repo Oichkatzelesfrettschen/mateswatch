@@ -8,7 +8,14 @@ from pathlib import Path
 
 import yaml
 
-from theme_common import color_to_rgb16, color_to_rgb8, dconf_quote, fingerprint, format_visible_name, slugify
+from theme_common import (
+    color_to_rgb16,
+    color_to_rgb8,
+    dconf_quote,
+    fingerprint,
+    format_visible_name,
+    slugify,
+)
 
 
 @dataclass(frozen=True)
@@ -67,7 +74,9 @@ def load_theme(path: Path) -> GoghTheme:
     )
 
 
-def generate_mate_profile_dconf(profile_id: str, visible_name: str, theme: GoghTheme) -> str:
+def generate_mate_profile_dconf(
+    profile_id: str, visible_name: str, theme: GoghTheme
+) -> str:
     # Keep Gogh's explicit cursor color (some schemes use non-fg cursors).
     lines = [
         "[/]",
@@ -85,11 +94,23 @@ def generate_mate_profile_dconf(profile_id: str, visible_name: str, theme: GoghT
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Import Gogh YAML themes as MATE Terminal dconf profile snippets.")
-    parser.add_argument("--gogh-dir", default="/tmp/gogh", help="Path to a cloned Gogh-Co/Gogh repository")
-    parser.add_argument("--output-dir", default="mate-terminal/schemes/gogh", help="Output directory for generated *.dconf")
+    parser = argparse.ArgumentParser(
+        description="Import Gogh YAML themes as MATE Terminal dconf profile snippets."
+    )
+    parser.add_argument(
+        "--gogh-dir",
+        default="/tmp/gogh",
+        help="Path to a cloned Gogh-Co/Gogh repository",
+    )
+    parser.add_argument(
+        "--output-dir",
+        default="mate-terminal/schemes/gogh",
+        help="Output directory for generated *.dconf",
+    )
     parser.add_argument("--prefix", default="gogh-", help="Profile ID prefix")
-    parser.add_argument("--limit", type=int, default=0, help="Limit number of themes (0 = all)")
+    parser.add_argument(
+        "--limit", type=int, default=0, help="Limit number of themes (0 = all)"
+    )
     args = parser.parse_args()
 
     gogh_dir = Path(args.gogh_dir)
@@ -124,10 +145,15 @@ def main() -> int:
         label = theme.name
         if theme.variant:
             label = f"{label} ({theme.variant})"
-        visible_name = format_visible_name("GOG", label, theme.background, theme.foreground, theme.palette)
+        visible_name = format_visible_name(
+            "GOG", label, theme.background, theme.foreground, theme.palette
+        )
 
         out_path = output_dir / f"{profile_id}.dconf"
-        out_path.write_text(generate_mate_profile_dconf(profile_id, visible_name, theme), encoding="utf-8")
+        out_path.write_text(
+            generate_mate_profile_dconf(profile_id, visible_name, theme),
+            encoding="utf-8",
+        )
 
         fp = fingerprint(theme.background, theme.foreground, theme.palette)
         manifest["themes"].append(
@@ -144,7 +170,9 @@ def main() -> int:
         )
 
     manifest["count"] = len(manifest["themes"])
-    (output_dir / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+    (output_dir / "manifest.json").write_text(
+        json.dumps(manifest, indent=2) + "\n", encoding="utf-8"
+    )
 
     print(f"Generated {manifest['count']} MATE Terminal profiles in {output_dir}")
     if gogh_rev:

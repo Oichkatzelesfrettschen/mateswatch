@@ -6,7 +6,11 @@ import json
 import re
 from pathlib import Path
 
-from theme_common import format_visible_name, generate_mate_profile_dconf, require_hex_rgb
+from theme_common import (
+    format_visible_name,
+    generate_mate_profile_dconf,
+    require_hex_rgb,
+)
 
 
 def read_text(path: Path) -> str:
@@ -28,7 +32,9 @@ def parse_simple_kv_colors(text: str) -> dict[str, str]:
             continue
         key = parts[0].strip()
         value = parts[1].strip()
-        if key in {"foreground", "background"} or re.fullmatch(r"color(?:[0-9]|1[0-5])", key):
+        if key in {"foreground", "background"} or re.fullmatch(
+            r"color(?:[0-9]|1[0-5])", key
+        ):
             out[key] = require_hex_rgb(value, key)
     return out
 
@@ -66,14 +72,30 @@ def parse_wezterm_toml(path: Path) -> tuple[str, str, list[str]]:
     if not isinstance(ansi, list) or not isinstance(brights, list):
         raise ValueError(f"{path}: expected colors.ansi/brights arrays")
     if len(ansi) != 8 or len(brights) != 8:
-        raise ValueError(f"{path}: expected 8 ansi + 8 brights, got {len(ansi)} + {len(brights)}")
+        raise ValueError(
+            f"{path}: expected 8 ansi + 8 brights, got {len(ansi)} + {len(brights)}"
+        )
     if not isinstance(bg, str) or not isinstance(fg, str):
         raise ValueError(f"{path}: missing colors.background/foreground")
-    palette = [require_hex_rgb(c, f"{path}:ansi") for c in ansi] + [require_hex_rgb(c, f"{path}:brights") for c in brights]
-    return require_hex_rgb(bg, f"{path}:background"), require_hex_rgb(fg, f"{path}:foreground"), palette
+    palette = [require_hex_rgb(c, f"{path}:ansi") for c in ansi] + [
+        require_hex_rgb(c, f"{path}:brights") for c in brights
+    ]
+    return (
+        require_hex_rgb(bg, f"{path}:background"),
+        require_hex_rgb(fg, f"{path}:foreground"),
+        palette,
+    )
 
 
-def write_profile(path: Path, *, type_code: str, original_name: str, bg: str, fg: str, palette: list[str]) -> None:
+def write_profile(
+    path: Path,
+    *,
+    type_code: str,
+    original_name: str,
+    bg: str,
+    fg: str,
+    palette: list[str],
+) -> None:
     visible = format_visible_name(type_code, original_name, bg, fg, palette)
     dconf = generate_mate_profile_dconf(
         visible_name=visible,
@@ -87,9 +109,19 @@ def write_profile(path: Path, *, type_code: str, original_name: str, bg: str, fg
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Import official Dracula/Catppuccin sources into MATE Terminal .dconf schemes.")
-    parser.add_argument("--sources", default="sources", help="Root directory containing vendored upstream sources.")
-    parser.add_argument("--out-dir", default="mate-terminal/schemes/brands", help="Output directory for generated *.dconf files.")
+    parser = argparse.ArgumentParser(
+        description="Import official Dracula/Catppuccin sources into MATE Terminal .dconf schemes."
+    )
+    parser.add_argument(
+        "--sources",
+        default="sources",
+        help="Root directory containing vendored upstream sources.",
+    )
+    parser.add_argument(
+        "--out-dir",
+        default="mate-terminal/schemes/brands",
+        help="Output directory for generated *.dconf files.",
+    )
     parser.add_argument(
         "--only",
         action="append",
@@ -110,7 +142,11 @@ def main() -> int:
         base = sources / "dracula" / "gnome-terminal" / "colors" / "Dracula"
         bg = read_color(base / "bg_color")
         fg = read_color(base / "fg_color")
-        pal = [require_hex_rgb(x, "palette") for x in read_text(base / "palette").splitlines() if x.strip()]
+        pal = [
+            require_hex_rgb(x, "palette")
+            for x in read_text(base / "palette").splitlines()
+            if x.strip()
+        ]
         if len(pal) != 16:
             raise ValueError(f"{base/'palette'}: expected 16 colors, got {len(pal)}")
         write_profile(
@@ -136,7 +172,9 @@ def main() -> int:
 
     # Dracula (WezTerm)
     if enabled("dracula-wezterm"):
-        bg, fg, pal = parse_wezterm_toml(sources / "dracula" / "wezterm" / "dracula.toml")
+        bg, fg, pal = parse_wezterm_toml(
+            sources / "dracula" / "wezterm" / "dracula.toml"
+        )
         write_profile(
             out_root / "dracula" / "drc-dracula-wezterm.dconf",
             type_code="DRC",
@@ -148,7 +186,9 @@ def main() -> int:
 
     # Catppuccin (GNOME Terminal) via pinned palette.json
     if enabled("catppuccin-gnome-terminal"):
-        palette_json = json.loads(read_text(sources / "catppuccin" / "palette" / "palette.json"))
+        palette_json = json.loads(
+            read_text(sources / "catppuccin" / "palette" / "palette.json")
+        )
         palette_json.pop("version", None)
         accents = [
             "rosewater",
@@ -170,12 +210,29 @@ def main() -> int:
             obj = palette_json[flavor]
             colors = obj["colors"]
             ansi = obj["ansiColors"]
-            order = ["black", "red", "green", "yellow", "blue", "magenta", "cyan", "white"]
-            pal = [ansi[k]["normal"]["hex"] for k in order] + [ansi[k]["bright"]["hex"] for k in order]
+            order = [
+                "black",
+                "red",
+                "green",
+                "yellow",
+                "blue",
+                "magenta",
+                "cyan",
+                "white",
+            ]
+            pal = [ansi[k]["normal"]["hex"] for k in order] + [
+                ansi[k]["bright"]["hex"] for k in order
+            ]
             bg = colors["base"]["hex"]
             fg = colors["text"]["hex"]
-            base_profile = out_root / "catppuccin" / f"ctp-catppuccin-{flavor}-gnome-terminal.dconf"
-            visible = format_visible_name("CTP", f"Catppuccin {flavor.capitalize()} (GNOME Terminal)", bg, fg, pal)
+            base_profile = (
+                out_root
+                / "catppuccin"
+                / f"ctp-catppuccin-{flavor}-gnome-terminal.dconf"
+            )
+            visible = format_visible_name(
+                "CTP", f"Catppuccin {flavor.capitalize()} (GNOME Terminal)", bg, fg, pal
+            )
             dconf = generate_mate_profile_dconf(
                 visible_name=visible,
                 use_theme_colors=False,
@@ -203,7 +260,10 @@ def main() -> int:
                     palette=pal,
                     cursor_color=accent_hex,
                 )
-                out_path = accents_dir / f"ctp-catppuccin-{flavor}-{accent}-gnome-terminal.dconf"
+                out_path = (
+                    accents_dir
+                    / f"ctp-catppuccin-{flavor}-{accent}-gnome-terminal.dconf"
+                )
                 out_path.parent.mkdir(parents=True, exist_ok=True)
                 out_path.write_text(dconf, encoding="utf-8")
 

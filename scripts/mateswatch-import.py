@@ -9,7 +9,9 @@ import sys
 from pathlib import Path
 
 
-def run(cmd: list[str], *, stdin_text: str | None = None) -> subprocess.CompletedProcess[str]:
+def run(
+    cmd: list[str], *, stdin_text: str | None = None
+) -> subprocess.CompletedProcess[str]:
     return subprocess.run(
         cmd,
         check=False,
@@ -80,22 +82,36 @@ def list_profiles(roots: list[Path]) -> list[str]:
 def gsettings_get_profile_list() -> list[str]:
     proc = run(["gsettings", "get", "org.mate.terminal.global", "profile-list"])
     if proc.returncode != 0:
-        raise RuntimeError(proc.stderr.strip() or proc.stdout.strip() or "gsettings get profile-list failed")
+        raise RuntimeError(
+            proc.stderr.strip()
+            or proc.stdout.strip()
+            or "gsettings get profile-list failed"
+        )
     return re.findall(r"'([^']+)'", proc.stdout.strip())
 
 
 def gsettings_set_profile_list(profile_ids: list[str]) -> None:
     serialized = "[" + ", ".join(dconf_quote(x) for x in profile_ids) + "]"
-    proc = run(["gsettings", "set", "org.mate.terminal.global", "profile-list", serialized])
+    proc = run(
+        ["gsettings", "set", "org.mate.terminal.global", "profile-list", serialized]
+    )
     if proc.returncode != 0:
-        raise RuntimeError(proc.stderr.strip() or proc.stdout.strip() or "gsettings set profile-list failed")
+        raise RuntimeError(
+            proc.stderr.strip()
+            or proc.stdout.strip()
+            or "gsettings set profile-list failed"
+        )
 
 
 def import_profile(profile_id: str, scheme_file: Path) -> None:
     text = scheme_file.read_text(encoding="utf-8")
-    proc = run(["dconf", "load", f"/org/mate/terminal/profiles/{profile_id}/"], stdin_text=text)
+    proc = run(
+        ["dconf", "load", f"/org/mate/terminal/profiles/{profile_id}/"], stdin_text=text
+    )
     if proc.returncode != 0:
-        raise RuntimeError(proc.stderr.strip() or proc.stdout.strip() or "dconf load failed")
+        raise RuntimeError(
+            proc.stderr.strip() or proc.stdout.strip() or "dconf load failed"
+        )
 
 
 def main() -> int:
@@ -107,13 +123,21 @@ def main() -> int:
     p_list = sub.add_parser("list", help="List available profile IDs")
     p_list.add_argument("--contains", default="", help="Filter IDs by substring")
 
-    p_path = sub.add_parser("path", help="Show the on-disk .dconf file path for a profile ID")
+    p_path = sub.add_parser(
+        "path", help="Show the on-disk .dconf file path for a profile ID"
+    )
     p_path.add_argument("profile_id")
 
     p_import = sub.add_parser("import", help="Import a profile into dconf")
     p_import.add_argument("profile_id")
-    p_import.add_argument("--add-to-profile-list", action="store_true", help="Append profile id to profile-list")
-    p_import.add_argument("--set-default", action="store_true", help="Set default-profile to this id")
+    p_import.add_argument(
+        "--add-to-profile-list",
+        action="store_true",
+        help="Append profile id to profile-list",
+    )
+    p_import.add_argument(
+        "--set-default", action="store_true", help="Set default-profile to this id"
+    )
 
     args = parser.parse_args()
 
@@ -155,9 +179,21 @@ def main() -> int:
                 gsettings_set_profile_list(current + [args.profile_id])
 
         if args.set_default:
-            proc = run(["gsettings", "set", "org.mate.terminal.global", "default-profile", dconf_quote(args.profile_id)])
+            proc = run(
+                [
+                    "gsettings",
+                    "set",
+                    "org.mate.terminal.global",
+                    "default-profile",
+                    dconf_quote(args.profile_id),
+                ]
+            )
             if proc.returncode != 0:
-                sys.stderr.write(proc.stderr.strip() or proc.stdout.strip() or "gsettings set default-profile failed")
+                sys.stderr.write(
+                    proc.stderr.strip()
+                    or proc.stdout.strip()
+                    or "gsettings set default-profile failed"
+                )
                 return 1
 
         sys.stdout.write(f"Imported profile id '{args.profile_id}'.\n")
@@ -168,4 +204,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

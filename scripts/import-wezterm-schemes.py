@@ -5,13 +5,28 @@ import argparse
 import json
 from pathlib import Path
 
-from theme_common import fingerprint, format_visible_name, generate_mate_profile_dconf, slugify
+from theme_common import (
+    fingerprint,
+    format_visible_name,
+    generate_mate_profile_dconf,
+    slugify,
+)
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Import WezTerm built-in color schemes into MATE Terminal dconf.")
-    parser.add_argument("--wezterm-dir", default="/tmp/mateswatch-sources/wezterm", help="Path to wezterm repo")
-    parser.add_argument("--output-dir", default="mate-terminal/schemes/wezterm", help="Output directory for *.dconf")
+    parser = argparse.ArgumentParser(
+        description="Import WezTerm built-in color schemes into MATE Terminal dconf."
+    )
+    parser.add_argument(
+        "--wezterm-dir",
+        default="/tmp/mateswatch-sources/wezterm",
+        help="Path to wezterm repo",
+    )
+    parser.add_argument(
+        "--output-dir",
+        default="mate-terminal/schemes/wezterm",
+        help="Output directory for *.dconf",
+    )
     parser.add_argument("--prefix", default="wzt-", help="Profile id prefix")
     args = parser.parse_args()
 
@@ -49,7 +64,12 @@ def main() -> int:
         brights = colors.get("brights")
         if not isinstance(bg, str) or not isinstance(fg, str):
             continue
-        if not isinstance(ansi, list) or not isinstance(brights, list) or len(ansi) != 8 or len(brights) != 8:
+        if (
+            not isinstance(ansi, list)
+            or not isinstance(brights, list)
+            or len(ansi) != 8
+            or len(brights) != 8
+        ):
             continue
         if not all(isinstance(x, str) for x in ansi + brights):
             continue
@@ -117,4 +137,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

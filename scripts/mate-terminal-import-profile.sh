@@ -15,7 +15,6 @@ if ! command -v dconf >/dev/null 2>&1; then
   exit 1
 fi
 
-dconf load "${profile_path}" < "${profile_file}"
+dconf load "${profile_path}" <"${profile_file}"
 
 echo "Imported profile '${profile_id}' from ${profile_file}"
-

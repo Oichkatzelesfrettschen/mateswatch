@@ -128,29 +128,47 @@ def vibe_for_scheme(background: str, foreground: str, palette: list[str]) -> Vib
     tags: list[str] = []
     tags.append("Dark" if bg_kind == "dark" else "Light")
     tags.append("HighC" if contrast >= 7.0 else ("MedC" if contrast >= 4.5 else "LowC"))
-    tags.append("Vivid" if sat >= 0.65 else ("Pastel" if sat >= 0.40 and bg_kind == "light" else "Muted"))
+    tags.append(
+        "Vivid"
+        if sat >= 0.65
+        else ("Pastel" if sat >= 0.40 and bg_kind == "light" else "Muted")
+    )
 
-    warm = "Warm" if (hue < 70 or hue >= 290) else ("Cool" if 160 <= hue <= 260 else "Neutral")
+    warm = (
+        "Warm"
+        if (hue < 70 or hue >= 290)
+        else ("Cool" if 160 <= hue <= 260 else "Neutral")
+    )
     tags.append(warm)
 
     hue_name = (
         "Crimson"
         if hue < 20 or hue >= 340
-        else "Amber"
-        if hue < 55
-        else "Lime"
-        if hue < 95
-        else "Jade"
-        if hue < 145
-        else "Cyan"
-        if hue < 195
-        else "Azure"
-        if hue < 225
-        else "Indigo"
-        if hue < 265
-        else "Orchid"
-        if hue < 305
-        else "Rose"
+        else (
+            "Amber"
+            if hue < 55
+            else (
+                "Lime"
+                if hue < 95
+                else (
+                    "Jade"
+                    if hue < 145
+                    else (
+                        "Cyan"
+                        if hue < 195
+                        else (
+                            "Azure"
+                            if hue < 225
+                            else (
+                                "Indigo"
+                                if hue < 265
+                                else "Orchid" if hue < 305 else "Rose"
+                            )
+                        )
+                    )
+                )
+            )
+        )
     )
 
     if bg_kind == "dark":
@@ -167,7 +185,13 @@ def slugify(text: str) -> str:
     return s or "unnamed"
 
 
-def format_visible_name(type_code: str, original_name: str, background: str, foreground: str, palette: list[str]) -> str:
+def format_visible_name(
+    type_code: str,
+    original_name: str,
+    background: str,
+    foreground: str,
+    palette: list[str],
+) -> str:
     vibe = vibe_for_scheme(background, foreground, palette)
     tags = "·".join(vibe.tags)
     # Keep type-clusterable, but retain upstream/original name early for scanning.
@@ -175,7 +199,9 @@ def format_visible_name(type_code: str, original_name: str, background: str, for
 
 
 def fingerprint(background: str, foreground: str, palette: list[str]) -> str:
-    norm = [color_to_rgb16(background), color_to_rgb16(foreground)] + [color_to_rgb16(c) for c in palette]
+    norm = [color_to_rgb16(background), color_to_rgb16(foreground)] + [
+        color_to_rgb16(c) for c in palette
+    ]
     h = hashlib.sha1()
     h.update("\n".join(norm).encode("utf-8"))
     return h.hexdigest()

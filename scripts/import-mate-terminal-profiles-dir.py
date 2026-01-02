@@ -8,7 +8,9 @@ import sys
 from pathlib import Path
 
 
-def run(cmd: list[str], *, stdin_text: str | None = None) -> subprocess.CompletedProcess[str]:
+def run(
+    cmd: list[str], *, stdin_text: str | None = None
+) -> subprocess.CompletedProcess[str]:
     return subprocess.run(
         cmd,
         check=False,
@@ -26,24 +28,58 @@ def dconf_quote(value: str) -> str:
 def gsettings_get_profile_list() -> list[str]:
     proc = run(["gsettings", "get", "org.mate.terminal.global", "profile-list"])
     if proc.returncode != 0:
-        raise RuntimeError(proc.stderr.strip() or proc.stdout.strip() or "gsettings get profile-list failed")
+        raise RuntimeError(
+            proc.stderr.strip()
+            or proc.stdout.strip()
+            or "gsettings get profile-list failed"
+        )
     return re.findall(r"'([^']+)'", proc.stdout.strip())
 
 
 def gsettings_set_profile_list(profile_ids: list[str]) -> None:
     serialized = "[" + ", ".join(dconf_quote(x) for x in profile_ids) + "]"
-    proc = run(["gsettings", "set", "org.mate.terminal.global", "profile-list", serialized])
+    proc = run(
+        ["gsettings", "set", "org.mate.terminal.global", "profile-list", serialized]
+    )
     if proc.returncode != 0:
-        raise RuntimeError(proc.stderr.strip() or proc.stdout.strip() or "gsettings set profile-list failed")
+        raise RuntimeError(
+            proc.stderr.strip()
+            or proc.stdout.strip()
+            or "gsettings set profile-list failed"
+        )
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Import a directory of MATE Terminal *.dconf profile snippets into dconf.")
-    parser.add_argument("dir", help="Directory containing *.dconf files (profile id inferred from filename)")
-    parser.add_argument("--limit", type=int, default=0, help="Limit number of profiles imported (0 = all)")
-    parser.add_argument("--add-to-profile-list", action="store_true", help="Append imported profile IDs to profile-list")
-    parser.add_argument("--smoke-count", type=int, default=0, help="Launch mate-terminal briefly for N profiles (0 = skip)")
-    parser.add_argument("--smoke-timeout", type=int, default=4, help="Seconds before killing a smoke mate-terminal run")
+    parser = argparse.ArgumentParser(
+        description="Import a directory of MATE Terminal *.dconf profile snippets into dconf."
+    )
+    parser.add_argument(
+        "dir",
+        help="Directory containing *.dconf files (profile id inferred from filename)",
+    )
+    parser.add_argument(
+        "--limit",
+        type=int,
+        default=0,
+        help="Limit number of profiles imported (0 = all)",
+    )
+    parser.add_argument(
+        "--add-to-profile-list",
+        action="store_true",
+        help="Append imported profile IDs to profile-list",
+    )
+    parser.add_argument(
+        "--smoke-count",
+        type=int,
+        default=0,
+        help="Launch mate-terminal briefly for N profiles (0 = skip)",
+    )
+    parser.add_argument(
+        "--smoke-timeout",
+        type=int,
+        default=4,
+        help="Seconds before killing a smoke mate-terminal run",
+    )
     args = parser.parse_args()
 
     if os.environ.get("DISPLAY", "") == "" and args.smoke_count:
@@ -62,9 +98,14 @@ def main() -> int:
     for file in files:
         profile_id = file.stem
         text = file.read_text(encoding="utf-8")
-        proc = run(["dconf", "load", f"/org/mate/terminal/profiles/{profile_id}/"], stdin_text=text)
+        proc = run(
+            ["dconf", "load", f"/org/mate/terminal/profiles/{profile_id}/"],
+            stdin_text=text,
+        )
         if proc.returncode != 0:
-            sys.stderr.write(f"{profile_id}: dconf load failed: {proc.stderr.strip() or proc.stdout.strip()}\n")
+            sys.stderr.write(
+                f"{profile_id}: dconf load failed: {proc.stderr.strip() or proc.stdout.strip()}\n"
+            )
             return 1
         imported_ids.append(profile_id)
 
@@ -98,7 +139,13 @@ def main() -> int:
 
             try:
                 for profile_id in sample:
-                    visible_proc = run(["dconf", "read", f"/org/mate/terminal/profiles/{profile_id}/visible-name"])
+                    visible_proc = run(
+                        [
+                            "dconf",
+                            "read",
+                            f"/org/mate/terminal/profiles/{profile_id}/visible-name",
+                        ]
+                    )
                     visible = profile_id
                     if visible_proc.returncode == 0:
                         v = visible_proc.stdout.strip()
@@ -118,7 +165,9 @@ def main() -> int:
                     )
                     combined = (proc.stdout or "") + (proc.stderr or "")
                     if "No such profile" in combined:
-                        sys.stderr.write(f"{profile_id}: mate-terminal did not find profile (visible-name: {visible})\n")
+                        sys.stderr.write(
+                            f"{profile_id}: mate-terminal did not find profile (visible-name: {visible})\n"
+                        )
                         return 1
                     if proc.returncode not in (0, 124):
                         sys.stderr.write(

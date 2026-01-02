@@ -26,9 +26,15 @@ def main() -> int:
     parser = argparse.ArgumentParser(
         description="Convert a Tilix scheme JSON to a MATE Terminal dconf profile snippet."
     )
-    parser.add_argument("tilix_json", help="Path to Tilix scheme JSON (e.g. tilix/schemes/atom.json)")
-    parser.add_argument("--profile-id", default="Atom", help="Target profile id (dconf folder name)")
-    parser.add_argument("--visible-name", default="Atom", help="Profile visible name shown in UI")
+    parser.add_argument(
+        "tilix_json", help="Path to Tilix scheme JSON (e.g. tilix/schemes/atom.json)"
+    )
+    parser.add_argument(
+        "--profile-id", default="Atom", help="Target profile id (dconf folder name)"
+    )
+    parser.add_argument(
+        "--visible-name", default="Atom", help="Profile visible name shown in UI"
+    )
     parser.add_argument(
         "--cursor-color",
         default=None,
@@ -43,7 +49,9 @@ def main() -> int:
     bg = tilix.get("background-color")
     palette = tilix.get("palette")
     if fg is None or bg is None or palette is None:
-        raise SystemExit("tilix scheme must include foreground-color, background-color, and palette")
+        raise SystemExit(
+            "tilix scheme must include foreground-color, background-color, and palette"
+        )
     if not isinstance(palette, list) or len(palette) != 16:
         raise SystemExit("tilix scheme palette must be an array of 16 colors")
 
@@ -73,4 +81,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

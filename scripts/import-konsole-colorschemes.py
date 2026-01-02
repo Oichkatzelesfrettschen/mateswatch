@@ -6,7 +6,12 @@ import configparser
 import json
 from pathlib import Path
 
-from theme_common import fingerprint, format_visible_name, generate_mate_profile_dconf, slugify
+from theme_common import (
+    fingerprint,
+    format_visible_name,
+    generate_mate_profile_dconf,
+    slugify,
+)
 
 
 def rgb_triplet_to_hex(value: str) -> str:
@@ -67,9 +72,17 @@ def iter_inputs(paths: list[str]) -> list[Path]:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Import Konsole *.colorscheme files into MATE Terminal dconf snippets.")
-    parser.add_argument("paths", nargs="+", help="One or more .colorscheme files or directories")
-    parser.add_argument("--output-dir", default="mate-terminal/schemes/konsole", help="Output directory for *.dconf")
+    parser = argparse.ArgumentParser(
+        description="Import Konsole *.colorscheme files into MATE Terminal dconf snippets."
+    )
+    parser.add_argument(
+        "paths", nargs="+", help="One or more .colorscheme files or directories"
+    )
+    parser.add_argument(
+        "--output-dir",
+        default="mate-terminal/schemes/konsole",
+        help="Output directory for *.dconf",
+    )
     parser.add_argument("--prefix", default="kon-", help="Profile id prefix")
     args = parser.parse_args()
 
@@ -134,4 +147,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

@@ -29,7 +29,9 @@ class TilixScheme:
     palette: list[str]
 
 
-def run(cmd: list[str], *, stdin_text: str | None = None) -> subprocess.CompletedProcess[str]:
+def run(
+    cmd: list[str], *, stdin_text: str | None = None
+) -> subprocess.CompletedProcess[str]:
     return subprocess.run(
         cmd,
         check=False,
@@ -143,7 +145,9 @@ def iter_tilix_scheme_files() -> list[tuple[str, Path]]:
     return items
 
 
-def generate_mate_profile_dconf(profile_id: str, visible_name: str, scheme: TilixScheme) -> str:
+def generate_mate_profile_dconf(
+    profile_id: str, visible_name: str, scheme: TilixScheme
+) -> str:
     palette16 = ":".join(color_to_rgb16(c) for c in scheme.palette)
     use_theme_colors = "true" if scheme.use_theme_colors else "false"
 
@@ -169,8 +173,8 @@ def generate_mate_profile_dconf(profile_id: str, visible_name: str, scheme: Tili
 
     lines.extend(
         [
-        f"palette={dconf_quote(palette16)}",
-        "",
+            f"palette={dconf_quote(palette16)}",
+            "",
         ]
     )
     return "\n".join(lines)
@@ -179,7 +183,9 @@ def generate_mate_profile_dconf(profile_id: str, visible_name: str, scheme: Tili
 def dconf_dump_profile(profile_id: str) -> str:
     proc = run(["dconf", "dump", f"/org/mate/terminal/profiles/{profile_id}/"])
     if proc.returncode != 0:
-        raise RuntimeError(proc.stderr.strip() or proc.stdout.strip() or "dconf dump failed")
+        raise RuntimeError(
+            proc.stderr.strip() or proc.stdout.strip() or "dconf dump failed"
+        )
     return proc.stdout
 
 
@@ -199,29 +205,73 @@ def validate_dump(dump: str, expected: dict[str, str]) -> list[str]:
 def gsettings_get_profile_list() -> list[str]:
     proc = run(["gsettings", "get", "org.mate.terminal.global", "profile-list"])
     if proc.returncode != 0:
-        raise RuntimeError(proc.stderr.strip() or proc.stdout.strip() or "gsettings get profile-list failed")
+        raise RuntimeError(
+            proc.stderr.strip()
+            or proc.stdout.strip()
+            or "gsettings get profile-list failed"
+        )
     return re.findall(r"'([^']+)'", proc.stdout.strip())
 
 
 def gsettings_set_profile_list(profile_ids: list[str]) -> None:
     serialized = "[" + ", ".join(dconf_quote(x) for x in profile_ids) + "]"
-    proc = run(["gsettings", "set", "org.mate.terminal.global", "profile-list", serialized])
+    proc = run(
+        ["gsettings", "set", "org.mate.terminal.global", "profile-list", serialized]
+    )
     if proc.returncode != 0:
-        raise RuntimeError(proc.stderr.strip() or proc.stdout.strip() or "gsettings set profile-list failed")
+        raise RuntimeError(
+            proc.stderr.strip()
+            or proc.stdout.strip()
+            or "gsettings set profile-list failed"
+        )
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="Cleanroom conversion: generate MATE Terminal profiles from installed Tilix scheme JSON files."
     )
-    parser.add_argument("--output-dir", default="generated/mate-terminal/tilix", help="Where to write generated files")
-    parser.add_argument("--system-prefix", default="tilix-", help="Profile ID prefix for system schemes")
-    parser.add_argument("--user-prefix", default="tilix-user-", help="Profile ID prefix for user schemes")
-    parser.add_argument("--limit", type=int, default=0, help="Limit number of schemes processed (0 = no limit)")
-    parser.add_argument("--import", dest="do_import", action="store_true", help="Import generated profiles into dconf")
-    parser.add_argument("--update-profile-list", action="store_true", help="Append generated profile IDs to profile-list")
-    parser.add_argument("--smoke-count", type=int, default=0, help="Launch mate-terminal briefly for N profiles (0 = skip)")
-    parser.add_argument("--smoke-timeout", type=int, default=5, help="Seconds before killing a smoke mate-terminal run")
+    parser.add_argument(
+        "--output-dir",
+        default="generated/mate-terminal/tilix",
+        help="Where to write generated files",
+    )
+    parser.add_argument(
+        "--system-prefix", default="tilix-", help="Profile ID prefix for system schemes"
+    )
+    parser.add_argument(
+        "--user-prefix",
+        default="tilix-user-",
+        help="Profile ID prefix for user schemes",
+    )
+    parser.add_argument(
+        "--limit",
+        type=int,
+        default=0,
+        help="Limit number of schemes processed (0 = no limit)",
+    )
+    parser.add_argument(
+        "--import",
+        dest="do_import",
+        action="store_true",
+        help="Import generated profiles into dconf",
+    )
+    parser.add_argument(
+        "--update-profile-list",
+        action="store_true",
+        help="Append generated profile IDs to profile-list",
+    )
+    parser.add_argument(
+        "--smoke-count",
+        type=int,
+        default=0,
+        help="Launch mate-terminal briefly for N profiles (0 = skip)",
+    )
+    parser.add_argument(
+        "--smoke-timeout",
+        type=int,
+        default=5,
+        help="Seconds before killing a smoke mate-terminal run",
+    )
     args = parser.parse_args()
 
     output_dir = Path(args.output_dir)
@@ -279,7 +329,9 @@ def main() -> int:
                 stdin_text=out_path.read_text(encoding="utf-8"),
             )
             if proc.returncode != 0:
-                sys.stderr.write(f"{profile_id}: dconf load failed: {proc.stderr.strip() or proc.stdout.strip()}\n")
+                sys.stderr.write(
+                    f"{profile_id}: dconf load failed: {proc.stderr.strip() or proc.stdout.strip()}\n"
+                )
                 return 1
 
         if args.update_profile_list:
@@ -300,13 +352,19 @@ def main() -> int:
 
             expected = {
                 "use-theme-colors": "true" if scheme.use_theme_colors else "false",
-                "palette": dconf_quote(":".join(color_to_rgb16(c) for c in scheme.palette)),
+                "palette": dconf_quote(
+                    ":".join(color_to_rgb16(c) for c in scheme.palette)
+                ),
             }
             if not scheme.use_theme_colors:
                 expected.update(
                     {
-                        "foreground-color": dconf_quote(color_to_rgb16(scheme.foreground)),
-                        "background-color": dconf_quote(color_to_rgb16(scheme.background)),
+                        "foreground-color": dconf_quote(
+                            color_to_rgb16(scheme.foreground)
+                        ),
+                        "background-color": dconf_quote(
+                            color_to_rgb16(scheme.background)
+                        ),
                         "bold-color-same-as-fg": "true",
                         "bold-color": dconf_quote(color_to_rgb16(scheme.foreground)),
                         "cursor-color": dconf_quote(color_to_rgb8(scheme.foreground)),
@@ -357,7 +415,9 @@ def main() -> int:
                     )
                     combined = (proc.stdout or "") + (proc.stderr or "")
                     if "No such profile" in combined:
-                        sys.stderr.write(f"{profile_id}: mate-terminal did not find profile (visible-name: {visible})\n")
+                        sys.stderr.write(
+                            f"{profile_id}: mate-terminal did not find profile (visible-name: {visible})\n"
+                        )
                         return 1
                     if proc.returncode not in (0, 124):  # 124=timeout(1)
                         sys.stderr.write(
