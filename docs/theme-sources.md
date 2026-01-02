@@ -68,6 +68,10 @@ Generator:
 ./scripts/import-official-brands.py
 ```
 
+## Dracula Pro (commercial)
+
+Dracula Pro is a paid product and is not vendored here. See `docs/dracula-pro.md`.
+
 ## Converting locally-installed schemes
 
 Convert Tilix JSON schemes into minimal MATE Terminal `.dconf` snippets (generated output is gitignored):

@@ -39,6 +39,8 @@ install -m 0644 "${repo_root}/docs/gogh-to-mate-terminal.md" \
   "${root}/usr/share/doc/${pkgname}/gogh-to-mate-terminal.md"
 install -m 0644 "${repo_root}/docs/theme-sources.md" \
   "${root}/usr/share/doc/${pkgname}/theme-sources.md"
+install -m 0644 "${repo_root}/docs/dracula-pro.md" \
+  "${root}/usr/share/doc/${pkgname}/dracula-pro.md"
 install -m 0644 "${repo_root}/docs/mateswatch-stats.md" \
   "${root}/usr/share/doc/${pkgname}/mateswatch-stats.md"
 

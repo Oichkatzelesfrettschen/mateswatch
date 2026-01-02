@@ -11,11 +11,11 @@ Current corpus (vendored in this repo):
 
 Every profile’s `visible-name` is formatted like:
 
-`TYPE VibeName — Tag·Tag·Tag·Tag — Original`
+`TYPE Original — VibeName — Tag·Tag·Tag·Tag`
 
 Example:
 
-`GOG Neon Lime — Dark·HighC·Vivid·Neutral — Atom`
+`GOG Atom — Neon Lime — Dark·HighC·Vivid·Neutral`
 
 This keeps profiles clustered by **type** while still conveying “color-vibe” at a glance.
 

@@ -75,7 +75,13 @@ def parse_wezterm_toml(path: Path) -> tuple[str, str, list[str]]:
 
 def write_profile(path: Path, *, type_code: str, original_name: str, bg: str, fg: str, palette: list[str]) -> None:
     visible = format_visible_name(type_code, original_name, bg, fg, palette)
-    dconf = generate_mate_profile_dconf(visible_name=visible, use_theme_colors=False, foreground=fg, background=bg, palette=palette)
+    dconf = generate_mate_profile_dconf(
+        visible_name=visible,
+        use_theme_colors=False,
+        foreground=fg,
+        background=bg,
+        palette=palette,
+    )
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(dconf, encoding="utf-8")
 
@@ -144,6 +150,22 @@ def main() -> int:
     if enabled("catppuccin-gnome-terminal"):
         palette_json = json.loads(read_text(sources / "catppuccin" / "palette" / "palette.json"))
         palette_json.pop("version", None)
+        accents = [
+            "rosewater",
+            "flamingo",
+            "pink",
+            "mauve",
+            "red",
+            "maroon",
+            "peach",
+            "yellow",
+            "green",
+            "teal",
+            "sky",
+            "sapphire",
+            "blue",
+            "lavender",
+        ]
         for flavor in ("latte", "frappe", "macchiato", "mocha"):
             obj = palette_json[flavor]
             colors = obj["colors"]
@@ -152,14 +174,38 @@ def main() -> int:
             pal = [ansi[k]["normal"]["hex"] for k in order] + [ansi[k]["bright"]["hex"] for k in order]
             bg = colors["base"]["hex"]
             fg = colors["text"]["hex"]
-            write_profile(
-                out_root / "catppuccin" / f"ctp-catppuccin-{flavor}-gnome-terminal.dconf",
-                type_code="CTP",
-                original_name=f"Catppuccin {flavor.capitalize()} (GNOME Terminal)",
-                bg=require_hex_rgb(bg, "background"),
-                fg=require_hex_rgb(fg, "foreground"),
-                palette=[require_hex_rgb(c, "palette") for c in pal],
+            base_profile = out_root / "catppuccin" / f"ctp-catppuccin-{flavor}-gnome-terminal.dconf"
+            visible = format_visible_name("CTP", f"Catppuccin {flavor.capitalize()} (GNOME Terminal)", bg, fg, pal)
+            dconf = generate_mate_profile_dconf(
+                visible_name=visible,
+                use_theme_colors=False,
+                foreground=fg,
+                background=bg,
+                palette=pal,
+                cursor_color=colors.get("rosewater", {}).get("hex", fg),
             )
+            base_profile.parent.mkdir(parents=True, exist_ok=True)
+            base_profile.write_text(dconf, encoding="utf-8")
+
+            # Accent variants (cursor-accented). These keep ANSI palette stable and only vary cursor.
+            accents_dir = out_root / "catppuccin" / "accents"
+            for accent in accents:
+                if accent not in colors:
+                    continue
+                accent_hex = colors[accent]["hex"]
+                original = f"Catppuccin {flavor.capitalize()} (GNOME Terminal/{accent})"
+                visible = format_visible_name("CTP", original, bg, fg, pal)
+                dconf = generate_mate_profile_dconf(
+                    visible_name=visible,
+                    use_theme_colors=False,
+                    foreground=fg,
+                    background=bg,
+                    palette=pal,
+                    cursor_color=accent_hex,
+                )
+                out_path = accents_dir / f"ctp-catppuccin-{flavor}-{accent}-gnome-terminal.dconf"
+                out_path.parent.mkdir(parents=True, exist_ok=True)
+                out_path.write_text(dconf, encoding="utf-8")
 
     # Catppuccin (kitty)
     if enabled("catppuccin-kitty"):

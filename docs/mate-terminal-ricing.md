@@ -81,7 +81,7 @@ For true transparency and effects like blur:
 
 `mate-terminal --profile=...` matches the profile’s `visible-name`, not the profile id.
 
-Example: our imports have ids like `gogh-atom` but `visible-name` like `GOG Neon Lime — Dark·HighC·Vivid·Neutral — Atom`.
+Example: our imports have ids like `gogh-atom` but `visible-name` like `GOG Atom — Neon Lime — Dark·HighC·Vivid·Neutral`.
 
 Live test helper (temporarily appends ids to `profile-list` and launches):
 
@@ -93,7 +93,7 @@ MATE Terminal groups and sorts profiles primarily by `visible-name`.
 
 This repo uses:
 
-`TYPE VibeName — Tag·Tag·Tag·Tag — Original`
+`TYPE Original — VibeName — Tag·Tag·Tag·Tag`
 
 so profiles cluster by `TYPE` (source/family), while still conveying contrast/saturation/temperature at a glance.
 

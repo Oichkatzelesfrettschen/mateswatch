@@ -170,9 +170,8 @@ def slugify(text: str) -> str:
 def format_visible_name(type_code: str, original_name: str, background: str, foreground: str, palette: list[str]) -> str:
     vibe = vibe_for_scheme(background, foreground, palette)
     tags = "·".join(vibe.tags)
-    # Format requested: NEWNAME - DESC - OLDNAME, while keeping type clusterable.
-    # Put TYPE in NEWNAME and keep the "old" title last for recognition.
-    return f"{type_code} {vibe.name} — {tags} — {original_name}"
+    # Keep type-clusterable, but retain upstream/original name early for scanning.
+    return f"{type_code} {original_name} — {vibe.name} — {tags}"
 
 
 def fingerprint(background: str, foreground: str, palette: list[str]) -> str:
@@ -182,7 +181,15 @@ def fingerprint(background: str, foreground: str, palette: list[str]) -> str:
     return h.hexdigest()
 
 
-def generate_mate_profile_dconf(*, visible_name: str, use_theme_colors: bool, foreground: str, background: str, palette: list[str]) -> str:
+def generate_mate_profile_dconf(
+    *,
+    visible_name: str,
+    use_theme_colors: bool,
+    foreground: str,
+    background: str,
+    palette: list[str],
+    cursor_color: str | None = None,
+) -> str:
     palette16 = ":".join(color_to_rgb16(c) for c in palette)
     lines = [
         "[/]",
@@ -192,7 +199,7 @@ def generate_mate_profile_dconf(*, visible_name: str, use_theme_colors: bool, fo
     if not use_theme_colors:
         fg16 = color_to_rgb16(foreground)
         bg16 = color_to_rgb16(background)
-        cursor = color_to_rgb8(foreground)
+        cursor = color_to_rgb8(cursor_color or foreground)
         lines.extend(
             [
                 f"foreground-color={dconf_quote(fg16)}",
