@@ -237,6 +237,7 @@ def main() -> int:
 
     generated: list[dict[str, Any]] = []
     profile_ids: list[str] = []
+    id_to_visible: dict[str, str] = {}
 
     for origin, scheme in schemes:
         prefix = args.user_prefix if origin == "user" else args.system_prefix
@@ -258,6 +259,7 @@ def main() -> int:
             }
         )
         profile_ids.append(profile_id)
+        id_to_visible[profile_id] = visible_name
 
     (output_dir / "manifest.json").write_text(
         json.dumps({"count": len(generated), "entries": generated}, indent=2) + "\n",
@@ -325,22 +327,45 @@ def main() -> int:
             smoke = profile_ids[:]
             random.shuffle(smoke)
             smoke = smoke[: args.smoke_count]
-            for profile_id in smoke:
-                proc = run(
-                    [
-                        "timeout",
-                        str(args.smoke_timeout),
-                        "mate-terminal",
-                        "--disable-factory",
-                        f"--profile={profile_id}",
-                        "--command",
-                        "true",
-                    ]
-                )
-                if proc.returncode not in (0, 124):  # 124=timeout(1)
-                    sys.stderr.write(
-                        f"{profile_id}: mate-terminal smoke failed ({proc.returncode}): {proc.stderr.strip() or proc.stdout.strip()}\n"
+
+            # mate-terminal's --profile matches visible-name and it only knows profiles present in profile-list.
+            # If we didn't persistently update the list, temporarily extend it for the smoke run.
+            restore_profile_list = None
+            if not args.update_profile_list:
+                restore_profile_list = gsettings_get_profile_list()
+                merged = list(restore_profile_list)
+                existing = set(restore_profile_list)
+                for pid in smoke:
+                    if pid not in existing:
+                        merged.append(pid)
+                        existing.add(pid)
+                gsettings_set_profile_list(merged)
+
+            try:
+                for profile_id in smoke:
+                    visible = id_to_visible.get(profile_id, profile_id)
+                    proc = run(
+                        [
+                            "timeout",
+                            str(args.smoke_timeout),
+                            "mate-terminal",
+                            "--disable-factory",
+                            f"--profile={visible}",
+                            "--command",
+                            "true",
+                        ]
                     )
+                    combined = (proc.stdout or "") + (proc.stderr or "")
+                    if "No such profile" in combined:
+                        sys.stderr.write(f"{profile_id}: mate-terminal did not find profile (visible-name: {visible})\n")
+                        return 1
+                    if proc.returncode not in (0, 124):  # 124=timeout(1)
+                        sys.stderr.write(
+                            f"{profile_id}: mate-terminal smoke failed ({proc.returncode}): {proc.stderr.strip() or proc.stdout.strip()}\n"
+                        )
+            finally:
+                if restore_profile_list is not None:
+                    gsettings_set_profile_list(restore_profile_list)
 
     print(f"Generated {len(generated)} profiles into {output_dir}")
     if args.do_import:

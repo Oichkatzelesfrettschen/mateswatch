@@ -1,11 +1,11 @@
 # Maintainer: eirikr
 
 pkgname=mate-terminal-theme-atom
-pkgver=0.1.0
+pkgver=0.1.1
 pkgrel=1
 pkgdesc="Atom color scheme for MATE Terminal (plus Tilix scheme file)"
 arch=('any')
-url='https://github.com/storm119/Tilix-Themes'
+url='https://github.com/Oichkatzelesfrettschen/mate_termtheme_atom'
 license=('custom:UNKNOWN')
 depends=(
   'mate-terminal'
@@ -34,6 +34,14 @@ package() {
     "${pkgdir}/usr/share/doc/${pkgname}/README.md"
   install -Dm644 "${startdir}/docs/mate-terminal-color-schemes.md" \
     "${pkgdir}/usr/share/doc/${pkgname}/mate-terminal-color-schemes.md"
+  install -Dm644 "${startdir}/docs/mate-terminal-ricing.md" \
+    "${pkgdir}/usr/share/doc/${pkgname}/mate-terminal-ricing.md"
+  install -Dm644 "${startdir}/docs/tilix-to-mate-terminal.md" \
+    "${pkgdir}/usr/share/doc/${pkgname}/tilix-to-mate-terminal.md"
+  install -Dm644 "${startdir}/docs/gogh-to-mate-terminal.md" \
+    "${pkgdir}/usr/share/doc/${pkgname}/gogh-to-mate-terminal.md"
+  install -Dm644 "${startdir}/docs/theme-sources.md" \
+    "${pkgdir}/usr/share/doc/${pkgname}/theme-sources.md"
   install -Dm644 "${startdir}/docs/packaging.md" \
     "${pkgdir}/usr/share/doc/${pkgname}/packaging.md"
 }

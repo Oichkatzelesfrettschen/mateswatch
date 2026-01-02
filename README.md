@@ -5,6 +5,8 @@ This repository vendors the **Atom** color scheme for:
 - Tilix terminal (formerly Terminix)
 - MATE Terminal (via dconf profile)
 
+It also includes “cleanroom” tooling to convert other theme sources into MATE Terminal profiles.
+
 Local sources found on this machine:
 
 - Tilix: `/usr/share/tilix/schemes/atom.json`
@@ -62,4 +64,45 @@ Then select the profile in:
 mate-terminal --profile=Atom
 ```
 
-More details: `docs/mate-terminal-color-schemes.md`
+Note: `mate-terminal --profile=...` matches the profile’s `visible-name`, and profiles must be present in
+`org.mate.terminal.global profile-list`.
+
+More details:
+
+- `docs/mate-terminal-color-schemes.md`
+- `docs/mate-terminal-ricing.md`
+- `docs/tilix-to-mate-terminal.md`
+- `docs/theme-sources.md`
+
+## Gogh (MIT-licensed theme corpus)
+
+This repo vendors converted MATE Terminal profiles generated from Gogh:
+
+- `docs/gogh-to-mate-terminal.md`
+- `mate-terminal/schemes/gogh/`
+
+## Bulk convert Tilix → MATE Terminal (generated, gitignored)
+
+Generate MATE Terminal `.dconf` snippets from your installed Tilix schemes:
+
+```sh
+./scripts/sync-tilix-to-mate-terminal.py --output-dir generated/mate-terminal/tilix
+```
+
+Optionally import them into your dconf (adds profiles; does not touch `profile-list` unless asked):
+
+```sh
+./scripts/sync-tilix-to-mate-terminal.py --import --smoke-count 10
+```
+
+Cleanup bulk profiles later:
+
+```sh
+./scripts/reset-tilix-mate-terminal-profiles.sh
+```
+
+## Packaging
+
+- Debian/LMDE `.deb` builder: `packaging/deb/build-deb.sh` (writes to `dist/`)
+- Arch/CachyOS example: `packaging/arch/PKGBUILD`
+- Notes: `docs/packaging.md`

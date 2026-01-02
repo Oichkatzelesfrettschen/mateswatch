@@ -13,11 +13,24 @@ On Arch-family distros (including CachyOS), the best-practice way to distribute 
 
 This repo includes an example PKGBUILD at `packaging/arch/PKGBUILD`.
 
+### “.deb packages on the AUR” (when you must)
+
+The AUR does not host binary packages. If you want to distribute a `.deb` as an upstream release artifact (for Debian/Mint users), Arch users should still consume it via a **normal Arch package**.
+
+If you *must* create an AUR package that installs from an upstream binary deliverable, Arch guidelines generally expect a `-bin` style package that:
+
+- Downloads a release artifact in `source=()` (do not commit the binary to the AUR git repo).
+- Verifies checksums in `sha256sums=()`.
+- Extracts the archive in `package()` (for `.deb`, that means extracting `data.tar.*`).
+
+This is appropriate for closed-source apps or when sources are not practically buildable, but it is usually unnecessary for a data-only theme repo like this one.
+
 References:
 
-- Arch Wiki: “Creating packages”
-- Arch Wiki: “PKGBUILD”
-- Arch Wiki: “Arch package guidelines”
+- Arch Wiki: “Creating packages” (`https://wiki.archlinux.org/title/Creating_packages`)
+- Arch Wiki: “PKGBUILD” (`https://wiki.archlinux.org/title/PKGBUILD`)
+- Arch Wiki: “Arch package guidelines” (`https://wiki.archlinux.org/title/Arch_package_guidelines`)
+- Arch Wiki: “AUR submission guidelines” (`https://wiki.archlinux.org/title/AUR_submission_guidelines`)
 
 ## Debian / LMDE 7 (Debian 13 “trixie”) themes for MATE Terminal
 
@@ -48,6 +61,12 @@ To import and enable the theme in a running desktop session you typically need:
 - `dconf-cli` (for `dconf`)
 - `libglib2.0-bin` (for `gsettings`)
 
+### Debian archive note (licensing)
+
+The Atom scheme source this repo vendored was found on this machine via `tilix-themes-git` from `https://github.com/storm119/Tilix-Themes`, which does not ship an explicit license file. That makes it unsuitable for Debian main as-is.
+
+For a Debian/Mint-friendly theme corpus with a clear license, see the MIT-licensed Gogh conversions in this repo (`docs/gogh-to-mate-terminal.md`).
+
 ### `.deb` artifact for releases
 
 This repo includes a small, reproducible `.deb` builder at:
@@ -67,4 +86,3 @@ Install on Debian/LMDE:
 sudo dpkg -i dist/mate-terminal-theme-atom_*.deb
 mate-terminal-theme-atom-import --set-default
 ```
-

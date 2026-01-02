@@ -34,6 +34,14 @@ install -m 0644 "${repo_root}/README.md" \
   "${root}/usr/share/doc/${pkgname}/README.md"
 install -m 0644 "${repo_root}/docs/mate-terminal-color-schemes.md" \
   "${root}/usr/share/doc/${pkgname}/mate-terminal-color-schemes.md"
+install -m 0644 "${repo_root}/docs/mate-terminal-ricing.md" \
+  "${root}/usr/share/doc/${pkgname}/mate-terminal-ricing.md"
+install -m 0644 "${repo_root}/docs/tilix-to-mate-terminal.md" \
+  "${root}/usr/share/doc/${pkgname}/tilix-to-mate-terminal.md"
+install -m 0644 "${repo_root}/docs/gogh-to-mate-terminal.md" \
+  "${root}/usr/share/doc/${pkgname}/gogh-to-mate-terminal.md"
+install -m 0644 "${repo_root}/docs/theme-sources.md" \
+  "${root}/usr/share/doc/${pkgname}/theme-sources.md"
 install -m 0644 "${repo_root}/docs/packaging.md" \
   "${root}/usr/share/doc/${pkgname}/packaging.md"
 
@@ -117,4 +125,3 @@ rm -f "${debfile}"
 ar r "${debfile}" "${workdir}/debian-binary" "${workdir}/control.tar.gz" "${workdir}/data.tar.gz" >/dev/null
 
 echo "Wrote ${debfile}"
-

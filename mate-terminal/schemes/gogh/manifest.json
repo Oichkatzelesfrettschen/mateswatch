@@ -1,0 +1,2905 @@
+{
+  "source": {
+    "repo": "https://github.com/Gogh-Co/Gogh",
+    "rev": "50b3da841801eef270522274b578fc4ee57fd4e3"
+  },
+  "count": 362,
+  "themes": [
+    {
+      "file": "3024 Day.yml",
+      "name": "3024 Day",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-3024-day",
+      "output": "mate-terminal/schemes/gogh/gogh-3024-day.dconf"
+    },
+    {
+      "file": "3024 Night.yml",
+      "name": "3024 Night",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-3024-night",
+      "output": "mate-terminal/schemes/gogh/gogh-3024-night.dconf"
+    },
+    {
+      "file": "Aci.yml",
+      "name": "Aci",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-aci",
+      "output": "mate-terminal/schemes/gogh/gogh-aci.dconf"
+    },
+    {
+      "file": "Acme.yml",
+      "name": "Acme",
+      "variant": "light",
+      "author": "plan9-for-vimspace (https://github.com/plan9-for-vimspace/acme-colors)",
+      "profile_id": "gogh-acme",
+      "output": "mate-terminal/schemes/gogh/gogh-acme.dconf"
+    },
+    {
+      "file": "Aco.yml",
+      "name": "Aco",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-aco",
+      "output": "mate-terminal/schemes/gogh/gogh-aco.dconf"
+    },
+    {
+      "file": "Adventure Time.yml",
+      "name": "Adventure Time",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-adventure-time",
+      "output": "mate-terminal/schemes/gogh/gogh-adventure-time.dconf"
+    },
+    {
+      "file": "Afterglow.yml",
+      "name": "Afterglow",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-afterglow",
+      "output": "mate-terminal/schemes/gogh/gogh-afterglow.dconf"
+    },
+    {
+      "file": "Alien Blood.yml",
+      "name": "Alien Blood",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-alien-blood",
+      "output": "mate-terminal/schemes/gogh/gogh-alien-blood.dconf"
+    },
+    {
+      "file": "Apprentice.yml",
+      "name": "Apprentice",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-apprentice",
+      "output": "mate-terminal/schemes/gogh/gogh-apprentice.dconf"
+    },
+    {
+      "file": "Arc Dark.yml",
+      "name": "Arc Dark",
+      "variant": "Dark",
+      "author": "https://hesamrad.com",
+      "profile_id": "gogh-arc-dark",
+      "output": "mate-terminal/schemes/gogh/gogh-arc-dark.dconf"
+    },
+    {
+      "file": "Arc Light.yml",
+      "name": "Arc Light",
+      "variant": "Light",
+      "author": "https://hesamrad.com",
+      "profile_id": "gogh-arc-light",
+      "output": "mate-terminal/schemes/gogh/gogh-arc-light.dconf"
+    },
+    {
+      "file": "Argonaut.yml",
+      "name": "Argonaut",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-argonaut",
+      "output": "mate-terminal/schemes/gogh/gogh-argonaut.dconf"
+    },
+    {
+      "file": "Arthur.yml",
+      "name": "Arthur",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-arthur",
+      "output": "mate-terminal/schemes/gogh/gogh-arthur.dconf"
+    },
+    {
+      "file": "Astrodark.yml",
+      "name": "Astrodark",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-astrodark",
+      "output": "mate-terminal/schemes/gogh/gogh-astrodark.dconf"
+    },
+    {
+      "file": "Atelier Cave.yml",
+      "name": "Atelier Cave",
+      "variant": "",
+      "author": "Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave)",
+      "profile_id": "gogh-atelier-cave",
+      "output": "mate-terminal/schemes/gogh/gogh-atelier-cave.dconf"
+    },
+    {
+      "file": "Atelier Dune.yml",
+      "name": "Atelier Dune",
+      "variant": "",
+      "author": "Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune)",
+      "profile_id": "gogh-atelier-dune",
+      "output": "mate-terminal/schemes/gogh/gogh-atelier-dune.dconf"
+    },
+    {
+      "file": "Atelier Estuary.yml",
+      "name": "Atelier Estuary",
+      "variant": "",
+      "author": "Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary)",
+      "profile_id": "gogh-atelier-estuary",
+      "output": "mate-terminal/schemes/gogh/gogh-atelier-estuary.dconf"
+    },
+    {
+      "file": "Atelier Forest.yml",
+      "name": "Atelier Forest",
+      "variant": "",
+      "author": "Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest)",
+      "profile_id": "gogh-atelier-forest",
+      "output": "mate-terminal/schemes/gogh/gogh-atelier-forest.dconf"
+    },
+    {
+      "file": "Atelier Heath.yml",
+      "name": "Atelier Heath",
+      "variant": "",
+      "author": "Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath)",
+      "profile_id": "gogh-atelier-heath",
+      "output": "mate-terminal/schemes/gogh/gogh-atelier-heath.dconf"
+    },
+    {
+      "file": "Atelier Lakeside.yml",
+      "name": "Atelier Lakeside",
+      "variant": "",
+      "author": "Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside)",
+      "profile_id": "gogh-atelier-lakeside",
+      "output": "mate-terminal/schemes/gogh/gogh-atelier-lakeside.dconf"
+    },
+    {
+      "file": "Atelier Plateau.yml",
+      "name": "Atelier Plateau",
+      "variant": "",
+      "author": "Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau)",
+      "profile_id": "gogh-atelier-plateau",
+      "output": "mate-terminal/schemes/gogh/gogh-atelier-plateau.dconf"
+    },
+    {
+      "file": "Atelier Savanna.yml",
+      "name": "Atelier Savanna",
+      "variant": "",
+      "author": "Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna)",
+      "profile_id": "gogh-atelier-savanna",
+      "output": "mate-terminal/schemes/gogh/gogh-atelier-savanna.dconf"
+    },
+    {
+      "file": "Atelier Seaside.yml",
+      "name": "Atelier Seaside",
+      "variant": "",
+      "author": "Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside)",
+      "profile_id": "gogh-atelier-seaside",
+      "output": "mate-terminal/schemes/gogh/gogh-atelier-seaside.dconf"
+    },
+    {
+      "file": "Atelier Sulphurpool.yml",
+      "name": "Atelier Sulphurpool",
+      "variant": "",
+      "author": "Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulphurpool)",
+      "profile_id": "gogh-atelier-sulphurpool",
+      "output": "mate-terminal/schemes/gogh/gogh-atelier-sulphurpool.dconf"
+    },
+    {
+      "file": "Atom.yml",
+      "name": "Atom",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-atom",
+      "output": "mate-terminal/schemes/gogh/gogh-atom.dconf"
+    },
+    {
+      "file": "Aura.yml",
+      "name": "Aura",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-aura",
+      "output": "mate-terminal/schemes/gogh/gogh-aura.dconf"
+    },
+    {
+      "file": "Ayaka.yml",
+      "name": "Ayaka",
+      "variant": "dark",
+      "author": "Ruhannn (https://github.com/ruhannn)",
+      "profile_id": "gogh-ayaka",
+      "output": "mate-terminal/schemes/gogh/gogh-ayaka.dconf"
+    },
+    {
+      "file": "Ayu Dark.yml",
+      "name": "Ayu Dark",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-ayu-dark",
+      "output": "mate-terminal/schemes/gogh/gogh-ayu-dark.dconf"
+    },
+    {
+      "file": "Ayu Light.yml",
+      "name": "Ayu Light",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-ayu-light",
+      "output": "mate-terminal/schemes/gogh/gogh-ayu-light.dconf"
+    },
+    {
+      "file": "Ayu Mirage.yml",
+      "name": "Ayu Mirage",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-ayu-mirage",
+      "output": "mate-terminal/schemes/gogh/gogh-ayu-mirage.dconf"
+    },
+    {
+      "file": "Azu.yml",
+      "name": "Azu",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-azu",
+      "output": "mate-terminal/schemes/gogh/gogh-azu.dconf"
+    },
+    {
+      "file": "Base2Tone Cave.yml",
+      "name": "Base2Tone Cave",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base2tone-cave",
+      "output": "mate-terminal/schemes/gogh/gogh-base2tone-cave.dconf"
+    },
+    {
+      "file": "Base2Tone Desert.yml",
+      "name": "Base2Tone Desert",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base2tone-desert",
+      "output": "mate-terminal/schemes/gogh/gogh-base2tone-desert.dconf"
+    },
+    {
+      "file": "Base2Tone Drawbridge.yml",
+      "name": "Base2Tone Drawbridge",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base2tone-drawbridge",
+      "output": "mate-terminal/schemes/gogh/gogh-base2tone-drawbridge.dconf"
+    },
+    {
+      "file": "Base2Tone Earth.yml",
+      "name": "Base2Tone Earth",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base2tone-earth",
+      "output": "mate-terminal/schemes/gogh/gogh-base2tone-earth.dconf"
+    },
+    {
+      "file": "Base2Tone Evening.yml",
+      "name": "Base2Tone Evening",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base2tone-evening",
+      "output": "mate-terminal/schemes/gogh/gogh-base2tone-evening.dconf"
+    },
+    {
+      "file": "Base2Tone Field.yml",
+      "name": "Base2Tone Field",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base2tone-field",
+      "output": "mate-terminal/schemes/gogh/gogh-base2tone-field.dconf"
+    },
+    {
+      "file": "Base2Tone Forest.yml",
+      "name": "Base2Tone Forest",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base2tone-forest",
+      "output": "mate-terminal/schemes/gogh/gogh-base2tone-forest.dconf"
+    },
+    {
+      "file": "Base2Tone Garden.yml",
+      "name": "Base2Tone Garden",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base2tone-garden",
+      "output": "mate-terminal/schemes/gogh/gogh-base2tone-garden.dconf"
+    },
+    {
+      "file": "Base2Tone Heath.yml",
+      "name": "Base2Tone Heath",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base2tone-heath",
+      "output": "mate-terminal/schemes/gogh/gogh-base2tone-heath.dconf"
+    },
+    {
+      "file": "Base2Tone Lake.yml",
+      "name": "Base2Tone Lake",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base2tone-lake",
+      "output": "mate-terminal/schemes/gogh/gogh-base2tone-lake.dconf"
+    },
+    {
+      "file": "Base2Tone Lavender.yml",
+      "name": "Base2Tone Lavender",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base2tone-lavender",
+      "output": "mate-terminal/schemes/gogh/gogh-base2tone-lavender.dconf"
+    },
+    {
+      "file": "Base2Tone Mall.yml",
+      "name": "Base2Tone Mall",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base2tone-mall",
+      "output": "mate-terminal/schemes/gogh/gogh-base2tone-mall.dconf"
+    },
+    {
+      "file": "Base2Tone Meadow.yml",
+      "name": "Base2Tone Meadow",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base2tone-meadow",
+      "output": "mate-terminal/schemes/gogh/gogh-base2tone-meadow.dconf"
+    },
+    {
+      "file": "Base2Tone Morning.yml",
+      "name": "Base2Tone Morning",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base2tone-morning",
+      "output": "mate-terminal/schemes/gogh/gogh-base2tone-morning.dconf"
+    },
+    {
+      "file": "Base2Tone Motel.yml",
+      "name": "Base2Tone Motel",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base2tone-motel",
+      "output": "mate-terminal/schemes/gogh/gogh-base2tone-motel.dconf"
+    },
+    {
+      "file": "Base2Tone Pool.yml",
+      "name": "Base2Tone Pool",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base2tone-pool",
+      "output": "mate-terminal/schemes/gogh/gogh-base2tone-pool.dconf"
+    },
+    {
+      "file": "Base2Tone Porch.yml",
+      "name": "Base2Tone Porch",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base2tone-porch",
+      "output": "mate-terminal/schemes/gogh/gogh-base2tone-porch.dconf"
+    },
+    {
+      "file": "Base2Tone Sea.yml",
+      "name": "Base2Tone Sea",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base2tone-sea",
+      "output": "mate-terminal/schemes/gogh/gogh-base2tone-sea.dconf"
+    },
+    {
+      "file": "Base2Tone Space.yml",
+      "name": "Base2Tone Space",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base2tone-space",
+      "output": "mate-terminal/schemes/gogh/gogh-base2tone-space.dconf"
+    },
+    {
+      "file": "Base2Tone Suburb.yml",
+      "name": "Base2Tone Suburb",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base2tone-suburb",
+      "output": "mate-terminal/schemes/gogh/gogh-base2tone-suburb.dconf"
+    },
+    {
+      "file": "Base4Tone Classic A.yml",
+      "name": "Base4Tone Classic A",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base4tone-classic-a",
+      "output": "mate-terminal/schemes/gogh/gogh-base4tone-classic-a.dconf"
+    },
+    {
+      "file": "Base4Tone Classic B.yml",
+      "name": "Base4Tone Classic B",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base4tone-classic-b",
+      "output": "mate-terminal/schemes/gogh/gogh-base4tone-classic-b.dconf"
+    },
+    {
+      "file": "Base4Tone Classic C.yml",
+      "name": "Base4Tone Classic C",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base4tone-classic-c",
+      "output": "mate-terminal/schemes/gogh/gogh-base4tone-classic-c.dconf"
+    },
+    {
+      "file": "Base4Tone Classic D.yml",
+      "name": "Base4Tone Classic D",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base4tone-classic-d",
+      "output": "mate-terminal/schemes/gogh/gogh-base4tone-classic-d.dconf"
+    },
+    {
+      "file": "Base4Tone Classic E.yml",
+      "name": "Base4Tone Classic E",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base4tone-classic-e",
+      "output": "mate-terminal/schemes/gogh/gogh-base4tone-classic-e.dconf"
+    },
+    {
+      "file": "Base4Tone Classic F.yml",
+      "name": "Base4Tone Classic F",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base4tone-classic-f",
+      "output": "mate-terminal/schemes/gogh/gogh-base4tone-classic-f.dconf"
+    },
+    {
+      "file": "Base4Tone Classic I.yml",
+      "name": "Base4Tone Classic I",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base4tone-classic-i",
+      "output": "mate-terminal/schemes/gogh/gogh-base4tone-classic-i.dconf"
+    },
+    {
+      "file": "Base4Tone Classic L.yml",
+      "name": "Base4Tone Classic L",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base4tone-classic-l",
+      "output": "mate-terminal/schemes/gogh/gogh-base4tone-classic-l.dconf"
+    },
+    {
+      "file": "Base4Tone Classic O.yml",
+      "name": "Base4Tone Classic O",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base4tone-classic-o",
+      "output": "mate-terminal/schemes/gogh/gogh-base4tone-classic-o.dconf"
+    },
+    {
+      "file": "Base4Tone Classic P.yml",
+      "name": "Base4Tone Classic P",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base4tone-classic-p",
+      "output": "mate-terminal/schemes/gogh/gogh-base4tone-classic-p.dconf"
+    },
+    {
+      "file": "Base4Tone Classic Q.yml",
+      "name": "Base4Tone Classic Q",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base4tone-classic-q",
+      "output": "mate-terminal/schemes/gogh/gogh-base4tone-classic-q.dconf"
+    },
+    {
+      "file": "Base4Tone Classic R.yml",
+      "name": "Base4Tone Classic R",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base4tone-classic-r",
+      "output": "mate-terminal/schemes/gogh/gogh-base4tone-classic-r.dconf"
+    },
+    {
+      "file": "Base4Tone Classic S.yml",
+      "name": "Base4Tone Classic S",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base4tone-classic-s",
+      "output": "mate-terminal/schemes/gogh/gogh-base4tone-classic-s.dconf"
+    },
+    {
+      "file": "Base4Tone Classic T.yml",
+      "name": "Base4Tone Classic T",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base4tone-classic-t",
+      "output": "mate-terminal/schemes/gogh/gogh-base4tone-classic-t.dconf"
+    },
+    {
+      "file": "Base4Tone Classic U.yml",
+      "name": "Base4Tone Classic U",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base4tone-classic-u",
+      "output": "mate-terminal/schemes/gogh/gogh-base4tone-classic-u.dconf"
+    },
+    {
+      "file": "Base4Tone Classic W.yml",
+      "name": "Base4Tone Classic W",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base4tone-classic-w",
+      "output": "mate-terminal/schemes/gogh/gogh-base4tone-classic-w.dconf"
+    },
+    {
+      "file": "Base4Tone Modern C.yml",
+      "name": "Base4Tone Modern C",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base4tone-modern-c",
+      "output": "mate-terminal/schemes/gogh/gogh-base4tone-modern-c.dconf"
+    },
+    {
+      "file": "Base4Tone Modern N.yml",
+      "name": "Base4Tone Modern N",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base4tone-modern-n",
+      "output": "mate-terminal/schemes/gogh/gogh-base4tone-modern-n.dconf"
+    },
+    {
+      "file": "Base4Tone Modern W.yml",
+      "name": "Base4Tone Modern W",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-base4tone-modern-w",
+      "output": "mate-terminal/schemes/gogh/gogh-base4tone-modern-w.dconf"
+    },
+    {
+      "file": "Belafonte Day.yml",
+      "name": "Belafonte Day",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-belafonte-day",
+      "output": "mate-terminal/schemes/gogh/gogh-belafonte-day.dconf"
+    },
+    {
+      "file": "Belafonte Night.yml",
+      "name": "Belafonte Night",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-belafonte-night",
+      "output": "mate-terminal/schemes/gogh/gogh-belafonte-night.dconf"
+    },
+    {
+      "file": "Bim.yml",
+      "name": "Bim",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-bim",
+      "output": "mate-terminal/schemes/gogh/gogh-bim.dconf"
+    },
+    {
+      "file": "Birds Of Paradise.yml",
+      "name": "Birds Of Paradise",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-birds-of-paradise",
+      "output": "mate-terminal/schemes/gogh/gogh-birds-of-paradise.dconf"
+    },
+    {
+      "file": "Blazer.yml",
+      "name": "Blazer",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-blazer",
+      "output": "mate-terminal/schemes/gogh/gogh-blazer.dconf"
+    },
+    {
+      "file": "Blue Dolphin.yml",
+      "name": "Blue Dolphin",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-blue-dolphin",
+      "output": "mate-terminal/schemes/gogh/gogh-blue-dolphin.dconf"
+    },
+    {
+      "file": "Blue Moon Light.yml",
+      "name": "Blue Moon Light",
+      "variant": "light",
+      "author": "kyazdani42 (https://github.com/kyazdani42/blue-moon)",
+      "profile_id": "gogh-blue-moon-light",
+      "output": "mate-terminal/schemes/gogh/gogh-blue-moon-light.dconf"
+    },
+    {
+      "file": "Blue Moon.yml",
+      "name": "Blue Moon",
+      "variant": "dark",
+      "author": "kyazdani42 (https://github.com/kyazdani42/blue-moon)",
+      "profile_id": "gogh-blue-moon",
+      "output": "mate-terminal/schemes/gogh/gogh-blue-moon.dconf"
+    },
+    {
+      "file": "Bluloco Light.yml",
+      "name": "Bluloco Light",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-bluloco-light",
+      "output": "mate-terminal/schemes/gogh/gogh-bluloco-light.dconf"
+    },
+    {
+      "file": "Bluloco Zsh Light.yml",
+      "name": "Bluloco Zsh Light",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-bluloco-zsh-light",
+      "output": "mate-terminal/schemes/gogh/gogh-bluloco-zsh-light.dconf"
+    },
+    {
+      "file": "Borland.yml",
+      "name": "Borland",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-borland",
+      "output": "mate-terminal/schemes/gogh/gogh-borland.dconf"
+    },
+    {
+      "file": "Breadog.yml",
+      "name": "Breadog",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-breadog",
+      "output": "mate-terminal/schemes/gogh/gogh-breadog.dconf"
+    },
+    {
+      "file": "Breath Darker.yml",
+      "name": "Breath Darker",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-breath-darker",
+      "output": "mate-terminal/schemes/gogh/gogh-breath-darker.dconf"
+    },
+    {
+      "file": "Breath Light.yml",
+      "name": "Breath Light",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-breath-light",
+      "output": "mate-terminal/schemes/gogh/gogh-breath-light.dconf"
+    },
+    {
+      "file": "Breath Silverfox.yml",
+      "name": "Breath Silverfox",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-breath-silverfox",
+      "output": "mate-terminal/schemes/gogh/gogh-breath-silverfox.dconf"
+    },
+    {
+      "file": "Breath.yml",
+      "name": "Breath",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-breath",
+      "output": "mate-terminal/schemes/gogh/gogh-breath.dconf"
+    },
+    {
+      "file": "Breeze.yml",
+      "name": "Breeze",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-breeze",
+      "output": "mate-terminal/schemes/gogh/gogh-breeze.dconf"
+    },
+    {
+      "file": "Broadcast.yml",
+      "name": "Broadcast",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-broadcast",
+      "output": "mate-terminal/schemes/gogh/gogh-broadcast.dconf"
+    },
+    {
+      "file": "Brogrammer.yml",
+      "name": "Brogrammer",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-brogrammer",
+      "output": "mate-terminal/schemes/gogh/gogh-brogrammer.dconf"
+    },
+    {
+      "file": "Butrin.yml",
+      "name": "Butrin",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-butrin",
+      "output": "mate-terminal/schemes/gogh/gogh-butrin.dconf"
+    },
+    {
+      "file": "C64.yml",
+      "name": "C64",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-c64",
+      "output": "mate-terminal/schemes/gogh/gogh-c64.dconf"
+    },
+    {
+      "file": "Cai.yml",
+      "name": "Cai",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-cai",
+      "output": "mate-terminal/schemes/gogh/gogh-cai.dconf"
+    },
+    {
+      "file": "Campbell.yml",
+      "name": "Campbell",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-campbell",
+      "output": "mate-terminal/schemes/gogh/gogh-campbell.dconf"
+    },
+    {
+      "file": "Catppuccin Frapp\u00e9.yml",
+      "name": "Catppuccin Frapp\u00e9",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-catppuccin-frapp",
+      "output": "mate-terminal/schemes/gogh/gogh-catppuccin-frapp.dconf"
+    },
+    {
+      "file": "Catppuccin Latte.yml",
+      "name": "Catppuccin Latte",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-catppuccin-latte",
+      "output": "mate-terminal/schemes/gogh/gogh-catppuccin-latte.dconf"
+    },
+    {
+      "file": "Catppuccin Macchiato.yml",
+      "name": "Catppuccin Macchiato",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-catppuccin-macchiato",
+      "output": "mate-terminal/schemes/gogh/gogh-catppuccin-macchiato.dconf"
+    },
+    {
+      "file": "Catppuccin Mocha.yml",
+      "name": "Catppuccin Mocha",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-catppuccin-mocha",
+      "output": "mate-terminal/schemes/gogh/gogh-catppuccin-mocha.dconf"
+    },
+    {
+      "file": "Chalk.yml",
+      "name": "Chalk",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-chalk",
+      "output": "mate-terminal/schemes/gogh/gogh-chalk.dconf"
+    },
+    {
+      "file": "Chalkboard.yml",
+      "name": "Chalkboard",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-chalkboard",
+      "output": "mate-terminal/schemes/gogh/gogh-chalkboard.dconf"
+    },
+    {
+      "file": "Chameleon.yml",
+      "name": "Chameleon",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-chameleon",
+      "output": "mate-terminal/schemes/gogh/gogh-chameleon.dconf"
+    },
+    {
+      "file": "Ciapre.yml",
+      "name": "Ciapre",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-ciapre",
+      "output": "mate-terminal/schemes/gogh/gogh-ciapre.dconf"
+    },
+    {
+      "file": "City Lights.yml",
+      "name": "City Lights",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-city-lights",
+      "output": "mate-terminal/schemes/gogh/gogh-city-lights.dconf"
+    },
+    {
+      "file": "Clone Of Ubuntu.yml",
+      "name": "Clone Of Ubuntu",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-clone-of-ubuntu",
+      "output": "mate-terminal/schemes/gogh/gogh-clone-of-ubuntu.dconf"
+    },
+    {
+      "file": "Clrs.yml",
+      "name": "Clrs",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-clrs",
+      "output": "mate-terminal/schemes/gogh/gogh-clrs.dconf"
+    },
+    {
+      "file": "Cobalt 2.yml",
+      "name": "Cobalt 2",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-cobalt-2",
+      "output": "mate-terminal/schemes/gogh/gogh-cobalt-2.dconf"
+    },
+    {
+      "file": "Cobalt Neon.yml",
+      "name": "Cobalt Neon",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-cobalt-neon",
+      "output": "mate-terminal/schemes/gogh/gogh-cobalt-neon.dconf"
+    },
+    {
+      "file": "Colorcli.yml",
+      "name": "Colorcli",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-colorcli",
+      "output": "mate-terminal/schemes/gogh/gogh-colorcli.dconf"
+    },
+    {
+      "file": "Crayon Pony Fish.yml",
+      "name": "Crayon Pony Fish",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-crayon-pony-fish",
+      "output": "mate-terminal/schemes/gogh/gogh-crayon-pony-fish.dconf"
+    },
+    {
+      "file": "Dark Pastel.yml",
+      "name": "Dark Pastel",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-dark-pastel",
+      "output": "mate-terminal/schemes/gogh/gogh-dark-pastel.dconf"
+    },
+    {
+      "file": "Darkside.yml",
+      "name": "Darkside",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-darkside",
+      "output": "mate-terminal/schemes/gogh/gogh-darkside.dconf"
+    },
+    {
+      "file": "Dehydration.yml",
+      "name": "Dehydration",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-dehydration",
+      "output": "mate-terminal/schemes/gogh/gogh-dehydration.dconf"
+    },
+    {
+      "file": "Desert.yml",
+      "name": "Desert",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-desert",
+      "output": "mate-terminal/schemes/gogh/gogh-desert.dconf"
+    },
+    {
+      "file": "Dimmed Monokai.yml",
+      "name": "Dimmed Monokai",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-dimmed-monokai",
+      "output": "mate-terminal/schemes/gogh/gogh-dimmed-monokai.dconf"
+    },
+    {
+      "file": "Dissonance.yml",
+      "name": "Dissonance",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-dissonance",
+      "output": "mate-terminal/schemes/gogh/gogh-dissonance.dconf"
+    },
+    {
+      "file": "Doom One.yml",
+      "name": "Doom One",
+      "variant": "dark",
+      "author": "Henrik Lissner",
+      "profile_id": "gogh-doom-one",
+      "output": "mate-terminal/schemes/gogh/gogh-doom-one.dconf"
+    },
+    {
+      "file": "Dracula.yml",
+      "name": "Dracula",
+      "variant": "dark",
+      "author": "Dracula (https://draculatheme.com)",
+      "profile_id": "gogh-dracula",
+      "output": "mate-terminal/schemes/gogh/gogh-dracula.dconf"
+    },
+    {
+      "file": "Earthsong.yml",
+      "name": "Earthsong",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-earthsong",
+      "output": "mate-terminal/schemes/gogh/gogh-earthsong.dconf"
+    },
+    {
+      "file": "Elemental.yml",
+      "name": "Elemental",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-elemental",
+      "output": "mate-terminal/schemes/gogh/gogh-elemental.dconf"
+    },
+    {
+      "file": "Elementary.yml",
+      "name": "Elementary",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-elementary",
+      "output": "mate-terminal/schemes/gogh/gogh-elementary.dconf"
+    },
+    {
+      "file": "Elic.yml",
+      "name": "Elic",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-elic",
+      "output": "mate-terminal/schemes/gogh/gogh-elic.dconf"
+    },
+    {
+      "file": "Elio.yml",
+      "name": "Elio",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-elio",
+      "output": "mate-terminal/schemes/gogh/gogh-elio.dconf"
+    },
+    {
+      "file": "Espresso Libre.yml",
+      "name": "Espresso Libre",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-espresso-libre",
+      "output": "mate-terminal/schemes/gogh/gogh-espresso-libre.dconf"
+    },
+    {
+      "file": "Espresso.yml",
+      "name": "Espresso",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-espresso",
+      "output": "mate-terminal/schemes/gogh/gogh-espresso.dconf"
+    },
+    {
+      "file": "Everblush.yml",
+      "name": "Everblush",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-everblush",
+      "output": "mate-terminal/schemes/gogh/gogh-everblush.dconf"
+    },
+    {
+      "file": "Everforest Dark Hard.yml",
+      "name": "Everforest Dark Hard",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-everforest-dark-hard",
+      "output": "mate-terminal/schemes/gogh/gogh-everforest-dark-hard.dconf"
+    },
+    {
+      "file": "Everforest Dark Medium.yml",
+      "name": "Everforest Dark Medium",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-everforest-dark-medium",
+      "output": "mate-terminal/schemes/gogh/gogh-everforest-dark-medium.dconf"
+    },
+    {
+      "file": "Everforest Dark Soft.yml",
+      "name": "Everforest Dark Soft",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-everforest-dark-soft",
+      "output": "mate-terminal/schemes/gogh/gogh-everforest-dark-soft.dconf"
+    },
+    {
+      "file": "Everforest Light Hard.yml",
+      "name": "Everforest Light Hard",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-everforest-light-hard",
+      "output": "mate-terminal/schemes/gogh/gogh-everforest-light-hard.dconf"
+    },
+    {
+      "file": "Everforest Light Medium.yml",
+      "name": "Everforest Light Medium",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-everforest-light-medium",
+      "output": "mate-terminal/schemes/gogh/gogh-everforest-light-medium.dconf"
+    },
+    {
+      "file": "Everforest Light Soft.yml",
+      "name": "Everforest Light Soft",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-everforest-light-soft",
+      "output": "mate-terminal/schemes/gogh/gogh-everforest-light-soft.dconf"
+    },
+    {
+      "file": "Fairy Floss Dark.yml",
+      "name": "Fairy Floss Dark",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-fairy-floss-dark",
+      "output": "mate-terminal/schemes/gogh/gogh-fairy-floss-dark.dconf"
+    },
+    {
+      "file": "Fairy Floss.yml",
+      "name": "Fairy Floss",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-fairy-floss",
+      "output": "mate-terminal/schemes/gogh/gogh-fairy-floss.dconf"
+    },
+    {
+      "file": "Fishtank.yml",
+      "name": "Fishtank",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-fishtank",
+      "output": "mate-terminal/schemes/gogh/gogh-fishtank.dconf"
+    },
+    {
+      "file": "Flat Remix.yml",
+      "name": "Flat Remix",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-flat-remix",
+      "output": "mate-terminal/schemes/gogh/gogh-flat-remix.dconf"
+    },
+    {
+      "file": "Flat.yml",
+      "name": "Flat",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-flat",
+      "output": "mate-terminal/schemes/gogh/gogh-flat.dconf"
+    },
+    {
+      "file": "Flatland.yml",
+      "name": "Flatland",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-flatland",
+      "output": "mate-terminal/schemes/gogh/gogh-flatland.dconf"
+    },
+    {
+      "file": "Flexoki Dark.yml",
+      "name": "Flexoki Dark",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-flexoki-dark",
+      "output": "mate-terminal/schemes/gogh/gogh-flexoki-dark.dconf"
+    },
+    {
+      "file": "Flexoki Light.yml",
+      "name": "Flexoki Light",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-flexoki-light",
+      "output": "mate-terminal/schemes/gogh/gogh-flexoki-light.dconf"
+    },
+    {
+      "file": "Foxnightly.yml",
+      "name": "Foxnightly",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-foxnightly",
+      "output": "mate-terminal/schemes/gogh/gogh-foxnightly.dconf"
+    },
+    {
+      "file": "Freya.yml",
+      "name": "Freya",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-freya",
+      "output": "mate-terminal/schemes/gogh/gogh-freya.dconf"
+    },
+    {
+      "file": "Frontend Delight.yml",
+      "name": "Frontend Delight",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-frontend-delight",
+      "output": "mate-terminal/schemes/gogh/gogh-frontend-delight.dconf"
+    },
+    {
+      "file": "Frontend Fun Forrest.yml",
+      "name": "Frontend Fun Forrest",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-frontend-fun-forrest",
+      "output": "mate-terminal/schemes/gogh/gogh-frontend-fun-forrest.dconf"
+    },
+    {
+      "file": "Frontend Galaxy.yml",
+      "name": "Frontend Galaxy",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-frontend-galaxy",
+      "output": "mate-terminal/schemes/gogh/gogh-frontend-galaxy.dconf"
+    },
+    {
+      "file": "Geohot.yml",
+      "name": "Geohot",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-geohot",
+      "output": "mate-terminal/schemes/gogh/gogh-geohot.dconf"
+    },
+    {
+      "file": "Github Dark.yml",
+      "name": "Github Dark",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-github-dark",
+      "output": "mate-terminal/schemes/gogh/gogh-github-dark.dconf"
+    },
+    {
+      "file": "Github Light.yml",
+      "name": "Github Light",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-github-light",
+      "output": "mate-terminal/schemes/gogh/gogh-github-light.dconf"
+    },
+    {
+      "file": "Gogh.yml",
+      "name": "Gogh",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-gogh",
+      "output": "mate-terminal/schemes/gogh/gogh-gogh.dconf"
+    },
+    {
+      "file": "Gooey.yml",
+      "name": "Gooey",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-gooey",
+      "output": "mate-terminal/schemes/gogh/gogh-gooey.dconf"
+    },
+    {
+      "file": "Google Dark.yml",
+      "name": "Google Dark",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-google-dark",
+      "output": "mate-terminal/schemes/gogh/gogh-google-dark.dconf"
+    },
+    {
+      "file": "Google Light.yml",
+      "name": "Google Light",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-google-light",
+      "output": "mate-terminal/schemes/gogh/gogh-google-light.dconf"
+    },
+    {
+      "file": "Gotham.yml",
+      "name": "Gotham",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-gotham",
+      "output": "mate-terminal/schemes/gogh/gogh-gotham.dconf"
+    },
+    {
+      "file": "Grape.yml",
+      "name": "Grape",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-grape",
+      "output": "mate-terminal/schemes/gogh/gogh-grape.dconf"
+    },
+    {
+      "file": "Grass.yml",
+      "name": "Grass",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-grass",
+      "output": "mate-terminal/schemes/gogh/gogh-grass.dconf"
+    },
+    {
+      "file": "Gruvbox Dark.yml",
+      "name": "Gruvbox Dark",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-gruvbox-dark",
+      "output": "mate-terminal/schemes/gogh/gogh-gruvbox-dark.dconf"
+    },
+    {
+      "file": "Gruvbox Material Dark.yml",
+      "name": "Gruvbox Material Dark",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-gruvbox-material-dark",
+      "output": "mate-terminal/schemes/gogh/gogh-gruvbox-material-dark.dconf"
+    },
+    {
+      "file": "Gruvbox Material Light.yml",
+      "name": "Gruvbox Material Light",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-gruvbox-material-light",
+      "output": "mate-terminal/schemes/gogh/gogh-gruvbox-material-light.dconf"
+    },
+    {
+      "file": "Gruvbox.yml",
+      "name": "Gruvbox",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-gruvbox",
+      "output": "mate-terminal/schemes/gogh/gogh-gruvbox.dconf"
+    },
+    {
+      "file": "Guezwhoz.yml",
+      "name": "Guezwhoz",
+      "variant": "dark",
+      "author": "Egor Lem (http://egorlem.com)",
+      "profile_id": "gogh-guezwhoz",
+      "output": "mate-terminal/schemes/gogh/gogh-guezwhoz.dconf"
+    },
+    {
+      "file": "Hardcore.yml",
+      "name": "Hardcore",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-hardcore",
+      "output": "mate-terminal/schemes/gogh/gogh-hardcore.dconf"
+    },
+    {
+      "file": "Harper.yml",
+      "name": "Harper",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-harper",
+      "output": "mate-terminal/schemes/gogh/gogh-harper.dconf"
+    },
+    {
+      "file": "Hemisu Dark.yml",
+      "name": "Hemisu Dark",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-hemisu-dark",
+      "output": "mate-terminal/schemes/gogh/gogh-hemisu-dark.dconf"
+    },
+    {
+      "file": "Hemisu Light.yml",
+      "name": "Hemisu Light",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-hemisu-light",
+      "output": "mate-terminal/schemes/gogh/gogh-hemisu-light.dconf"
+    },
+    {
+      "file": "Highway.yml",
+      "name": "Highway",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-highway",
+      "output": "mate-terminal/schemes/gogh/gogh-highway.dconf"
+    },
+    {
+      "file": "Hipster Green.yml",
+      "name": "Hipster Green",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-hipster-green",
+      "output": "mate-terminal/schemes/gogh/gogh-hipster-green.dconf"
+    },
+    {
+      "file": "Homebrew Light.yml",
+      "name": "Homebrew Light",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-homebrew-light",
+      "output": "mate-terminal/schemes/gogh/gogh-homebrew-light.dconf"
+    },
+    {
+      "file": "Homebrew Ocean.yml",
+      "name": "Homebrew Ocean",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-homebrew-ocean",
+      "output": "mate-terminal/schemes/gogh/gogh-homebrew-ocean.dconf"
+    },
+    {
+      "file": "Homebrew.yml",
+      "name": "Homebrew",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-homebrew",
+      "output": "mate-terminal/schemes/gogh/gogh-homebrew.dconf"
+    },
+    {
+      "file": "Horizon Bright.yml",
+      "name": "Horizon Bright",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-horizon-bright",
+      "output": "mate-terminal/schemes/gogh/gogh-horizon-bright.dconf"
+    },
+    {
+      "file": "Horizon Dark.yml",
+      "name": "Horizon Dark",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-horizon-dark",
+      "output": "mate-terminal/schemes/gogh/gogh-horizon-dark.dconf"
+    },
+    {
+      "file": "Hurtado.yml",
+      "name": "Hurtado",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-hurtado",
+      "output": "mate-terminal/schemes/gogh/gogh-hurtado.dconf"
+    },
+    {
+      "file": "Hybrid.yml",
+      "name": "Hybrid",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-hybrid",
+      "output": "mate-terminal/schemes/gogh/gogh-hybrid.dconf"
+    },
+    {
+      "file": "Ibm 3270 (High Contrast).yml",
+      "name": "Ibm 3270 (High Contrast)",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-ibm-3270-high-contrast",
+      "output": "mate-terminal/schemes/gogh/gogh-ibm-3270-high-contrast.dconf"
+    },
+    {
+      "file": "Ibm3270.yml",
+      "name": "Ibm3270",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-ibm3270",
+      "output": "mate-terminal/schemes/gogh/gogh-ibm3270.dconf"
+    },
+    {
+      "file": "Ic Green Ppl.yml",
+      "name": "Ic Green Ppl",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-ic-green-ppl",
+      "output": "mate-terminal/schemes/gogh/gogh-ic-green-ppl.dconf"
+    },
+    {
+      "file": "Ic Orange Ppl.yml",
+      "name": "Ic Orange Ppl",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-ic-orange-ppl",
+      "output": "mate-terminal/schemes/gogh/gogh-ic-orange-ppl.dconf"
+    },
+    {
+      "file": "Iceberg.yml",
+      "name": "Iceberg",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-iceberg",
+      "output": "mate-terminal/schemes/gogh/gogh-iceberg.dconf"
+    },
+    {
+      "file": "Idle Toes.yml",
+      "name": "Idle Toes",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-idle-toes",
+      "output": "mate-terminal/schemes/gogh/gogh-idle-toes.dconf"
+    },
+    {
+      "file": "Ir Black.yml",
+      "name": "Ir Black",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-ir-black",
+      "output": "mate-terminal/schemes/gogh/gogh-ir-black.dconf"
+    },
+    {
+      "file": "Jackie Brown.yml",
+      "name": "Jackie Brown",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-jackie-brown",
+      "output": "mate-terminal/schemes/gogh/gogh-jackie-brown.dconf"
+    },
+    {
+      "file": "Japanesque.yml",
+      "name": "Japanesque",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-japanesque",
+      "output": "mate-terminal/schemes/gogh/gogh-japanesque.dconf"
+    },
+    {
+      "file": "Jellybeans.yml",
+      "name": "Jellybeans",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-jellybeans",
+      "output": "mate-terminal/schemes/gogh/gogh-jellybeans.dconf"
+    },
+    {
+      "file": "Jup.yml",
+      "name": "Jup",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-jup",
+      "output": "mate-terminal/schemes/gogh/gogh-jup.dconf"
+    },
+    {
+      "file": "Kanagawa Dragon.yml",
+      "name": "Kanagawa Dragon",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-kanagawa-dragon",
+      "output": "mate-terminal/schemes/gogh/gogh-kanagawa-dragon.dconf"
+    },
+    {
+      "file": "Kanagawa Lotus.yml",
+      "name": "Kanagawa Lotus",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-kanagawa-lotus",
+      "output": "mate-terminal/schemes/gogh/gogh-kanagawa-lotus.dconf"
+    },
+    {
+      "file": "Kanagawa Wave.yml",
+      "name": "Kanagawa Wave",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-kanagawa-wave",
+      "output": "mate-terminal/schemes/gogh/gogh-kanagawa-wave.dconf"
+    },
+    {
+      "file": "Kibble.yml",
+      "name": "Kibble",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-kibble",
+      "output": "mate-terminal/schemes/gogh/gogh-kibble.dconf"
+    },
+    {
+      "file": "Kokuban.yml",
+      "name": "Kokuban",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-kokuban",
+      "output": "mate-terminal/schemes/gogh/gogh-kokuban.dconf"
+    },
+    {
+      "file": "Laserwave.yml",
+      "name": "Laserwave",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-laserwave",
+      "output": "mate-terminal/schemes/gogh/gogh-laserwave.dconf"
+    },
+    {
+      "file": "Later This Evening.yml",
+      "name": "Later This Evening",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-later-this-evening",
+      "output": "mate-terminal/schemes/gogh/gogh-later-this-evening.dconf"
+    },
+    {
+      "file": "Lavandula.yml",
+      "name": "Lavandula",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-lavandula",
+      "output": "mate-terminal/schemes/gogh/gogh-lavandula.dconf"
+    },
+    {
+      "file": "Liquid Carbon Transparent.yml",
+      "name": "Liquid Carbon Transparent",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-liquid-carbon-transparent",
+      "output": "mate-terminal/schemes/gogh/gogh-liquid-carbon-transparent.dconf"
+    },
+    {
+      "file": "Liquid Carbon.yml",
+      "name": "Liquid Carbon",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-liquid-carbon",
+      "output": "mate-terminal/schemes/gogh/gogh-liquid-carbon.dconf"
+    },
+    {
+      "file": "Lunaria Dark.yml",
+      "name": "Lunaria Dark",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-lunaria-dark",
+      "output": "mate-terminal/schemes/gogh/gogh-lunaria-dark.dconf"
+    },
+    {
+      "file": "Lunaria Eclipse.yml",
+      "name": "Lunaria Eclipse",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-lunaria-eclipse",
+      "output": "mate-terminal/schemes/gogh/gogh-lunaria-eclipse.dconf"
+    },
+    {
+      "file": "Lunaria Light.yml",
+      "name": "Lunaria Light",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-lunaria-light",
+      "output": "mate-terminal/schemes/gogh/gogh-lunaria-light.dconf"
+    },
+    {
+      "file": "Maia.yml",
+      "name": "Maia",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-maia",
+      "output": "mate-terminal/schemes/gogh/gogh-maia.dconf"
+    },
+    {
+      "file": "Man Page.yml",
+      "name": "Man Page",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-man-page",
+      "output": "mate-terminal/schemes/gogh/gogh-man-page.dconf"
+    },
+    {
+      "file": "Mar.yml",
+      "name": "Mar",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-mar",
+      "output": "mate-terminal/schemes/gogh/gogh-mar.dconf"
+    },
+    {
+      "file": "Material.yml",
+      "name": "Material",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-material",
+      "output": "mate-terminal/schemes/gogh/gogh-material.dconf"
+    },
+    {
+      "file": "Mathias.yml",
+      "name": "Mathias",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-mathias",
+      "output": "mate-terminal/schemes/gogh/gogh-mathias.dconf"
+    },
+    {
+      "file": "Medallion.yml",
+      "name": "Medallion",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-medallion",
+      "output": "mate-terminal/schemes/gogh/gogh-medallion.dconf"
+    },
+    {
+      "file": "Minimalist Dark.yml",
+      "name": "Minimalist Dark",
+      "variant": "dark",
+      "author": "Gabriel Soares (https://github.com/Gabrielsoac)",
+      "profile_id": "gogh-minimalist-dark",
+      "output": "mate-terminal/schemes/gogh/gogh-minimalist-dark.dconf"
+    },
+    {
+      "file": "Miramare.yml",
+      "name": "Miramare",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-miramare",
+      "output": "mate-terminal/schemes/gogh/gogh-miramare.dconf"
+    },
+    {
+      "file": "Misterioso.yml",
+      "name": "Misterioso",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-misterioso",
+      "output": "mate-terminal/schemes/gogh/gogh-misterioso.dconf"
+    },
+    {
+      "file": "Modus Operandi Tinted.yml",
+      "name": "Modus Operandi Tinted",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-modus-operandi-tinted",
+      "output": "mate-terminal/schemes/gogh/gogh-modus-operandi-tinted.dconf"
+    },
+    {
+      "file": "Modus Operandi.yml",
+      "name": "Modus Operandi",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-modus-operandi",
+      "output": "mate-terminal/schemes/gogh/gogh-modus-operandi.dconf"
+    },
+    {
+      "file": "Modus Vivendi Tinted.yml",
+      "name": "Modus Vivendi Tinted",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-modus-vivendi-tinted",
+      "output": "mate-terminal/schemes/gogh/gogh-modus-vivendi-tinted.dconf"
+    },
+    {
+      "file": "Modus Vivendi.yml",
+      "name": "Modus Vivendi",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-modus-vivendi",
+      "output": "mate-terminal/schemes/gogh/gogh-modus-vivendi.dconf"
+    },
+    {
+      "file": "Molokai.yml",
+      "name": "Molokai",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-molokai",
+      "output": "mate-terminal/schemes/gogh/gogh-molokai.dconf"
+    },
+    {
+      "file": "Mona Lisa.yml",
+      "name": "Mona Lisa",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-mona-lisa",
+      "output": "mate-terminal/schemes/gogh/gogh-mona-lisa.dconf"
+    },
+    {
+      "file": "Mono Amber.yml",
+      "name": "Mono Amber",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-mono-amber",
+      "output": "mate-terminal/schemes/gogh/gogh-mono-amber.dconf"
+    },
+    {
+      "file": "Mono Cyan.yml",
+      "name": "Mono Cyan",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-mono-cyan",
+      "output": "mate-terminal/schemes/gogh/gogh-mono-cyan.dconf"
+    },
+    {
+      "file": "Mono Green.yml",
+      "name": "Mono Green",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-mono-green",
+      "output": "mate-terminal/schemes/gogh/gogh-mono-green.dconf"
+    },
+    {
+      "file": "Mono Red.yml",
+      "name": "Mono Red",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-mono-red",
+      "output": "mate-terminal/schemes/gogh/gogh-mono-red.dconf"
+    },
+    {
+      "file": "Mono White.yml",
+      "name": "Mono White",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-mono-white",
+      "output": "mate-terminal/schemes/gogh/gogh-mono-white.dconf"
+    },
+    {
+      "file": "Mono Yellow.yml",
+      "name": "Mono Yellow",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-mono-yellow",
+      "output": "mate-terminal/schemes/gogh/gogh-mono-yellow.dconf"
+    },
+    {
+      "file": "Monokai Dark.yml",
+      "name": "Monokai Dark",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-monokai-dark",
+      "output": "mate-terminal/schemes/gogh/gogh-monokai-dark.dconf"
+    },
+    {
+      "file": "Monokai Pro Light Sun.yml",
+      "name": "Monokai Pro Light Sun",
+      "variant": "light",
+      "author": "",
+      "profile_id": "gogh-monokai-pro-light-sun",
+      "output": "mate-terminal/schemes/gogh/gogh-monokai-pro-light-sun.dconf"
+    },
+    {
+      "file": "Monokai Pro Light.yml",
+      "name": "Monokai Pro Light",
+      "variant": "light",
+      "author": "",
+      "profile_id": "gogh-monokai-pro-light",
+      "output": "mate-terminal/schemes/gogh/gogh-monokai-pro-light.dconf"
+    },
+    {
+      "file": "Monokai Pro Machine.yml",
+      "name": "Monokai Pro Machine",
+      "variant": "dark",
+      "author": "",
+      "profile_id": "gogh-monokai-pro-machine",
+      "output": "mate-terminal/schemes/gogh/gogh-monokai-pro-machine.dconf"
+    },
+    {
+      "file": "Monokai Pro Octagon.yml",
+      "name": "Monokai Pro Ocatagon",
+      "variant": "dark",
+      "author": "",
+      "profile_id": "gogh-monokai-pro-octagon",
+      "output": "mate-terminal/schemes/gogh/gogh-monokai-pro-octagon.dconf"
+    },
+    {
+      "file": "Monokai Pro Ristretto.yml",
+      "name": "Monokai Pro Ristretto",
+      "variant": "dark",
+      "author": "",
+      "profile_id": "gogh-monokai-pro-ristretto",
+      "output": "mate-terminal/schemes/gogh/gogh-monokai-pro-ristretto.dconf"
+    },
+    {
+      "file": "Monokai Pro Spectrum.yml",
+      "name": "Monokai Pro Spectrum",
+      "variant": "dark",
+      "author": "",
+      "profile_id": "gogh-monokai-pro-spectrum",
+      "output": "mate-terminal/schemes/gogh/gogh-monokai-pro-spectrum.dconf"
+    },
+    {
+      "file": "Monokai Pro.yml",
+      "name": "Monokai Pro",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-monokai-pro",
+      "output": "mate-terminal/schemes/gogh/gogh-monokai-pro.dconf"
+    },
+    {
+      "file": "Monokai Soda.yml",
+      "name": "Monokai Soda",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-monokai-soda",
+      "output": "mate-terminal/schemes/gogh/gogh-monokai-soda.dconf"
+    },
+    {
+      "file": "Moonfly.yml",
+      "name": "Moonfly",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-moonfly",
+      "output": "mate-terminal/schemes/gogh/gogh-moonfly.dconf"
+    },
+    {
+      "file": "Morada.yml",
+      "name": "Morada",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-morada",
+      "output": "mate-terminal/schemes/gogh/gogh-morada.dconf"
+    },
+    {
+      "file": "N0Tch2K.yml",
+      "name": "N0Tch2K",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-n0tch2k",
+      "output": "mate-terminal/schemes/gogh/gogh-n0tch2k.dconf"
+    },
+    {
+      "file": "Nanosecond.yml",
+      "name": "Nanosecond",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-nanosecond",
+      "output": "mate-terminal/schemes/gogh/gogh-nanosecond.dconf"
+    },
+    {
+      "file": "Neon Night.yml",
+      "name": "Neon Night",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-neon-night",
+      "output": "mate-terminal/schemes/gogh/gogh-neon-night.dconf"
+    },
+    {
+      "file": "Neopolitan.yml",
+      "name": "Neopolitan",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-neopolitan",
+      "output": "mate-terminal/schemes/gogh/gogh-neopolitan.dconf"
+    },
+    {
+      "file": "Nep.yml",
+      "name": "Nep",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-nep",
+      "output": "mate-terminal/schemes/gogh/gogh-nep.dconf"
+    },
+    {
+      "file": "Neutron.yml",
+      "name": "Neutron",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-neutron",
+      "output": "mate-terminal/schemes/gogh/gogh-neutron.dconf"
+    },
+    {
+      "file": "Night Owl.yml",
+      "name": "Night Owl",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-night-owl",
+      "output": "mate-terminal/schemes/gogh/gogh-night-owl.dconf"
+    },
+    {
+      "file": "Nightfly.yml",
+      "name": "Nightfly",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-nightfly",
+      "output": "mate-terminal/schemes/gogh/gogh-nightfly.dconf"
+    },
+    {
+      "file": "Nightlion V1.yml",
+      "name": "Nightlion V1",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-nightlion-v1",
+      "output": "mate-terminal/schemes/gogh/gogh-nightlion-v1.dconf"
+    },
+    {
+      "file": "Nightlion V2.yml",
+      "name": "Nightlion V2",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-nightlion-v2",
+      "output": "mate-terminal/schemes/gogh/gogh-nightlion-v2.dconf"
+    },
+    {
+      "file": "Nighty.yml",
+      "name": "Nighty",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-nighty",
+      "output": "mate-terminal/schemes/gogh/gogh-nighty.dconf"
+    },
+    {
+      "file": "Nord Light.yml",
+      "name": "Nord Light",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-nord-light",
+      "output": "mate-terminal/schemes/gogh/gogh-nord-light.dconf"
+    },
+    {
+      "file": "Nord.yml",
+      "name": "Nord",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-nord",
+      "output": "mate-terminal/schemes/gogh/gogh-nord.dconf"
+    },
+    {
+      "file": "Novel.yml",
+      "name": "Novel",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-novel",
+      "output": "mate-terminal/schemes/gogh/gogh-novel.dconf"
+    },
+    {
+      "file": "Obsidian.yml",
+      "name": "Obsidian",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-obsidian",
+      "output": "mate-terminal/schemes/gogh/gogh-obsidian.dconf"
+    },
+    {
+      "file": "Ocean Dark.yml",
+      "name": "Ocean Dark",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-ocean-dark",
+      "output": "mate-terminal/schemes/gogh/gogh-ocean-dark.dconf"
+    },
+    {
+      "file": "Oceanic Next.yml",
+      "name": "Oceanic Next",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-oceanic-next",
+      "output": "mate-terminal/schemes/gogh/gogh-oceanic-next.dconf"
+    },
+    {
+      "file": "Ollie.yml",
+      "name": "Ollie",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-ollie",
+      "output": "mate-terminal/schemes/gogh/gogh-ollie.dconf"
+    },
+    {
+      "file": "Omni.yml",
+      "name": "Omni",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-omni",
+      "output": "mate-terminal/schemes/gogh/gogh-omni.dconf"
+    },
+    {
+      "file": "One Dark.yml",
+      "name": "One Dark",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-one-dark",
+      "output": "mate-terminal/schemes/gogh/gogh-one-dark.dconf"
+    },
+    {
+      "file": "One Half Black.yml",
+      "name": "One Half Black",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-one-half-black",
+      "output": "mate-terminal/schemes/gogh/gogh-one-half-black.dconf"
+    },
+    {
+      "file": "One Light.yml",
+      "name": "One Light",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-one-light",
+      "output": "mate-terminal/schemes/gogh/gogh-one-light.dconf"
+    },
+    {
+      "file": "Oxocarbon Dark.yml",
+      "name": "Oxocarbon Dark",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-oxocarbon-dark",
+      "output": "mate-terminal/schemes/gogh/gogh-oxocarbon-dark.dconf"
+    },
+    {
+      "file": "Palenight.yml",
+      "name": "Palenight",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-palenight",
+      "output": "mate-terminal/schemes/gogh/gogh-palenight.dconf"
+    },
+    {
+      "file": "Pali.yml",
+      "name": "Pali",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-pali",
+      "output": "mate-terminal/schemes/gogh/gogh-pali.dconf"
+    },
+    {
+      "file": "Panda.yml",
+      "name": "Panda",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-panda",
+      "output": "mate-terminal/schemes/gogh/gogh-panda.dconf"
+    },
+    {
+      "file": "Paper.yml",
+      "name": "Paper",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-paper",
+      "output": "mate-terminal/schemes/gogh/gogh-paper.dconf"
+    },
+    {
+      "file": "Papercolor Dark.yml",
+      "name": "Papercolor Dark",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-papercolor-dark",
+      "output": "mate-terminal/schemes/gogh/gogh-papercolor-dark.dconf"
+    },
+    {
+      "file": "Papercolor Light.yml",
+      "name": "Papercolor Light",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-papercolor-light",
+      "output": "mate-terminal/schemes/gogh/gogh-papercolor-light.dconf"
+    },
+    {
+      "file": "Paraiso Dark.yml",
+      "name": "Paraiso Dark",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-paraiso-dark",
+      "output": "mate-terminal/schemes/gogh/gogh-paraiso-dark.dconf"
+    },
+    {
+      "file": "Paul Millr.yml",
+      "name": "Paul Millr",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-paul-millr",
+      "output": "mate-terminal/schemes/gogh/gogh-paul-millr.dconf"
+    },
+    {
+      "file": "Pencil Dark.yml",
+      "name": "Pencil Dark",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-pencil-dark",
+      "output": "mate-terminal/schemes/gogh/gogh-pencil-dark.dconf"
+    },
+    {
+      "file": "Pencil Light.yml",
+      "name": "Pencil Light",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-pencil-light",
+      "output": "mate-terminal/schemes/gogh/gogh-pencil-light.dconf"
+    },
+    {
+      "file": "Peppermint.yml",
+      "name": "Peppermint",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-peppermint",
+      "output": "mate-terminal/schemes/gogh/gogh-peppermint.dconf"
+    },
+    {
+      "file": "Pixiefloss.yml",
+      "name": "Pixiefloss",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-pixiefloss",
+      "output": "mate-terminal/schemes/gogh/gogh-pixiefloss.dconf"
+    },
+    {
+      "file": "Pnevma.yml",
+      "name": "Pnevma",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-pnevma",
+      "output": "mate-terminal/schemes/gogh/gogh-pnevma.dconf"
+    },
+    {
+      "file": "Powershell.yml",
+      "name": "Powershell",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-powershell",
+      "output": "mate-terminal/schemes/gogh/gogh-powershell.dconf"
+    },
+    {
+      "file": "Predawn.yml",
+      "name": "Predawn",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-predawn",
+      "output": "mate-terminal/schemes/gogh/gogh-predawn.dconf"
+    },
+    {
+      "file": "Pro.yml",
+      "name": "Pro",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-pro",
+      "output": "mate-terminal/schemes/gogh/gogh-pro.dconf"
+    },
+    {
+      "file": "Purple People Eater.yml",
+      "name": "Purple People Eater",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-purple-people-eater",
+      "output": "mate-terminal/schemes/gogh/gogh-purple-people-eater.dconf"
+    },
+    {
+      "file": "Quiet.yml",
+      "name": "Quiet",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-quiet",
+      "output": "mate-terminal/schemes/gogh/gogh-quiet.dconf"
+    },
+    {
+      "file": "Red Alert.yml",
+      "name": "Red Alert",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-red-alert",
+      "output": "mate-terminal/schemes/gogh/gogh-red-alert.dconf"
+    },
+    {
+      "file": "Red Sands.yml",
+      "name": "Red Sands",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-red-sands",
+      "output": "mate-terminal/schemes/gogh/gogh-red-sands.dconf"
+    },
+    {
+      "file": "Relaxed.yml",
+      "name": "Relaxed",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-relaxed",
+      "output": "mate-terminal/schemes/gogh/gogh-relaxed.dconf"
+    },
+    {
+      "file": "Rippedcasts.yml",
+      "name": "Rippedcasts",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-rippedcasts",
+      "output": "mate-terminal/schemes/gogh/gogh-rippedcasts.dconf"
+    },
+    {
+      "file": "Ros\u00e9 Pine Dawn.yml",
+      "name": "Ros\u00e9 Pine Dawn",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-ros-pine-dawn",
+      "output": "mate-terminal/schemes/gogh/gogh-ros-pine-dawn.dconf"
+    },
+    {
+      "file": "Ros\u00e9 Pine Moon.yml",
+      "name": "Ros\u00e9 Pine Moon",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-ros-pine-moon",
+      "output": "mate-terminal/schemes/gogh/gogh-ros-pine-moon.dconf"
+    },
+    {
+      "file": "Ros\u00e9 Pine.yml",
+      "name": "Ros\u00e9 Pine",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-ros-pine",
+      "output": "mate-terminal/schemes/gogh/gogh-ros-pine.dconf"
+    },
+    {
+      "file": "Royal.yml",
+      "name": "Royal",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-royal",
+      "output": "mate-terminal/schemes/gogh/gogh-royal.dconf"
+    },
+    {
+      "file": "Sat.yml",
+      "name": "Sat",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-sat",
+      "output": "mate-terminal/schemes/gogh/gogh-sat.dconf"
+    },
+    {
+      "file": "Sea Shells.yml",
+      "name": "Sea Shells",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-sea-shells",
+      "output": "mate-terminal/schemes/gogh/gogh-sea-shells.dconf"
+    },
+    {
+      "file": "Seafoam Pastel.yml",
+      "name": "Seafoam Pastel",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-seafoam-pastel",
+      "output": "mate-terminal/schemes/gogh/gogh-seafoam-pastel.dconf"
+    },
+    {
+      "file": "Selenized Black.yml",
+      "name": "Selenized Black",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-selenized-black",
+      "output": "mate-terminal/schemes/gogh/gogh-selenized-black.dconf"
+    },
+    {
+      "file": "Selenized Dark.yml",
+      "name": "Selenized Dark",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-selenized-dark",
+      "output": "mate-terminal/schemes/gogh/gogh-selenized-dark.dconf"
+    },
+    {
+      "file": "Selenized Light.yml",
+      "name": "Selenized Light",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-selenized-light",
+      "output": "mate-terminal/schemes/gogh/gogh-selenized-light.dconf"
+    },
+    {
+      "file": "Selenized White.yml",
+      "name": "Selenized White",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-selenized-white",
+      "output": "mate-terminal/schemes/gogh/gogh-selenized-white.dconf"
+    },
+    {
+      "file": "Seoul256 Light.yml",
+      "name": "Seoul256 Light",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-seoul256-light",
+      "output": "mate-terminal/schemes/gogh/gogh-seoul256-light.dconf"
+    },
+    {
+      "file": "Seoul256.yml",
+      "name": "Seoul256",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-seoul256",
+      "output": "mate-terminal/schemes/gogh/gogh-seoul256.dconf"
+    },
+    {
+      "file": "Seti.yml",
+      "name": "Seti",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-seti",
+      "output": "mate-terminal/schemes/gogh/gogh-seti.dconf"
+    },
+    {
+      "file": "Shaman.yml",
+      "name": "Shaman",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-shaman",
+      "output": "mate-terminal/schemes/gogh/gogh-shaman.dconf"
+    },
+    {
+      "file": "Shel.yml",
+      "name": "Shel",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-shel",
+      "output": "mate-terminal/schemes/gogh/gogh-shel.dconf"
+    },
+    {
+      "file": "Slate.yml",
+      "name": "Slate",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-slate",
+      "output": "mate-terminal/schemes/gogh/gogh-slate.dconf"
+    },
+    {
+      "file": "Smyck.yml",
+      "name": "Smyck",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-smyck",
+      "output": "mate-terminal/schemes/gogh/gogh-smyck.dconf"
+    },
+    {
+      "file": "Snazzy.yml",
+      "name": "Snazzy",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-snazzy",
+      "output": "mate-terminal/schemes/gogh/gogh-snazzy.dconf"
+    },
+    {
+      "file": "Soft Server.yml",
+      "name": "Soft Server",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-soft-server",
+      "output": "mate-terminal/schemes/gogh/gogh-soft-server.dconf"
+    },
+    {
+      "file": "Solarized Darcula.yml",
+      "name": "Solarized Darcula",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-solarized-darcula",
+      "output": "mate-terminal/schemes/gogh/gogh-solarized-darcula.dconf"
+    },
+    {
+      "file": "Solarized Dark Higher Contrast.yml",
+      "name": "Solarized Dark Higher Contrast",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-solarized-dark-higher-contrast",
+      "output": "mate-terminal/schemes/gogh/gogh-solarized-dark-higher-contrast.dconf"
+    },
+    {
+      "file": "Solarized Dark.yml",
+      "name": "Solarized Dark",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-solarized-dark",
+      "output": "mate-terminal/schemes/gogh/gogh-solarized-dark.dconf"
+    },
+    {
+      "file": "Solarized Light.yml",
+      "name": "Solarized Light",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-solarized-light",
+      "output": "mate-terminal/schemes/gogh/gogh-solarized-light.dconf"
+    },
+    {
+      "file": "Sonokai.yml",
+      "name": "Sonokai",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-sonokai",
+      "output": "mate-terminal/schemes/gogh/gogh-sonokai.dconf"
+    },
+    {
+      "file": "Spacedust.yml",
+      "name": "Spacedust",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-spacedust",
+      "output": "mate-terminal/schemes/gogh/gogh-spacedust.dconf"
+    },
+    {
+      "file": "Spacegray Eighties Dull.yml",
+      "name": "Spacegray Eighties Dull",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-spacegray-eighties-dull",
+      "output": "mate-terminal/schemes/gogh/gogh-spacegray-eighties-dull.dconf"
+    },
+    {
+      "file": "Spacegray Eighties.yml",
+      "name": "Spacegray Eighties",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-spacegray-eighties",
+      "output": "mate-terminal/schemes/gogh/gogh-spacegray-eighties.dconf"
+    },
+    {
+      "file": "Spacegray.yml",
+      "name": "Spacegray",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-spacegray",
+      "output": "mate-terminal/schemes/gogh/gogh-spacegray.dconf"
+    },
+    {
+      "file": "Sparky.yml",
+      "name": "Sparky",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-sparky",
+      "output": "mate-terminal/schemes/gogh/gogh-sparky.dconf"
+    },
+    {
+      "file": "Spring.yml",
+      "name": "Spring",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-spring",
+      "output": "mate-terminal/schemes/gogh/gogh-spring.dconf"
+    },
+    {
+      "file": "Square.yml",
+      "name": "Square",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-square",
+      "output": "mate-terminal/schemes/gogh/gogh-square.dconf"
+    },
+    {
+      "file": "Srcery.yml",
+      "name": "Srcery",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-srcery",
+      "output": "mate-terminal/schemes/gogh/gogh-srcery.dconf"
+    },
+    {
+      "file": "Summer Pop.yml",
+      "name": "Summer Pop",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-summer-pop",
+      "output": "mate-terminal/schemes/gogh/gogh-summer-pop.dconf"
+    },
+    {
+      "file": "Sundried.yml",
+      "name": "Sundried",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-sundried",
+      "output": "mate-terminal/schemes/gogh/gogh-sundried.dconf"
+    },
+    {
+      "file": "Sweet Eliverlara.yml",
+      "name": "Sweet Eliverlara",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-sweet-eliverlara",
+      "output": "mate-terminal/schemes/gogh/gogh-sweet-eliverlara.dconf"
+    },
+    {
+      "file": "Sweet Terminal.yml",
+      "name": "Sweet Terminal",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-sweet-terminal",
+      "output": "mate-terminal/schemes/gogh/gogh-sweet-terminal.dconf"
+    },
+    {
+      "file": "Symphonic.yml",
+      "name": "Symphonic",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-symphonic",
+      "output": "mate-terminal/schemes/gogh/gogh-symphonic.dconf"
+    },
+    {
+      "file": "Synthwave Alpha.yml",
+      "name": "Synthwave Alpha",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-synthwave-alpha",
+      "output": "mate-terminal/schemes/gogh/gogh-synthwave-alpha.dconf"
+    },
+    {
+      "file": "Synthwave.yml",
+      "name": "Synthwave",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-synthwave",
+      "output": "mate-terminal/schemes/gogh/gogh-synthwave.dconf"
+    },
+    {
+      "file": "Teerb.yml",
+      "name": "Teerb",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-teerb",
+      "output": "mate-terminal/schemes/gogh/gogh-teerb.dconf"
+    },
+    {
+      "file": "Tempus Autumn.yml",
+      "name": "Tempus Autumn",
+      "variant": "dark",
+      "author": "Protesilaos Stavrou (https://protesilaos.com)",
+      "profile_id": "gogh-tempus-autumn",
+      "output": "mate-terminal/schemes/gogh/gogh-tempus-autumn.dconf"
+    },
+    {
+      "file": "Tempus Classic.yml",
+      "name": "Tempus Classic",
+      "variant": "dark",
+      "author": "Protesilaos Stavrou (https://protesilaos.com)",
+      "profile_id": "gogh-tempus-classic",
+      "output": "mate-terminal/schemes/gogh/gogh-tempus-classic.dconf"
+    },
+    {
+      "file": "Tempus Dawn.yml",
+      "name": "Tempus Dawn",
+      "variant": "light",
+      "author": "Protesilaos Stavrou (https://protesilaos.com)",
+      "profile_id": "gogh-tempus-dawn",
+      "output": "mate-terminal/schemes/gogh/gogh-tempus-dawn.dconf"
+    },
+    {
+      "file": "Tempus Day.yml",
+      "name": "Tempus Day",
+      "variant": "light",
+      "author": "Protesilaos Stavrou (https://protesilaos.com)",
+      "profile_id": "gogh-tempus-day",
+      "output": "mate-terminal/schemes/gogh/gogh-tempus-day.dconf"
+    },
+    {
+      "file": "Tempus Dusk.yml",
+      "name": "Tempus Dusk",
+      "variant": "dark",
+      "author": "Protesilaos Stavrou (https://protesilaos.com)",
+      "profile_id": "gogh-tempus-dusk",
+      "output": "mate-terminal/schemes/gogh/gogh-tempus-dusk.dconf"
+    },
+    {
+      "file": "Tempus Fugit.yml",
+      "name": "Tempus Fugit",
+      "variant": "light",
+      "author": "Protesilaos Stavrou (https://protesilaos.com)",
+      "profile_id": "gogh-tempus-fugit",
+      "output": "mate-terminal/schemes/gogh/gogh-tempus-fugit.dconf"
+    },
+    {
+      "file": "Tempus Future.yml",
+      "name": "Tempus Future",
+      "variant": "dark",
+      "author": "Protesilaos Stavrou (https://protesilaos.com)",
+      "profile_id": "gogh-tempus-future",
+      "output": "mate-terminal/schemes/gogh/gogh-tempus-future.dconf"
+    },
+    {
+      "file": "Tempus Night.yml",
+      "name": "Tempus Night",
+      "variant": "dark",
+      "author": "Protesilaos Stavrou (https://protesilaos.com)",
+      "profile_id": "gogh-tempus-night",
+      "output": "mate-terminal/schemes/gogh/gogh-tempus-night.dconf"
+    },
+    {
+      "file": "Tempus Past.yml",
+      "name": "Tempus Past",
+      "variant": "light",
+      "author": "Protesilaos Stavrou (https://protesilaos.com)",
+      "profile_id": "gogh-tempus-past",
+      "output": "mate-terminal/schemes/gogh/gogh-tempus-past.dconf"
+    },
+    {
+      "file": "Tempus Rift.yml",
+      "name": "Tempus Rift",
+      "variant": "dark",
+      "author": "Protesilaos Stavrou (https://protesilaos.com)",
+      "profile_id": "gogh-tempus-rift",
+      "output": "mate-terminal/schemes/gogh/gogh-tempus-rift.dconf"
+    },
+    {
+      "file": "Tempus Spring.yml",
+      "name": "Tempus Spring",
+      "variant": "dark",
+      "author": "Protesilaos Stavrou (https://protesilaos.com)",
+      "profile_id": "gogh-tempus-spring",
+      "output": "mate-terminal/schemes/gogh/gogh-tempus-spring.dconf"
+    },
+    {
+      "file": "Tempus Summer.yml",
+      "name": "Tempus Summer",
+      "variant": "dark",
+      "author": "Protesilaos Stavrou (https://protesilaos.com)",
+      "profile_id": "gogh-tempus-summer",
+      "output": "mate-terminal/schemes/gogh/gogh-tempus-summer.dconf"
+    },
+    {
+      "file": "Tempus Tempest.yml",
+      "name": "Tempus Tempest",
+      "variant": "dark",
+      "author": "Protesilaos Stavrou (https://protesilaos.com)",
+      "profile_id": "gogh-tempus-tempest",
+      "output": "mate-terminal/schemes/gogh/gogh-tempus-tempest.dconf"
+    },
+    {
+      "file": "Tempus Totus.yml",
+      "name": "Tempus Totus",
+      "variant": "light",
+      "author": "Protesilaos Stavrou (https://protesilaos.com)",
+      "profile_id": "gogh-tempus-totus",
+      "output": "mate-terminal/schemes/gogh/gogh-tempus-totus.dconf"
+    },
+    {
+      "file": "Tempus Warp.yml",
+      "name": "Tempus Warp",
+      "variant": "dark",
+      "author": "Protesilaos Stavrou (https://protesilaos.com)",
+      "profile_id": "gogh-tempus-warp",
+      "output": "mate-terminal/schemes/gogh/gogh-tempus-warp.dconf"
+    },
+    {
+      "file": "Tempus Winter.yml",
+      "name": "Tempus Winter",
+      "variant": "dark",
+      "author": "Protesilaos Stavrou (https://protesilaos.com)",
+      "profile_id": "gogh-tempus-winter",
+      "output": "mate-terminal/schemes/gogh/gogh-tempus-winter.dconf"
+    },
+    {
+      "file": "Tender.yml",
+      "name": "Tender",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-tender",
+      "output": "mate-terminal/schemes/gogh/gogh-tender.dconf"
+    },
+    {
+      "file": "Terminal Basic.yml",
+      "name": "Terminal Basic",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-terminal-basic",
+      "output": "mate-terminal/schemes/gogh/gogh-terminal-basic.dconf"
+    },
+    {
+      "file": "Terminix Dark.yml",
+      "name": "Terminix Dark",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-terminix-dark",
+      "output": "mate-terminal/schemes/gogh/gogh-terminix-dark.dconf"
+    },
+    {
+      "file": "Thayer Bright.yml",
+      "name": "Thayer Bright",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-thayer-bright",
+      "output": "mate-terminal/schemes/gogh/gogh-thayer-bright.dconf"
+    },
+    {
+      "file": "Tin.yml",
+      "name": "Tin",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-tin",
+      "output": "mate-terminal/schemes/gogh/gogh-tin.dconf"
+    },
+    {
+      "file": "Tokyo Night Light.yml",
+      "name": "Tokyo Night Light",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-tokyo-night-light",
+      "output": "mate-terminal/schemes/gogh/gogh-tokyo-night-light.dconf"
+    },
+    {
+      "file": "Tokyo Night Storm.yml",
+      "name": "Tokyo Night Storm",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-tokyo-night-storm",
+      "output": "mate-terminal/schemes/gogh/gogh-tokyo-night-storm.dconf"
+    },
+    {
+      "file": "Tokyo Night.yml",
+      "name": "Tokyo Night",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-tokyo-night",
+      "output": "mate-terminal/schemes/gogh/gogh-tokyo-night.dconf"
+    },
+    {
+      "file": "Tomorrow Night Blue.yml",
+      "name": "Tomorrow Night Blue",
+      "variant": "dark",
+      "author": "Chris Kempson (http://chriskempson.com)",
+      "profile_id": "gogh-tomorrow-night-blue",
+      "output": "mate-terminal/schemes/gogh/gogh-tomorrow-night-blue.dconf"
+    },
+    {
+      "file": "Tomorrow Night Bright.yml",
+      "name": "Tomorrow Night Bright",
+      "variant": "dark",
+      "author": "Chris Kempson (http://chriskempson.com)",
+      "profile_id": "gogh-tomorrow-night-bright",
+      "output": "mate-terminal/schemes/gogh/gogh-tomorrow-night-bright.dconf"
+    },
+    {
+      "file": "Tomorrow Night Eighties.yml",
+      "name": "Tomorrow Night Eighties",
+      "variant": "dark",
+      "author": "Chris Kempson (http://chriskempson.com)",
+      "profile_id": "gogh-tomorrow-night-eighties",
+      "output": "mate-terminal/schemes/gogh/gogh-tomorrow-night-eighties.dconf"
+    },
+    {
+      "file": "Tomorrow Night.yml",
+      "name": "Tomorrow Night",
+      "variant": "dark",
+      "author": "Chris Kempson (http://chriskempson.com)",
+      "profile_id": "gogh-tomorrow-night",
+      "output": "mate-terminal/schemes/gogh/gogh-tomorrow-night.dconf"
+    },
+    {
+      "file": "Tomorrow.yml",
+      "name": "Tomorrow",
+      "variant": "light",
+      "author": "Chris Kempson (http://chriskempson.com)",
+      "profile_id": "gogh-tomorrow",
+      "output": "mate-terminal/schemes/gogh/gogh-tomorrow.dconf"
+    },
+    {
+      "file": "Toy Chest.yml",
+      "name": "Toy Chest",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-toy-chest",
+      "output": "mate-terminal/schemes/gogh/gogh-toy-chest.dconf"
+    },
+    {
+      "file": "Treehouse.yml",
+      "name": "Treehouse",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-treehouse",
+      "output": "mate-terminal/schemes/gogh/gogh-treehouse.dconf"
+    },
+    {
+      "file": "Twilight.yml",
+      "name": "Twilight",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-twilight",
+      "output": "mate-terminal/schemes/gogh/gogh-twilight.dconf"
+    },
+    {
+      "file": "Ura.yml",
+      "name": "Ura",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-ura",
+      "output": "mate-terminal/schemes/gogh/gogh-ura.dconf"
+    },
+    {
+      "file": "Urple.yml",
+      "name": "Urple",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-urple",
+      "output": "mate-terminal/schemes/gogh/gogh-urple.dconf"
+    },
+    {
+      "file": "Vacme.yml",
+      "name": "Vacme",
+      "variant": "light",
+      "author": "newptcai",
+      "profile_id": "gogh-vacme",
+      "output": "mate-terminal/schemes/gogh/gogh-vacme.dconf"
+    },
+    {
+      "file": "Vag.yml",
+      "name": "Vag",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-vag",
+      "output": "mate-terminal/schemes/gogh/gogh-vag.dconf"
+    },
+    {
+      "file": "Vaombe.yml",
+      "name": "Vaombe",
+      "variant": "Dark",
+      "author": "Daniel Perez (https://www.github.com/sysaloe)",
+      "profile_id": "gogh-vaombe",
+      "output": "mate-terminal/schemes/gogh/gogh-vaombe.dconf"
+    },
+    {
+      "file": "Vaughn.yml",
+      "name": "Vaughn",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-vaughn",
+      "output": "mate-terminal/schemes/gogh/gogh-vaughn.dconf"
+    },
+    {
+      "file": "Vibrant Ink.yml",
+      "name": "Vibrant Ink",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-vibrant-ink",
+      "output": "mate-terminal/schemes/gogh/gogh-vibrant-ink.dconf"
+    },
+    {
+      "file": "Vs Code Dark+.yml",
+      "name": "Vs Code Dark+",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-vs-code-dark+",
+      "output": "mate-terminal/schemes/gogh/gogh-vs-code-dark+.dconf"
+    },
+    {
+      "file": "Vs Code Light+.yml",
+      "name": "Vs Code Light+",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-vs-code-light+",
+      "output": "mate-terminal/schemes/gogh/gogh-vs-code-light+.dconf"
+    },
+    {
+      "file": "Warm Neon.yml",
+      "name": "Warm Neon",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-warm-neon",
+      "output": "mate-terminal/schemes/gogh/gogh-warm-neon.dconf"
+    },
+    {
+      "file": "Website.yml",
+      "name": "Website",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-website",
+      "output": "mate-terminal/schemes/gogh/gogh-website.dconf"
+    },
+    {
+      "file": "Wez.yml",
+      "name": "Wez",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-wez",
+      "output": "mate-terminal/schemes/gogh/gogh-wez.dconf"
+    },
+    {
+      "file": "Wild Cherry.yml",
+      "name": "Wild Cherry",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-wild-cherry",
+      "output": "mate-terminal/schemes/gogh/gogh-wild-cherry.dconf"
+    },
+    {
+      "file": "Wombat.yml",
+      "name": "Wombat",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-wombat",
+      "output": "mate-terminal/schemes/gogh/gogh-wombat.dconf"
+    },
+    {
+      "file": "Wryan.yml",
+      "name": "Wryan",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-wryan",
+      "output": "mate-terminal/schemes/gogh/gogh-wryan.dconf"
+    },
+    {
+      "file": "Wzoreck.yml",
+      "name": "Wzoreck",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-wzoreck",
+      "output": "mate-terminal/schemes/gogh/gogh-wzoreck.dconf"
+    },
+    {
+      "file": "Zenburn.yml",
+      "name": "Zenburn",
+      "variant": "",
+      "author": "",
+      "profile_id": "gogh-zenburn",
+      "output": "mate-terminal/schemes/gogh/gogh-zenburn.dconf"
+    }
+  ]
+}

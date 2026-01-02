@@ -1,0 +1,9 @@
+[/]
+visible-name='Gogh: Monokai Pro Machine (dark)'
+use-theme-colors=false
+foreground-color='#F2F2FFFFFCFC'
+background-color='#272731313636'
+bold-color-same-as-fg=true
+bold-color='#F2F2FFFFFCFC'
+cursor-color='#f2fffc'
+palette='#272731313636:#FFFF6D6D7E7E:#A2A2E5E57B7B:#FFFFEDED7272:#FFFFB2B27070:#BABAA0A0F8F8:#7C7CD5D5F1F1:#F2F2FFFFFCFC:#ADADB1B1B4B4:#FFFF6D6D7E7E:#A2A2E5E57B7B:#FFFFEDED7272:#FFFFB2B27070:#BABAA0A0F8F8:#7C7CD5D5F1F1:#F2F2FFFFFCFC'

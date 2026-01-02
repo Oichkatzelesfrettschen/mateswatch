@@ -1,19 +1,25 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-prefixes=("tilix-" "tilix-user-")
+prefixes=("tilix-" "tilix-user-" "gogh-")
 
 usage() {
   cat <<'EOF'
 usage: reset-tilix-mate-terminal-profiles.sh [--dry-run]
 
-Removes profiles created by `scripts/sync-tilix-to-mate-terminal.py` by running:
+Removes bulk-generated profiles created by:
+
+- `scripts/sync-tilix-to-mate-terminal.py` (tilix-* and tilix-user-*)
+- `scripts/import-gogh-to-mate-terminal.py` + your own imports (gogh-*)
+
+by running:
 
   dconf reset -f /org/mate/terminal/profiles/<profile-id>/
 
 It matches profile IDs that start with:
   - tilix-
   - tilix-user-
+  - gogh-
 EOF
 }
 
@@ -50,4 +56,3 @@ done < <(
       done \
     | sort
 )
-

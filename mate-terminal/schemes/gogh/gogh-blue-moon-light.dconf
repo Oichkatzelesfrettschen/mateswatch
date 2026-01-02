@@ -1,0 +1,9 @@
+[/]
+visible-name='Gogh: Blue Moon Light (light)'
+use-theme-colors=false
+foreground-color='#FBFBFBFBFBFB'
+background-color='#323237374D4D'
+bold-color-same-as-fg=true
+bold-color='#FBFBFBFBFBFB'
+cursor-color='#fbfbfb'
+palette='#29292D2D3E3E:#D0D061617979:#D0D0E7E7D0D0:#CFCFCFCFBFBF:#95959D9DCBCB:#A9A9A3A3DBDB:#8989BBBBDDDD:#FFFFFFFFFFFF:#29292D2D3E3E:#D0D061617979:#D0D0E7E7D0D0:#CFCFCFCFBFBF:#95959D9DCBCB:#A9A9A3A3DBDB:#8989BBBBDDDD:#FFFFFFFFFFFF'

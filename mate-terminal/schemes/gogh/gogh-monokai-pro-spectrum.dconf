@@ -1,0 +1,9 @@
+[/]
+visible-name='Gogh: Monokai Pro Spectrum (dark)'
+use-theme-colors=false
+foreground-color='#F7F7F1F1FFFF'
+background-color='#363635353737'
+bold-color-same-as-fg=true
+bold-color='#F7F7F1F1FFFF'
+cursor-color='#f7f1ff'
+palette='#363635353737:#FCFC61618D8D:#7B7BD8D88F8F:#FCFCE5E56666:#FDFD93935353:#94948A8AE3E3:#5A5AD4D4E6E6:#F7F7F1F1FFFF:#A1A1A1A1A1A1:#FCFC61618D8D:#7B7BD8D88F8F:#FCFCE5E56666:#FDFD93935353:#94948A8AE3E3:#5A5AD4D4E6E6:#F7F7F1F1FFFF'
