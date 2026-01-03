@@ -18,3 +18,6 @@ Outputs:
 - Screenshots: `generated/showcase/screens/*.png`
 - Logs (failures): `generated/showcase/logs/*.log`
 
+## GitHub Pages
+
+Run the `pages-showcase` workflow to generate screenshots for **all** themes (sharded) and deploy a searchable gallery to GitHub Pages.
