@@ -41,6 +41,7 @@ Import one profile into your user dconf, add it to profile-list, and set default
 - Source attribution: `docs/theme-sources.md`
 - Gogh corpus: `docs/gogh-to-mate-terminal.md`
 - Stats/index: `docs/mateswatch-stats.md`, `docs/mateswatch-index.json`
+- Screenshot showcase: `docs/showcase.md`
 
 ## Packaging
 

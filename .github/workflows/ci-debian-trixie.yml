@@ -54,6 +54,21 @@ jobs:
           path: generated/visual/*.png
           if-no-files-found: ignore
 
+      - name: Generate showcase screenshots (sample)
+        run: |
+          set -eux
+          dbus-run-session -- ./scripts/render-mateswatch-showcase.py \
+            --schemes-dir /usr/share/mateswatch/mate-terminal/schemes \
+            --count 12 --seed 1
+
+      - name: Upload showcase screenshots (sample)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mateswatch-showcase-sample
+          path: generated/showcase/screens/*.png
+          if-no-files-found: ignore
+
   launch-test:
     needs: build-deb
     runs-on: ubuntu-latest

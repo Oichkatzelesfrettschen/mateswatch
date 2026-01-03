@@ -1,0 +1,14 @@
+{
+  "name": "mateswatch (debian trixie)",
+  "image": "debian:trixie-slim",
+  "features": {},
+  "postCreateCommand": "apt-get update && apt-get install -y --no-install-recommends git ca-certificates bash coreutils findutils grep sed tar gzip xz-utils binutils python3 python3-pil mate-terminal dconf-cli libglib2.0-bin xvfb xauth xdotool imagemagick dbus-x11",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  }
+}
+
