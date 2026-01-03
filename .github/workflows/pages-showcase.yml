@@ -1,0 +1,117 @@
+name: pages-showcase
+
+on:
+  workflow_dispatch:
+    inputs:
+      shards:
+        description: "Shard count for screenshot generation"
+        required: true
+        default: "16"
+      max_parallel:
+        description: "Max parallel shards"
+        required: true
+        default: "6"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-showcase
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    container:
+      image: debian:trixie-slim
+    strategy:
+      fail-fast: false
+      max-parallel: ${{ fromJSON(inputs.max_parallel) }}
+      matrix:
+        shard: ${{ range(0, fromJSON(inputs.shards)) }}
+    env:
+      DEBIAN_FRONTEND: noninteractive
+    steps:
+      - name: Install base packages (git, ca-certs)
+        run: |
+          set -eux
+          apt-get update
+          apt-get install -y --no-install-recommends git ca-certificates
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install deps
+        run: |
+          set -eux
+          apt-get update
+          apt-get install -y --no-install-recommends \
+            bash coreutils findutils grep sed tar gzip xz-utils binutils \
+            python3 python3-pil python3-pygments \
+            gcc libc6-dev \
+            mate-terminal dconf-cli libglib2.0-bin \
+            xvfb xauth xdotool imagemagick dbus-x11
+
+      - name: Build index (metadata)
+        run: ./scripts/build-mateswatch-index.py
+
+      - name: Render screenshots (shard)
+        run: |
+          set -eux
+          dbus-run-session -- ./scripts/render-mateswatch-showcase.py \
+            --all \
+            --shards ${{ inputs.shards }} \
+            --shard-index ${{ matrix.shard }} \
+            --out-dir site/screens \
+            --keep-logs
+
+      - name: Upload shard screenshots
+        uses: actions/upload-artifact@v4
+        with:
+          name: showcase-screens-${{ matrix.shard }}
+          path: site/screens/*.png
+          if-no-files-found: error
+
+      - name: Upload shard logs (if any)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: showcase-logs-${{ matrix.shard }}
+          path: generated/showcase/logs/*.log
+          if-no-files-found: ignore
+
+  assemble:
+    needs: render
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download all screenshot shards
+        uses: actions/download-artifact@v4
+        with:
+          path: _artifacts
+
+      - name: Assemble site
+        run: |
+          set -eux
+          mkdir -p site/screens
+          find _artifacts -type f -name '*.png' -print0 | xargs -0 -I{} cp -f {} site/screens/
+          python3 ./scripts/build-showcase-site.py --out-dir site --screens-dir screens
+          test -f site/index.html
+          test -d site/screens
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
