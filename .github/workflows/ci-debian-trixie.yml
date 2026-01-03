@@ -28,7 +28,7 @@ jobs:
           set -eux
           apt-get update
           apt-get install -y --no-install-recommends \
-            bash coreutils findutils grep sed tar gzip xz-utils \
+            bash coreutils findutils grep sed tar gzip xz-utils binutils \
             python3 python3-pil \
             mate-terminal dconf-cli libglib2.0-bin \
             xvfb xdotool imagemagick dbus-x11
