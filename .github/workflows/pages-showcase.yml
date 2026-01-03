@@ -2,15 +2,6 @@ name: pages-showcase
 
 on:
   workflow_dispatch:
-    inputs:
-      shards:
-        description: "Shard count for screenshot generation"
-        required: true
-        default: "16"
-      max_parallel:
-        description: "Max parallel shards"
-        required: true
-        default: "6"
 
 permissions:
   contents: read
@@ -28,9 +19,9 @@ jobs:
       image: debian:trixie-slim
     strategy:
       fail-fast: false
-      max-parallel: ${{ fromJSON(inputs.max_parallel) }}
+      max-parallel: 6
       matrix:
-        shard: ${{ range(0, fromJSON(inputs.shards)) }}
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
     env:
       DEBIAN_FRONTEND: noninteractive
     steps:
@@ -62,7 +53,7 @@ jobs:
           set -eux
           dbus-run-session -- ./scripts/render-mateswatch-showcase.py \
             --all \
-            --shards ${{ inputs.shards }} \
+            --shards 16 \
             --shard-index ${{ matrix.shard }} \
             --out-dir site/screens \
             --keep-logs
@@ -114,4 +105,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
