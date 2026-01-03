@@ -31,7 +31,7 @@ jobs:
             bash coreutils findutils grep sed tar gzip xz-utils binutils \
             python3 python3-pil \
             mate-terminal dconf-cli libglib2.0-bin \
-            xvfb xdotool imagemagick dbus-x11
+            xvfb xauth xdotool imagemagick dbus-x11
 
       - name: Build .deb
         run: ./packaging/deb/build-deb.sh
