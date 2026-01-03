@@ -9,6 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: debian:trixie-slim
+    env:
+      DEBIAN_FRONTEND: noninteractive
+      MATESWATCH_DEBUG: "1"
     steps:
       - name: Install base packages (git, ca-certs)
         run: |
@@ -35,3 +38,17 @@ jobs:
       - name: Install + smoke test (headless)
         run: ./scripts/ci/debian-trixie-smoke.sh
 
+      - name: Upload deb artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mateswatch-deb
+          path: dist/*.deb
+
+      - name: Upload render screenshots (if any)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mateswatch-render-screens
+          path: generated/visual/*.png
+          if-no-files-found: ignore

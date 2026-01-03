@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -euo pipefail
+set -euxo pipefail
 
 repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 cd "${repo_root}"
@@ -7,11 +7,16 @@ cd "${repo_root}"
 deb="$(ls -1 dist/mateswatch_*_all.deb | tail -n 1)"
 echo "Using deb: ${deb}"
 
+uname -a || true
+python3 --version
+mate-terminal --help-terminal-options | head -n 40 || true
+
 dpkg -i "${deb}" || true
 apt-get update
 apt-get install -y -f
 
 command -v mateswatch >/dev/null
+mateswatch --help | head -n 60 || true
 test -d /usr/share/mateswatch/mate-terminal/schemes
 test -L /usr/share/mate-terminal/profiles/mateswatch
 
@@ -24,11 +29,13 @@ if [[ -z "${theme_id}" ]]; then
   exit 2
 fi
 echo "Importing theme id: ${theme_id}"
+mateswatch path "${theme_id}" || true
 
 dbus-run-session -- mateswatch import "${theme_id}" --add-to-profile-list --set-default
 
 echo "Render-fidelity sample (installed schemes):"
-dbus-run-session -- ./scripts/test-mateswatch-render.py \
+dbus-run-session -- env MATESWATCH_DEBUG=1 ./scripts/test-mateswatch-render.py \
   --schemes-dir /usr/share/mateswatch/mate-terminal/schemes \
-  --count 5 --seed 1
+  --count 5 --seed 1 --keep
 
+echo "OK"

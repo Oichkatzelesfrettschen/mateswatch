@@ -273,6 +273,12 @@ def xvfb_render(*, visible_name: str, out_png: Path) -> tuple[int, str]:
         script_path = f.name
     os.chmod(script_path, 0o755)
     try:
+        debug = os.environ.get("MATESWATCH_DEBUG", "") not in (
+            "",
+            "0",
+            "false",
+            "False",
+        )
         # mate-terminal's --command accepts a *single* argument; pass a shell-ish string.
         # Avoid extra quoting inside the command string; the outer shell quoting is sufficient.
         # Signal file to coordinate screenshot timing (avoid racing GTK startup).
@@ -293,7 +299,12 @@ def xvfb_render(*, visible_name: str, out_png: Path) -> tuple[int, str]:
               set -euo pipefail
               rm -f {sh_quote(ready_file)} || true
               title="MSW-RENDER-{os.getpid()}"
-              timeout 8 mate-terminal --disable-factory --hide-menubar --geometry=120x40 -t "$title" --profile={sh_quote(visible_name)} --command {sh_quote(cmd_str)} >/dev/null 2>&1 &
+              logf="/tmp/mateswatch-render-$title.log"
+              if {str(debug).lower()}; then
+                timeout 10 mate-terminal --disable-factory --hide-menubar --geometry=120x40 -t "$title" --profile={sh_quote(visible_name)} --command {sh_quote(cmd_str)} 2>&1 | tee "$logf" &
+              else
+                timeout 10 mate-terminal --disable-factory --hide-menubar --geometry=120x40 -t "$title" --profile={sh_quote(visible_name)} --command {sh_quote(cmd_str)} >"$logf" 2>&1 &
+              fi
               pid=$!
               # Wait for the child command to reach "ready", then screenshot.
               for _ in $(seq 1 60); do
@@ -302,6 +313,8 @@ def xvfb_render(*, visible_name: str, out_png: Path) -> tuple[int, str]:
               done
               if [[ ! -f {sh_quote(ready_file)} ]]; then
                 echo "ready file not created: {ready_file}" >&2
+                echo "mate-terminal log:" >&2
+                tail -n 200 "$logf" >&2 || true
                 kill $pid >/dev/null 2>&1 || true
                 wait $pid >/dev/null 2>&1 || true
                 exit 3
@@ -314,9 +327,20 @@ def xvfb_render(*, visible_name: str, out_png: Path) -> tuple[int, str]:
                 wid=""
               fi
               if [[ -n "$wid" ]]; then
-                import -window "$wid" {sh_quote(str(out_png))} >/dev/null 2>&1
+                if {str(debug).lower()}; then
+                  echo "capturing window id: $wid"
+                fi
+                import -window "$wid" {sh_quote(str(out_png))} >/dev/null 2>&1 || {{
+                  echo "ImageMagick import failed; log follows:" >&2
+                  tail -n 200 "$logf" >&2 || true
+                  exit 4
+                }}
               else
-                import -window root {sh_quote(str(out_png))} >/dev/null 2>&1
+                import -window root {sh_quote(str(out_png))} >/dev/null 2>&1 || {{
+                  echo "ImageMagick import failed (root); log follows:" >&2
+                  tail -n 200 "$logf" >&2 || true
+                  exit 4
+                }}
               fi
               wait $pid >/dev/null 2>&1 || true
               rm -f {sh_quote(ready_file)} || true
