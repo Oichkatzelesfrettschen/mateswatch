@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  debian-trixie:
+  build-deb:
     runs-on: ubuntu-latest
     container:
       image: debian:trixie-slim
@@ -52,4 +52,64 @@ jobs:
         with:
           name: mateswatch-render-screens
           path: generated/visual/*.png
+          if-no-files-found: ignore
+
+  launch-test:
+    needs: build-deb
+    runs-on: ubuntu-latest
+    container:
+      image: debian:trixie-slim
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7]
+    env:
+      DEBIAN_FRONTEND: noninteractive
+      MATESWATCH_DEBUG: "1"
+    steps:
+      - name: Install base packages (git, ca-certs)
+        run: |
+          set -eux
+          apt-get update
+          apt-get install -y --no-install-recommends git ca-certificates
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install runtime test dependencies
+        run: |
+          set -eux
+          apt-get update
+          apt-get install -y --no-install-recommends \
+            bash coreutils findutils grep sed tar gzip xz-utils \
+            python3 python3-pil \
+            mate-terminal dconf-cli libglib2.0-bin \
+            xvfb xauth dbus-x11
+
+      - name: Download deb artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: mateswatch-deb
+          path: dist
+
+      - name: Install deb
+        run: |
+          set -eux
+          dpkg -i dist/*.deb || true
+          apt-get update
+          apt-get install -y -f
+
+      - name: Launch/crash test (sharded, headless)
+        run: |
+          set -eux
+          dbus-run-session -- ./scripts/test-mateswatch-launch.py \
+            --schemes-dir /usr/share/mateswatch/mate-terminal/schemes \
+            --all --shards 8 --shard-index ${{ matrix.shard }}
+
+      - name: Upload logs (if any)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mateswatch-launch-logs-shard-${{ matrix.shard }}
+          path: generated/ci/*.log
           if-no-files-found: ignore
