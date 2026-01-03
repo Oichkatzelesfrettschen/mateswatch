@@ -289,8 +289,10 @@ HTML = """\
       function setPreview(e) {
         if (!e) return;
         const pid = e.profile_id;
+        const s = scores.get(pid);
+        const cr = (s && typeof s.contrast_ratio === 'number') ? s.contrast_ratio.toFixed(2) : '';
         previewTitle.textContent = `${e.visible_name}  —  ${pid}`;
-        previewHint.textContent = `type=${e.type} · vibe=${e.vibe_name} · tags=${(e.vibe_tags||[]).join('·')}`;
+        previewHint.textContent = `type=${e.type} · vibe=${e.vibe_name} · tags=${(e.vibe_tags||[]).join('·')} · bg=${e.background||''} · fg=${e.foreground||''}${cr ? ' · CR='+cr : ''}`;
         previewImg.src = `${SCREENS_DIR}/${pid}.png`;
         openImg.href = `${SCREENS_DIR}/${pid}.png`;
         const rel = (e.path || '').replace('mate-terminal/schemes/', '');
