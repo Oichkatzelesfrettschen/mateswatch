@@ -1,0 +1,37 @@
+name: ci-debian-trixie
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  debian-trixie:
+    runs-on: ubuntu-latest
+    container:
+      image: debian:trixie-slim
+    steps:
+      - name: Install base packages (git, ca-certs)
+        run: |
+          set -eux
+          apt-get update
+          apt-get install -y --no-install-recommends git ca-certificates
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install build/test dependencies
+        run: |
+          set -eux
+          apt-get update
+          apt-get install -y --no-install-recommends \
+            bash coreutils findutils grep sed tar gzip xz-utils \
+            python3 python3-pil \
+            mate-terminal dconf-cli libglib2.0-bin \
+            xvfb xdotool imagemagick dbus-x11
+
+      - name: Build .deb
+        run: ./packaging/deb/build-deb.sh
+
+      - name: Install + smoke test (headless)
+        run: ./scripts/ci/debian-trixie-smoke.sh
+

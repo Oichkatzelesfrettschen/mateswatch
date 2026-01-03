@@ -114,6 +114,20 @@ def import_profile(profile_id: str, scheme_file: Path) -> None:
         )
 
 
+def snippet_to_full_dconf(profile_id: str, snippet_text: str) -> str:
+    # Convert a mateswatch "snippet" (usually with section [/] and key/value pairs)
+    # into a portable dconf dump that can be loaded at root (dconf load / < file).
+    lines: list[str] = [f"[/org/mate/terminal/profiles/{profile_id}/]"]
+    for raw in snippet_text.splitlines():
+        line = raw.strip()
+        if not line:
+            continue
+        if line.startswith("[") and line.endswith("]"):
+            continue
+        lines.append(line)
+    return "\n".join(lines) + "\n"
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="Import mateswatch MATE Terminal profile snippets into your dconf (user session)."
@@ -139,6 +153,35 @@ def main() -> int:
         "--set-default", action="store_true", help="Set default-profile to this id"
     )
 
+    p_export = sub.add_parser(
+        "export",
+        help="Export a profile as a standalone dconf dump (for manual download/import)",
+    )
+    p_export.add_argument("profile_id")
+    p_export.add_argument(
+        "--format",
+        choices=("snippet", "full"),
+        default="full",
+        help="Export format: 'snippet' (repo file) or 'full' (dconf dump at /)",
+    )
+    p_export.add_argument(
+        "--out",
+        default="-",
+        help="Output path (default stdout). Use '-' for stdout.",
+    )
+
+    p_export_all = sub.add_parser(
+        "export-all",
+        help="Export all profiles as standalone dconf dumps into a directory",
+    )
+    p_export_all.add_argument(
+        "--format",
+        choices=("snippet", "full"),
+        default="full",
+        help="Export format: 'snippet' (repo file) or 'full' (dconf dump at /)",
+    )
+    p_export_all.add_argument("outdir", help="Directory to write <id>.dconf files into")
+
     args = parser.parse_args()
 
     roots = candidate_scheme_roots()
@@ -159,6 +202,50 @@ def main() -> int:
             sys.stderr.write(f"not found: {args.profile_id}.dconf\n")
             return 2
         print(str(p))
+        return 0
+
+    if args.cmd == "export":
+        scheme_path = find_profile_file(args.profile_id, roots)
+        if scheme_path is None:
+            sys.stderr.write(f"not found: {args.profile_id}.dconf\n")
+            return 2
+
+        text = scheme_path.read_text(encoding="utf-8", errors="replace")
+        if args.format == "full":
+            text = snippet_to_full_dconf(args.profile_id, text)
+
+        if args.out == "-":
+            sys.stdout.write(text)
+            return 0
+
+        Path(args.out).write_text(text, encoding="utf-8")
+        return 0
+
+    if args.cmd == "export-all":
+        outdir = Path(args.outdir)
+        outdir.mkdir(parents=True, exist_ok=True)
+        ids = list_profiles(roots)
+        for profile_id in ids:
+            scheme_path = find_profile_file(profile_id, roots)
+            if scheme_path is None:
+                continue
+            text = scheme_path.read_text(encoding="utf-8", errors="replace")
+            if args.format == "full":
+                text = snippet_to_full_dconf(profile_id, text)
+            (outdir / f"{profile_id}.dconf").write_text(text, encoding="utf-8")
+
+        (outdir / "README.txt").write_text(
+            "mateswatch standalone exports\n\n"
+            "These files are portable dconf dumps for MATE Terminal profiles.\n\n"
+            "Import one profile (creates/updates that profile id):\n\n"
+            "  dconf load / < <profile-id>.dconf\n\n"
+            "To make it appear in MATE Terminal's profile dropdown, add the id to:\n\n"
+            "  gsettings get org.mate.terminal.global profile-list\n"
+            '  gsettings set org.mate.terminal.global profile-list "[...]"\n\n'
+            "Or, if mateswatch is installed:\n\n"
+            "  mateswatch import <profile-id> --add-to-profile-list --set-default\n",
+            encoding="utf-8",
+        )
         return 0
 
     if args.cmd == "import":

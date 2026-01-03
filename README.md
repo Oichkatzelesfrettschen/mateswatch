@@ -36,6 +36,7 @@ Import one profile into your user dconf, add it to profile-list, and set default
 ## Docs
 
 - MATE Terminal profile keys + best practices: `docs/mate-terminal-color-schemes.md`
+- Manual download + import: `docs/manual-download.md`
 - Ricing knobs beyond colors: `docs/mate-terminal-ricing.md`
 - Source attribution: `docs/theme-sources.md`
 - Gogh corpus: `docs/gogh-to-mate-terminal.md`

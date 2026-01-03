@@ -17,6 +17,7 @@ root="${workdir}/root"
 controldir="${workdir}/control"
 
 mkdir -p "${root}/usr/share/mateswatch/mate-terminal"
+mkdir -p "${root}/usr/share/mate-terminal/profiles"
 mkdir -p "${root}/usr/bin"
 mkdir -p "${root}/usr/share/doc/${pkgname}"
 mkdir -p "${controldir}"
@@ -24,6 +25,8 @@ mkdir -p "${outdir}"
 
 cp -a "${repo_root}/mate-terminal/schemes" \
   "${root}/usr/share/mateswatch/mate-terminal/"
+ln -s ../../mateswatch/mate-terminal/schemes \
+  "${root}/usr/share/mate-terminal/profiles/mateswatch"
 install -m 0755 "${repo_root}/scripts/mateswatch-import.py" \
   "${root}/usr/bin/mateswatch"
 
@@ -45,6 +48,8 @@ install -m 0644 "${repo_root}/docs/mateswatch-stats.md" \
   "${root}/usr/share/doc/${pkgname}/mateswatch-stats.md"
 install -m 0644 "${repo_root}/docs/testing.md" \
   "${root}/usr/share/doc/${pkgname}/testing.md"
+install -m 0644 "${repo_root}/docs/manual-download.md" \
+  "${root}/usr/share/doc/${pkgname}/manual-download.md"
 
 mkdir -p "${root}/usr/share/doc/${pkgname}/sources"
 cp -a "${repo_root}/sources/"* "${root}/usr/share/doc/${pkgname}/sources/"
