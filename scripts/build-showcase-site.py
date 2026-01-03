@@ -111,9 +111,21 @@ HTML = """\
         padding: calc(10px * var(--scale)) calc(12px * var(--scale));
         border-bottom: 1px solid rgba(255,255,255,0.06);
         display: grid;
-        grid-template-columns: 1fr;
-        gap: 6px;
+        grid-template-columns: calc(180px * var(--scale)) 1fr;
+        grid-template-rows: auto auto auto;
+        column-gap: 12px;
+        row-gap: 6px;
         cursor: pointer;
+      }}
+      .thumb {{
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+        border-radius: 12px;
+        border: 1px solid rgba(255,255,255,0.14);
+        background: #000;
+        grid-column: 1;
+        grid-row: 1 / span 3;
       }}
       .row:hover {{ background: rgba(255,255,255,0.04); }}
       .row.sel {{ background: rgba(122,162,247,0.12); }}
@@ -121,6 +133,8 @@ HTML = """\
         font-size: calc(13px * var(--scale));
         line-height: 1.2;
         word-break: break-word;
+        grid-column: 2;
+        grid-row: 1;
       }}
       .sub {{
         font-size: calc(12px * var(--scale));
@@ -129,6 +143,8 @@ HTML = """\
         gap: 10px;
         flex-wrap: wrap;
         align-items: center;
+        grid-column: 2;
+        grid-row: 3;
       }}
       code {{
         font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -140,6 +156,8 @@ HTML = """\
         border: 1px solid rgba(255,255,255,0.12);
         background: #000;
         overflow: hidden;
+        grid-column: 2;
+        grid-row: 2;
       }}
       .preview {{
         border: 1px solid var(--border);
@@ -234,6 +252,7 @@ HTML = """\
       const INDEX_URL = './data/mateswatch-index.json';
       const SCORES_URL = './data/mateswatch-scheme-scores.json';
       const SCREENS_DIR = '@@SCREENS_DIR@@';
+      const THUMBS_DIR = './thumbs';
       const SCHEMES_ROOT = './schemes/';
 
       const q = document.getElementById('q');
@@ -256,6 +275,9 @@ HTML = """\
       let filtered = [];
       let locked = false;
       let selectedIndex = 0;
+      const PAGE_SIZE = 160;
+      let renderedCount = 0;
+      let observer = null;
 
       function norm(s) { return (s || '').toLowerCase(); }
 
@@ -307,15 +329,27 @@ HTML = """\
         els.forEach((el, idx) => el.classList.toggle('sel', idx === selectedIndex));
       }
 
-      function renderList() {
-        rowsEl.textContent = '';
+      function updateCount() {
+        const shown = Math.min(renderedCount, filtered.length);
+        countEl.textContent = `${shown.toLocaleString()} / ${filtered.length.toLocaleString()} (of ${allEntries.length.toLocaleString()})`;
+      }
+
+      function appendPage() {
+        const end = Math.min(filtered.length, renderedCount + PAGE_SIZE);
         const frag = document.createDocumentFragment();
-        for (let i = 0; i < filtered.length; i++) {
+
+        for (let i = renderedCount; i < end; i++) {
           const e = filtered[i];
           const row = document.createElement('div');
           row.className = 'row' + (i === selectedIndex ? ' sel' : '');
           row.tabIndex = 0;
           row.dataset.i = String(i);
+
+          const thumb = document.createElement('img');
+          thumb.className = 'thumb';
+          thumb.loading = 'lazy';
+          thumb.alt = e.profile_id;
+          thumb.src = `${THUMBS_DIR}/${e.profile_id}.jpg`;
 
           const title = document.createElement('div');
           title.className = 'title';
@@ -331,6 +365,7 @@ HTML = """\
           const cr = (s && typeof s.contrast_ratio === 'number') ? `CR=${s.contrast_ratio.toFixed(2)}` : '';
           sub.innerHTML = `<code>${e.profile_id}</code> <span>${e.type}</span> <span>${e.vibe_name}</span> <span>${cr}</span>`;
 
+          row.appendChild(thumb);
           row.appendChild(title);
           row.appendChild(pal);
           row.appendChild(sub);
@@ -348,12 +383,45 @@ HTML = """\
             updateSelection();
             setPreview(e);
           });
+
           frag.appendChild(row);
         }
+
+        // Sentinel for infinite scrolling.
+        let sentinel = document.getElementById('sentinel');
+        if (!sentinel) {
+          sentinel = document.createElement('div');
+          sentinel.id = 'sentinel';
+          sentinel.style.height = '1px';
+        } else {
+          sentinel.remove();
+        }
+
         rowsEl.appendChild(frag);
-        countEl.textContent = `${filtered.length.toLocaleString()} / ${allEntries.length.toLocaleString()}`;
+        rowsEl.appendChild(sentinel);
+
+        renderedCount = end;
+        updateCount();
+
+        if (observer) observer.disconnect();
+        observer = new IntersectionObserver((entries) => {
+          for (const ent of entries) {
+            if (ent.isIntersecting && renderedCount < filtered.length) {
+              appendPage();
+              break;
+            }
+          }
+        }, { root: rowsEl, rootMargin: '800px 0px' });
+        observer.observe(sentinel);
+      }
+
+      function renderList() {
+        rowsEl.textContent = '';
+        renderedCount = 0;
+        updateCount();
         lockEl.textContent = locked ? 'locked (click a row to unlock)' : 'hover previews';
         if (filtered[selectedIndex]) setPreview(filtered[selectedIndex]);
+        appendPage();
       }
 
       function applySort() {
