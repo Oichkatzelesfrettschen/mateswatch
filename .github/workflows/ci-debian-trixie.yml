@@ -3,6 +3,7 @@ name: ci-debian-trixie
 on:
   push:
   pull_request:
+  workflow_dispatch:
 
 jobs:
   debian-trixie:
