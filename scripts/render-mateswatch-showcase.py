@@ -51,18 +51,55 @@ def unquote(s: str) -> str:
     return s
 
 
-def with_visible_name(dconf_text: str, visible_name: str) -> str:
+def apply_overrides(dconf_text: str, overrides: dict[str, str]) -> str:
     out = []
-    replaced = False
+    seen: set[str] = set()
     for line in dconf_text.splitlines():
-        if line.startswith("visible-name="):
-            out.append(f"visible-name={dconf_quote(visible_name)}")
-            replaced = True
-        else:
-            out.append(line)
-    if not replaced:
-        out.insert(1, f"visible-name={dconf_quote(visible_name)}")
+        if "=" in line and not line.startswith("["):
+            key, _ = line.split("=", 1)
+            key = key.strip()
+            if key in overrides:
+                out.append(f"{key}={overrides[key]}")
+                seen.add(key)
+                continue
+        out.append(line)
+    insert_at = 1 if out and out[0].startswith("[") else 0
+    for key, value in overrides.items():
+        if key not in seen:
+            out.insert(insert_at, f"{key}={value}")
+            insert_at += 1
     return "\n".join(out) + "\n"
+
+
+def update_profile_dconf(
+    dconf_text: str,
+    *,
+    visible_name: str,
+    font: str | None,
+    columns: int | None,
+    rows: int | None,
+) -> str:
+    overrides = {"visible-name": dconf_quote(visible_name)}
+    if font:
+        overrides["use-system-font"] = "false"
+        overrides["font"] = dconf_quote(font)
+
+    # Reduce "wasted" space in screenshots and make quick-scanning easier.
+    overrides.update(
+        {
+            "scrollbar-position": dconf_quote("hidden"),
+            "default-show-menubar": "false",
+            "cursor-blink-mode": dconf_quote("off"),
+            "silent-bell": "true",
+            "scrollback-unlimited": "false",
+            "scrollback-lines": "500",
+        }
+    )
+    if columns is not None and rows is not None:
+        overrides["use-custom-default-size"] = "true"
+        overrides["default-size-columns"] = str(columns)
+        overrides["default-size-rows"] = str(rows)
+    return apply_overrides(dconf_text, overrides)
 
 
 def gsettings_get_profile_list() -> list[str]:
@@ -111,10 +148,38 @@ def build_hello_assets(workdir: Path) -> tuple[Path, Path]:
     c_path = workdir / "hello.c"
     exe_path = workdir / "hello"
     c_path.write_text(
+        "#include <stdbool.h>\n"
+        "#include <stdint.h>\n"
         "#include <stdio.h>\n"
         "\n"
+        "#define APP_NAME \"mateswatch\"\n"
+        "#define ARR_LEN(x) ((int)(sizeof(x) / sizeof((x)[0])))\n"
+        "\n"
+        "typedef struct {\n"
+        "    const char *label;\n"
+        "    uint32_t rgb;\n"
+        "    bool bold;\n"
+        "} Swatch;\n"
+        "\n"
+        "static const Swatch kSwatches[] = {\n"
+        "    {\"accent\", 0x7aa2f7u, true},\n"
+        "    {\"warm\", 0xf7768eu, false},\n"
+        "    {\"cool\", 0x7dcfffu, true},\n"
+        "};\n"
+        "\n"
+        "static uint32_t clamp_u32(uint32_t v, uint32_t max) {\n"
+        "    return v > max ? max : v;\n"
+        "}\n"
+        "\n"
         "int main(void) {\n"
-        '    printf("Hello, world!\\n");\n'
+        "    puts(\"Hello, world!\");\n"
+        "    printf(\"%s swatches: %d\\n\", APP_NAME, ARR_LEN(kSwatches));\n"
+        "    for (int i = 0; i < ARR_LEN(kSwatches); ++i) {\n"
+        "        const Swatch s = kSwatches[i];\n"
+        "        printf(\"[%d] %s = 0x%06x%s\\n\", i, s.label, s.rgb, s.bold ? \"!\" : \"\");\n"
+        "    }\n"
+        "    const uint32_t mix = clamp_u32(kSwatches[0].rgb + kSwatches[1].rgb, 0xffffffu);\n"
+        "    printf(\"mix: 0x%06x\\n\", mix);\n"
         "    return 0;\n"
         "}\n",
         encoding="utf-8",
@@ -147,6 +212,23 @@ PY
 printf '\\n\\033[1m$ ./hello\\033[0m\\n'
 {sh_quote(str(hello_bin))} || true
 printf '\\n'
+printf '\\033[1mANSI 0-15 (background blocks)\\033[0m\\n'
+for row in 0 8; do
+  for i in $(seq $row $((row+7))); do
+    printf \"\\033[48;5;%sm %2d \\033[0m \" \"$i\" \"$i\"
+  done
+  printf '\\n'
+done
+printf '\\n\\033[1mANSI 0-15 (foreground glyphs)\\033[0m\\n'
+for row in 0 8; do
+  for i in $(seq $row $((row+7))); do
+    printf \"\\033[38;5;%sm##\\033[0m%02d \" \"$i\" \"$i\"
+  done
+  printf '\\n'
+done
+printf '\\n\\033[1mText samples\\033[0m\\n'
+printf '\\033[31merror\\033[0m \\033[33mwarn\\033[0m \\033[32mok\\033[0m \\033[34minfo\\033[0m \\033[35mtrace\\033[0m\\n'
+printf '\\033[1mbold\\033[0m \\033[2mdim\\033[0m \\033[4munderline\\033[0m \\033[7mreverse\\033[0m\\n'
 if [[ -n "${{MATESWATCH_READY_FILE:-}}" ]]; then
   printf 'ready\\n' >"${{MATESWATCH_READY_FILE}}" 2>/dev/null || true
 fi
@@ -161,6 +243,9 @@ def render_one(
     orig_profile_list: list[str],
     workdir: Path,
     keep_logs: bool,
+    font: str | None,
+    geometry: str,
+    xvfb_size: str,
 ) -> tuple[bool, str]:
     scheme_text = scheme_path.read_text(encoding="utf-8", errors="replace")
     scheme = parse_scheme(scheme_path)
@@ -174,7 +259,17 @@ def render_one(
 
     test_profile_id = f"msw-show-{scheme.profile_id}"
     test_visible = f"MSW SHOW {scheme.visible_name}"
-    test_text = with_visible_name(scheme_text, test_visible)
+
+    m = re.match(r"^(\\d+)x(\\d+)$", geometry.strip())
+    cols = int(m.group(1)) if m else None
+    rows = int(m.group(2)) if m else None
+    test_text = update_profile_dconf(
+        scheme_text,
+        visible_name=test_visible,
+        font=font,
+        columns=cols,
+        rows=rows,
+    )
 
     proc = run(
         ["dconf", "load", f"/org/mate/terminal/profiles/{test_profile_id}/"],
@@ -205,7 +300,7 @@ def render_one(
           set -euo pipefail
           rm -f {sh_quote(ready_file)} || true
           cmd_str="env MATESWATCH_READY_FILE={sh_quote(ready_file)} bash {sh_quote(str(term_script_path))}"
-          timeout 20 mate-terminal --disable-factory --hide-menubar --geometry=120x40 -t {sh_quote(title)} --profile {sh_quote(test_visible)} --command "$cmd_str" >{sh_quote(str(logf))} 2>&1 &
+          timeout 20 mate-terminal --disable-factory --hide-menubar --geometry={sh_quote(geometry)} -t {sh_quote(title)} --profile {sh_quote(test_visible)} --command "$cmd_str" >{sh_quote(str(logf))} 2>&1 &
           pid=$!
           for _ in $(seq 1 200); do
             [[ -f {sh_quote(ready_file)} ]] && break
@@ -235,7 +330,7 @@ def render_one(
                 "xvfb-run",
                 "-a",
                 "-s",
-                "-screen 0 1000x700x24",
+                f"-screen 0 {xvfb_size}x24",
                 "bash",
                 "-lc",
                 bash,
@@ -274,6 +369,21 @@ def main() -> int:
     parser.add_argument("--shard-index", type=int, default=0, help="Shard index")
     parser.add_argument(
         "--keep-logs", action="store_true", help="Keep logs for passing themes"
+    )
+    parser.add_argument(
+        "--font",
+        default="Monospace 18",
+        help="Font string for the temporary profile (use empty string to keep default).",
+    )
+    parser.add_argument(
+        "--geometry",
+        default="92x26",
+        help="Terminal geometry in columnsxrows (e.g. 100x30).",
+    )
+    parser.add_argument(
+        "--xvfb-size",
+        default="1280x800",
+        help="Xvfb screen size in WxH (e.g. 1400x900).",
     )
     args = parser.parse_args()
 
@@ -329,6 +439,9 @@ def main() -> int:
                 orig_profile_list=orig_profile_list,
                 workdir=workdir,
                 keep_logs=args.keep_logs,
+                font=args.font or None,
+                geometry=args.geometry,
+                xvfb_size=args.xvfb_size,
             )
             if not ok:
                 failures.append(f"{scheme_path}: {msg}")

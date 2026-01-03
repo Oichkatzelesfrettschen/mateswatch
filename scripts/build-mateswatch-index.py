@@ -118,6 +118,9 @@ def main() -> int:
                 "visible_name": visible,
                 "vibe_name": vib.name,
                 "vibe_tags": vib.tags,
+                "background": bg,
+                "foreground": fg,
+                "palette": palette,
                 "fingerprint": fp,
                 "path": str(path),
             }

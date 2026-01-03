@@ -90,7 +90,11 @@ jobs:
           set -eux
           mkdir -p site/screens
           find _artifacts -type f -name '*.png' -print0 | xargs -0 -I{} cp -f {} site/screens/
+          ./scripts/build-mateswatch-index.py
+          ./scripts/score-schemes.py
           python3 ./scripts/build-showcase-site.py --out-dir site --screens-dir screens
+          mkdir -p site/schemes
+          cp -a mate-terminal/schemes/. site/schemes/
           test -f site/index.html
           test -d site/screens
 
