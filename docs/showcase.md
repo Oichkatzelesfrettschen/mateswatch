@@ -27,8 +27,11 @@ Outputs:
 
 ## GitHub Pages
 
-Run the `pages-showcase` workflow to generate screenshots for **all** themes (sharded) and deploy a low-click gallery to GitHub Pages:
+Run the `pages-showcase` workflow to generate screenshots for **all** themes (sharded) and deploy the low-load gallery to GitHub Pages:
 
-- The left pane is a filterable list with a 16-color palette strip per theme.
+- The list uses **synthetic scan-friendly thumbnails** (bg/fg bars + labeled 16-color grid + token strip) for fast scrolling.
+- Use filters + grouping to avoid brute-force scrolling; pin themes to compare quickly.
 - Hover previews in the right pane (click to lock; arrow keys to navigate).
 - Each theme links to its screenshot and its `.dconf` for manual import.
+- The page inlines index data, so `site/index.html` works offline (no local server).
+- Use the view selector to switch between focus (list + preview) and gallery.
