@@ -43,6 +43,8 @@ install -m 0644 "${repo_root}/docs/dracula-pro.md" \
   "${root}/usr/share/doc/${pkgname}/dracula-pro.md"
 install -m 0644 "${repo_root}/docs/mateswatch-stats.md" \
   "${root}/usr/share/doc/${pkgname}/mateswatch-stats.md"
+install -m 0644 "${repo_root}/docs/testing.md" \
+  "${root}/usr/share/doc/${pkgname}/testing.md"
 
 mkdir -p "${root}/usr/share/doc/${pkgname}/sources"
 cp -a "${repo_root}/sources/"* "${root}/usr/share/doc/${pkgname}/sources/"
