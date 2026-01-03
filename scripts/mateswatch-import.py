@@ -192,8 +192,11 @@ def main() -> int:
         if args.contains:
             want = args.contains.lower()
             ids = [x for x in ids if want in x.lower()]
-        for pid in ids:
-            print(pid)
+        try:
+            for pid in ids:
+                print(pid)
+        except BrokenPipeError:
+            return 0
         return 0
 
     if args.cmd == "path":
