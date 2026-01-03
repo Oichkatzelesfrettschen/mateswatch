@@ -164,7 +164,12 @@ def render_one(
 ) -> tuple[bool, str]:
     scheme_text = scheme_path.read_text(encoding="utf-8", errors="replace")
     scheme = parse_scheme(scheme_path)
-    title = f"MSW-SHOW-{os.getpid()}-{scheme.profile_id}"
+
+    # xdotool's `search --name` treats the value as a regex. Keep the title to a
+    # simple, regex-safe alphabet to avoid accidental regex metacharacters from
+    # theme IDs (e.g. "+" in "vs-code-dark+").
+    title_suffix = hashlib.sha1(scheme.profile_id.encode("utf-8")).hexdigest()[:12]
+    title = f"MSW-SHOW-{os.getpid()}-{title_suffix}"
     ready_file = f"/tmp/mateswatch-ready-{os.getpid()}-{scheme.profile_id}"
 
     test_profile_id = f"msw-show-{scheme.profile_id}"
@@ -200,9 +205,9 @@ def render_one(
           set -euo pipefail
           rm -f {sh_quote(ready_file)} || true
           cmd_str="env MATESWATCH_READY_FILE={sh_quote(ready_file)} bash {sh_quote(str(term_script_path))}"
-          timeout 10 mate-terminal --disable-factory --hide-menubar --geometry=120x40 -t {sh_quote(title)} --profile {sh_quote(test_visible)} --command "$cmd_str" >{sh_quote(str(logf))} 2>&1 &
+          timeout 20 mate-terminal --disable-factory --hide-menubar --geometry=120x40 -t {sh_quote(title)} --profile {sh_quote(test_visible)} --command "$cmd_str" >{sh_quote(str(logf))} 2>&1 &
           pid=$!
-          for _ in $(seq 1 80); do
+          for _ in $(seq 1 200); do
             [[ -f {sh_quote(ready_file)} ]] && break
             sleep 0.05
           done
@@ -214,7 +219,7 @@ def render_one(
             exit 3
           fi
           sleep 0.15
-          wid="$(xdotool search --name {sh_quote(title)} 2>/dev/null | head -n 1 || true)"
+          wid="$(xdotool search --sync --limit 1 --name {sh_quote(title)} 2>/dev/null | head -n 1 || true)"
           if [[ -z "$wid" ]]; then
             echo "could not locate window id" >&2
             tail -n 200 {sh_quote(str(logf))} >&2 || true
